@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.mockito.internal.stubbing.answers.AnswersValidator#24,1.0
+org.mockito.internal.stubbing.answers.AnswersValidator#27,1.0
+org.mockito.internal.stubbing.answers.AnswersValidator#28,1.0
+org.mockito.internal.stubbing.answers.AnswersValidator#29,1.0

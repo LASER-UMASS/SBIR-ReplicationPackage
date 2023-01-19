@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.rhino.jstype.PrototypeObjectType#556,1.0

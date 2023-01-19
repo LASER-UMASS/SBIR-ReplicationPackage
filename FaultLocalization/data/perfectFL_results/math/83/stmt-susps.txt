@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.math.optimization.linear.SimplexTableau#292,1.0
+org.apache.commons.math.optimization.linear.SimplexTableau#341,1.0
+org.apache.commons.math.optimization.linear.SimplexTableau#345,1.0

@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.ReferenceCollectingCallback#360,1.0
+com.google.javascript.jscomp.ReferenceCollectingCallback#544,1.0
+com.google.javascript.jscomp.ReferenceCollectingCallback#548,1.0
+com.google.javascript.jscomp.ReferenceCollectingCallback#560,1.0
+com.google.javascript.jscomp.ReferenceCollectingCallback#561,1.0

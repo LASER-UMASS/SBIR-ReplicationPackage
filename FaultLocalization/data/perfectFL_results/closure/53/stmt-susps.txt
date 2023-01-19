@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.InlineObjectLiterals#342,1.0
+com.google.javascript.jscomp.InlineObjectLiterals#342,1.0
+com.google.javascript.jscomp.InlineObjectLiterals#330,1.0
+com.google.javascript.jscomp.InlineObjectLiterals#348,1.0
+com.google.javascript.jscomp.InlineObjectLiterals#349,1.0

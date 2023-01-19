@@ -1,0 +1,3 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.deser.impl.InnerClassProperty#92,1.0
+com.fasterxml.jackson.databind.deser.impl.InnerClassProperty#167,1.0

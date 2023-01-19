@@ -1,0 +1,17 @@
+Statement,Suspiciousness
+com.google.javascript.rhino.jstype.RecordType#140,1.0
+com.google.javascript.rhino.jstype.RecordType#141,1.0
+com.google.javascript.rhino.jstype.RecordType#142,1.0
+com.google.javascript.rhino.jstype.RecordType#143,1.0
+com.google.javascript.rhino.jstype.RecordType#144,1.0
+com.google.javascript.rhino.jstype.RecordType#145,1.0
+com.google.javascript.rhino.jstype.RecordType#146,1.0
+com.google.javascript.rhino.jstype.RecordType#147,1.0
+com.google.javascript.rhino.jstype.RecordType#148,1.0
+com.google.javascript.rhino.jstype.RecordType#149,1.0
+com.google.javascript.rhino.jstype.RecordType#150,1.0
+com.google.javascript.rhino.jstype.RecordType#151,1.0
+com.google.javascript.rhino.jstype.RecordType#152,1.0
+com.google.javascript.rhino.jstype.RecordType#153,1.0
+com.google.javascript.rhino.jstype.RecordType#154,1.0
+com.google.javascript.rhino.jstype.RecordType#155,1.0

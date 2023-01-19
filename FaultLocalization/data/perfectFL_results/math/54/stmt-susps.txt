@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.math.dfp.Dfp#272,1.0
+org.apache.commons.math.dfp.Dfp#2317,1.0
+org.apache.commons.math.dfp.Dfp#2318,1.0
+org.apache.commons.math.dfp.Dfp#2319,1.0

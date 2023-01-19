@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter#3,1.0
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter#24,1.0
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter#25,1.0

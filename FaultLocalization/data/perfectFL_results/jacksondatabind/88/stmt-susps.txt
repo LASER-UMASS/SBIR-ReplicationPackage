@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver#57,1.0
+com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver#58,1.0
+com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver#59,1.0

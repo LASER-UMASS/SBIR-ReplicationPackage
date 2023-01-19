@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream#336,1.0
+org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#125,1.0
+org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#126,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#530,1.0
+org.apache.commons.compress.changes.ChangeSetPerformer#127,1.0

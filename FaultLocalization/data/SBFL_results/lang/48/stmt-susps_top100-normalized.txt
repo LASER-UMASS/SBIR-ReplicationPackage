@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.lang.builder.EqualsBuilder#372,1.0
+org.apache.commons.lang.builder.EqualsBuilder#381,0.9166666666666666
+org.apache.commons.lang.builder.EqualsBuilder#368,0.8333333333333333
+org.apache.commons.lang.builder.EqualsBuilder#371,0.7499999999999999
+org.apache.commons.lang.builder.EqualsBuilder#374,0.6666666666666665
+org.apache.commons.lang.builder.EqualsBuilder#378,0.5833333333333331
+org.apache.commons.lang.builder.EqualsBuilder#379,0.49999999999999983
+org.apache.commons.lang.builder.EqualsBuilder#408,0.4166666666666665
+org.apache.commons.lang.builder.EqualsBuilder#831,0.3333333333333332
+org.apache.commons.lang.builder.EqualsBuilder#100,0.2499999999999999
+org.apache.commons.lang.builder.EqualsBuilder#92,0.16666666666666657
+org.apache.commons.lang.builder.EqualsBuilder#102,0.08333333333333325

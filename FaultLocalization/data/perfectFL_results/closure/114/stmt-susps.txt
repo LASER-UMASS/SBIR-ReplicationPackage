@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.NameAnalyzer#578,1.0

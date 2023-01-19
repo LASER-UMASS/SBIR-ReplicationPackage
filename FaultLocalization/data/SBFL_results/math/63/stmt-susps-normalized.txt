@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+org.apache.commons.math.util.MathUtils#417,1.0
+org.apache.commons.math.util.MathUtils#523,0.9
+org.apache.commons.math.util.MathUtils#524,0.8
+org.apache.commons.math.util.MathUtils#526,0.7000000000000001
+org.apache.commons.math.util.MathUtils#527,0.6000000000000001
+org.apache.commons.math.util.MathUtils#529,0.5000000000000001
+org.apache.commons.math.util.MathUtils#530,0.40000000000000013
+org.apache.commons.math.util.MathUtils#534,0.30000000000000016
+org.apache.commons.math.util.MathUtils#33,0.20000000000000015
+org.apache.commons.math.util.MathUtils#75,0.10000000000000014

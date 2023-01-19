@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.compress.compressors.CompressorStreamFactory#239,1.0
+org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream#32,1.0
+org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream#105,1.0

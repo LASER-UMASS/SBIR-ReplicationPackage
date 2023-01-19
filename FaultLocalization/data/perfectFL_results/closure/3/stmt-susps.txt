@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.FlowSensitiveInlineVariables#155,1.0
+com.google.javascript.jscomp.FlowSensitiveInlineVariables#280,1.0
+com.google.javascript.jscomp.FlowSensitiveInlineVariables#374,1.0

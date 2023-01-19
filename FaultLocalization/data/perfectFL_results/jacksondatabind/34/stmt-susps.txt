@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ser.std.NumberSerializer#76,1.0
+com.fasterxml.jackson.databind.ser.std.NumberSerializer#80,1.0
+com.fasterxml.jackson.databind.ser.std.NumberSerializer#81,1.0

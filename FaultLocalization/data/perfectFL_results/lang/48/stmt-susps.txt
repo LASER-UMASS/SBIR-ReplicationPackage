@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.lang.builder.EqualsBuilder#378,1.0
+org.apache.commons.lang.builder.EqualsBuilder#379,1.0
+org.apache.commons.lang.builder.EqualsBuilder#381,1.0

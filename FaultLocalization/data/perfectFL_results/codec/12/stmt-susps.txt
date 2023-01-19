@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.codec.binary.BaseNCodecInputStream#141,1.0
+org.apache.commons.codec.binary.BaseNCodecInputStream#143,1.0
+org.apache.commons.codec.binary.BaseNCodecInputStream#144,1.0
+org.apache.commons.codec.binary.BaseNCodecInputStream#151,1.0
+org.apache.commons.codec.binary.BaseNCodecInputStream#157,1.0

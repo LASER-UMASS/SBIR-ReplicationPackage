@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.mockito.internal.util.MockUtil#64,1.0
+org.mockito.internal.util.MockUtil#65,1.0
+org.mockito.internal.util.MockUtil#66,1.0
+org.mockito.internal.util.MockUtil#67,1.0

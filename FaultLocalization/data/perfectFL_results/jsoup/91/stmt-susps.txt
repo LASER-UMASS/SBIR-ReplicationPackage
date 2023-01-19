@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.jsoup.UncheckedIOException#9,1.0
+org.jsoup.parser.CharacterReader#36,1.0
+org.jsoup.parser.CharacterReader#451,1.0
+org.jsoup.parser.CharacterReader#456,1.0
+org.jsoup.parser.CharacterReader#457,1.0
+org.jsoup.parser.CharacterReader#458,1.0

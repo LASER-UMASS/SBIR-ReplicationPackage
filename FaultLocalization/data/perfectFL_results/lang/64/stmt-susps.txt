@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.lang.enums.ValuedEnum#182,1.0
+org.apache.commons.lang.enums.ValuedEnum#183,1.0
+org.apache.commons.lang.enums.ValuedEnum#191,1.0
+org.apache.commons.lang.enums.ValuedEnum#192,1.0
+org.apache.commons.lang.enums.ValuedEnum#193,1.0
+org.apache.commons.lang.enums.ValuedEnum#194,1.0

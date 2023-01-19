@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+org.jsoup.helper.DataUtil#92,1.0
+org.jsoup.helper.DataUtil#125,1.0
+org.jsoup.helper.DataUtil#126,1.0
+org.jsoup.helper.DataUtil#127,1.0
+org.jsoup.helper.DataUtil#128,1.0
+org.jsoup.helper.DataUtil#129,1.0
+org.jsoup.helper.DataUtil#130,1.0
+org.jsoup.helper.DataUtil#131,1.0

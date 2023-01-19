@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypedScopeCreator#1451,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1452,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1453,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1454,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1455,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1456,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1457,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1458,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1459,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1460,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1461,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1462,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1463,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1464,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1465,1.0

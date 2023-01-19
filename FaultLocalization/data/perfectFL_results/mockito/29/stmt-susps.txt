@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.internal.matchers.Same#23,1.0
+org.mockito.internal.matchers.Same#27,1.0
+org.mockito.internal.matchers.Same#29,1.0

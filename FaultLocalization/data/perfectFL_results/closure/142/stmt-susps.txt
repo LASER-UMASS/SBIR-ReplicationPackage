@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.CoalesceVariableNames#107,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1167,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1182,1.0

@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.AnalyzePrototypeProperties#318,1.0

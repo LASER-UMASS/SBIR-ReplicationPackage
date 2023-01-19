@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory#63,1.0
+com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory#66,1.0
+com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory#67,1.0

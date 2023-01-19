@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.FlowSensitiveInlineVariables#157,1.0
+com.google.javascript.jscomp.MustBeReachingVariableDef#70,1.0
+com.google.javascript.jscomp.MustBeReachingVariableDef#396,1.0
+com.google.javascript.jscomp.MustBeReachingVariableDef#397,1.0
+com.google.javascript.jscomp.MustBeReachingVariableDef#398,1.0
+com.google.javascript.jscomp.MustBeReachingVariableDef#429,1.0

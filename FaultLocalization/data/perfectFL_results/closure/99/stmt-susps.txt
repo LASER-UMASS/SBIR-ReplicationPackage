@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.CheckGlobalThis#89,1.0
+com.google.javascript.jscomp.CheckGlobalThis#90,1.0
+com.google.javascript.jscomp.CheckGlobalThis#91,1.0
+com.google.javascript.jscomp.CheckGlobalThis#124,1.0
+com.google.javascript.jscomp.CheckGlobalThis#129,1.0
+com.google.javascript.jscomp.CheckGlobalThis#131,1.0

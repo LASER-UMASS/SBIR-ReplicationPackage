@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.lang.text.StrBuilder#1185,1.0
+org.apache.commons.lang.text.StrBuilder#1227,1.0
+org.apache.commons.lang.text.StrBuilder#1228,1.0
+org.apache.commons.lang.text.StrBuilder#1229,1.0

@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+org.apache.commons.compress.archivers.tar.TarUtils#53,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#56,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#58,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#59,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#61,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#64,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#65,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#66,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#67,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#68,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#70,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#71,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#73,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#74,1.0
+org.apache.commons.compress.archivers.tar.TarUtils#76,1.0

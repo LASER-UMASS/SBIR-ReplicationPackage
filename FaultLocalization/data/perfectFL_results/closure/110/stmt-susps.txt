@@ -1,0 +1,15 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.ScopedAliases#357,1.0
+com.google.javascript.jscomp.ScopedAliases#363,1.0
+com.google.javascript.jscomp.ScopedAliases#366,1.0
+com.google.javascript.jscomp.ScopedAliases#368,1.0
+com.google.javascript.jscomp.ScopedAliases#369,1.0
+com.google.javascript.jscomp.ScopedAliases#371,1.0
+com.google.javascript.jscomp.ScopedAliases#382,1.0
+com.google.javascript.jscomp.ScopedAliases#383,1.0
+com.google.javascript.jscomp.ScopedAliases#391,1.0
+com.google.javascript.jscomp.ScopedAliases#392,1.0
+com.google.javascript.jscomp.ScopedAliases#394,1.0
+com.google.javascript.jscomp.ScopedAliases#407,1.0
+com.google.javascript.jscomp.ScopedAliases#408,1.0
+com.google.javascript.rhino.Node#553,1.0

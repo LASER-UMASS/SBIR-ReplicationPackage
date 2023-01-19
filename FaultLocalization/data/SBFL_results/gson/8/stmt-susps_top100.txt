@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.google.gson.internal.UnsafeAllocator#48,0.23904572186687872
+com.google.gson.internal.UnsafeAllocator#30,0.13801311186847084
+com.google.gson.internal.UnsafeAllocator#39,0.13801311186847084
+com.google.gson.internal.UnsafeAllocator#40,0.13801311186847084
+com.google.gson.internal.UnsafeAllocator#41,0.13801311186847084
+com.google.gson.internal.UnsafeAllocator#42,0.13801311186847084
+com.google.gson.internal.UnsafeAllocator#43,0.13801311186847084
+com.google.gson.internal.UnsafeAllocator#44,0.13801311186847084

@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+org.apache.commons.codec.language.DoubleMetaphone#893,1.0
+org.apache.commons.codec.language.DoubleMetaphone#88,0.9333333333333333
+org.apache.commons.codec.language.DoubleMetaphone#244,0.8666666666666667
+org.apache.commons.codec.language.DoubleMetaphone#891,0.8
+org.apache.commons.codec.language.DoubleMetaphone#892,0.7333333333333334
+org.apache.commons.codec.language.DoubleMetaphone#86,0.6666666666666667
+org.apache.commons.codec.language.DoubleMetaphone#87,0.6000000000000001
+org.apache.commons.codec.language.DoubleMetaphone#888,0.5333333333333334
+org.apache.commons.codec.language.DoubleMetaphone#65,0.4666666666666668
+org.apache.commons.codec.language.DoubleMetaphone#59,0.40000000000000013
+org.apache.commons.codec.language.DoubleMetaphone#66,0.3333333333333335
+org.apache.commons.codec.language.DoubleMetaphone#47,0.26666666666666683
+org.apache.commons.codec.language.DoubleMetaphone#49,0.20000000000000018
+org.apache.commons.codec.language.DoubleMetaphone#51,0.13333333333333353
+org.apache.commons.codec.language.DoubleMetaphone#53,0.06666666666666686

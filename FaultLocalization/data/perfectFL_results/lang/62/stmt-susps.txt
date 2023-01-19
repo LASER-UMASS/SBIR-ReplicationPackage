@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.apache.commons.lang.Entities#845,1.0
+org.apache.commons.lang.Entities#848,1.0
+org.apache.commons.lang.Entities#849,1.0
+org.apache.commons.lang.Entities#918,1.0
+org.apache.commons.lang.Entities#919,1.0
+org.apache.commons.lang.Entities#924,1.0
+org.apache.commons.lang.Entities#925,1.0

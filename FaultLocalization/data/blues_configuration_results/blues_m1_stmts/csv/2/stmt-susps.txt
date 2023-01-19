@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.csv.CSVRecord#49,1.0
+org.apache.commons.csv.CSVParser#216,0.9963369963369964
+org.apache.commons.csv.CSVFormat#359,0.9882339882339882
+org.apache.commons.csv.CSVLexer#200,0.9755799755799756
+org.apache.commons.csv.Lexer#98,0.9696969696969697
+org.apache.commons.csv.CSVPrinter#380,0.966921966921967
+org.apache.commons.csv.ExtendedBufferedReader#75,0.9568209568209568
+org.apache.commons.csv.Token#55,0.9553779553779553
+org.apache.commons.csv.Constants#36,0.9549339549339549

@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.math.linear.SingularValueDecompositionImpl#162,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#166,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#170,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#176,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#178,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#179,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#248,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#252,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#255,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#261,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#263,1.0
+org.apache.commons.math.linear.SingularValueDecompositionImpl#264,1.0

@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypeValidator#366,1.0
+com.google.javascript.jscomp.TypeValidator#367,1.0
+com.google.javascript.jscomp.TypeValidator#368,1.0
+com.google.javascript.jscomp.TypeValidator#385,1.0
+com.google.javascript.jscomp.TypeValidator#405,1.0
+com.google.javascript.jscomp.TypeValidator#406,1.0
+com.google.javascript.jscomp.TypeValidator#407,1.0
+com.google.javascript.jscomp.TypeValidator#409,1.0

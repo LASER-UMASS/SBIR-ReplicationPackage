@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.LightweightMessageFormatter#98,1.0
+com.google.javascript.jscomp.LightweightMessageFormatter#99,1.0
+com.google.javascript.jscomp.LightweightMessageFormatter#102,1.0

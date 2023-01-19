@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypeInference#731,1.0
+com.google.javascript.jscomp.TypeInference#732,1.0
+com.google.javascript.jscomp.TypeInference#733,1.0
+com.google.javascript.jscomp.TypeInference#734,1.0
+com.google.javascript.jscomp.TypeInference#735,1.0
+com.google.javascript.jscomp.TypeInference#736,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1668,1.0

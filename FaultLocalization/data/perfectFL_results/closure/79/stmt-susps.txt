@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.Normalize#122,1.0
+com.google.javascript.jscomp.VarCheck#220,1.0
+com.google.javascript.jscomp.VarCheck#221,1.0

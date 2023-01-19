@@ -1,0 +1,14 @@
+Statement,Suspiciousness
+org.jsoup.nodes.DocumentType#14,1.0
+org.jsoup.nodes.DocumentType#30,1.0
+org.jsoup.nodes.DocumentType#40,1.0
+org.jsoup.nodes.DocumentType#41,1.0
+org.jsoup.nodes.DocumentType#57,1.0
+org.jsoup.nodes.DocumentType#59,1.0
+org.jsoup.parser.HtmlTreeBuilderState#23,1.0
+org.jsoup.parser.Token#34,1.0
+org.jsoup.parser.Token#45,1.0
+org.jsoup.parser.Token#55,1.0
+org.jsoup.parser.TokeniserState#1194,1.0
+org.jsoup.parser.TokeniserState#1196,1.0
+org.jsoup.parser.XmlTreeBuilder#100,1.0

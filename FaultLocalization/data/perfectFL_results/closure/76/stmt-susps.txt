@@ -1,0 +1,14 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.DeadAssignmentsElimination#299,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#304,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#309,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#310,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#317,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#318,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#319,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#339,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#361,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#363,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#364,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#372,1.0
+com.google.javascript.jscomp.DeadAssignmentsElimination#378,1.0

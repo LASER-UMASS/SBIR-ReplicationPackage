@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.math.NumberUtils#478,1.0
+org.apache.commons.lang3.math.NumberUtils#479,1.0
+org.apache.commons.lang3.math.NumberUtils#488,1.0
+org.apache.commons.lang3.math.NumberUtils#480,1.0

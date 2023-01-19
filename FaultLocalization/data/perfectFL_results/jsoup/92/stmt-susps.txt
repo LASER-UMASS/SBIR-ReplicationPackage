@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.jsoup.nodes.Attributes#5,1.0
+org.jsoup.nodes.Attributes#118,1.0
+org.jsoup.nodes.Attributes#122,1.0
+org.jsoup.nodes.Attributes#238,1.0
+org.jsoup.nodes.Attributes#396,1.0
+org.jsoup.parser.HtmlTreeBuilder#198,1.0
+org.jsoup.parser.ParseSettings#37,1.0
+org.jsoup.parser.Token#116,1.0
+org.jsoup.parser.XmlTreeBuilder#77,1.0

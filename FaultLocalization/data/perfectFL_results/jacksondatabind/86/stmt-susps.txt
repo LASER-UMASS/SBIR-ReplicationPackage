@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.type.ResolvedRecursiveType#17,1.0
+com.fasterxml.jackson.databind.type.ResolvedRecursiveType#23,1.0
+com.fasterxml.jackson.databind.type.ResolvedRecursiveType#26,1.0
+com.fasterxml.jackson.databind.type.ResolvedRecursiveType#27,1.0
+com.fasterxml.jackson.databind.type.ResolvedRecursiveType#28,1.0

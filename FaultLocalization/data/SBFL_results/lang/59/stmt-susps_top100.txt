@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.lang.text.StrBuilder#879,0.5773502691896258
+org.apache.commons.lang.text.StrBuilder#880,0.5773502691896258
+org.apache.commons.lang.text.StrBuilder#881,0.5773502691896258
+org.apache.commons.lang.text.StrBuilder#882,0.5773502691896258
+org.apache.commons.lang.text.StrBuilder#883,0.5773502691896258
+org.apache.commons.lang.text.StrBuilder#884,0.5773502691896258
+org.apache.commons.lang.text.StrBuilder#107,0.0890870806374748
+org.apache.commons.lang.text.StrBuilder#108,0.0890870806374748
+org.apache.commons.lang.text.StrBuilder#111,0.0890870806374748
+org.apache.commons.lang.text.StrBuilder#112,0.0890870806374748
+org.apache.commons.lang.text.StrBuilder#228,0.07602859212697055
+org.apache.commons.lang.text.StrBuilder#233,0.07602859212697055

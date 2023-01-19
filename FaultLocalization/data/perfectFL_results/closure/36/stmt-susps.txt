@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.InlineVariables#574,1.0

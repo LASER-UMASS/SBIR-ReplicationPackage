@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ser.std.StdKeySerializer#26,1.0
+com.fasterxml.jackson.databind.ser.std.StdKeySerializer#28,1.0
+com.fasterxml.jackson.databind.ser.std.StdKeySerializer#30,1.0
+com.fasterxml.jackson.databind.ser.std.StdKeySerializer#32,1.0
+com.fasterxml.jackson.databind.ser.std.StdKeySerializer#35,1.0

@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#579,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#580,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#582,1.0
+com.fasterxml.jackson.databind.introspect.ObjectIdInfo#24,1.0
+com.fasterxml.jackson.databind.introspect.ObjectIdInfo#62,1.0
+com.fasterxml.jackson.databind.ser.std.BeanSerializerBase#432,1.0
+com.fasterxml.jackson.databind.ser.std.BeanSerializerBase#433,1.0
+com.fasterxml.jackson.databind.ser.std.BeanSerializerBase#434,1.0

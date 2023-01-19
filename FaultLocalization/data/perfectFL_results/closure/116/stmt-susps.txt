@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.FunctionInjector#695,1.0
+com.google.javascript.jscomp.FunctionInjector#696,1.0
+com.google.javascript.jscomp.FunctionInjector#719,1.0
+com.google.javascript.jscomp.FunctionInjector#722,1.0
+com.google.javascript.jscomp.FunctionInjector#727,1.0

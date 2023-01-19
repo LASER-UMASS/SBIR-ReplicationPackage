@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.math3.optimization.fitting.HarmonicFitter#321,1.0
+org.apache.commons.math3.optimization.fitting.HarmonicFitter#322,1.0
+org.apache.commons.math3.optimization.fitting.HarmonicFitter#324,1.0

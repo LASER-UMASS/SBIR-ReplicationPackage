@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.base.ParserMinimalBase#391,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#398,1.0
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser#252,1.0
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser#264,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#304,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#317,1.0

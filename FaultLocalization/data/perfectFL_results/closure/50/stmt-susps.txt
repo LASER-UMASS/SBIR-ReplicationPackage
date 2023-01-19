@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.PeepholeReplaceKnownMethods#376,1.0
+com.google.javascript.jscomp.PeepholeReplaceKnownMethods#388,1.0
+com.google.javascript.jscomp.PeepholeReplaceKnownMethods#389,1.0

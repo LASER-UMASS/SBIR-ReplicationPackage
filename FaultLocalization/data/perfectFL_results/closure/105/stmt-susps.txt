@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.FoldConstants#1477,1.0
+com.google.javascript.jscomp.FoldConstants#1482,1.0
+com.google.javascript.jscomp.FoldConstants#1483,1.0
+com.google.javascript.jscomp.FoldConstants#1484,1.0
+com.google.javascript.jscomp.FoldConstants#1488,1.0
+com.google.javascript.jscomp.FoldConstants#1492,1.0
+com.google.javascript.jscomp.FoldConstants#1500,1.0

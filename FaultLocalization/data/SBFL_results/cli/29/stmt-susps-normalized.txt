@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.cli.Util#67,1.0
+org.apache.commons.cli.Util#72,0.8333333333333334
+org.apache.commons.cli.Util#65,0.6666666666666667
+org.apache.commons.cli.Util#69,0.5000000000000001
+org.apache.commons.cli.Util#70,0.3333333333333335
+org.apache.commons.cli.Util#75,0.16666666666666682

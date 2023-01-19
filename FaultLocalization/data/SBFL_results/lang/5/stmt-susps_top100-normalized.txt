@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.LocaleUtils#99,1.0
+org.apache.commons.lang3.LocaleUtils#89,0.9333333333333333
+org.apache.commons.lang3.LocaleUtils#92,0.8666666666666667
+org.apache.commons.lang3.LocaleUtils#93,0.8
+org.apache.commons.lang3.LocaleUtils#96,0.7333333333333334
+org.apache.commons.lang3.LocaleUtils#97,0.6666666666666667
+org.apache.commons.lang3.LocaleUtils#98,0.6000000000000001
+org.apache.commons.lang3.LocaleUtils#42,0.5333333333333334
+org.apache.commons.lang3.LocaleUtils#46,0.4666666666666668
+org.apache.commons.lang3.LocaleUtils#193,0.40000000000000013
+org.apache.commons.lang3.LocaleUtils#218,0.3333333333333335
+org.apache.commons.lang3.LocaleUtils#295,0.26666666666666683
+org.apache.commons.lang3.LocaleUtils#296,0.20000000000000018
+org.apache.commons.lang3.LocaleUtils#297,0.13333333333333353
+org.apache.commons.lang3.LocaleUtils#298,0.06666666666666686

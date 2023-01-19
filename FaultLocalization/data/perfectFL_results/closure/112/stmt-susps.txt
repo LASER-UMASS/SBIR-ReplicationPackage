@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypeInference#1192,1.0
+com.google.javascript.jscomp.TypeInference#1193,1.0
+com.google.javascript.jscomp.TypeInference#1194,1.0

@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.deser.BeanDeserializer#8,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#386,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#428,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#429,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#432,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#464,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#478,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#932,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#933,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#934,1.0
+com.fasterxml.jackson.databind.deser.BeanDeserializer#935,1.0

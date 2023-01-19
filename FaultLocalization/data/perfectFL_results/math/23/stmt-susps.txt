@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.math3.optimization.univariate.BrentOptimizer#150,1.0
+org.apache.commons.math3.optimization.univariate.BrentOptimizer#233,1.0
+org.apache.commons.math3.optimization.univariate.BrentOptimizer#237,1.0
+org.apache.commons.math3.optimization.univariate.BrentOptimizer#274,1.0
+org.apache.commons.math3.optimization.univariate.BrentOptimizer#276,1.0

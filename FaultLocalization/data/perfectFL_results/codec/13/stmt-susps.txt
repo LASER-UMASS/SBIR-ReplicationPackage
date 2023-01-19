@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.codec.binary.StringUtils#69,1.0
+org.apache.commons.codec.language.DoubleMetaphone#21,1.0
+org.apache.commons.codec.language.DoubleMetaphone#244,1.0

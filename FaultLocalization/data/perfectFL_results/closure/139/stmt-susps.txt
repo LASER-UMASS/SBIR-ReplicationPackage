@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.Normalize#280,1.0
+com.google.javascript.jscomp.Normalize#291,1.0
+com.google.javascript.jscomp.Normalize#308,1.0
+com.google.javascript.jscomp.Normalize#309,1.0
+com.google.javascript.jscomp.Normalize#311,1.0
+com.google.javascript.jscomp.Normalize#313,1.0
+com.google.javascript.jscomp.Normalize#314,1.0
+com.google.javascript.jscomp.Normalize#521,1.0
+com.google.javascript.jscomp.Normalize#522,1.0

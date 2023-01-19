@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.math.analysis.BrentSolver#138,1.0
+org.apache.commons.math.analysis.BrentSolver#139,1.0
+org.apache.commons.math.analysis.BrentSolver#141,1.0
+org.apache.commons.math.analysis.BrentSolver#145,1.0
+org.apache.commons.math.analysis.BrentSolver#147,1.0
+org.apache.commons.math.analysis.BrentSolver#148,1.0

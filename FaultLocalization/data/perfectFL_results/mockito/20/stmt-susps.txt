@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker#31,1.0
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker#34,1.0
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker#35,1.0
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker#45,1.0

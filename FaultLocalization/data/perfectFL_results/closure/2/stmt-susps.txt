@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypeCheck#1570,1.0
+com.google.javascript.jscomp.TypeCheck#1571,1.0
+com.google.javascript.jscomp.TypeCheck#1573,1.0
+com.google.javascript.jscomp.TypeCheck#1574,1.0

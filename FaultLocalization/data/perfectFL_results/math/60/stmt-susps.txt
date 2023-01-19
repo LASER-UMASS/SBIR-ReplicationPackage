@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.math.distribution.NormalDistributionImpl#125,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#126,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#127,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#129,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#130,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#131,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#132,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#133,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#134,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#135,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#136,1.0
+org.apache.commons.math.distribution.NormalDistributionImpl#137,1.0

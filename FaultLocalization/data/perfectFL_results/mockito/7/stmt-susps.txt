@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.mockito.internal.util.reflection.GenericMetadataSupport#376,1.0
+org.mockito.internal.util.reflection.GenericMetadataSupport#377,1.0
+org.mockito.internal.util.reflection.GenericMetadataSupport#378,1.0
+org.mockito.internal.util.reflection.GenericMetadataSupport#380,1.0

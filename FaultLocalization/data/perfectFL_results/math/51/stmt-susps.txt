@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.math.analysis.solvers.BaseSecantSolver#184,1.0
+org.apache.commons.math.analysis.solvers.BaseSecantSolver#186,1.0
+org.apache.commons.math.analysis.solvers.BaseSecantSolver#188,1.0

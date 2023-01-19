@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.compress.utils.ChecksumCalculatingInputStream#33,0.6123724356957946
+org.apache.commons.compress.utils.ChecksumCalculatingInputStream#37,0.6123724356957946
+org.apache.commons.compress.utils.ChecksumCalculatingInputStream#38,0.6123724356957946
+org.apache.commons.compress.utils.ChecksumCalculatingInputStream#39,0.6123724356957946

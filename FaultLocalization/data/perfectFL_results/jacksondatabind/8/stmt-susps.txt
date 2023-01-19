@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#282,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#284,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#289,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#290,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#294,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#295,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#296,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#297,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#298,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#299,1.0
+com.fasterxml.jackson.databind.deser.impl.CreatorCollector#300,1.0

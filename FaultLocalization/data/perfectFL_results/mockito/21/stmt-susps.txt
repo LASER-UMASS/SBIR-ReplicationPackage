@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.mockito.internal.creation.instance.ConstructorInstantiator#17,1.0
+org.mockito.internal.creation.instance.ConstructorInstantiator#20,1.0
+org.mockito.internal.creation.instance.ConstructorInstantiator#24,1.0
+org.mockito.internal.creation.instance.ConstructorInstantiator#25,1.0
+org.mockito.internal.creation.instance.ConstructorInstantiator#28,1.0
+org.mockito.internal.creation.instance.ConstructorInstantiator#35,1.0

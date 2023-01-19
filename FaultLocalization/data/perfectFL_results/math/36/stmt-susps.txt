@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.math.fraction.BigFraction#685,1.0
+org.apache.commons.math.fraction.BigFraction#687,1.0
+org.apache.commons.math.fraction.BigFraction#732,1.0
+org.apache.commons.math.fraction.BigFraction#734,1.0

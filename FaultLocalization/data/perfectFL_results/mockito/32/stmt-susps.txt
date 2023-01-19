@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.internal.configuration.SpyAnnotationEngine#18,1.0
+org.mockito.internal.configuration.SpyAnnotationEngine#49,1.0
+org.mockito.internal.configuration.SpyAnnotationEngine#54,1.0

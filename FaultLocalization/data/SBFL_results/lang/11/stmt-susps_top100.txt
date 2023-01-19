@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.RandomStringUtils#253,0.5773502691896258
+org.apache.commons.lang3.RandomStringUtils#163,0.5
+org.apache.commons.lang3.RandomStringUtils#234,0.5
+org.apache.commons.lang3.RandomStringUtils#247,0.5
+org.apache.commons.lang3.RandomStringUtils#248,0.5
+org.apache.commons.lang3.RandomStringUtils#250,0.5
+org.apache.commons.lang3.RandomStringUtils#252,0.5
+org.apache.commons.lang3.RandomStringUtils#225,0.4472135954999579
+org.apache.commons.lang3.RandomStringUtils#227,0.4472135954999579
+org.apache.commons.lang3.RandomStringUtils#230,0.4472135954999579
+org.apache.commons.lang3.RandomStringUtils#43,0.4082482904638631

@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.math3.stat.inference.MannWhitneyUTest#173,1.0
+org.apache.commons.math3.stat.inference.MannWhitneyUTest#176,1.0
+org.apache.commons.math3.stat.inference.MannWhitneyUTest#177,1.0
+org.apache.commons.math3.stat.inference.MannWhitneyUTest#179,1.0
+org.apache.commons.math3.stat.inference.MannWhitneyUTest#181,1.0

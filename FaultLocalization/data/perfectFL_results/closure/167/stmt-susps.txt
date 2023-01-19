@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#301,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#302,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#348,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#349,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#394,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#407,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#408,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#410,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#412,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#430,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#431,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#432,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#433,1.0
+com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter#434,1.0
+com.google.javascript.rhino.jstype.JSType#882,1.0

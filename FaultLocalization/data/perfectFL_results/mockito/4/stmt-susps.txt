@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.mockito.exceptions.Reporter#424,1.0
+org.mockito.exceptions.Reporter#434,1.0
+org.mockito.exceptions.Reporter#671,1.0
+org.mockito.exceptions.Reporter#676,1.0

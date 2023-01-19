@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.JavaType#301,1.0
+com.fasterxml.jackson.databind.ser.BeanSerializerFactory#163,1.0
+com.fasterxml.jackson.databind.ser.std.BeanSerializerBase#370,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#120,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#121,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#126,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#127,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#161,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#172,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#179,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#186,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#224,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#255,1.0
+com.fasterxml.jackson.databind.ser.std.StdDelegatingSerializer#256,1.0
+com.fasterxml.jackson.databind.ser.std.StdSerializer#262,1.0

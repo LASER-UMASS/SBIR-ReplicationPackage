@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+com.google.gson.internal.bind.JsonTreeWriter#161,1.0
+com.google.gson.internal.bind.TypeAdapters#165,1.0
+com.google.gson.internal.bind.TypeAdapters#166,1.0
+com.google.gson.internal.bind.TypeAdapters#167,1.0
+com.google.gson.internal.bind.TypeAdapters#168,1.0
+com.google.gson.stream.JsonWriter#475,1.0

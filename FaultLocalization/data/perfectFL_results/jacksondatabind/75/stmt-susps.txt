@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ser.std.EnumSerializer#86,1.0
+com.fasterxml.jackson.databind.ser.std.EnumSerializer#104,1.0
+com.fasterxml.jackson.databind.ser.std.EnumSerializer#217,1.0
+com.fasterxml.jackson.databind.ser.std.EnumSerializer#221,1.0
+com.fasterxml.jackson.databind.ser.std.EnumSerializer#225,1.0

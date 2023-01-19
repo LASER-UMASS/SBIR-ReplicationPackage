@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.codec.language.Caverphone#59,1.0
+org.apache.commons.codec.language.Metaphone#88,1.0
+org.apache.commons.codec.language.SoundexUtils#53,1.0

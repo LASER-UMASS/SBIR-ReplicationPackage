@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer#18,1.0
+org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer#108,1.0
+org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer#137,1.0
+org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer#224,1.0

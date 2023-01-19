@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.base.ParserBase#869,1.0
+com.fasterxml.jackson.core.base.ParserBase#870,1.0
+com.fasterxml.jackson.core.base.ParserBase#871,1.0
+com.fasterxml.jackson.core.base.ParserBase#887,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#565,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#566,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#569,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#582,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#583,1.0
+com.fasterxml.jackson.core.base.ParserMinimalBase#586,1.0

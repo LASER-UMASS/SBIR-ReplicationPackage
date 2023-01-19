@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.ClosureReverseAbstractInterpreter#206,1.0
+com.google.javascript.jscomp.ClosureReverseAbstractInterpreter#207,1.0
+com.google.javascript.jscomp.ClosureReverseAbstractInterpreter#208,1.0
+com.google.javascript.jscomp.ClosureReverseAbstractInterpreter#218,1.0
+com.google.javascript.jscomp.ClosureReverseAbstractInterpreter#223,1.0
+com.google.javascript.jscomp.TypeInference#632,1.0
+com.google.javascript.jscomp.TypeInference#633,1.0
+com.google.javascript.jscomp.TypeInference#638,1.0
+com.google.javascript.jscomp.TypeInference#642,1.0
+com.google.javascript.jscomp.TypeInference#643,1.0
+com.google.javascript.jscomp.TypeInference#646,1.0

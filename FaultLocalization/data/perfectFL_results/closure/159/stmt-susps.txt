@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.InlineFunctions#777,1.0
+com.google.javascript.jscomp.InlineFunctions#778,1.0
+com.google.javascript.jscomp.InlineFunctions#779,1.0
+com.google.javascript.jscomp.InlineFunctions#780,1.0

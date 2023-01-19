@@ -1,0 +1,17 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.text.translate.EntityArrays#30,1.0
+org.apache.commons.lang3.text.translate.EntityArrays#31,0.9375
+org.apache.commons.lang3.text.translate.EntityArrays#131,0.875
+org.apache.commons.lang3.text.translate.EntityArrays#135,0.8125
+org.apache.commons.lang3.text.translate.EntityArrays#333,0.75
+org.apache.commons.lang3.text.translate.EntityArrays#336,0.6875
+org.apache.commons.lang3.text.translate.EntityArrays#344,0.625
+org.apache.commons.lang3.text.translate.EntityArrays#347,0.5625
+org.apache.commons.lang3.text.translate.EntityArrays#352,0.5
+org.apache.commons.lang3.text.translate.EntityArrays#355,0.4375
+org.apache.commons.lang3.text.translate.EntityArrays#364,0.375
+org.apache.commons.lang3.text.translate.EntityArrays#372,0.3125
+org.apache.commons.lang3.text.translate.EntityArrays#373,0.25
+org.apache.commons.lang3.text.translate.EntityArrays#374,0.1875
+org.apache.commons.lang3.text.translate.EntityArrays#375,0.125
+org.apache.commons.lang3.text.translate.EntityArrays#377,0.0625

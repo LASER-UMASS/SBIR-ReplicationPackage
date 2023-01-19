@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.lang.math.Fraction#793,1.0
+org.apache.commons.lang.builder.ToStringStyle#2102,0.9900907354345749
+org.apache.commons.lang.builder.StandardToStringStyle#2102,0.9823304680038204
+org.apache.commons.lang.mutable.MutableFloat#230,0.9742120343839542
+org.apache.commons.lang.mutable.MutableDouble#158,0.9740926456542502
+org.apache.commons.lang.text.StrBuilder#1146,0.9739732569245463
+org.apache.commons.lang.NumberUtils#274,0.9737344794651385
+org.apache.commons.lang.math.NumberUtils#274,0.9720630372492837
+org.apache.commons.lang.enums.Enum#548,0.9703915950334289
+org.apache.commons.lang.enum.Enum#548,0.9696752626552053
+org.apache.commons.lang.enum.ValuedEnum#548,0.9689589302769819
+org.apache.commons.lang.enums.ValuedEnum#548,0.9682425978987583

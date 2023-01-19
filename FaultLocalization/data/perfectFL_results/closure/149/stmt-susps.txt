@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.AbstractCommandLineRunner#158,1.0
+com.google.javascript.jscomp.AbstractCommandLineRunner#518,1.0
+com.google.javascript.jscomp.AbstractCommandLineRunner#519,1.0
+com.google.javascript.jscomp.AbstractCommandLineRunner#520,1.0
+com.google.javascript.jscomp.AbstractCommandLineRunner#521,1.0
+com.google.javascript.jscomp.AbstractCommandLineRunner#522,1.0
+com.google.javascript.jscomp.AbstractCommandLineRunner#692,1.0
+com.google.javascript.jscomp.CommandLineRunner#471,1.0
+com.google.javascript.jscomp.Compiler#1362,1.0
+com.google.javascript.jscomp.CompilerOptions#588,1.0
+com.google.javascript.jscomp.CompilerOptions#959,1.0

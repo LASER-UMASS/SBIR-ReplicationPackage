@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.jsoup.nodes.FormElement#78,1.0
+org.jsoup.nodes.FormElement#79,1.0
+org.jsoup.nodes.FormElement#99,1.0

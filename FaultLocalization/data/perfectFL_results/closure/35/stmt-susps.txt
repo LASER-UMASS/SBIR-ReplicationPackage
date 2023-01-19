@@ -1,0 +1,17 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypeInference#1114,1.0
+com.google.javascript.jscomp.TypeInference#1121,1.0
+com.google.javascript.jscomp.TypeInference#1122,1.0
+com.google.javascript.jscomp.TypeInference#1123,1.0
+com.google.javascript.jscomp.TypeInference#1124,1.0
+com.google.javascript.jscomp.TypeInference#1125,1.0
+com.google.javascript.jscomp.TypeInference#1126,1.0
+com.google.javascript.jscomp.TypeInference#1127,1.0
+com.google.javascript.jscomp.TypeInference#1128,1.0
+com.google.javascript.jscomp.TypeInference#1129,1.0
+com.google.javascript.jscomp.TypeInference#1130,1.0
+com.google.javascript.jscomp.TypeInference#1131,1.0
+com.google.javascript.jscomp.TypeInference#1132,1.0
+com.google.javascript.jscomp.TypeInference#1133,1.0
+com.google.javascript.jscomp.TypeInference#1134,1.0
+com.google.javascript.jscomp.TypeInference#1135,1.0

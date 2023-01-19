@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.math.optimization.direct.BOBYQAOptimizer#1660,1.0
+org.apache.commons.math.optimization.direct.BOBYQAOptimizer#1662,1.0
+org.apache.commons.math.optimization.direct.BOBYQAOptimizer#1663,1.0
+org.apache.commons.math.optimization.direct.BOBYQAOptimizer#1752,1.0

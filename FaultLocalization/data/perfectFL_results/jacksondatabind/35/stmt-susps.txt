@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeDeserializer#89,1.0
+com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeDeserializer#90,1.0
+com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeDeserializer#91,1.0
+com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeDeserializer#92,1.0
+com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeDeserializer#97,1.0

@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+org.jsoup.select.Evaluator#8,1.0
+org.jsoup.select.Evaluator#753,1.0
+org.jsoup.select.Evaluator#754,1.0
+org.jsoup.select.Evaluator#755,1.0
+org.jsoup.select.QueryParser#195,1.0
+org.jsoup.select.QueryParser#197,1.0
+org.jsoup.select.QueryParser#199,1.0
+org.jsoup.select.QueryParser#201,1.0
+org.jsoup.select.QueryParser#202,1.0
+org.jsoup.select.QueryParser#204,1.0

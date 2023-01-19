@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.type.SimpleType#131,1.0
+com.fasterxml.jackson.databind.type.SimpleType#137,1.0
+com.fasterxml.jackson.databind.type.SimpleType#138,1.0
+com.fasterxml.jackson.databind.type.SimpleType#139,1.0
+com.fasterxml.jackson.databind.type.SimpleType#140,1.0

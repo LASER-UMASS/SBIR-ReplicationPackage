@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.ProcessClosurePrimitives#789,1.0
+com.google.javascript.jscomp.ProcessClosurePrimitives#790,1.0
+com.google.javascript.jscomp.ProcessClosurePrimitives#796,1.0

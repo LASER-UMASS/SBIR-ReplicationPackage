@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.jxpath.ri.axes.AttributeContext#18,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#22,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#32,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#75,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#76,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#78,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#79,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#80,1.0
+org.apache.commons.jxpath.ri.axes.AttributeContext#91,1.0

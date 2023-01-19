@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.mockito.internal.invocation.InvocationMatcher#95,1.0
+org.mockito.internal.invocation.InvocationMatcher#96,1.0
+org.mockito.internal.invocation.InvocationMatcher#97,1.0
+org.mockito.internal.invocation.InvocationMatcher#99,1.0

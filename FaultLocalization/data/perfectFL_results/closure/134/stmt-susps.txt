@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.AmbiguateProperties#210,1.0
+com.google.javascript.jscomp.AmbiguateProperties#356,1.0
+com.google.javascript.jscomp.AmbiguateProperties#366,1.0
+com.google.javascript.jscomp.AmbiguateProperties#553,1.0
+com.google.javascript.jscomp.AmbiguateProperties#557,1.0
+com.google.javascript.jscomp.AmbiguateProperties#594,1.0
+com.google.javascript.jscomp.AmbiguateProperties#595,1.0
+com.google.javascript.jscomp.AmbiguateProperties#596,1.0
+com.google.javascript.jscomp.AmbiguateProperties#597,1.0
+com.google.javascript.jscomp.AmbiguateProperties#599,1.0
+com.google.javascript.jscomp.TypedScopeCreator#560,1.0
+com.google.javascript.jscomp.TypedScopeCreator#562,1.0

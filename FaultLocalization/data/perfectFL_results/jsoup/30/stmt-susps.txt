@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.jsoup.safety.Cleaner#5,1.0
+org.jsoup.safety.Cleaner#70,1.0
+org.jsoup.safety.Cleaner#71,1.0
+org.jsoup.safety.Cleaner#72,1.0
+org.jsoup.safety.Cleaner#74,1.0
+org.jsoup.safety.Cleaner#84,1.0
+org.jsoup.safety.Cleaner#85,1.0
+org.jsoup.safety.Cleaner#87,1.0
+org.jsoup.safety.Cleaner#92,1.0
+org.jsoup.safety.Cleaner#95,1.0
+org.jsoup.safety.Cleaner#96,1.0
+org.jsoup.safety.Cleaner#97,1.0

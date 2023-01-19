@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.math3.fraction.Fraction#181,1.0
+org.apache.commons.math3.fraction.Fraction#206,1.0
+org.apache.commons.math3.fraction.Fraction#209,1.0

@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.internal.stubbing.answers.CallsRealMethods#7,1.0
+org.mockito.internal.stubbing.answers.CallsRealMethods#8,1.0
+org.mockito.internal.stubbing.answers.CallsRealMethods#35,1.0

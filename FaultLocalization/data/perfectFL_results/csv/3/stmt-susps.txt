@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.csv.Lexer#108,1.0
+org.apache.commons.csv.Lexer#109,1.0
+org.apache.commons.csv.Lexer#110,1.0
+org.apache.commons.csv.Lexer#111,1.0
+org.apache.commons.csv.Lexer#112,1.0
+org.apache.commons.csv.Lexer#116,1.0

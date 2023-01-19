@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator#21,1.0
+org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator#111,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#22,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#51,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#52,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#55,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#56,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#57,1.0
+org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator#114,1.0

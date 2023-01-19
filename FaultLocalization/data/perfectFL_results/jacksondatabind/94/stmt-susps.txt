@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.jsontype.impl.SubTypeValidator#22,1.0
+com.fasterxml.jackson.databind.jsontype.impl.SubTypeValidator#97,1.0
+com.fasterxml.jackson.databind.jsontype.impl.SubTypeValidator#103,1.0

@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.PeepholeFoldConstants#1282,1.0

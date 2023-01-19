@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.NodeUtil#601,1.0
+com.google.javascript.jscomp.NodeUtil#603,1.0
+com.google.javascript.jscomp.NodeUtil#608,1.0
+com.google.javascript.jscomp.PureFunctionIdentifier#176,1.0
+com.google.javascript.jscomp.PureFunctionIdentifier#179,1.0
+com.google.javascript.jscomp.PureFunctionIdentifier#180,1.0
+com.google.javascript.jscomp.PureFunctionIdentifier#181,1.0
+com.google.javascript.jscomp.PureFunctionIdentifier#197,1.0

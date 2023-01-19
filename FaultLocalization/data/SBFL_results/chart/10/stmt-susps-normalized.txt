@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator#54,1.0
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator#55,0.6666666666666667
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator#65,0.3333333333333334

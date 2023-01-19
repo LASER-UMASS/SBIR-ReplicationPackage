@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls#8,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls#60,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls#67,1.0

@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.jsoup.select.Selector#109,1.0
+org.jsoup.select.Selector#177,1.0
+org.jsoup.select.Selector#179,1.0
+org.jsoup.select.Selector#180,1.0
+org.jsoup.select.Selector#304,1.0
+org.jsoup.select.Selector#305,1.0
+org.jsoup.select.Selector#398,1.0

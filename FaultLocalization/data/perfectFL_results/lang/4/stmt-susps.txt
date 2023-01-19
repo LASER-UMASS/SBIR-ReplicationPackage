@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.text.translate.LookupTranslator#31,1.0
+org.apache.commons.lang3.text.translate.LookupTranslator#46,1.0
+org.apache.commons.lang3.text.translate.LookupTranslator#51,1.0
+org.apache.commons.lang3.text.translate.LookupTranslator#77,1.0

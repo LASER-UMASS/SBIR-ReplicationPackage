@@ -1,0 +1,14 @@
+Statement,Suspiciousness
+org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter#12,1.0
+org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter#23,1.0
+org.mockito.internal.configuration.injection.filter.MockCandidateFilter#8,1.0
+org.mockito.internal.configuration.injection.filter.MockCandidateFilter#15,1.0
+org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter#30,1.0
+org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter#23,1.0
+org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter#31,1.0
+org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter#41,1.0
+org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter#43,1.0
+org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter#20,1.0
+org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter#28,1.0
+org.mockito.internal.configuration.injection.PropertyAndSetterInjection#112,1.0
+org.mockito.internal.configuration.injection.PropertyAndSetterInjection#114,1.0

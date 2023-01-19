@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.mockito.internal.util.Timer#2,1.0
+org.mockito.internal.util.Timer#7,1.0
+org.mockito.internal.util.Timer#8,1.0
+org.mockito.internal.util.Timer#9,1.0
+org.mockito.internal.util.Timer#10,1.0
+org.mockito.internal.util.Timer#11,1.0
+org.mockito.internal.util.Timer#27,1.0

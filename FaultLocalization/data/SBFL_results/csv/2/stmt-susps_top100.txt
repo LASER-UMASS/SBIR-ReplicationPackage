@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+org.apache.commons.csv.CSVRecord#84,0.3779644730092272
+org.apache.commons.csv.CSVRecord#85,0.3779644730092272
+org.apache.commons.csv.CSVRecord#80,0.35355339059327373
+org.apache.commons.csv.CSVRecord#49,0.16012815380508713
+org.apache.commons.csv.CSVRecord#50,0.16012815380508713
+org.apache.commons.csv.CSVRecord#51,0.16012815380508713
+org.apache.commons.csv.CSVRecord#52,0.16012815380508713
+org.apache.commons.csv.CSVRecord#53,0.16012815380508713
+org.apache.commons.csv.CSVRecord#54,0.16012815380508713
+org.apache.commons.csv.CSVRecord#34,0.16012815380508713

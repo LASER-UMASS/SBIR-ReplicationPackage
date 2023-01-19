@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+org.apache.commons.codec.binary.StringUtils#81,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#51,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#54,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#55,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#56,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#58,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#59,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#60,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#62,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#63,1.0
+org.apache.commons.codec.binary.CharSequenceUtils#77,1.0
+org.apache.commons.codec.binary.StringUtils#78,0.4472135954999579
+org.apache.commons.codec.binary.StringUtils#72,0.42640143271122083
+org.apache.commons.codec.binary.StringUtils#75,0.42640143271122083
+org.apache.commons.codec.binary.StringUtils#76,0.4082482904638631

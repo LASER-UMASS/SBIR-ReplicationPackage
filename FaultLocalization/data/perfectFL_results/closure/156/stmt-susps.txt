@@ -1,0 +1,14 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.CollapseProperties#455,1.0
+com.google.javascript.jscomp.CollapseProperties#456,1.0
+com.google.javascript.jscomp.CollapseProperties#574,1.0
+com.google.javascript.jscomp.CollapseProperties#589,1.0
+com.google.javascript.jscomp.CollapseProperties#592,1.0
+com.google.javascript.jscomp.CollapseProperties#595,1.0
+com.google.javascript.jscomp.CollapseProperties#609,1.0
+com.google.javascript.jscomp.CollapseProperties#653,1.0
+com.google.javascript.jscomp.CollapseProperties#656,1.0
+com.google.javascript.jscomp.CollapseProperties#658,1.0
+com.google.javascript.jscomp.CollapseProperties#659,1.0
+com.google.javascript.jscomp.CollapseProperties#699,1.0
+com.google.javascript.jscomp.CollapseProperties#742,1.0

@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory#121,1.0
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory#122,1.0
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory#123,1.0
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory#125,1.0

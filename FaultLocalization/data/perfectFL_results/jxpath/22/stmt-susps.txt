@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.jxpath.ri.model.dom.DOMNodePointer#694,1.0
+org.apache.commons.jxpath.ri.model.dom.DOMNodePointer#696,1.0
+org.apache.commons.jxpath.ri.model.dom.DOMNodePointer#689,1.0
+org.apache.commons.jxpath.ri.model.dom.DOMNodePointer#690,1.0

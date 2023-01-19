@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.JavaType#139,1.0
+com.fasterxml.jackson.databind.type.CollectionLikeType#135,1.0
+com.fasterxml.jackson.databind.type.MapLikeType#147,1.0
+com.fasterxml.jackson.databind.type.MapLikeType#148,1.0
+com.fasterxml.jackson.databind.type.TypeFactory#427,1.0

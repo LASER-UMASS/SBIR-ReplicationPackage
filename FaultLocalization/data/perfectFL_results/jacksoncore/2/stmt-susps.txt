@@ -1,0 +1,14 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser#951,1.0
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser#1080,1.0
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser#1161,1.0
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser#1162,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#1243,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#1279,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#1406,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#1420,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#1421,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#1422,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#2575,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#2576,1.0
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser#2577,1.0

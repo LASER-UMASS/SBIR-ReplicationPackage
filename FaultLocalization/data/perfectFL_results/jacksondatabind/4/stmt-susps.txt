@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#69,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#69,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#73,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#73,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#59,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#74,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#75,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#92,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#101,1.0
+com.fasterxml.jackson.databind.deser.std.StringArrayDeserializer#102,1.0

@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ObjectMapper#231,1.0
+com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder#73,1.0
+com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder#103,1.0

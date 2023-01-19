@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.RemoveUnusedVars#378,1.0

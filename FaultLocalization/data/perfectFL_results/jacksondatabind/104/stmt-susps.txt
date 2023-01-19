@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.util.StdDateFormat#440,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#445,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#446,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#482,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#484,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#487,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#515,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#516,1.0
+com.fasterxml.jackson.databind.util.StdDateFormat#448,1.0

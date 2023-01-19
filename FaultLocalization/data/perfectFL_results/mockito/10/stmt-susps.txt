@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#16,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#71,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#87,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#90,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#94,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#99,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs#102,1.0

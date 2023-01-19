@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.javascript.rhino.IR#110,1.0
+com.google.javascript.rhino.IR#224,1.0
+com.google.javascript.rhino.IR#225,1.0
+com.google.javascript.rhino.IR#233,1.0

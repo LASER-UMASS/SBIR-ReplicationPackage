@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.codec.binary.StringUtils#339,0.7071067811865475
+org.apache.commons.codec.binary.StringUtils#419,0.2
+org.apache.commons.codec.binary.StringUtils#293,0.13245323570650439
+org.apache.commons.codec.Charsets#101,0.06063390625908324
+org.apache.commons.codec.Charsets#114,0.06063390625908324
+org.apache.commons.codec.Charsets#128,0.06063390625908324
+org.apache.commons.codec.Charsets#141,0.06063390625908324
+org.apache.commons.codec.Charsets#154,0.06063390625908324
+org.apache.commons.codec.Charsets#167,0.06063390625908324

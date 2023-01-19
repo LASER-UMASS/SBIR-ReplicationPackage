@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#527,1.0
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#531,1.0
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#534,1.0
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#536,1.0
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#538,1.0
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#671,1.0
+com.fasterxml.jackson.core.json.UTF8JsonGenerator#1887,1.0

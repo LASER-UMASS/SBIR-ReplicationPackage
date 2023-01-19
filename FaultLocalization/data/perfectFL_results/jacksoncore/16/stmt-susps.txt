@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.util.JsonParserSequence#34,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#44,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#104,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#105,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#107,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#108,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#109,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#110,1.0
+com.fasterxml.jackson.core.util.JsonParserSequence#112,1.0

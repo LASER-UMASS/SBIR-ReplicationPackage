@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.Compiler#1288,1.0

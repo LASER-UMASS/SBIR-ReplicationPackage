@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.internal.creation.DelegatingMethod#54,1.0
+org.mockito.internal.creation.DelegatingMethod#55,1.0
+org.mockito.internal.creation.DelegatingMethod#60,1.0

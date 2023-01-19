@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.math.stat.inference.ChiSquareTestImpl#70,1.0
+org.apache.commons.math.stat.inference.ChiSquareTestImpl#73,1.0
+org.apache.commons.math.stat.inference.ChiSquareTestImpl#76,1.0
+org.apache.commons.math.stat.inference.ChiSquareTestImpl#78,1.0

@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.FunctionTypeBuilder#73,1.0
+com.google.javascript.jscomp.FunctionTypeBuilder#200,1.0
+com.google.javascript.jscomp.FunctionTypeBuilder#201,1.0
+com.google.javascript.jscomp.FunctionTypeBuilder#202,1.0
+com.google.javascript.jscomp.FunctionTypeBuilder#212,1.0
+com.google.javascript.jscomp.FunctionTypeBuilder#213,1.0
+com.google.javascript.jscomp.FunctionTypeBuilder#496,1.0
+com.google.javascript.jscomp.TypedScopeCreator#576,1.0
+com.google.javascript.jscomp.TypedScopeCreator#616,1.0
+com.google.javascript.jscomp.TypedScopeCreator#633,1.0
+com.google.javascript.rhino.jstype.FunctionBuilder#100,1.0
+com.google.javascript.rhino.jstype.FunctionType#517,1.0

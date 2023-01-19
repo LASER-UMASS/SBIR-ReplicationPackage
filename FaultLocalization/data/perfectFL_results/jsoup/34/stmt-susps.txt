@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.jsoup.parser.CharacterReader#87,1.0
+org.jsoup.parser.CharacterReader#90,1.0
+org.jsoup.parser.CharacterReader#91,1.0
+org.jsoup.parser.CharacterReader#92,1.0
+org.jsoup.parser.CharacterReader#90,1.0

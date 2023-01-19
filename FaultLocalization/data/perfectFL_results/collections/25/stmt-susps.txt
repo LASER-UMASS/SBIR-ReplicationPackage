@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.collections4.IteratorUtils#605,1.0
+org.apache.commons.collections4.IteratorUtils#626,1.0
+org.apache.commons.collections4.IteratorUtils#648,1.0

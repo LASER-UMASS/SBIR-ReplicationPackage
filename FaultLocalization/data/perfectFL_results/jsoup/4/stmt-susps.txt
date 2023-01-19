@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.jsoup.nodes.Entities#64,1.0
+org.jsoup.nodes.Entities#2235,1.0
+org.jsoup.nodes.Entities#2240,1.0

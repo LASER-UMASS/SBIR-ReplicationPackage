@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.SourceFile#236,1.0
+com.google.javascript.jscomp.SourceFile#238,1.0
+com.google.javascript.jscomp.SourceFile#242,1.0

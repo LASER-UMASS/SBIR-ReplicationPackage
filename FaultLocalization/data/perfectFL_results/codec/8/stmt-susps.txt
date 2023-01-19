@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+org.apache.commons.codec.binary.Base64#419,1.0
+org.apache.commons.codec.binary.Base64#420,1.0
+org.apache.commons.codec.binary.Base64#421,1.0
+org.apache.commons.codec.binary.Base64#422,1.0
+org.apache.commons.codec.binary.Base64#423,1.0
+org.apache.commons.codec.binary.Base64#424,1.0
+org.apache.commons.codec.binary.Base64#425,1.0
+org.apache.commons.codec.binary.Base64InputStream#169,1.0
+org.apache.commons.codec.binary.Base64InputStream#170,1.0
+org.apache.commons.codec.binary.Base64InputStream#171,1.0

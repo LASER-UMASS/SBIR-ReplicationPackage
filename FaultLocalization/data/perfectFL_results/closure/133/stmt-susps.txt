@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.parsing.JsDocInfoParser#2400,1.0

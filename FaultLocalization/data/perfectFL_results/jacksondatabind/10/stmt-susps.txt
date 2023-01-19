@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#23,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#29,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#32,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#33,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#48,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#51,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#74,1.0
+com.fasterxml.jackson.databind.ser.AnyGetterWriter#82,1.0
+com.fasterxml.jackson.databind.ser.BeanSerializerFactory#395,1.0
+com.fasterxml.jackson.databind.ser.BeanSerializerFactory#396,1.0

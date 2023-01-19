@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1357,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1363,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1381,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1388,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1389,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1414,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1415,1.0
+com.google.javascript.jscomp.parsing.JsDocInfoParser#1416,1.0

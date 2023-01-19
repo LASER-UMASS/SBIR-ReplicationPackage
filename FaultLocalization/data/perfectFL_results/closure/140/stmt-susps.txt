@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.Compiler#263,1.0
+com.google.javascript.jscomp.Compiler#327,1.0
+com.google.javascript.jscomp.Compiler#1581,1.0
+com.google.javascript.jscomp.Compiler#1582,1.0
+com.google.javascript.jscomp.Compiler#1583,1.0
+com.google.javascript.jscomp.Compiler#1584,1.0
+com.google.javascript.jscomp.Compiler#1585,1.0
+com.google.javascript.jscomp.Compiler#1586,1.0

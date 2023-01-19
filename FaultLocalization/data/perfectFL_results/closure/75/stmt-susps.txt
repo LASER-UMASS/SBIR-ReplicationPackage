@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.NodeUtil#373,1.0
+com.google.javascript.jscomp.NodeUtil#312,1.0
+com.google.javascript.jscomp.NodeUtil#315,1.0
+com.google.javascript.jscomp.NodeUtil#317,1.0
+com.google.javascript.jscomp.NodeUtil#375,1.0

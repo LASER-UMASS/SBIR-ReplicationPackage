@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+org.apache.commons.compress.utils.IOUtils#99,1.0
+org.apache.commons.compress.utils.IOUtils#97,0.875
+org.apache.commons.compress.utils.IOUtils#98,0.75
+org.apache.commons.compress.utils.IOUtils#95,0.625
+org.apache.commons.compress.utils.IOUtils#96,0.5
+org.apache.commons.compress.utils.IOUtils#104,0.375
+org.apache.commons.compress.utils.IOUtils#101,0.25
+org.apache.commons.compress.utils.IOUtils#102,0.125

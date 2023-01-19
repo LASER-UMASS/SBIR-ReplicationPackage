@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector#6,1.0
+com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector#731,1.0
+com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder#644,1.0
+com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder#682,1.0

@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.ScopedAliases#278,1.0
+com.google.javascript.jscomp.ScopedAliases#279,1.0
+com.google.javascript.jscomp.ScopedAliases#281,1.0
+com.google.javascript.jscomp.ScopedAliases#286,1.0
+com.google.javascript.jscomp.ScopedAliases#288,1.0
+com.google.javascript.jscomp.ScopedAliases#294,1.0

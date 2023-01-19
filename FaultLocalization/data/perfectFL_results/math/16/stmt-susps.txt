@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.math3.util.FastMath#81,1.0
+org.apache.commons.math3.util.FastMath#393,1.0
+org.apache.commons.math3.util.FastMath#394,1.0
+org.apache.commons.math3.util.FastMath#395,1.0
+org.apache.commons.math3.util.FastMath#397,1.0
+org.apache.commons.math3.util.FastMath#398,1.0
+org.apache.commons.math3.util.FastMath#399,1.0
+org.apache.commons.math3.util.FastMath#454,1.0
+org.apache.commons.math3.util.FastMath#455,1.0
+org.apache.commons.math3.util.FastMath#458,1.0
+org.apache.commons.math3.util.FastMath#459,1.0
+org.apache.commons.math3.util.FastMath#460,1.0

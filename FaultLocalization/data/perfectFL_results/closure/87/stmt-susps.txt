@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax#522,1.0
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax#528,1.0
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax#531,1.0
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax#533,1.0

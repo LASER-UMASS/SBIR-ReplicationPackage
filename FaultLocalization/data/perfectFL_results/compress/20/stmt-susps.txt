@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#331,1.0
+org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#347,1.0
+org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#361,1.0
+org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#373,1.0
+org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#387,1.0
+org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#399,1.0

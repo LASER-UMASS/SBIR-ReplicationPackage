@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.apache.commons.math.util.MultidimensionalCounter#237,1.0
+org.apache.commons.math.util.MultidimensionalCounter#238,1.0
+org.apache.commons.math.util.MultidimensionalCounter#239,1.0
+org.apache.commons.math.util.MultidimensionalCounter#240,1.0
+org.apache.commons.math.util.MultidimensionalCounter#241,1.0
+org.apache.commons.math.util.MultidimensionalCounter#242,1.0
+org.apache.commons.math.util.MultidimensionalCounter#243,1.0

@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+com.google.javascript.rhino.jstype.ArrowType#127,1.0
+com.google.javascript.rhino.jstype.ArrowType#129,1.0
+com.google.javascript.rhino.jstype.ArrowType#134,1.0
+com.google.javascript.rhino.jstype.ArrowType#149,1.0
+com.google.javascript.rhino.jstype.ArrowType#151,1.0
+com.google.javascript.rhino.jstype.ArrowType#138,1.0

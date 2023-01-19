@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypedScopeCreator#1413,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1419,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1422,1.0
+com.google.javascript.rhino.jstype.FunctionType#341,1.0
+com.google.javascript.rhino.jstype.FunctionType#366,1.0
+com.google.javascript.rhino.jstype.FunctionType#371,1.0
+com.google.javascript.rhino.jstype.FunctionType#373,1.0

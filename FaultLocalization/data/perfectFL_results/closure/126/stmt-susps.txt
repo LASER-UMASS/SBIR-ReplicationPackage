@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.MinimizeExitPoints#141,1.0
+com.google.javascript.jscomp.MinimizeExitPoints#142,1.0
+com.google.javascript.jscomp.MinimizeExitPoints#143,1.0
+com.google.javascript.jscomp.MinimizeExitPoints#144,1.0

@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.mockito.internal.creation.MockSettingsImpl#19,1.0
+org.mockito.internal.creation.MockSettingsImpl#22,1.0
+org.mockito.internal.creation.MockSettingsImpl#70,1.0
+org.mockito.internal.creation.MockSettingsImpl#74,1.0
+org.mockito.internal.util.MockUtil#18,1.0
+org.mockito.internal.util.MockUtil#44,1.0
+org.mockito.internal.util.MockUtil#45,1.0

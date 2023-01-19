@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.math.fraction.ProperFractionFormat#164,1.0
+org.apache.commons.math.fraction.ProperFractionFormat#165,1.0
+org.apache.commons.math.fraction.ProperFractionFormat#169,1.0
+org.apache.commons.math.fraction.ProperFractionFormat#199,1.0
+org.apache.commons.math.fraction.ProperFractionFormat#200,1.0

@@ -1,0 +1,15 @@
+Statement,Suspiciousness
+org.mockito.internal.creation.jmock.ClassImposterizer#86,1.0
+org.mockito.internal.progress.ArgumentMatcherStorageImpl#71,0.9994269340974212
+org.mockito.internal.matchers.apachecommons.EqualsBuilder#318,0.9993123209169055
+org.mockito.internal.progress.ThreadSafeMockingProgress#30,0.9989111747851003
+org.mockito.internal.util.MockUtil#57,0.9986819484240688
+org.mockito.exceptions.Reporter#71,0.9983381088825215
+org.mockito.internal.MockHandler#62,0.9935243553008596
+org.mockito.internal.matchers.InstanceOf#27,0.9932951289398281
+org.mockito.internal.debugging.WarningsPrinterImpl#27,0.9930659025787966
+org.mockito.internal.invocation.MatchersBinder#20,0.9926647564469914
+org.mockito.internal.MockitoCore#136,0.9925501432664756
+org.mockito.internal.invocation.Invocation#166,0.9923209169054441
+org.mockito.ArgumentMatcher#87,0.991919770773639
+org.mockito.internal.matchers.CapturingMatcher#32,0.9918051575931232

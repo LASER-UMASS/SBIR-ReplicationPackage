@@ -1,0 +1,3 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ser.BeanPropertyWriter#39,1.0
+com.fasterxml.jackson.databind.ser.BeanPropertyWriter#41,1.0

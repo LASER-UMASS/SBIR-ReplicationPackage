@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.mockito.exceptions.Reporter#438,1.0
+org.mockito.exceptions.Reporter#441,1.0
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls#56,1.0

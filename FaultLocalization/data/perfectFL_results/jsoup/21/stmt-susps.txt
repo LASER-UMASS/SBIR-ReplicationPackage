@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+org.jsoup.select.CombiningEvaluator#63,1.0
+org.jsoup.select.QueryParser#58,1.0
+org.jsoup.select.QueryParser#59,1.0
+org.jsoup.select.QueryParser#60,1.0
+org.jsoup.select.QueryParser#61,1.0
+org.jsoup.select.QueryParser#62,1.0
+org.jsoup.select.QueryParser#63,1.0
+org.jsoup.select.QueryParser#64,1.0
+org.jsoup.select.QueryParser#65,1.0
+org.jsoup.select.QueryParser#66,1.0
+org.jsoup.select.QueryParser#100,1.0

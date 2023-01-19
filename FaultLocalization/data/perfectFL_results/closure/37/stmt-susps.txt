@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.NodeTraversal#541,1.0
+com.google.javascript.jscomp.parsing.IRFactory#666,1.0
+com.google.javascript.jscomp.parsing.IRFactory#669,1.0

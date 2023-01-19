@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.rhino.jstype.FunctionType#871,1.0

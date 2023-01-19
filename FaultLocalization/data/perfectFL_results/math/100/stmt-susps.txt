@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.math.estimation.AbstractEstimator#166,1.0
+org.apache.commons.math.estimation.AbstractEstimator#202,1.0
+org.apache.commons.math.estimation.AbstractEstimator#207,1.0

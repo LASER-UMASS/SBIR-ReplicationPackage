@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.deser.BasicDeserializerFactory#1757,1.0
+com.fasterxml.jackson.databind.deser.BasicDeserializerFactory#1760,1.0
+com.fasterxml.jackson.databind.deser.DeserializerCache#477,1.0
+com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase#177,1.0
+com.fasterxml.jackson.databind.module.SimpleAbstractTypeResolver#80,1.0

@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.rhino.jstype.UnionType#290,1.0
+com.google.javascript.rhino.jstype.UnionType#291,1.0
+com.google.javascript.rhino.jstype.UnionType#292,1.0

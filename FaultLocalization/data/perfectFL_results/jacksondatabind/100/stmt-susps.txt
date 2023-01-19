@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.node.TreeTraversingParser#360,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#363,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#364,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#365,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#366,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#367,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#368,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#369,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#370,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#371,1.0
+com.fasterxml.jackson.databind.node.TreeTraversingParser#372,1.0

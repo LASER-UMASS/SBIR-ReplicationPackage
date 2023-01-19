@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.ExploitAssigns#208,1.0
+com.google.javascript.jscomp.ExploitAssigns#211,1.0
+com.google.javascript.jscomp.ExploitAssigns#212,1.0
+com.google.javascript.jscomp.ExploitAssigns#213,1.0
+com.google.javascript.jscomp.ExploitAssigns#214,1.0
+com.google.javascript.jscomp.ExploitAssigns#219,1.0
+com.google.javascript.jscomp.ExploitAssigns#219,1.0
+com.google.javascript.jscomp.ExploitAssigns#219,1.0

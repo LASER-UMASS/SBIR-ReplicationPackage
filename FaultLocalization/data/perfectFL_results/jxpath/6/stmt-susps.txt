@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.jxpath.ri.compiler.CoreOperationCompare#57,1.0
+org.apache.commons.jxpath.ri.compiler.CoreOperationCompare#58,1.0
+org.apache.commons.jxpath.ri.compiler.CoreOperationCompare#61,1.0

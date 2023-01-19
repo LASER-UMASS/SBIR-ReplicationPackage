@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.JsonPointer#193,1.0
+com.fasterxml.jackson.core.JsonPointer#194,1.0
+com.fasterxml.jackson.core.JsonPointer#195,1.0
+com.fasterxml.jackson.core.JsonPointer#196,1.0

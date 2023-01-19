@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+org.apache.commons.codec.language.bm.Lang#98,1.0
+org.apache.commons.codec.language.bm.Lang#102,1.0
+org.apache.commons.codec.language.bm.PhoneticEngine#31,1.0
+org.apache.commons.codec.language.bm.PhoneticEngine#338,1.0
+org.apache.commons.codec.language.bm.PhoneticEngine#361,1.0
+org.apache.commons.codec.language.bm.PhoneticEngine#364,1.0
+org.apache.commons.codec.language.bm.Rule#157,1.0

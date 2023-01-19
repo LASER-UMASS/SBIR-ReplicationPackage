@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#91,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#92,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#93,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#94,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#95,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#96,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#97,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#98,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#129,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#130,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#132,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#134,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#172,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#176,1.0
+com.google.javascript.jscomp.MakeDeclaredNamesUnique#179,1.0

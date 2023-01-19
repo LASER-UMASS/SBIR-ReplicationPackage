@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.compress.archivers.zip.ZipArchiveEntry#63,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveEntry#462,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveEntry#463,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveEntry#466,1.0

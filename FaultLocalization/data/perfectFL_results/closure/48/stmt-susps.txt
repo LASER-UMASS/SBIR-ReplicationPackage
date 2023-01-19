@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.TypedScopeCreator#1521,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1523,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1524,1.0
+com.google.javascript.jscomp.TypedScopeCreator#1525,1.0

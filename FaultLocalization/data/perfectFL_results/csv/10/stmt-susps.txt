@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.csv.CSVPrinter#63,1.0
+org.apache.commons.csv.CSVPrinter#65,1.0
+org.apache.commons.csv.CSVPrinter#66,1.0
+org.apache.commons.csv.CSVPrinter#67,1.0
+org.apache.commons.csv.CSVPrinter#69,1.0
+org.apache.commons.csv.CSVPrinter#70,1.0

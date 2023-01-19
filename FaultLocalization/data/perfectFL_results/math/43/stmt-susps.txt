@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.math.stat.descriptive.SummaryStatistics#158,1.0
+org.apache.commons.math.stat.descriptive.SummaryStatistics#161,1.0
+org.apache.commons.math.stat.descriptive.SummaryStatistics#164,1.0
+org.apache.commons.math.stat.descriptive.SummaryStatistics#168,1.0

@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.math.geometry.Vector3D#458,1.0
+org.apache.commons.math.geometry.Vector3D#461,1.0
+org.apache.commons.math.geometry.Vector3D#469,1.0
+org.apache.commons.math.geometry.Vector3D#470,1.0
+org.apache.commons.math.geometry.Vector3D#473,1.0

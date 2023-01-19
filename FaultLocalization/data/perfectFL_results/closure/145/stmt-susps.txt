@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.CodeGenerator#702,1.0
+com.google.javascript.jscomp.CodeGenerator#708,1.0
+com.google.javascript.jscomp.CodeGenerator#711,1.0
+com.google.javascript.jscomp.CodeGenerator#713,1.0
+com.google.javascript.jscomp.CodeGenerator#714,1.0

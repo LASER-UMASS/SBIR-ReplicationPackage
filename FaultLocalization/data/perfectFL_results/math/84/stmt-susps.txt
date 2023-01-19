@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.math.optimization.direct.MultiDirectional#62,1.0
+org.apache.commons.math.optimization.direct.MultiDirectional#63,1.0
+org.apache.commons.math.optimization.direct.MultiDirectional#91,1.0
+org.apache.commons.math.optimization.direct.MultiDirectional#93,1.0

@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.codec.language.Soundex#188,1.0
+org.apache.commons.codec.language.Soundex#189,1.0
+org.apache.commons.codec.language.Soundex#190,1.0
+org.apache.commons.codec.language.Soundex#191,1.0
+org.apache.commons.codec.language.Soundex#192,1.0
+org.apache.commons.codec.language.Soundex#193,1.0

@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#762,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#763,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#764,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#796,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#797,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#830,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#831,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#1119,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#1135,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#1151,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#1456,1.0
+com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector#1457,1.0

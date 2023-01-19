@@ -1,0 +1,11 @@
+Statement,Suspiciousness
+org.apache.commons.math.linear.OpenMapRealMatrix#49,1.0
+org.apache.commons.math.linear.OpenMapRealMatrix#50,0.9
+org.apache.commons.math.linear.OpenMapRealMatrix#51,0.8
+org.apache.commons.math.linear.OpenMapRealMatrix#52,0.7000000000000001
+org.apache.commons.math.linear.OpenMapRealMatrix#53,0.6000000000000001
+org.apache.commons.math.linear.AbstractRealMatrix#57,0.5000000000000001
+org.apache.commons.math.linear.AbstractRealMatrix#60,0.40000000000000013
+org.apache.commons.math.linear.AbstractRealMatrix#53,0.30000000000000016
+org.apache.commons.math.linear.AbstractRealMatrix#54,0.20000000000000015
+org.apache.commons.math.linear.RealLinearOperator#52,0.10000000000000014

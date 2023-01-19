@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+org.apache.commons.math.geometry.euclidean.threed.Rotation#344,1.0
+org.apache.commons.math.geometry.euclidean.threed.Rotation#353,1.0
+org.apache.commons.math.geometry.euclidean.threed.Rotation#359,1.0

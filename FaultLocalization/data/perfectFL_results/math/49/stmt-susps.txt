@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.math.linear.OpenMapRealVector#345,1.0
+org.apache.commons.math.linear.OpenMapRealVector#358,1.0
+org.apache.commons.math.linear.OpenMapRealVector#369,1.0
+org.apache.commons.math.linear.OpenMapRealVector#370,1.0
+org.apache.commons.math.linear.OpenMapRealVector#382,1.0
+org.apache.commons.math.linear.OpenMapRealVector#383,1.0

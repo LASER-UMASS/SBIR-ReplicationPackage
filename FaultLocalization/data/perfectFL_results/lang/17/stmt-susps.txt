@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#83,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#84,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#88,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#90,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#94,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#96,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#97,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#98,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#99,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#100,1.0
+org.apache.commons.lang3.text.translate.CharSequenceTranslator#102,1.0

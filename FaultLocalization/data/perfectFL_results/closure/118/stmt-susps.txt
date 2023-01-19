@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.DisambiguateProperties#492,1.0
+com.google.javascript.jscomp.DisambiguateProperties#493,1.0
+com.google.javascript.jscomp.DisambiguateProperties#494,1.0

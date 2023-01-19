@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#1034,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#1075,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#1171,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#1492,1.0
+org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#1493,1.0

@@ -1,0 +1,16 @@
+Statement,Suspiciousness
+org.apache.commons.collections4.keyvalue.MultiKey#243,1.0
+org.apache.commons.collections4.keyvalue.MultiKey#67,0.9333333333333333
+org.apache.commons.collections4.keyvalue.MultiKey#68,0.8666666666666667
+org.apache.commons.collections4.keyvalue.MultiKey#165,0.8
+org.apache.commons.collections4.keyvalue.MultiKey#162,0.7333333333333334
+org.apache.commons.collections4.keyvalue.MultiKey#168,0.6666666666666667
+org.apache.commons.collections4.keyvalue.MultiKey#169,0.6000000000000001
+org.apache.commons.collections4.keyvalue.MultiKey#262,0.5333333333333334
+org.apache.commons.collections4.keyvalue.MultiKey#263,0.4666666666666668
+org.apache.commons.collections4.keyvalue.MultiKey#264,0.40000000000000013
+org.apache.commons.collections4.keyvalue.MultiKey#265,0.3333333333333335
+org.apache.commons.collections4.keyvalue.MultiKey#268,0.26666666666666683
+org.apache.commons.collections4.keyvalue.MultiKey#269,0.20000000000000018
+org.apache.commons.collections4.keyvalue.MultiKey#158,0.13333333333333353
+org.apache.commons.collections4.keyvalue.MultiKey#159,0.06666666666666686

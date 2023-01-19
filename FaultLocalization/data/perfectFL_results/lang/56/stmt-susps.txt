@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+org.apache.commons.lang.time.FastDateFormat#140,1.0
+org.apache.commons.lang.time.FastDateFormat#144,1.0
+org.apache.commons.lang.time.FastDateFormat#1017,1.0
+org.apache.commons.lang.time.FastDateFormat#1021,1.0

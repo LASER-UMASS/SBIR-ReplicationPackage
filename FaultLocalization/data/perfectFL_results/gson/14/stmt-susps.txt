@@ -1,0 +1,5 @@
+Statement,Suspiciousness
+com.google.gson.internal.$Gson$Types#78,1.0
+com.google.gson.internal.$Gson$Types#79,1.0
+com.google.gson.internal.$Gson$Types#93,1.0
+com.google.gson.internal.$Gson$Types#94,1.0

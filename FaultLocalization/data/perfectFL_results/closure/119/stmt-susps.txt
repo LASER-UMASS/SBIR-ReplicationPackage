@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.GlobalNamespace#365,1.0

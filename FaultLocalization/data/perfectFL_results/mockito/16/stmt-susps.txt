@@ -1,0 +1,9 @@
+Statement,Suspiciousness
+org.mockito.internal.MockitoCore#32,1.0
+org.mockito.internal.MockitoCore#33,1.0
+org.mockito.internal.MockitoCore#34,1.0
+org.mockito.internal.MockitoCore#35,1.0
+org.mockito.internal.MockitoCore#42,1.0
+org.mockito.internal.MockitoCore#43,1.0
+org.mockito.Mockito#827,1.0
+org.mockito.Mockito#899,1.0

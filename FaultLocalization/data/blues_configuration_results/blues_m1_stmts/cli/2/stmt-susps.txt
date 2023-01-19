@@ -1,0 +1,15 @@
+Statement,Suspiciousness
+org.apache.commons.cli.Option#627,1.0
+org.apache.commons.cli.TypeHandler#205,0.9968002585649645
+org.apache.commons.cli.PatternOptionBuilder#172,0.9948933419521655
+org.apache.commons.cli.PosixParser#70,0.9910795087265676
+org.apache.commons.cli.HelpFormatter#72,0.9862637362637363
+org.apache.commons.cli.Options#241,0.981415643180349
+org.apache.commons.cli.Parser#70,0.9797996121525533
+org.apache.commons.cli.OptionBuilder#256,0.9763089851325145
+org.apache.commons.cli.CommandLine#147,0.9741111829347123
+org.apache.commons.cli.BasicParser#70,0.9720103425985779
+org.apache.commons.cli.GnuParser#70,0.9684873949579832
+org.apache.commons.cli.OptionValidator#70,0.9643503555268261
+org.apache.commons.cli.CommandLineParser#70,0.9638332255979315
+org.apache.commons.cli.OptionGroup#30,0.960245636716225

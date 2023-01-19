@@ -1,0 +1,6 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.DevirtualizePrototypeMethods#361,1.0
+com.google.javascript.jscomp.DevirtualizePrototypeMethods#362,1.0
+com.google.javascript.jscomp.DevirtualizePrototypeMethods#363,1.0
+com.google.javascript.rhino.jstype.FunctionType#411,1.0
+com.google.javascript.rhino.jstype.FunctionType#471,1.0

@@ -1,0 +1,15 @@
+Statement,Suspiciousness
+org.apache.commons.cli.Util#72,1.0
+org.apache.commons.cli.HelpFormatter#504,0.9285714
+org.apache.commons.cli.Util#75,0.85714287
+org.apache.commons.cli.Util#65,0.78571427
+org.apache.commons.cli.Util#67,0.71428573
+org.apache.commons.cli.DefaultParser#225,0.64285713
+org.apache.commons.cli.HelpFormatter#501,0.5714286
+org.apache.commons.cli.HelpFormatter#502,0.5
+org.apache.commons.cli.Parser#343,0.42857143
+org.apache.commons.cli.Util#70,0.35714287
+org.apache.commons.cli.Util#40,0.2857143
+org.apache.commons.cli.Util#51,0.21428572
+org.apache.commons.cli.DefaultParser#341,0.14285715
+org.apache.commons.cli.Parser#342,0.071428575

@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.deser.impl.JavaUtilCollectionsDeserializers#46,1.0
+com.fasterxml.jackson.databind.deser.impl.JavaUtilCollectionsDeserializers#57,1.0
+com.fasterxml.jackson.databind.deser.impl.JavaUtilCollectionsDeserializers#78,1.0

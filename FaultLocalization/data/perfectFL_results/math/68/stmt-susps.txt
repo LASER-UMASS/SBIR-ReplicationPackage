@@ -1,0 +1,12 @@
+Statement,Suspiciousness
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#165,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#246,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#247,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#251,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#303,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#344,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#412,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#413,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#418,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#419,1.0
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#420,1.0

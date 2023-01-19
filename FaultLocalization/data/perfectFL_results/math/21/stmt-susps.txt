@@ -1,0 +1,13 @@
+Statement,Suspiciousness
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#69,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#79,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#82,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#83,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#84,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#90,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#91,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#92,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#93,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#122,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#123,1.0
+org.apache.commons.math3.linear.RectangularCholeskyDecomposition#128,1.0

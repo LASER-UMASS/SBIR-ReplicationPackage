@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.lang3.builder.HashCodeBuilder#104,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#105,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#106,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#107,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#108,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#109,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#152,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#521,1.0
+org.apache.commons.lang3.builder.HashCodeBuilder#538,1.0

@@ -1,0 +1,15 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#417,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#438,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#439,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#440,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#575,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#596,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#598,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#599,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#600,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#717,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#730,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#731,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#732,1.0
+com.fasterxml.jackson.core.filter.FilteringParserDelegate#770,1.0

@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.math3.ode.AbstractIntegrator#346,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#347,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#357,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#358,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#359,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#363,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#370,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#371,1.0
+org.apache.commons.math3.ode.AbstractIntegrator#372,1.0

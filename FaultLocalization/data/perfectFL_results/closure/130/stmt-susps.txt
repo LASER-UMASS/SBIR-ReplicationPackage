@@ -1,0 +1,2 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.CollapseProperties#172,1.0

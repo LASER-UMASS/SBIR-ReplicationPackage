@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+com.google.gson.TypeInfoFactory#92,1.0
+com.google.gson.TypeInfoFactory#94,1.0
+com.google.gson.TypeInfoFactory#108,1.0
+com.google.gson.TypeInfoFactory#109,1.0
+com.google.gson.TypeInfoFactory#110,1.0
+com.google.gson.TypeInfoFactory#111,1.0
+com.google.gson.TypeInfoFactory#112,1.0

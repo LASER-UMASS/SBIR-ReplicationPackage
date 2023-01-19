@@ -1,0 +1,7 @@
+Statement,Suspiciousness
+org.apache.commons.compress.utils.BitInputStream#85,1.0
+org.apache.commons.compress.utils.BitInputStream#97,1.0
+org.apache.commons.compress.utils.BitInputStream#98,1.0
+org.apache.commons.compress.utils.BitInputStream#100,1.0
+org.apache.commons.compress.utils.BitInputStream#105,1.0
+org.apache.commons.compress.utils.BitInputStream#107,1.0

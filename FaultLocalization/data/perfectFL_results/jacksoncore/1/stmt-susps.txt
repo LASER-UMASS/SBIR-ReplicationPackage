@@ -1,0 +1,8 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.core.io.NumberInput#294,1.0
+com.fasterxml.jackson.core.io.NumberInput#295,1.0
+com.fasterxml.jackson.core.io.NumberInput#304,1.0
+com.fasterxml.jackson.core.io.NumberInput#305,1.0
+com.fasterxml.jackson.core.io.NumberInput#307,1.0
+com.fasterxml.jackson.core.util.TextBuffer#390,1.0
+com.fasterxml.jackson.core.util.TextBuffer#394,1.0

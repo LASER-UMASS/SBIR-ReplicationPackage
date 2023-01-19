@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+com.fasterxml.jackson.databind.ObjectMapper#2509,1.0
+com.fasterxml.jackson.databind.ObjectMapper#3425,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#79,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#187,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#192,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#958,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#963,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#972,1.0
+com.fasterxml.jackson.databind.util.TokenBuffer#974,1.0

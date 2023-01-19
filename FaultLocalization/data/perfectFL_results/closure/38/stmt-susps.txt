@@ -1,0 +1,4 @@
+Statement,Suspiciousness
+com.google.javascript.jscomp.CodeConsumer#243,1.0
+com.google.javascript.jscomp.CodeConsumer#245,1.0
+com.google.javascript.jscomp.CodeConsumer#249,1.0

@@ -1,0 +1,10 @@
+Statement,Suspiciousness
+org.apache.commons.lang.time.DateUtils#620,1.0
+org.apache.commons.lang.time.DateUtils#623,1.0
+org.apache.commons.lang.time.DateUtils#630,1.0
+org.apache.commons.lang.time.DateUtils#632,1.0
+org.apache.commons.lang.time.DateUtils#634,1.0
+org.apache.commons.lang.time.DateUtils#636,1.0
+org.apache.commons.lang.time.DateUtils#638,1.0
+org.apache.commons.lang.time.DateUtils#708,1.0
+org.apache.commons.lang.time.DateUtils#709,1.0
