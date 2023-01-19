@@ -2,7 +2,7 @@
 
 The execution of this artifact requires:
 
-1. A machine with 8GB RAM, 4 Processors, 50 GB storage, and active internet connection.
+1. A machine with 8 GB RAM, 8 Processors, 130 GB free storage (the exported virtual machine (VM) image size to be downloaded is 50 GB and after importing it needs 80 GB of disk space. You can delete the 50 GB VM image file after importing the image so, in effect you will need 80 GB of storage), and a high-speed active internet connection.
 
 2. [VirtualBox](https://www.virtualbox.org/) manager to load the virtual machine. The VirtualBox version used to create the VM is 6.1. 
 
@@ -15,4 +15,4 @@ The VM uses `Ubuntu 22.04` operating system and has the following software insta
 
 The VM also has all the environment variables and dependencies set within the code required for executing the artifact. 
 
-Please see [README.md](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/artifact_documentation/README.md) for more details about artifact installation and execution. 
+Please see the [README](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/artifact_documentation/README.md) file for more details about artifact installation and execution. 

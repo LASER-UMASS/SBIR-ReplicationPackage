@@ -11,29 +11,21 @@ that uses bug reports to rank suspicious program statements.
 ## What is included in this artifact?
 
 Our artifact includes the following:
-1. SBFL: the implementation of spectrum-based FL technique using GZoltar~v1.7.2 
-	and Ochiai ranking strategy. 
-2. Blues: the first information-retrieval-based, statement-level FL technique
-	that requires no training data.
-3. RAFL: the first unsupervised method for combining multiple FL techniques.
-4. SBIR: Using RAFL to combine Blues and SBFL using the cross-entropy monte carlo 
-	algorithm and the Spearman footrule distance. 
-5. Evaluation of SBFL, Blues, and SBIR on 815 defects from Defects4J~v2.0.
-6. Comparison of Blues with the state-of-the-art and baseline.
+1. SBFL: implementation of spectrum-based FL technique using GZoltar v1.7.2 and Ochiai ranking strategy. 
+2. Blues: novel information-retrieval-based statement-level fault localization technique that requires no training data.
+3. RAFL: novel unsupervised technique for combining multiple FL techniques.
+4. SBIR: Using RAFL to combine Blues and SBFL using the Cross-entropy Monte Carlo algorithm and the Spearman footrule distance. 
+5. Evaluation of SBFL, Blues, and SBIR on 815 defects from Defects4J v2.0.
+6. Comparison of Blues with the state-of-the-art  (iFixR) and baseline (Vanilla BLUiR).
 7. Comparison of SBIR with the underlying SBFL and Blues, and with the state-of-the-art. 
-8. Scripts to run three existing program repair tools (Arja, SequenceR, and SimFix) customized 
-to use precomputed FL results obtained from different FL~techniques (SBFL, Blues,
-	SBIR, and perfect FL) to repair Defects4J defects. 
-9. Script to generate held-out evaluation test suites usin EvoSuite, which we use 
-	to assess the correctness of patches produced by the repair tools. 
-10. The held-out test evaluation suites generated using 10 seeds for all the defects 
-	in Defects4J that are patched using any of the three repair tools. 
-11. Script to evaluate the quality of the produced patches using held-out test suites.  
-12. Manual correctness analysis of the patches produced by the three repair tools
-that passed all the tests in the held-out evaluation test suites.
-13. Correct patches produced by the three repair tools by using different FL~techniques
-	when attempted to repair 689 (129 for SequenceR) defects in Defects4J.
-  
+8. Code to execute three different program repair tools (Arja, SequenceR, and SimFix) customized to use precomputed FL results obtained from different FL techniques (SBFL, Blues,SBIR, and perfect FL) to repair Defects4J defects. 
+9. Code to generate held-out evaluation test suites using EvoSuite that we use to assess the correctness of patches produced by the repair tools. 
+10. The held-out test evaluation suites generated using 10 seeds for all the defects in Defects4J that are patched using any of the three repair tools. 
+11. Code to evaluate the quality of the produced patches using held-out test suites.  
+12. Manual correctness analysis of the patches produced by the three repair tools that passed all the tests in the held-out evaluation test suites.
+13. Correct patches produced by the three repair tools using different FL techniques when attempted to repair 689 (129 for SequenceR) defects in Defects4J.
+14. Analysis of how using using SBIR in the repair process improves repair quality and the effect of localization error on repair quality.  
+
 ## Where can I obtain the artifact components?
 
 All the above listed artifacts, with the exception of the virtual machine file, are located in this repository.
@@ -45,24 +37,29 @@ Artifacts 8-13 in the list above are availble under [AutomatedProgramRepair](htt
 
 _Copied from INSTALL.md_
 
-Note: The virtual machine was created and tested using VirtualBox version 6.1 on Ubuntu 22.04.
+**Note:** The virtual machine was created and tested using VirtualBox version 6.1 on Ubuntu 22.04.
+Make sure you have atleast 130 GB of free storage to download and execute the virtual machine.
 
 ### Getting the virtual machine 
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/). 
-2. Download virtual machine file [SBIR.ova](). 
-**Please note this is a large file and may take some time to download.**
+2. Download virtual machine file [SBIR.ova](https://umass-my.sharepoint.com/:u:/g/personal/mmotwani_umass_edu/EeJYzl5GmhpGoPFvwAYE0gQBZCDZS-i1EJckOcmiDiMjoQ?e=4%3apaT2Tg&at=9). 
+**Please note this is a large file (~50 GB) and may take some time (15-20 min) to download.**
 3. Open VirtualBox.
 4. Go to **File > Import Appliance...**
 5. Find and select the downloaded virtual machine file (`SBIR.ova`). Click **"Continue"**.
-6. Leave all the settings as they are and click **"Import"**.
+7. Click **Agree** in the Software License Agreement box.
+8. Leave all the settings as they are and click **"Import"**. (This will take around 6-10 minutes.) 
 
 Once the virtual machine is imported, it will appear in your VirtualBox Manager as **SBIR** as shown below.
 
 <img src="images/sbir-vm-preview.png" alt="SBIR preview in VirtualBox Manager"/>
 
 You can now start the virtual machine by clicking the green **"Start"** arrow at the top of the VirtualBox Manager (see screenshot above).
-If the machine boots up successfully you will see the screen as shown below. 
+
+**Note:** If you get an error _Implementation of the USB 2.0 controller not found!_ then click on the orange gear icon of **Settings** at the top of the VirtualBox Manager (see screenshot above), select **USB** from the left pane in the settings box, and change USB controller selection from **USB 2.0** to **USB 1.1** by clicking the radio button of **USB 1.1**. Save this setting anmd now press **"Start"**. 
+
+When the machine boots up successfully you will see the screen as shown below. 
 Please close the **Autocapture keyword** and **mouse pointer integration** pop-ups using the blue `x` icon. 
 
 <img src="images/sbir-vm-start.png" alt="SBIR start in VirtualBox Manager"/>
@@ -134,7 +131,7 @@ To replicate the above results, please execute the following commands.
 
 The output will be printed on the terminal as shown below. Please ignore the Avg EXAM scores. 
 
-**This replicates the results presented in the Figure-1 of the paper.** 
+**This replicates the results presented in the Figure 1 of the paper.** 
 
 <img src="images/figure1-replicated.png"/>
 
@@ -215,7 +212,7 @@ The output is printed on the terminal as shown below. Please consider the `hit@k
 
 <img src="images/figure4-replicated.png"/>
 
-**This replicates the results presented in the Figure-4 of the paper.** 
+**This replicates the results presented in the Figure 4 of the paper.** 
 
 #### Figure 5: Blues vs Vanilla BLUiR.
 
@@ -232,7 +229,7 @@ The output is printed on the terminal as shown below.  Please consider the `hit@
 
 <img src="images/figure5-replicated.png"/>
 
-**This replicates the results presented in the Figure-5 of the paper.** 
+**This replicates the results presented in the Figure 5 of the paper.** 
 
 ##  RAFL Artifacts
 
@@ -287,7 +284,7 @@ The output will be printed on the terminal as shown below. Please ignore the `Av
 
 We compute the `min`, `max`, `mean`, and `median` using the [spreadsheet](https://docs.google.com/spreadsheets/d/1UpGE-XLcun5tmlqPwMV_w5Ow-cU4dHkjnKk9M6oFsnQ/edit?usp=sharing). 
 
-**This replicates the results presented in the Figure-6 of the paper.** 
+**This replicates the results presented in the Figure 6 of the paper.** 
 
 #### Figure 7: SBIR vs 9 standalone FL techniques.
 
@@ -322,7 +319,7 @@ The output will be printed on the terminal as shown below.
 
 We compute the `min`, `max`, `mean`, and `median` using the [spreadsheet](https://docs.google.com/spreadsheets/d/1UpGE-XLcun5tmlqPwMV_w5Ow-cU4dHkjnKk9M6oFsnQ/edit#gid=1699170105).
 
-**This replicates the results presented in the Figure-7 of the paper.** 
+**This replicates the results presented in the Figure 7 of the paper.** 
 
 #### Figure 8: SBIR (RAFL) vs SBIR (RankSVM).
 
@@ -347,7 +344,7 @@ The output will be printed on the terminal as shown below.
 
 We compute the `min`, `max`, `mean`, and `median` using the [spreadsheet](https://docs.google.com/spreadsheets/d/1UpGE-XLcun5tmlqPwMV_w5Ow-cU4dHkjnKk9M6oFsnQ/edit#gid=84127064).
 
-**This replicates the results presented in the Figure-8 of the paper.** 
+**This replicates the results presented in the Figure 8 of the paper.** 
 
 ##  Automated Program Repair (APR) Artifacts
 
@@ -400,4 +397,4 @@ The output will be printed on the terminal as shown below.
 
 <img src="images/figure9-replicated.png"/>
 
-**This replicates the results presented in the Figure-9 of the paper.** 
+**This replicates the results presented in the Figure 9 of the paper.** 
