@@ -1,0 +1,113 @@
+SimFix
+
+SBFL
+================
+chart1_0.diff,			exact match
+closure126_0.diff,		semantically equivalent, since n.isTry() is true the if-statement added will be true because n.isName() will be false effectively deleting the code deleted by developer 
+closure14_0.diff,		exact match
+closure161_0.diff,		exact match
+closure57_0.diff,		exact match
+closure62_0.diff,		exact match
+closure68_0.diff,		exact match
+closure73_0.diff,		exact match
+closure92_0.diff,		exact match
+compress27_0.diff,		semantically equivalent, patch returns 0L and prevents throwing exception by adding if statement that is true when start == end
+csv15_0.diff,			semanticall equivalent, the if condition deleted by developer is replaced by simfix with a condition that will lead to correct behavior 
+gson15_0.diff,			exact match
+jacksondatabind54_0.diff,	semantically equivalent, patch adds the statement declaredType=actualType
+jacksondatabind83_0.diff,	semantically equivalent, modified if condition will always be true (same as deleting if condition in developer patch)
+jsoup39_0.diff,		exact match
+jxpath12_0.diff,		exact match
+lang33_0.diff,			exact match
+lang43_0.diff,			exact match
+lang58_0.diff,			exact match
+math33_0.diff,			exact match
+math41_0.diff,			exact match
+math50_0.diff,			exact match
+math5_0.diff,			exact match
+math53_0.diff,			exact match
+math57_0.diff,			exact match
+math59_0.diff,			exact match
+math70_0.diff,			exact match
+math75_0.diff,			exact match
+math79_0.diff,			exact match
+time7_0.diff,			semantically equivalent, "int defaultYear = DateTimeUtils.getChronology(chrono).year().get(instantMillis);" is equivalent to "chrono=selectChronology(chrono); int defaultYear=chrono.year().get(instantMillis);" 
+
+Blues
+================
+chart1_0.diff,			exact match
+closure14_0.diff,		exact match
+closure73_0.diff,		exact match
+csv15_0.diff,			semanticall equivalent, the if condition deleted by developer is replaced by simfix with a condition that will lead to correct behavior
+gson15_0.diff,			exact match
+jxpath12_0.diff,		exact match
+lang43_0.diff,			exact match
+lang58_0.diff,			exact match
+math41_0.diff,			exact match
+math50_0.diff,			exact match
+math53_0.diff,			exact match		
+math57_0.diff,			exact match
+math70_0.diff,			exact match
+
+SBIR
+================
+chart1_0.diff,			exact match
+closure126_0.diff,		semantically equivalent, since n.isTry() is true the if-statement added will be true because n.isName() will be false effectively deleting the code deleted by developer 
+closure14_0.diff,		exact match
+closure161_0.diff,		exact match
+closure57_0.diff,		exact match
+closure62_0.diff,		exact match
+closure68_0.diff,		exact match
+closure73_0.diff,		exact match
+closure92_0.diff,		exact match
+compress27_0.diff,		semantically equivalent, patch returns 0L and prevents throwing exception by adding if statement that is true when start == end  
+csv15_0.diff,			semanticall equivalent, the if condition deleted by developer is replaced by simfix with a condition that will lead to correct behavior
+gson15_0.diff,			exact match
+jacksondatabind54_0.diff,	semantically equivalent, patch adds the statement declaredType=actualType
+jsoup39_0.diff,		exact match
+jxpath12_0.diff,		exact match
+lang27_0.diff,			semantically equivalent, instead of throwing an exception the patch updates if-condition to call str.substring(0,expPos) only when expPos is smaller than the length of str
+lang33_0.diff,			exact match
+lang43_0.diff,			exact match
+lang58_0.diff,			exact match
+math33_0.diff,			exact match
+math41_0.diff,			exact match
+math50_0.diff,			exact match
+math5_0.diff,			exact match
+math53_0.diff,			exact match
+math57_0.diff,			exact match
+math59_0.diff,			exact match
+math63_0.diff,			exact match
+math70_0.diff,			exact match
+math75_0.diff,			exact match
+math79_0.diff,			exact match
+
+
+PerfectFL
+================
+chart1_0.diff,			exact match
+closure19_0.diff,  		semantically equivalent
+closure92_0.diff,          	exact match
+lang33_0.diff, 			exact match 
+math41_0.diff,  		exact match
+math53_0.diff,  		exact match
+math70_0.diff,			exact match
+closure109_0.diff,		exact match
+closure57_0.diff,  		exact match
+csv15_0.diff,			semanticall equivalent, the if condition deleted by developer is replaced by simfix with a condition that will lead to correct behavior
+lang43_0.diff,			exact match
+math50_0.diff,  		exact match
+math57_0.diff,  		exact match
+math75_0.diff			exact match
+closure14_0.diff,   		exact match
+closure73_0.diff,  		exact match
+jacksondatabind83_0.diff,	semantically equivalent, modified if condition will always be true (same as deleting if condition in developer patch)
+math33_0.diff,			exact match
+math5_0.diff,			exact match
+math59_0.diff,			exact match
+math79_0.diff			exact match
+
+
+
+
+

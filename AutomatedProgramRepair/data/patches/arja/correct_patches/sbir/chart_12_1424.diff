@@ -1,0 +1,13 @@
+--- /arja/Defects/chart/chart_12_buggy/source/org/jfree/chart/plot/MultiplePiePlot.java
++++ /arja/patches_2hw1/Patch_1424/patched/arja/Defects/chart/chart_12_buggy/source/org/jfree/chart/plot/MultiplePiePlot.java
+@@ -142,7 +142,7 @@
+      */
+     public MultiplePiePlot(CategoryDataset dataset) {
+         super();
+-        this.dataset = dataset;
++        setDataset(dataset);
+         PiePlot piePlot = new PiePlot(null);
+         this.pieChart = new JFreeChart(piePlot);
+         this.pieChart.removeLegend();
+
+

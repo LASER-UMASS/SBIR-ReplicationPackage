@@ -1,0 +1,13 @@
+--- /arja/Defects/lang/lang_7_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
++++ /arja/patches_3ltj/Patch_1903/patched/arja/Defects/lang/lang_7_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+@@ -450,7 +450,7 @@
+             throw new NumberFormatException("A blank string is not a valid number");
+         }  
+         if (str.startsWith("--")) {
+-            return null;
++            throw new NumberFormatException("A blank string is not a valid number");
+         }
+         if (str.startsWith("0x") || str.startsWith("-0x") || str.startsWith("0X") || str.startsWith("-0X")) {
+             int hexDigits = str.length() - 2; // drop 0x
+
+

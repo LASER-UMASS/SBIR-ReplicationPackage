@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Codec_2/src/java/org/apache/commons/codec/binary/Base64.java	2021-07-16 21:29:01.925534777 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Codec_2/39/Base64.java	2021-07-16 21:29:07.301539728 +0000
+@@ -443,7 +443,7 @@
+                     }
+                     break;
+             }
+-            if (lineLength > 0) {
++            if(((lineLength)> 0)&&((pos)> 0)){
+                 System.arraycopy(lineSeparator, 0, buf, pos, lineSeparator.length);
+                 pos += lineSeparator.length;
+             }

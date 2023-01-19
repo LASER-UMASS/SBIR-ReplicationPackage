@@ -1,0 +1,28 @@
+--- /lang/lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java
++++ /lang/58/0/1_NumberUtils.java
+@@ -449,6 +449,17 @@
+             switch (lastChar) {
+                 case 'l' :
+                 case 'L' :
++// start of generated 
++if(dec==null&&exp==null&&(numeric.charAt(0)=='-'&&isDigits(numeric.substring(1))||isDigits(numeric))){
++try{
++return createLong(numeric);
++}catch (NumberFormatException nfe) {
++}
++
++return createBigInteger(numeric);
++}
++// end of generated 
++/* start of original code
+                     if (dec == null
+                         && exp == null
+                         && isDigits(numeric.substring(1))
+@@ -461,6 +472,7 @@
+                         return createBigInteger(numeric);
+ 
+                     }
++ end of original code*/
+                     throw new NumberFormatException(str + " is not a valid number.");
+                 case 'f' :
+                 case 'F' :

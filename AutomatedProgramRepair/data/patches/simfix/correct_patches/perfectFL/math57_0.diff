@@ -1,0 +1,28 @@
+--- /math/math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ patch/math/57/0/1_KMeansPlusPlusClusterer.java
+@@ -172,6 +172,17 @@
+         while (resultSet.size() < k) {
+             // For each data point x, compute D(x), the distance between x and
+             // the nearest center that has already been chosen.
++// start of generated patch
++double sum=0;
++for(int i=0;i<pointSet.size();i++){
++ final T p=pointSet.get(i);
++ final Cluster<T> nearest=getNearestCluster(resultSet,p);
++ final double d=p.distanceFrom(nearest.getCenter());
++sum+=d*d;
++dx2[i]=sum;
++}
++// end of generated patch
++/* start of original code
+             int sum = 0;
+             for (int i = 0; i < pointSet.size(); i++) {
+                 final T p = pointSet.get(i);
+@@ -180,6 +191,7 @@
+                 sum += d * d;
+                 dx2[i] = sum;
+             }
++ end of original code*/
+ 
+             // Add one new data point as a center. Each point x is chosen with
+             // probability proportional to D(x)2

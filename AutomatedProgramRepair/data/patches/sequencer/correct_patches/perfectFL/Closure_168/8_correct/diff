@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Closure_168/src/com/google/javascript/jscomp/TypedScopeCreator.java	2021-07-16 20:53:05.317578826 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Closure_168/8/TypedScopeCreator.java	2021-07-16 20:53:11.033579080 +0000
+@@ -1993,7 +1993,7 @@
+         data.get(t.getScopeRoot()).recordNonEmptyReturn();
+       }
+ 
+-      if (t.getScopeDepth() <= 2) {
++      if((t.getScopeDepth())<2){
+         // The first-order function analyzer looks at two types of variables:
+         //
+         // 1) Local variables that are assigned in inner scopes ("escaped vars")

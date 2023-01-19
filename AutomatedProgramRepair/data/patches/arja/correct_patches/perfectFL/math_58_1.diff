@@ -1,0 +1,13 @@
+--- /arja/Defects/math/math_58_buggy/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ /arja/patches_rce0/Patch_1/patched/arja/Defects/math/math_58_buggy/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -118,7 +118,7 @@
+      */
+     public double[] fit() {
+         final double[] guess = (new ParameterGuesser(getObservations())).guess();
+-        return fit(new Gaussian.Parametric(), guess);
++        return fit((new ParameterGuesser(getObservations())).guess());
+     }
+ 
+     /**
+
+

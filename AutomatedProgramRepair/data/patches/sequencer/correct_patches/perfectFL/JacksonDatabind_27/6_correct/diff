@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/JacksonDatabind_27/src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java	2021-07-16 22:52:37.000884460 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/JacksonDatabind_27/6/BeanDeserializer.java	2021-07-16 22:52:41.589078316 +0000
+@@ -791,7 +791,7 @@
+                 // first: let's check to see if this might be part of value with external type id:
+                 // 11-Sep-2015, tatu: Important; do NOT pass buffer as last arg, but null,
+                 //   since it is not the bean
+-                if (ext.handlePropertyValue(p, ctxt, propName, buffer)) {
++                if(ext.handlePropertyValue(p,ctxt,propName,null)){
+                     ;
+                 } else {
+                     // Last creator property to set?

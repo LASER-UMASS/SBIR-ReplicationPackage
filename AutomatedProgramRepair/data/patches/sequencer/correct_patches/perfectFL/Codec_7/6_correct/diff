@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Codec_7/src/java/org/apache/commons/codec/binary/Base64.java	2021-07-16 21:30:40.941618510 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Codec_7/6/Base64.java	2021-07-16 21:30:45.213621789 +0000
+@@ -667,7 +667,7 @@
+      * @since 1.4
+      */    
+     public static String encodeBase64String(byte[] binaryData) {
+-        return StringUtils.newStringUtf8(encodeBase64(binaryData, true));
++        return StringUtils.newStringUtf8(Base64.encodeBase64(binaryData,false));
+     }
+     
+     /**

@@ -1,0 +1,15 @@
+--- /math/math_75_buggy/src/main/java/org/apache/commons/math/stat/Frequency.java
++++ patch/math/75/0/1_Frequency.java
+@@ -300,7 +300,12 @@
+      */
+     @Deprecated
+     public double getPct(Object v) {
++// start of generated patch
++return getPct((Comparable<?>)v);
++// end of generated patch
++/* start of original code
+         return getCumPct((Comparable<?>) v);
++ end of original code*/
+     }
+ 
+     /**

@@ -1,0 +1,14 @@
+--- /arja/Defects/jsoup/jsoup_40_buggy/src/main/java/org/jsoup/nodes/DocumentType.java
++++ /arja/patches_elbh/Patch_887/patched/arja/Defects/jsoup/jsoup_40_buggy/src/main/java/org/jsoup/nodes/DocumentType.java
+@@ -19,7 +19,6 @@
+     public DocumentType(String name, String publicId, String systemId, String baseUri) {
+         super(baseUri);
+ 
+-        Validate.notEmpty(name);
+         attr("name", name);
+         attr("publicId", publicId);
+         attr("systemId", systemId);
+
+
+
+

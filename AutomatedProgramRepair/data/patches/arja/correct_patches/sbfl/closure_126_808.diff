@@ -1,0 +1,12 @@
+--- /arja/Defects/closure/closure_126_buggy/src/com/google/javascript/jscomp/MinimizeExitPoints.java
++++ /arja/patches_z6v4/Patch_808/patched/arja/Defects/closure/closure_126_buggy/src/com/google/javascript/jscomp/MinimizeExitPoints.java
+@@ -140,7 +140,6 @@
+        */
+       if (NodeUtil.hasFinally(n)) {
+         Node finallyBlock = n.getLastChild();
+-        tryMinimizeExits(finallyBlock, exitType, labelName);
+       }
+     }
+ 
+
+

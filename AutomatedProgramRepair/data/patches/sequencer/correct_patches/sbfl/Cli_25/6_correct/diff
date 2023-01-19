@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Cli_25/src/java/org/apache/commons/cli/HelpFormatter.java	2021-07-16 17:43:25.050626719 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Cli_25/6/HelpFormatter.java	2021-07-16 17:43:29.430626913 +0000
+@@ -822,7 +822,7 @@
+         if (nextLineTabStop >= width)
+         {
+             // stops infinite loop happening
+-            nextLineTabStop = width - 1;
++            nextLineTabStop=1;
+         }
+ 
+         // all following lines must be padded with nextLineTabStop space 

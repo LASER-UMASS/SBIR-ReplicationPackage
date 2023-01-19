@@ -1,0 +1,69 @@
+SequenceR
+
+(SequenceR produces separate folders for each patch that contains a diff and patched file. The following list names each patch based on the defect and patched folder name. For example, Chart_11/19_correct is represented as chart11_19.patch) 
+
+SBFL
+================
+chart11_19.patch,	exact match
+cli25_6.patch,		exact match
+cli28_2.patch,		exact match
+cli40_22.patch,		semantically equivalent, calling TypeHandler.createClass(str) will throw exception
+closure86_2.patch,	exact match
+codec2_39.patch,	exact match
+codec7_6.patch,		exact match
+lang59_10.patch,	exact match
+math57_3.patch,		exact match
+math75_16.patch,	exact match
+
+Blues
+================
+compress19_15.patch,	exact match
+lang59_10.patch,	exact match
+math58_7.patch,		exact match
+math75_16.patch,	exact match
+
+SBIR
+================
+chart11_19.patch,	exact match
+cli25_6.patch,		exact match
+cli28_2.patch,		exact match
+closure86_2.patch,	exact match
+codec2_39.patch,	exact match
+codec7_6.patch,		exact match
+compress19_15.patch,	exact match
+jacksoncore25_1.patch,	exact match
+lang59_10.patch,	exact match
+math57_3.patch,		exact match
+math58_7.patch,		exact match
+math75_16.patch,	exact match
+math85_8.patch,		exact match
+
+PerfectFL
+================
+chart1_13.patch,	exact match
+chart9_15.patch,	exact match
+chart11_19.patch,	exact match
+cli25_6.patch,		exact match
+cli28_2.patch,		exact match
+cli40_22.patch,		semantically equivalent, calling TypeHandler.createClass(str) will throw exception
+closure18_5.patch,	exact match
+closure73_13.patch/closure73_21.patch/closure73_31.patch,
+closure86_2.patch,	exact match
+closure168_8.patch,	semantically equivalent, <2 is equivalent of <= 1
+codec2_39.patch,	exact match
+codec7_6.patch,		exact match
+compress19_15.patch,	exact match
+jacksoncore5_3.patch,	exact match
+jacksoncore25_1.patch,	exact match
+jacksondatabind27_6.patch,	exact match
+lang6_3.patch/lang6_41.patch,	exact match
+lang59_10.patch,	exact match
+math30_23.patch,	exact match
+math57_3.patch,		exact match
+math58_7.patch,		exact match
+math75_16.patch,	exact match
+math82_27.patch/math82_46.patch,	exact match
+math85_8.patch,		exact match
+
+
+

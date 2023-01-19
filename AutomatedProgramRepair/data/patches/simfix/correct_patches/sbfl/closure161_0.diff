@@ -1,0 +1,27 @@
+--- /closure/closure_161_buggy/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
++++ /closure/161/0/1_PeepholeFoldConstants.java
+@@ -1276,6 +1276,16 @@
+   }
+ 
+   private Node tryFoldArrayAccess(Node n, Node left, Node right) {
++// start of generated 
++if(isAssignmentTarget(n)){
++return n;
++}
++Node parent=n.getParent();
++if(right.getType()!=Token.NUMBER){
++return n;
++}
++// end of generated 
++/* start of original code
+     Node parent = n.getParent();
+     // If GETPROP/GETELEM is used as assignment target the array literal is
+     // acting as a temporary we can't fold it here:
+@@ -1286,6 +1296,7 @@
+       // arrays, or strings to index into array methods.
+       return n;
+     }
++ end of original code*/
+ 
+     double index = right.getDouble();
+     int intIndex = (int) index;

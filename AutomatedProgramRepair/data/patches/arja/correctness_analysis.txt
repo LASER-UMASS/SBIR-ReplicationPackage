@@ -1,0 +1,104 @@
+Arja 
+
+SBFL
+========
+chart_5_1530.diff,	semantically equivalent, see explanation in https://github.com/yyxhdy/arja-supplemental/blob/master/arja-supplemental.pdf
+chart_12_993.diff,	exact match
+cli_32_121.diff,	semantically equivalent, pos is not updated and while loop returns 
+closure_86_8.diff,	exact match, deleted comments doesn't affect program behavior  
+closure_126_808.diff,	semantically equivalent, after deleting "tryMinimizeExits(finallyBlock, exitType, labelName);", the remaning if block wouldn't effect program behavior
+codec_17_17.diff,	semantically equivalent, Charsets.UTF_8 covers Charsets.ISO_8859_1
+compress_27_3.diff,	exact match, deleted throw statement from if block, empty if block wouldn't affect program behavior
+jsoup_24_1097.diff,	exact match
+jsoup_40_887.diff,	exact match
+jsoup_55_179.diff, 	exact match
+lang_20_449.diff,	semantically equivalent, see explanation in https://ieeexplore.ieee.org/document/8485732
+lang_43_15.diff,	exact match
+lang_45_65.diff,	semantically equivalent, see explanation in https://github.com/yyxhdy/arja-supplemental/blob/master/arja-supplemental.pdf
+lang_59_934.diff,	semantically equivalent (less optimal but correct, similar to lang 20)
+math_5_688.diff,	exact match
+math_35_68.diff,	semantically equivalent, instead of calling setElitismRate(elitismRate) method, patch inserts the implemention of the method 
+math_50_123.diff,	exact match
+math_53_188.diff,	exact match
+math_70_321.diff,	exact match
+math_73_592.diff,	semantically equivalent, the method verifyBracketing(min, max, f) involves checking the conditional and throwing exception added in the developer patch
+time_15_1313.diff,	semantically equivalent, the inserted if-statement considers the predicate "val1 == Long.MIN_VALUE && val2 == -1" inserted by developer
+
+
+Blues
+========
+chart_12_1078.diff,	semantically equivalent, calling method setDataset(dataset) overrides the statement "this.dataset = dataset;"
+cli_32_58.diff,	exact match
+closure_126_1918.diff, exact match
+codec_5_359.diff,	semantically equivalent, inserted if-statement before "if (eof && modulus != 0) {" makes patch less optimal
+codec_17_356.diff,	semantically equivalent, Charsets.UTF_8 covers Charsets.ISO_8859_1
+jsoup_33_378.diff,	semantically equivalent, the developer added statement is inserted inside the method insertEmpty(startTag); which is called before the statement where developers adds.
+lang_10_326.diff,	exact match, not deleting the variable wasWhite wouldn't affect program behavior
+lang_20_1093.diff,	semantically equivalent, see explanation in https://ieeexplore.ieee.org/document/8485732
+lang_43_43.diff,	exact match
+math_35_794.diff,	semantically equivalent, instead of calling setElitismRate(elitismRate) method, patch inserts the implemention of the method
+math_50_498.diff,	exact match
+math_53_402.diff,	exact match
+math_58_436.diff,	semantically equivalent, (new ParameterGuesser(getObservations())).guess() is same as guess
+math_70_1377.diff,	exact match
+math_73_77.diff,	semantically equivalent, the method verifyBracketing(min, max, f) involves checking the conditional and throwing exception added in the developer patch
+
+SBIR
+========
+chart_5_97.diff,	semantically equivalent, see explanation in https://github.com/yyxhdy/arja-supplemental/blob/master/arja-supplemental.pdf
+chart_12_1424.diff,	exact match
+cli_32_973.diff,	exact match
+closure_78_301.diff,	exact match
+closure_86_1.diff,	exact match, deleted comments doesn't affect program behavior 
+closure_126_773.diff,	exact match
+codec_5_1097.diff,	semantically equivalent, the inserted code is the implementation of resizeBuffer() method	
+codec_17_423.diff,	semantically equivalent, Charsets.UTF_8 covers Charsets.ISO_8859_1
+gson_7_622.diff, 	semantically equivalent, inserted if conditions cover the developer added checks
+jsoup_24_1483.diff,	exact match
+jsoup_39_485.diff,	exact match
+jsoup_40_65.diff,	exact match
+jsoup_68_461.diff,     semantically equivalent, value of bottom remains the same
+jsoup_85_1548.diff,	exact match
+jxpath_5_645.diff,	semantically equivalent, value of return variable index = 0
+lang_10_22.diff,	exact match, not deleting the variable wasWhite wouldn't affect program behavior
+lang_20_63.diff,	semantically equivalent, see explanation in https://ieeexplore.ieee.org/document/8485732
+lang_43_562.diff,	exact match
+lang_45_1168.diff,	semantically equivalent, see explanation in https://github.com/yyxhdy/arja-supplemental/blob/master/arja-supplemental.pdf
+lang_59_976.diff,	semantically equivalent (less optimal but correct, similar to lang 20)
+lang_7_1903.diff,	semantically equivalent, exception message may not always be replicable
+math_35_792.diff,	semantically equivalent, instead of calling setElitismRate(elitismRate) method, patch inserts the implemention of the method
+math_50_19.diff,	exact match
+math_5_319.diff,	exact match
+math_53_824.diff,	exact match
+math_58_652.diff,	semantically equivalent, (new ParameterGuesser(getObservations())).guess() is same as guess
+math_70_331.diff,	exact match
+math_73_343.diff,	semantically equivalent, the method verifyBracketing(min, max, f) involves checking the conditional and throwing exception added in the developer patch
+
+
+Perfect FL
+==============
+chart_12_6.diff,        exact match   
+jsoup_40_2.diff,        exact match
+lang_59_6.diff,         semantically equivalent (less optimal but correct, similar to lang 20)		
+math_53_37.diff,  	exact match
+math_86_808.diff,	semantically equivalent 
+cli_32_240.diff,      	exact match     
+jsoup_64_49.diff,  	exact match 
+math_35_22.diff,  	semantically equivalent, instead of calling setElitismRate(elitismRate) method, patch inserts the implemention of the method
+math_58_1.diff,		semantically equivalent, (new ParameterGuesser(getObservations())).guess() is same as guess
+closure_115_2303.diff,  exact match      
+lang_10_956.diff,  	exact match, not deleting the variable wasWhite wouldn't affect program behavior
+math_39_8.diff,   	exact match 
+math_70_13.diff,	exact match
+closure_126_1609.diff,  exact match
+jsoup_24_59.diff,    	exact match
+lang_43_4.diff,    	exact match
+math_50_63.diff,  	exact match
+math_73_24.diff,	semantically equivalent, the method verifyBracketing(min, max, f) involves checking the conditional and throwing exception added in the developer patch
+closure_78_18.diff,	exact match
+closure_86_1.diff,	exact match
+codec_17_8.diff,	semantically equivalent, Charsets.UTF_8 covers Charsets.ISO_8859_1
+
+
+
+

@@ -1,0 +1,25 @@
+--- /closure/closure_73_buggy/src/com/google/javascript/jscomp/CodeGenerator.java
++++ /closure/73/0/1_CodeGenerator.java
+@@ -1042,6 +1042,14 @@
+             // No charsetEncoder provided - pass straight latin characters
+             // through, and escape the rest.  Doing the explicit character
+             // check is measurably faster than using the CharsetEncoder.
++// start of generated 
++if(c>0x1f&&c<0x7f){
++sb.append(c);
++}else {
++appendHexJavaScriptRepresentation(sb,c);
++}
++// end of generated 
++/* start of original code
+             if (c > 0x1f && c <= 0x7f) {
+               sb.append(c);
+             } else {
+@@ -1050,6 +1058,7 @@
+               // so we play it safe and unicode escape them.
+               appendHexJavaScriptRepresentation(sb, c);
+             }
++ end of original code*/
+           }
+       }
+     }

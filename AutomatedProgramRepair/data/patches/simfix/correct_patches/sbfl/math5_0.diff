@@ -1,0 +1,19 @@
+--- /math/math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java
++++ /math/5/0/1_Complex.java
+@@ -301,9 +301,16 @@
+             return NaN;
+         }
+ 
++// start of generated 
++if(real==0.0&&imaginary==0.0){
++return INF;
++}
++// end of generated 
++/* start of original code
+         if (real == 0.0 && imaginary == 0.0) {
+             return NaN;
+         }
++ end of original code*/
+ 
+         if (isInfinite) {
+             return ZERO;

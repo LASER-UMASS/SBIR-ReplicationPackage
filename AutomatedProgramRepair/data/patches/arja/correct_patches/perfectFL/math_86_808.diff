@@ -1,0 +1,26 @@
+--- /arja/Defects/math/math_86_buggy/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java
++++ /arja/patches_29k6/Patch_808/patched/arja/Defects/math/math_86_buggy/src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java
+@@ -111,9 +111,6 @@
+ 
+             final double[] lI = lTData[i];
+ 
+-            if (lTData[i][i] < absolutePositivityThreshold) {
+-                throw new NotPositiveDefiniteMatrixException();
+-            }
+             // check off-diagonal elements (and reset them to 0)
+             for (int j = i + 1; j < order; ++j) {
+                 final double[] lJ = lTData[j];
+@@ -131,7 +128,10 @@
+         // transform the matrix
+         for (int i = 0; i < order; ++i) {
+ 
+-            final double[] ltI = lTData[i];
++            if (lTData[i][i] < absolutePositivityThreshold) {
++				throw new NotPositiveDefiniteMatrixException();
++			}
++			final double[] ltI = lTData[i];
+ 
+             // check diagonal element
+ 
+
+

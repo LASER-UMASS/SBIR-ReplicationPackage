@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Cli_40/src/main/java/org/apache/commons/cli/TypeHandler.java	2021-07-16 20:40:54.721546410 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Cli_40/22/TypeHandler.java	2021-07-16 20:40:58.497546578 +0000
+@@ -100,7 +100,7 @@
+         }
+         else
+         {
+-            return null;
++            return((T)(TypeHandler.createClass(str)));
+         }
+     }
+ 

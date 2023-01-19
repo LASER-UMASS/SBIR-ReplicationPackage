@@ -1,0 +1,14 @@
+--- /arja/Defects/math/math_73_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
++++ /arja/patches_vov4/Patch_24/patched/arja/Defects/math/math_73_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
+@@ -134,7 +134,8 @@
+         }
+ 
+ 
+-        // full Brent algorithm starting with provided initial guess
++        verifyBracketing(min, max, f);
++		// full Brent algorithm starting with provided initial guess
+         return solve(f, min, yMin, max, yMax, initial, yInitial);
+ 
+     }
+
+

@@ -1,0 +1,23 @@
+--- /compress/compress_27_buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java
++++ /compress/27/0/1_TarUtils.java
+@@ -130,10 +130,20 @@
+             end--;
+             trailer = buffer[end - 1];
+         }
++// start of generated 
++if(start==end){
++if(buffer[start]==0){
++return 0L;
++}
++throw new IllegalArgumentException(exceptionMessage(buffer,offset,length,start,trailer));
++}
++// end of generated 
++/* start of original code
+         if (start == end) {
+             throw new IllegalArgumentException(
+                     exceptionMessage(buffer, offset, length, start, trailer));
+         }
++ end of original code*/
+ 
+         for ( ;start < end; start++) {
+             final byte currentByte = buffer[start];

@@ -1,0 +1,16 @@
+--- /arja/Defects/closure/closure_86_buggy/src/com/google/javascript/jscomp/NodeUtil.java
++++ /arja/patches_8rac/Patch_8/patched/arja/Defects/closure/closure_86_buggy/src/com/google/javascript/jscomp/NodeUtil.java
+@@ -2459,10 +2459,7 @@
+             || isToStringMethodCall(value)
+             || locals.apply(value);
+       case Token.NEW:
+-        // TODO(nicksantos): This needs to be changed so that it
+-        // returns true iff we're sure the value was never aliased from inside
+-        // the constructor (similar to callHasLocalResult)
+-        return true;
++        return false;
+       case Token.FUNCTION:
+       case Token.REGEXP:
+       case Token.ARRAYLIT:
+
+

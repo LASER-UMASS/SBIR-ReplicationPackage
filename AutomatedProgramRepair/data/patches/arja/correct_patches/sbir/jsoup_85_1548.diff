@@ -1,0 +1,14 @@
+--- /arja/Defects/jsoup/jsoup_85_buggy/src/main/java/org/jsoup/nodes/Attribute.java
++++ /arja/patches_v1h7/Patch_1548/patched/arja/Defects/jsoup/jsoup_85_buggy/src/main/java/org/jsoup/nodes/Attribute.java
+@@ -41,7 +41,8 @@
+      * @see #createFromEncoded*/
+     public Attribute(String key, String val, Attributes parent) {
+         Validate.notNull(key);
+-        this.key = key.trim();
++        key = key.trim();
++		this.key = key.trim();
+         Validate.notEmpty(key); // trimming could potentially make empty, so validate here
+         this.val = val;
+         this.parent = parent;
+
+

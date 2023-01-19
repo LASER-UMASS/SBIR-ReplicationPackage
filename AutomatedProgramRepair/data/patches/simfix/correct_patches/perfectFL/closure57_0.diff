@@ -1,0 +1,19 @@
+--- /closure/closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java
++++ patch/closure/57/0/1_ClosureCodingConvention.java
+@@ -194,9 +194,16 @@
+         String qualifiedName = callee.getQualifiedName();
+         if (functionName.equals(qualifiedName)) {
+           Node target = callee.getNext();
++// start of generated patch
++if(target!=null&&target.getType()==Token.STRING){
++className=target.getString();
++}
++// end of generated patch
++/* start of original code
+           if (target != null) {
+             className = target.getString();
+           }
++ end of original code*/
+         }
+       }
+     }

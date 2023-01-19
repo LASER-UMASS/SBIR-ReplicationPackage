@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Cli_28/src/java/org/apache/commons/cli/Parser.java	2021-07-16 17:56:16.734660958 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Cli_28/2/Parser.java	2021-07-16 17:56:21.474661168 +0000
+@@ -287,7 +287,7 @@
+                 {
+                     // if the value is not yes, true or 1 then don't add the
+                     // option to the CommandLine
+-                    break;
++                    continue;
+                 }
+ 
+                 cmd.addOption(opt);

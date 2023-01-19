@@ -1,0 +1,11 @@
+--- /SequenceR/src/Defects4J_Experiment/Defects4J_projects/Compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java	2021-07-16 21:38:03.037853078 +0000
++++ /SequenceR/src/Defects4J_Experiment/Defects4J_patches/Compress_19/15/Zip64ExtendedInformationExtraField.java	2021-07-16 21:38:06.661854343 +0000
+@@ -256,7 +256,7 @@
+                 + (hasCompressedSize ? DWORD : 0)
+                 + (hasRelativeHeaderOffset ? DWORD : 0)
+                 + (hasDiskStart ? WORD : 0);
+-            if (rawCentralDirectoryData.length != expectedLength) {
++            if((rawCentralDirectoryData.length)<expectedLength){
+                 throw new ZipException("central directory zip64 extended"
+                                        + " information extra field's length"
+                                        + " doesn't match central directory"

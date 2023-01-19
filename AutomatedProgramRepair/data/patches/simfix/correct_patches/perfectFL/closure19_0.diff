@@ -1,0 +1,26 @@
+--- /closure/closure_19_buggy/src/com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java
++++ patch/closure/19/0/1_ChainableReverseAbstractInterpreter.java
+@@ -167,6 +167,15 @@
+         JSType origType = node.getJSType();
+         origType = origType == null ? getNativeType(UNKNOWN_TYPE) : origType;
+         scope.inferQualifiedSlot(node, qualifiedName, origType, type);
++// start of generated patch
++case Token.THIS :
++
++break;
++default :
++throw new IllegalArgumentException("Node cannot be refined. \n"+node.toStringTree());
++
++// end of generated patch
++/* start of original code
+         break;
+ 
+         // "this" references aren't currently modeled in the CFG.
+@@ -174,6 +183,7 @@
+       default:
+         throw new IllegalArgumentException("Node cannot be refined. \n" +
+             node.toStringTree());
++ end of original code*/
+     }
+   }
+ 

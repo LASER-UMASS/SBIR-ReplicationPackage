@@ -1,0 +1,14 @@
+--- /arja/Defects/jsoup/jsoup_39_buggy/src/main/java/org/jsoup/helper/DataUtil.java
++++ /arja/patches_b1i1/Patch_485/patched/arja/Defects/jsoup/jsoup_39_buggy/src/main/java/org/jsoup/helper/DataUtil.java
+@@ -114,7 +114,8 @@
+         if (docData.length() > 0 && docData.charAt(0) == 65279) {
+             byteData.rewind();
+             docData = Charset.forName(defaultCharset).decode(byteData).toString();
+-            docData = docData.substring(1);
++            doc = null;
++			docData = docData.substring(1);
+             charsetName = defaultCharset;
+         }
+         if (doc == null) {
+
+

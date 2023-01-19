@@ -1,0 +1,16 @@
+--- /arja/Defects/codec/codec_5_buggy/src/java/org/apache/commons/codec/binary/Base64.java
++++ /arja/patches_m366/Patch_1097/patched/arja/Defects/codec/codec_5_buggy/src/java/org/apache/commons/codec/binary/Base64.java
+@@ -579,7 +579,10 @@
+             }
+         }
+ 
+-        // Two forms of EOF as far as base64 decoder is concerned: actual
++        if (buffer == null || buffer.length - pos < encodeSize) {
++			resizeBuffer();
++		}
++		// Two forms of EOF as far as base64 decoder is concerned: actual
+         // EOF (-1) and first time '=' character is encountered in stream.
+         // This approach makes the '=' padding characters completely optional.
+         if (eof && modulus != 0) {
+
+

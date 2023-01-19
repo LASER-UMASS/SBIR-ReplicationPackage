@@ -1,0 +1,13 @@
+--- /arja/Defects/chart/chart_5_buggy/source/org/jfree/data/xy/XYSeries.java
++++ /arja/patches_dnzh/Patch_97/patched/arja/Defects/chart/chart_5_buggy/source/org/jfree/data/xy/XYSeries.java
+@@ -561,7 +561,7 @@
+             // new item...otherwise it will be just -1 and we should just
+             // append the value to the list...
+             if (this.autoSort) {
+-                this.data.add(-index - 1, new XYDataItem(x, y));
++                add(x, y, true);
+             }
+             else {
+                 this.data.add(new XYDataItem(x, y));
+
+

@@ -1,0 +1,19 @@
+--- /closure/closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java
++++ /closure/14/0/1_ControlFlowAnalysis.java
+@@ -763,9 +763,16 @@
+         // If we are coming out of the FINALLY block...
+         } else if (parent.getLastChild() == node){
+           if (cfa != null) {
++// start of generated 
++for(Node finallyNode : cfa.finallyMap.get(parent)){
++cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);
++}
++// end of generated 
++/* start of original code
+             for (Node finallyNode : cfa.finallyMap.get(parent)) {
+               cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);
+             }
++ end of original code*/
+           }
+           return computeFollowNode(fromNode, parent, cfa);
+         }

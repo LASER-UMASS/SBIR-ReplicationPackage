@@ -1,0 +1,19 @@
+--- /math/math_33_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ patch/math/33/0/1_SimplexTableau.java
+@@ -335,9 +335,16 @@
+         // positive cost non-artificial variables
+         for (int i = getNumObjectiveFunctions(); i < getArtificialVariableOffset(); i++) {
+             final double entry = tableau.getEntry(0, i);
++// start of generated patch
++if(Precision.compareTo(entry,0.0,epsilon)>0){
++columnsToDrop.add(i);
++}
++// end of generated patch
++/* start of original code
+             if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+                 columnsToDrop.add(i);
+             }
++ end of original code*/
+         }
+ 
+         // non-basic artificial variables

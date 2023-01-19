@@ -1,0 +1,29 @@
+--- /closure/closure_92_buggy/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
++++ patch/closure/92/0/1_ProcessClosurePrimitives.java
+@@ -786,6 +786,18 @@
+         } else {
+           // In this case, the name was implicitly provided by two independent
+           // modules. We need to move this code up to a common module.
++// start of generated patch
++int indexOfDot=namespace.lastIndexOf('.');
++if(indexOfDot==-1){
++compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
++}else {
++ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
++Preconditions.checkNotNull(parentName);
++Preconditions.checkNotNull(parentName.replacementNode);
++parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
++}
++// end of generated patch
++/* start of original code
+           int indexOfDot = namespace.indexOf('.');
+           if (indexOfDot == -1) {
+             // Any old place is fine.
+@@ -800,6 +812,7 @@
+             parentName.replacementNode.getParent().addChildAfter(
+                 replacementNode, parentName.replacementNode);
+           }
++ end of original code*/
+         }
+         if (explicitNode != null) {
+           explicitNode.detachFromParent();

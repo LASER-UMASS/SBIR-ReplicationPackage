@@ -1,0 +1,18 @@
+--- /arja/Defects/lang/lang_10_buggy/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
++++ /arja/patches_evl2/Patch_22/patched/arja/Defects/lang/lang_10_buggy/src/main/java/org/apache/commons/lang3/time/FastDateParser.java
+@@ -304,13 +304,6 @@
+         boolean wasWhite= false;
+         for(int i= 0; i<value.length(); ++i) {
+             char c= value.charAt(i);
+-            if(Character.isWhitespace(c)) {
+-                if(!wasWhite) {
+-                    wasWhite= true;
+-                    regex.append("\\s*+");
+-                }
+-                continue;
+-            }
+             wasWhite= false;
+             switch(c) {
+             case '\'':
+
+

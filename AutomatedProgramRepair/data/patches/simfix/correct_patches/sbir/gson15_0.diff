@@ -1,0 +1,19 @@
+--- /gson/gson_15_buggy/gson/src/main/java/com/google/gson/stream/JsonWriter.java
++++ /gson/15/0/1_JsonWriter.java
+@@ -492,9 +492,16 @@
+    */
+   public JsonWriter value(double value) throws IOException {
+     writeDeferredName();
++// start of generated patch
++if(!isLenient()&&(Double.isNaN(value)||Double.isInfinite(value))){
++throw new IllegalArgumentException("Numeric values must be finite, but was "+value);
++}
++// end of generated patch
++/* start of original code
+     if (Double.isNaN(value) || Double.isInfinite(value)) {
+       throw new IllegalArgumentException("Numeric values must be finite, but was " + value);
+     }
++ end of original code*/
+     beforeValue();
+     out.append(Double.toString(value));
+     return this;

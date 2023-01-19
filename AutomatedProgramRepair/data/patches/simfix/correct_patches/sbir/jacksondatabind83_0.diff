@@ -1,0 +1,19 @@
+--- /jacksondatabind/jacksondatabind_83_buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java
++++ /jacksondatabind/83/0/1_FromStringDeserializer.java
+@@ -116,9 +116,16 @@
+                 // 19-May-2017, tatu: Used to require non-null result (assuming `null`
+                 //    indicated error; but that seems wrong. Should be able to return
+                 //    `null` as value.
++// start of generated patch
++if(_deserialize(text,ctxt)!=JsonToken.END_ARRAY){
++return _deserialize(text,ctxt);
++}
++// end of generated patch
++/* start of original code
+                 if (_deserialize(text, ctxt) != null) {
+                 return _deserialize(text, ctxt);
+                 }
++ end of original code*/
+             } catch (IllegalArgumentException iae) {
+                 cause = iae;
+             } catch (MalformedURLException me) {

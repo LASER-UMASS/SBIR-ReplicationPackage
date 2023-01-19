@@ -1,0 +1,12 @@
+--- /arja/Defects/jsoup/jsoup_24_buggy/src/main/java/org/jsoup/parser/TokeniserState.java
++++ /arja/patches_w3zb/Patch_1097/patched/arja/Defects/jsoup/jsoup_24_buggy/src/main/java/org/jsoup/parser/TokeniserState.java
+@@ -555,7 +555,6 @@
+                 String name = r.consumeLetterSequence();
+                 t.tagPending.appendTagName(name.toLowerCase());
+                 t.dataBuffer.append(name);
+-                r.advance();
+                 return;
+             }
+ 
+ 
+ 

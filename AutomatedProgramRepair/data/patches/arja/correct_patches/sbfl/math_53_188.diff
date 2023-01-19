@@ -1,0 +1,16 @@
+--- /arja/Defects/math/math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java
++++ /arja/patches_7n8p/Patch_188/patched/arja/Defects/math/math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java
+@@ -149,7 +149,10 @@
+      */
+     public Complex add(Complex rhs)
+         throws NullArgumentException {
+-        MathUtils.checkNotNull(rhs);
++        if (isNaN || rhs.isNaN) {
++				return NaN;
++			}
++		MathUtils.checkNotNull(rhs);
+         return createComplex(real + rhs.getReal(),
+             imaginary + rhs.getImaginary());
+     }
+
+

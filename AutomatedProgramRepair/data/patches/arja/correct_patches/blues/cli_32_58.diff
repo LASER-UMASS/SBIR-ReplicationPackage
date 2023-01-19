@@ -1,0 +1,16 @@
+--- /arja/Defects/cli/cli_32_buggy/src/main/java/org/apache/commons/cli/HelpFormatter.java
++++ /arja/patches_z3vn/Patch_58/patched/arja/Defects/cli/cli_32_buggy/src/main/java/org/apache/commons/cli/HelpFormatter.java
+@@ -934,11 +934,6 @@
+         
+         // if we didn't find one, simply chop at startPos+width
+         pos = startPos + width;
+-        while ((pos <= text.length()) && ((c = text.charAt(pos)) != ' ')
+-               && (c != '\n') && (c != '\r'))
+-        {
+-            ++pos;
+-        }        
+         return pos == text.length() ? -1 : pos;
+     }
+ 
+
+

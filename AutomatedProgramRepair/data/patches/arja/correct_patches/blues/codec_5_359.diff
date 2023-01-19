@@ -1,0 +1,16 @@
+--- /arja/Defects/codec/codec_5_buggy/src/java/org/apache/commons/codec/binary/Base64.java
++++ /arja/patches_b03e/Patch_359/patched/arja/Defects/codec/codec_5_buggy/src/java/org/apache/commons/codec/binary/Base64.java
+@@ -554,7 +554,10 @@
+         if (inAvail < 0) {
+             eof = true;
+         }
+-        for (int i = 0; i < inAvail; i++) {
++        if (buffer == null || buffer.length - pos < encodeSize) {
++			resizeBuffer();
++		}
++		for (int i = 0; i < inAvail; i++) {
+             if (buffer == null || buffer.length - pos < decodeSize) {
+                 resizeBuffer();
+             }
+
+

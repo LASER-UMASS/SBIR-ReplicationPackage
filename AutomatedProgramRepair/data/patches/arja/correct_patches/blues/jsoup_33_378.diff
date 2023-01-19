@@ -1,0 +1,14 @@
+--- /arja/Defects/jsoup/jsoup_33_buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilder.java
++++ /arja/patches_us7v/Patch_378/patched/arja/Defects/jsoup/jsoup_33_buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilder.java
+@@ -184,7 +184,8 @@
+         Element el = new Element(tag, baseUri, startTag.attributes);
+         insertNode(el);
+         if (startTag.isSelfClosing()) {
+-            if (tag.isKnownTag()) {
++            tokeniser.transition(TokeniserState.Data);
++			if (tag.isKnownTag()) {
+                 if (tag.isSelfClosing()) tokeniser.acknowledgeSelfClosingFlag(); // if not acked, promulagates error
+             } else {
+                 // unknown tag, remember this is self closing for output
+
+

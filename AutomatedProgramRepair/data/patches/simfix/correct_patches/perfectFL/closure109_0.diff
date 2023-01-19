@@ -1,0 +1,15 @@
+--- /closure/closure_109_buggy/src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java
++++ patch/closure/109/0/1_JsDocInfoParser.java
+@@ -1905,7 +1905,12 @@
+    * For expressions on the right hand side of a this: or new:
+    */
+   private Node parseContextTypeExpression(JsDocToken token) {
++// start of generated patch
++return parseTypeExpression(token);
++// end of generated patch
++/* start of original code
+           return parseTypeName(token);
++ end of original code*/
+   }
+ 
+   /**
