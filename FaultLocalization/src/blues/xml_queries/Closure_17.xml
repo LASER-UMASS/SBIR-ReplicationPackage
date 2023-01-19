@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_17" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-688.json">
+<buginformation>
+<summary>const  dumps  type  cast  information</summary>
+<description>the  following  code  compiles  fine  class  defining  interface  with  two  numbers  interface  function two numbers  type  number two numbers  prototype  first  type  number two numbers  prototype  second  var  some  default  type two numbers  first  second  class  with  two  number  member  constructor  function has two numbers  type two numbers  this two numbers  this get two numbers  get  the  default  two  numbers  return two numbers has two numbers  prototype get two numbers  function  return  some  default  now  realizing  that  some  defaults  actually  preset  constant  which  should  not  change  would  like  say  for  that  line  just  adding  const  const  var  some  default  type two numbers  first  second  however  that  starts  throwing  warnings  adding  the  const  makes  the  compiler  dump  the  type  does  the  value  get  inlined  without  the  typecast  expected  compiles  fine  error  can  reproduced  http  closure  compiler  appspot  com  home  copy  past  the  attached  file  there  throws  warning  and  does  not  compile  assume  you  are  using  advanced  mode  does  compile  there  just  nothing  left  after  dead  code  removal  produces  two  warnings  not  errors  jsc  type  mismatch  initializing  variable  found two numbers  null  required  first  number  second  number  line  character  type two numbers  first  second  jsc  type  mismatch  inconsistent  return  type  found  first  number  second  number  required two numbers  null  line  character  return  some  default  assume  the  last  that  you  are  asking  about  yes  advance  mode  that  correct  however  our  project  compiles  strict  mode  this  just  simplified  version  for  our  project  this  will  stop  compilation  both  them  right  one  from  and  the  other  form  while  used  should  all  fine  like  without  the  const  missing  something  thanks  for  the  clarification  this  issue  was  closed  revision  2076</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

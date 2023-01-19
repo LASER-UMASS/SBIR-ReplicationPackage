@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_1" link="https://issues.apache.org/jira/browse/JXPATH-12">
+<buginformation>
+<summary>descendant  self  axis  does  not  work  correctly  root  node</summary>
+<description>given  the  following  xml  document  root  1234  and  the  xpath  root  text  jxpath  returns  null  instead  1234  jxpathcontext  context  jxpathcontext  newcontext  doc  assertequals  value  context  selectsinglenode  root  text  the  attached  junit  test  highlights  the  problem  seems  that  jxpath  does  not  find  the  root  node  accessed  with  the  axis  descendant  self</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMNodePointer</file>
+<file>org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

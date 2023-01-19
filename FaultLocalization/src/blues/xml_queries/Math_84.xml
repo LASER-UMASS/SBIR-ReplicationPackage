@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_84" link="https://issues.apache.org/jira/browse/MATH-283">
+<buginformation>
+<summary>multi directional  optimzation  loops  forver  started  the  correct  solution</summary>
+<description>multidirectional  iteratesimplex  loops  forever  the  starting  point  the  correct  solution  see  the  attached  test  case  testmultidirectionalcorrectstart  example</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.direct.MultiDirectional</file>
+</fixedfiles>
+</bug>
+</bugrepository>

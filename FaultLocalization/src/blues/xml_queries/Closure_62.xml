@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_62" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-487.json">
+<buginformation>
+<summary>column  indicating  caret  sometimes  not  error  output</summary>
+<description>for  some  reason  the  caret  doesn  always  show  the  output  when  there  are  errors  when  test  looks  like  this  alert  the  output  this  java  jar  compiler  jar  test  test  error  parse  error  missing  after  argument  list  error  warning  however  when  test  looks  like  this  notice  the  line  break  after  the  semicolon  alert  the  output  this  java  jar  compiler  jar  test  test  error  parse  error  missing  after  argument  list  alert  error  warning  that  the  simplest  reproduction  the  problem  that  could  come  with  but  just  encountered  the  problem  file  with  100  loc  this  the  first  time  believe  run  into  the  problem  but  when  happens  error  parser  fails  and  becomes  pain  track  down  the  raw  output  find  the  actual  problem  tested  against  1171  committed  the  problem  present  going  back  least  1000  this  isn  new  issue  fixed  and  will  come  with  the  next  release  this  issue  was  closed  revision  1215  this  issue  was  closed  revision  1218  this  issue  was  closed  revision  1220</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.LightweightMessageFormatter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

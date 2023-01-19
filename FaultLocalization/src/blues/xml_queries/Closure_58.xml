@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_58" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-528.json">
+<buginformation>
+<summary>online  bug  report  java  error</summary>
+<description>what  steps  will  reproduce  the  problem  open  http  closure  compiler  appspot  com  input  code  function  keys  obj  var  for  obj  return  press  compile  button  what  the  expected  output  what  you  see  instead  except  see  java  error  what  version  the  product  are  you  using  what  operating  system  online  version  never  knew  you  can  put  expression  like  this  the  left  hand  side  the  for  loop  fyi  checked  the  fix  not  problem  the  next  release  this  issue  was  closed  revision  1343</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.LiveVariablesAnalysis</file>
+</fixedfiles>
+</bug>
+</bugrepository>

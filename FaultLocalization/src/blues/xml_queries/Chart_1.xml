@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_1" link="https://sourceforge.net/p/jfreechart/bugs/983">
+<buginformation>
+<summary>983  potential  npe abstract category item render get legend items</summary>
+<description>setting  working  copy  the  current free chart  trunk  eclipse  got  warning  about  null  pointer  access  this  bit  code  from abstract category item render  java  public legend item collection get legend items legend item collection  result  new legend item collection  this  plot  null  return  result  int  index  this  plot get index  this category dataset  dataset  this  plot get dataset  index  dataset  null  return  result  int series count  dataset get row count  the  warning  the  last  code  line  where series count  assigned  the  variable  dataset  guaranteed  null  this  location  suppose  that  the  check  before  that  should  actually  read  dataset  null  not  dataset  null  this  trunk  2010</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.chart.renderer.category.AbstractCategoryItemRenderer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

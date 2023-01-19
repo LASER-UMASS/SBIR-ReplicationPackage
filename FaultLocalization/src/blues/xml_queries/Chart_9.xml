@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_9" link="https://sourceforge.net/p/jfreechart/bugs/818">
+<buginformation>
+<summary>818  error time series create copy  method</summary>
+<description>the  test  case  the  end  fails  with  java  lang illegal argument exception  requires  start  end  the  problem  that  the  int  start  and  end  indexes  corresponding  given time period  are  computed  incorectly  here  would  expect  empty  serie  returned  not  exception  this  with  jfreechart  public  class  foo  static  public  void  main  string  args time series  foo  new time series  foo  day  class  foo  add  new  day  2005  foo  add  new  day  2005  foo  add  new  day  2005  foo  add  new  day  2005  foo  add  new  day  2005  foo  add  new  day  2005  foo  add  new  day  2005  foo  add  new  day  2006  try time series  bar  foo create copy  new  day  2005  new  day  2006  catch clone not supported exception print stack trace</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.data.time.TimeSeries</file>
+</fixedfiles>
+</bug>
+</bugrepository>

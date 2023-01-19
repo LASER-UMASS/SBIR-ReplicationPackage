@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_25" link="https://issues.apache.org/jira/browse/LANG-658">
+<buginformation>
+<summary>some  entitys  like  ouml  are  not  matched  properly  against  its iso 8859  representation</summary>
+<description>entityarrays  private  static  final  string iso 8859  escape  some  matching  wrong  for  example  00d  ouml  uppercase  umlaut  00d  times  multiplication  sign  but  this  must  00d  ouml  uppercase  umlaut  00d  times  multiplication  sign  according  http  www  fileformat  info  info  unicode  block  latin  supplement  list  htm  first  look  00ca  missing  the  array  and  all  following  entries  are  matched  wrong  offset  found  http  stackoverflow  com  questions  4172784  bug  apache  commons  stringescapeutil  4172915  4172915</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.text.translate.EntityArrays</file>
+</fixedfiles>
+</bug>
+</bugrepository>

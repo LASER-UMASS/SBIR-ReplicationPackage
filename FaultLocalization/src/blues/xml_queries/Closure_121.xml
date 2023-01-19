@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_121" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1053.json">
+<buginformation>
+<summary>overzealous  optimization  confuses  variables</summary>
+<description>the  following  code closure compiler  compilation  level  advanced  optimizations closure compiler  var  uid  function  reset  uid  math  random  function  stuff  reset  var  uid  uid  uid  stuff  uid  uid  throw  reset  was  called  stuff  gets  optimized  var  function  math  random  amp  amp  throw  quot  reset  was  called  quot  notice  how  uid  gets  optimized  away  and  uid  uid  becomes  even  though  stuff  might  have  been  called  and  uid  value  may  have  changed  and  become  different  from  uid  aside  replacing  the  declaration  with  quot  var  uid  uid  quot  fixes  does  adding  extra  quot  uid  uid  quot  after  quot  var  uid  uid  quot  thanks  for  the  report  thanks  for  the  nicely  isolated  bug  report  looks  like  non  flow  sensitive  variable  inlining  bug  after  function  inliner  put  down  var  uid  uid  math  random  might  have  gotten  bit  too  aggressive  assuming  uid  being  replaceable  uid  have  patch  that  currently  review  should  fixed  the  next  release  this  issue  was  closed  revision 0123fd 5303c</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineVariables</file>
+</fixedfiles>
+</bug>
+</bugrepository>

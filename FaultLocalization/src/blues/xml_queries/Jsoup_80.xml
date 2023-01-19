@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_80" link="https://github.com/jhy/jsoup/issues/1015">
+<buginformation>
+<summary>faulty  xml  causes index out bounds exception</summary>
+<description>test public void parse faulty xml string xml xml version val one val document doc jsoup parse xml parser xml parser results java lang index out bounds exception index size java util array list range check array list java 657 java util array list get array list java 433 org jsoup nodes element child element java 254 org jsoup parser xml tree builder insert xml tree builder java org jsoup parser xml tree builder process xml tree builder java org jsoup parser tree builder run parser tree builder java org jsoup parser tree builder parse tree builder java org jsoup parser parser parse input parser java org jsoup jsoup parse jsoup java the text was updated successfully but these errors were encountered jhy closed this 9feec apr 2018 copy link owner jhy commented apr 2018 thanks for the report and the easy repro fixed jhy added this the milestone apr 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.XmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_68" link="https://issues.apache.org/jira/browse/MATH-362">
+<buginformation>
+<summary>levenberg marquardt optimizer  ignores  the vectorial convergence checker  parameter  passed</summary>
+<description>levenbergmarquardtoptimizer  ignores  the  vectorialconvergencechecker  parameter  passed  this  makes  hard  specify  custom  stopping  criteria  for  the  optimizer</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_12" link="https://issues.apache.org/jira/browse/CODEC-130">
+<buginformation>
+<summary>base input stream  skip  skips  underlying  stream  not  output</summary>
+<description>base 64inputstream  skip  skips  within  underlying  stream  leading  unexpected  behaviour  the  following  code  will  reproduce  the  issue  test  public  void  testskip  throws  throwable  inputstream  ins  new  bytearrayinputstream  aaaa  getbytes  iso  8859  should  decode  255  255  255 base 64inputstream  instance  new base 64inputstream  ins  assertequals  instance  skip  should  skip  decoded  characters  encoded  characters  assertequals  255  instance  read  currently  returns  decoding  not  the  following  code  added base 64inputstream  basencodecinputstream  the  dev  build  would  resolve  the  issue  override  public  long  skip  long  throws  ioexception  delegate  read  long  bytesread  while  bytesread  read  bytesread  return  bytesread  more  efficient  code  may  possible</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.BaseNCodecInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

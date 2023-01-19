@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_21" link="https://issues.apache.org/jira/browse/LANG-677">
+<buginformation>
+<summary>date utils same local time  does  not  work  correct</summary>
+<description>think  found  bug  the  dateutils  class  the  method  issamelocaltime  example  calendar  calendar  getinstance  settimeinmillis  1297364400000l  calendar  calendar  getinstance  settimeinmillis  1297321200000l  assert  assertfalse  dateutils  issamelocaltime  this  because  the  method  compares  cal  get  calendar  hour  cal  get  calendar  hour  but  think  has  cal  get  calendar  hour  day  cal  get  calendar  hour  day</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.time.DateUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

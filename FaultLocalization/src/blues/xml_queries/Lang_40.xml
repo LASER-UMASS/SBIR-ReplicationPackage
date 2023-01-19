@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_40" link="https://issues.apache.org/jira/browse/LANG-432">
+<buginformation>
+<summary>fix  case  insensitive  string  handling</summary>
+<description>string  case  locale  sensitive  this  usually  not  intended  for  case  insensitive  comparisions  please  see  common  bug  for  details</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.StringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

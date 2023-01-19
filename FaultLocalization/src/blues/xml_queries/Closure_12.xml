@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_12" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-794.json">
+<buginformation>
+<summary>try  catch  blocks  incorporate  code  not  inside  original  blocks</summary>
+<description>what  steps  will  reproduce  the  problem  starting  with  this  code  function  var  try  somefunction  catch  quot  quot  try  somefunction  catch  document  write  gets  compiled  function  var  try  quot  quot  somefunction  catch  try  quot  quot  somefunction  catch  document  write  what  the  expected  output  what  you  see  instead  the  problem  that  including  the  constant  quot  quot  and  quot  quot  inside  the  try  block  when  the  shouldn  when  executed  uncompiled  the  script  prints  quot  1212  quot  when  compiled  the  script  prints  quot  undefinedundefined  quot  this  behavior  doesn  happen  the  entire  function  gets  inlined  the  code  between  the  two  try  blocks  sufficiently  complex  what  version  the  product  are  you  using  what  operating  system  closure  compiler  http  code  google  com  closure  compiler  version  20120430  revision  1918  built  2012  java  version  quot  quot  java  runtime  environment  build  424  3720  java hot spot  bit  server  build  424  mixed  mode  thanks  for  the  report  this  issue  was  closed  revision  2136</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.MaybeReachingVariableUse</file>
+</fixedfiles>
+</bug>
+</bugrepository>

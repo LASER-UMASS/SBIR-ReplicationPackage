@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_60" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-504.json">
+<buginformation>
+<summary>void  function  wrongly  identified  having  side  effects</summary>
+<description>this  code  results  the  execution  the  function  and  should  not  identified  having  side  effects  you  mean  function  what  sort  side  effect  does  that  have  sorry  had  typed  the  expression  into  the  summary  like  this  for  brevity  even  the  function  has  body  still  stripped  void  function  global  true  try  removing  the  void  keyword  doesn  what  you  think  does  here  void  function  undefined  and  this  case  side  effect  free  undefined  will  throw  sorry  but  you  are  mistaken  the  void  operator  consumes  statement  and  returns  undefined  the  result  the  statement  this  case  function  which  defines  function  statement  and  then  executes  returning  the  result  void  which  returns  undefined  void  function  undefined  does  not  throw  error  but  you  not  using  the  result  then  why  you  need  the  void  keyword  think  just  need  better  messaging  here  what  part  the  code  has  side  effects  this  just  idiom  used  make  function  expression  rather  than  statement  that  can  invoked  the  same  expression  you  are  right  that  the  return  value  the  void  expression  redundant  and  could  replaced  without  side  effect  definite  bug  here  though  that  code  that  marked  having  side  effects  removed  higher  compression  levels  and  this  case  removing  the  function  incorrect  unless  the  body  the  function  also  has  side  effects  this  just  idiom  used  make  function  expression  rather  than  statement  that  can  invoked  the  same  expression  this  seems  like  odd  idiom  void  seems  like  confusing  substitute  for  putting  parentheses  around  the  function  definite  bug  here  though  that  code  that  marked  having  side  effects  removed  higher  compression  levels  and  this  case  removing  the  function  incorrect  unless  the  body  the  function  also  has  side  effects agreed this  issue  was  closed  revision  1248  issue  515  has  been  merged  into  this  issue</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

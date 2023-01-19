@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_5" link="https://issues.apache.org/jira/browse/COMPRESS-87">
+<buginformation>
+<summary>zip archive input stream  doesn  report  the  end  truncated  archive</summary>
+<description>zip  archive  truncated  because  the  first  volume  multi  volume  archive  the  ziparchiveinputstream  read  method  will  not  detect  that  fact  all  calls  read  will  return  bytes  read  they  will  not  return  end  stream  nor  will  they  throw  any  exception  which  would  seem  like  good  idea  because  the  archive  truncated  have  tracked  this  problem  ziparchiveinputstream  java  line  239  contains  check  read  inf  finished  return  for  truncated  archives  the  read  always  zero  but  the  inf  never  finished  suggest  adding  two  lines  below  read  inf  finished  return  else  read  lengthoflastread  throw  new  ioexception  truncated  zip  file  this  solves  the  problem  tests</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

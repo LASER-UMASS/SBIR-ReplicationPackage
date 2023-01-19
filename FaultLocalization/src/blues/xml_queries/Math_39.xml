@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_39" link="https://issues.apache.org/jira/browse/MATH-727">
+<buginformation>
+<summary>too  large  first  step  with  embedded  runge  kutta  integrators  dormand  prince</summary>
+<description>adaptive  step  size  integrators  compute  the  first  step  size  themselves  not  provided  for  embedded  runge  kutta  type  this  step  size  not  checked  against  the  integration  range  the  integration  range  extremely  short  this  step  size  may  evaluate  the  function  out  the  range  and  fact  tries  afterward  back  and  fails  stop  gragg  bulirsch  stoer  integrators  not  have  this  problem  the  step  size  checked  and  truncated  needed</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_101" link="https://issues.apache.org/jira/browse/MATH-198">
+<buginformation>
+<summary>java  lang string index out bounds exception complex format  parse  string  source parse position  pos</summary>
+<description>the  parse  string  source  parseposition  pos  method  the  complexformat  class  does  not  check  whether  the  imaginary  character  set  not  which  produces  stringindexoutofboundsexception  the  substring  method  line  375  complexformat  parse  imaginary  character  int  getimaginarycharacter  length  startindex  pos  getindex  int  endindex  startindex  source  substring  startindex  endindex  compareto  getimaginarycharacter  encoutered  this  exception  typing  jtextfied  with  complexformat  set  look  abstractformatter  only  the  user  types  the  imaginary  part  the  complex  number  first  gets  this  exception  solution  before  setting  length  the  imaginary  character  check  the  source  contains  proposal  int  source  contains  getimaginarycharacter  getimaginarycharacter  length</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.complex.ComplexFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

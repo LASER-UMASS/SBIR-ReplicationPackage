@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_28" link="https://issues.apache.org/jira/browse/CLI-201">
+<buginformation>
+<summary>default  options  may  partially  processed</summary>
+<description>the  properties  instance  passed  the  parser  parse  method  initialize  the  default  options  may  partially  processed  this  happens  when  the  properties  contains  option  that  doesn  accept  arguments  and  has  default  value  that  isn  evaluated  true  when  this  case  occurs  the  processing  the  properties  stopped  and  the  remaining  options  are  never  handled  this  caused  the  break  statement  parser  processproperties  properties  continue  statement  should  have  been  used  instead  the  related  test  valuetest  also  wrong  there  are  two  assertions  that  need  changed  options  opts  new  options  opts  addoption  false  toggle  opts  addoption  false  toggle  opts  addoption  optionbuilder  hasoptionalarg  create  properties  new  properties  properties  setproperty  false  properties  setproperty  properties  setproperty  cmd  parser  parse  opts  null  properties  asserttrue  cmd  hasoption  asserttrue  cmd  hasoption  asserttrue  cmd  hasoption  wrong  this  option  accepts  argument  and  should  receive  the  value  and  the  second  one  properties  new  properties  properties  setproperty  just  string  properties  setproperty  cmd  parser  parse  opts  null  properties  asserttrue  cmd  hasoption  asserttrue  cmd  hasoption  asserttrue  cmd  hasoption  wrong  this  option  accepts  argument  and  should  receive  empty  string  value</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

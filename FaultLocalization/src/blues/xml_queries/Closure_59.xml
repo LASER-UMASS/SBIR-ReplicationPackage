@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_59" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-521.json">
+<buginformation>
+<summary>cannot  exclude global this  checks  through  command  line</summary>
+<description>what  steps  will  reproduce  the  problem  run  command  line  utility  supply  flags  warning  level  verbose  jscomp  off global this  jscomp  off non standard docs  what  the  expected  output  what  you  see  instead  expect  that global this  and non standard docs  warnings  will  ignored  only non standard docs  warnings  are  ignored  what  version  the  product  are  you  using  what  operating  system  version  1180  sun  please  provide  any  additional  information  below  jscomp  error  also  doesn  work  with global this  works  with non standard docs  thanks  for  the report this  issue  was  closed  revision  1291</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Compiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

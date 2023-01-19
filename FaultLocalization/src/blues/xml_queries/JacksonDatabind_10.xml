@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_10" link="https://github.com/FasterXML/jackson-databind/issues/705">
+<buginformation>
+<summary>json any getter  doesn  work  with json serialize  except  with key using</summary>
+<description>this happening with haven tried but couldn see any related issue anyway jackson ignores json serialize annotation when there json any getter annotation json serialize using serializer class json serialize converter converter class json any getter public map string string get parameters return parameters except json serialize key using key serializer class haven tried each setting only tried key using because seen different issue 661 with then works but need the converter for the time being will use json any getter public map string json node get parameters return new converter convert parameters but prefer stick annotations the text was updated successfully but these errors were encountered copy link member cowtowncoder commented feb 2015 thank you for reporting this cowtowncoder added this the milestone feb 2015 cowtowncoder closed this 466f 706 feb 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.AnyGetterWriter</file>
+<file>com.fasterxml.jackson.databind.ser.BeanSerializerFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

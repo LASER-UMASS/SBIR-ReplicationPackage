@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_38" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-657.json">
+<buginformation>
+<summary>identifier  minus  negative  number  needs  space  between  the</summary>
+<description>what  steps  will  reproduce  the  problem  compile  the  attached  file  with  java  jar  build  compiler  jar  compilation  level  advanced  optimizations  bulletfail  output  file  try  run  the  file  engine  for  example  node  what  the  expected  output  what  you  see  instead  the  file  does  not  parse  properly  because  contains  this  subtraction  negative  number  but  looks  like  engines  interpret  decrementing  and  then  fail  parse  the  with  space  would  parse  what  version  the  product  are  you  using  what  operating  system  trunk  closure  compiler  ubuntu  please  provide  any  additional  information  below  thanks  for  the  report  see  the  problem  this  issue  was  closed  revision  1775</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeConsumer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

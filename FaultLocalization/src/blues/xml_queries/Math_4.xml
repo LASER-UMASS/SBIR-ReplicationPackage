@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_4" link="https://issues.apache.org/jira/browse/MATH-988">
+<buginformation>
+<summary>npe  when  calling sub line  intersection  with  non  intersecting  lines</summary>
+<description>when  calling  subline  intersection  with  two  lines  that  not  intersect  then  nullpointerexception  thrown  line  tosubspace  this  bug  the  twod  and  threed  implementations  the  attached  patch  fixes  both  implementations  and  adds  the  required  test  cases</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.geometry.euclidean.threed.SubLine</file>
+<file>org.apache.commons.math3.geometry.euclidean.twod.SubLine</file>
+</fixedfiles>
+</bug>
+</bugrepository>

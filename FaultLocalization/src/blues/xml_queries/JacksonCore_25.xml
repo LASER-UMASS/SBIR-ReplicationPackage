@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_25" link="https://github.com/FasterXML/jackson-core/pull/510">
+<buginformation>
+<summary>fix array index outof bounds exception  found  lgtm  com</summary>
+<description>edited seen lgtm com here codes length max code max code array index out bounds exception thrown this happens when allow unquoted field names enabled and character 256 found part field name after needing consume more data from the reader gist containing code trigger this path can found here could find any tests for this class but there place add tests can add the example test full disclosure part the company behind lgtm com fix array index outof bounds exception cab 53a copy link member cowtowncoder commented jan 2019 first all thank you for reporting this but would possible write test that shows how this actually works would great have regression test guard against this happening future cowtowncoder closed this jan 2019 cowtowncoder added active labels jan 2019 copy link author alexet commented jan 2019 the gist posted was example that can make into test but like said wasn sure where the test should can seem find any general parsing tests copy link member cowtowncoder commented jan 2019 aeyerstaylor sorry skimmed over issue text too fast that should enough can work with there are few tests similar this also need patch this branch then merge forward might well make these cover both byte and char backed parsers cowtowncoder removed the active label jan 2019 cowtowncoder added commit that referenced this pull request jan 2019 fix 510 47c copy link member cowtowncoder commented jan 2019 aeyerstaylor ended merging this manually thank you very much for submitting the report fix and you find other likely bugs via lgtm noticed there were couple other warnings looking forward more reports sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.json.ReaderBasedJsonParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

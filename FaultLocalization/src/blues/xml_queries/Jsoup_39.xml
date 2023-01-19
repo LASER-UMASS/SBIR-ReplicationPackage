@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_39" link="https://github.com/jhy/jsoup/issues/348">
+<buginformation>
+<summary>soup  incorrectly  moves  content  from  the  head  section  into  body  for  sample  url</summary>
+<description>you load the following url http jornutzon sydneyoperahouse com home htm into http try jsoup org then will move the content from the head section into the body section the url being parsed validates using the validator http validator org check uri http fjornutzon sydneyoperahouse com fhome htm charset 28detect automatically doctype inline group user agent validator http fvalidator org fservices are using soup the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2013 that took while figure out there bom the start the doc which jsoup isn handling correctly grr arg 65279 copy link owner jhy commented nov 2013 specifically the character not recognized bom but regular character moves the parser state into body mode jhy closed this 33d nov 2013 amorgner added commit structr structr that referenced this issue feb 2014 fixed bug importer which caused all head elements found 2912d ody workaround for bug jsoup which fixed see jhy jsoup 348 zazi added commit dswarm jsoup that referenced this issue oct 2015 fix issue with utf bom when charset only html cad 795a fixes jhy 348 this was referenced jun 2018 fix issue 1070 jsoup parse string not skipping bom character correctly 1073 open bom character not eaten jsoup parse string 1070 open sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.DataUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

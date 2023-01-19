@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_4" link="https://issues.apache.org/jira/browse/CLI-1">
+<buginformation>
+<summary>posix parser  interupts  target  opt  arget  opt</summary>
+<description>this  was  posted  the  commons  developer  list  and  confirmed  bug  this  bug  using  this  incorrectly  have  option  with  short  and  long  values  given  code  that  essentially  what  below  with  posixparser  see  results  follows  command  line  with  just  prints  out  the  results  the  catch  block  command  line  with  just  target  prints  out  the  results  the  catch  block  command  line  with  just  foobar  com  prints  out  processing  selected  target  foobar  com  command  line  with  just  target  foobar  com  prints  out  processing  selected  target  arget  error  private  static  final  string  option  target  private  static  final  string  option  target  long  target  option  generatetarget  new  option  option  target  option  target  long  true  generate  files  for  the  specified  target  machine  try  parsedline  parser  parse  cmdlineopts  args  catch  parseexception  system  out  println  invalid  command  getmessage  helpformatter  new  helpformatter  printhelp  usage  cmdlineopts  system  exit  parsedline  hasoption  option  target  system  out  println  processing  selected  target  parsedline  getoptionvalue  option  target  bug  but  due  well  defined  behaviour  that  makes  feel  little  better  about  myself  support  special  well  call  them  special  anyway  like  dsystem  property  value  need  able  examine  the  first  character  option  the  first  character  itself  defined  option  then  the  remainder  the  token  used  the  value  the  token  option  system  property  value  the  argument  value  for  that  option  this  the  behaviour  that  are  seeing  for  your  example  the  token  options  arget  the  argument  value  suppose  solution  this  could  have  way  specify  properties  for  parsers  this  case  posix  special  option  true  for  turning  special  options  have  look  into  this  and  let  you  know  just  keep  track  this  and  get  you  used  how  operate  can  you  log  bug  bugzilla  for  this  thanks  john</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

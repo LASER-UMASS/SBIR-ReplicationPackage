@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_33" link="https://issues.apache.org/jira/browse/COMPRESS-316">
+<buginformation>
+<summary>compressor stream factory  doesn  handle  deflate  streams  with  zlib  header</summary>
+<description>you  take  zlib  deflate  compressed  file  with  the  zlib  header  the  test  file  bla  tar  deflatez  and  pass  compressorstreamfactory  createcompressorinputstream  won  detected  and  you  get  compressorexception  compressor  found  for  the  stream  signature  while  detecting  header  less  zlib  files  probably  too  tricky  manage  those  with  the  header  ought  possible  spot  and  handle</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.compressors.CompressorStreamFactory</file>
+<file>org.apache.commons.compress.compressors.deflate.DeflateCompressorInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

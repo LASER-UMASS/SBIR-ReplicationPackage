@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_28" link="https://issues.apache.org/jira/browse/COMPRESS-279">
+<buginformation>
+<summary>tar archive input stream  silently  finished  when  unexpected  eof  occured</summary>
+<description>just  found  the  following  test  case  didn  raise  ioexception  used  for  tar  trimmed  purpose  test  public  void  testcorruptedbzip  throws  ioexception  string  archivepath  pathutil  join  testdatadir  test  tar  tararchiveinputstream  input  null  input  new  tararchiveinputstream  new bzip 2compressorinputstream  googlefile  system  newinputstream  archivepath  true  archiveentry  nextmatchedentry  input  getnextentry  while  nextmatchedentry  null  logger  infofmt  extracting  nextmatchedentry  getname  string  outputpath  pathutil  join  tmp  nextmatchedentry  getname  outputstream  out  new  fileoutputstream  outputpath  bytestreams  copy  input  out  out  close  nextmatchedentry  input  getnextentry</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

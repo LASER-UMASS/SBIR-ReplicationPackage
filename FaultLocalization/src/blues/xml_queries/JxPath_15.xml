@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_15" link="https://issues.apache.org/jira/browse/JXPATH-100">
+<buginformation>
+<summary>core  union  operation  does  not  sort  result  nodes  according  document  order</summary>
+<description>source  document  main  avalue  bvalue  main  according  string  function  defintion  node  set  converted  string  returning  the  string  value  the  node  the  node  set  that  first  document  order  the  node  set  empty  empty  string  returned  following  xpath  calculated  incorrectly  string  main  main  expected  result  avalue  actual  value  bvalue  reason  sorting  result  nodes  missing  from  coreoperationunion</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.axes.UnionContext</file>
+</fixedfiles>
+</bug>
+</bugrepository>

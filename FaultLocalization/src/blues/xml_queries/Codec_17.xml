@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_17" link="https://issues.apache.org/jira/browse/CODEC-229">
+<buginformation>
+<summary>string utils new stringxxx  null  should  return  null  not  npe</summary>
+<description>method  calls  such  stringutils newstringiso 8859  null  should  return  null  not  npe  looks  like  this  capability  was  lost  with  the  fix  for  codec  136  http  svn  apache  org  viewvc  rev  1306366  view  rev  several  methods  were  changed  from  return  stringutils  newstring  bytes  charencoding  xxx  return  new  string  bytes  charsets  xxx  the  new  code  should  have  been  return  newstring  bytes  charsets  xxx  the  newstring  method  handles  null  input  there  were  tests  for  null  input  the  change  behaviour  was  missed</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.StringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

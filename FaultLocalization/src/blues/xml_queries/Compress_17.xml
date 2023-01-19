@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_17" link="https://issues.apache.org/jira/browse/COMPRESS-197">
+<buginformation>
+<summary>tar  file  for  android  backup  cannot  read</summary>
+<description>attached  tar  file  was  generated  some  kind  backup  tool  android  normal  tar  utilities  seem  handle  fine  but  commons  compress  doesn  java  lang  illegalargumentexception  invalid  byte  offset  01750  nul  nul  nul  len  org  apache  commons  compress  archivers  tar  tarutils  parseoctal  tarutils  java  org  apache  commons  compress  archivers  tar  tararchiveentry  parsetarheader  tararchiveentry  java  788  org  apache  commons  compress  archivers  tar  tararchiveentry  init  tararchiveentry  java  308</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

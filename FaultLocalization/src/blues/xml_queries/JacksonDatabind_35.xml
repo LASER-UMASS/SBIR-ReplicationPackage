@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_35" link="https://github.com/FasterXML/jackson-databind/issues/1051">
+<buginformation>
+<summary>problem  with  object  and  type  wrapper  object  regression</summary>
+<description>note originally from faster xml jackson module jaxb annotations looks like fix for 669 caused regression for the special use case combining type and object ids with wrapper object type inclusion the problem started with the text was updated successfully but these errors were encountered cowtowncoder closed this cecd 409 dec 2015 cowtowncoder added this the milestone dec 2015 copy link member author cowtowncoder commented dec 2015 fixed for and ever released micro patch well master for one released sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.jsontype.impl.AsWrapperTypeDeserializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_17" link="https://sourceforge.net/p/jfreechart/bugs/803">
+<buginformation>
+<summary>803  cloning time series</summary>
+<description>just  minor  bug  when  clone time series  which  has  items  get illegal argument exception  requires  start  end  but  don  think  the  user  should  responsible  for  checking  whether  the time series  has  any  items  not</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.data.time.TimeSeries</file>
+</fixedfiles>
+</bug>
+</bugrepository>

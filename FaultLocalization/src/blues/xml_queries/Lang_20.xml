@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_20" link="https://issues.apache.org/jira/browse/LANG-703">
+<buginformation>
+<summary>string utils  join  throws  npe  when  string  returns  null  for  one  objects  collection</summary>
+<description>try  stringutils  join  new  object  new  object  override  public  string  tostring  return  null  tostring  should  probably  never  return  null  but  does  javax  mail  internet  internetaddress</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.StringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

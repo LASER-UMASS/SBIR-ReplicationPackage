@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_123" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1033.json">
+<buginformation>
+<summary>generates  code  with  invalid  for  left  hand  assignment</summary>
+<description>what  steps  will  reproduce  the  problem  compile  this  window  foo  function  else  while  what  the  expected  output  what  you  see  instead  expected  something  that  doesn  have  syntax  error  maybe  window  foo  function  for  actual  window  foo  function  for syntax error  unexpected  token  chrome  invalid  for  left  hand  side  firefox  what  version  the  product  are  you  using  what  operating  system  http  closure  compiler  appspot  com  home  please  provide  any  additional  information  below  noticed  this  while  attempting  minify  jquery  bisected  and  appears  that  the  first  bad  commit  https  code  google  com  closure  compiler  source  detail 6842032b 1857e 0cdf 690ce 25a 767b 4365dd 307 thanks  for  the  report  sounds  like  code  generation  problem  this  issue  was  closed  revision 11b 8cc</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

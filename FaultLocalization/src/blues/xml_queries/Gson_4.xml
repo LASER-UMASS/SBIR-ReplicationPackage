@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_4" link="https://github.com/google/gson/pull/773">
+<buginformation>
+<summary>update  reader  and  writer  for  rfc  7159</summary>
+<description>this allows for top level value types without the requirement leniency update reader and writer for rfc 7159 8627c swankjesse added commit that referenced this pull request jan 2016 merge pull request 773 from google rfc 7159 68d update reader and writer for rfc 7159 hide details view details swankjesse merged commit 68d into master jan 2016 checks passed checks passed cla google all necessary are signed continuous integration travis the travis build passed details continuous integration travis push the travis build passed details jake wharton deleted the rfc 7159 branch jan 2016 jake wharton mentioned this pull request jan 2016 gson converter broken when converting string response body square retrofit 1465 closed sebasjm pushed commit sebasjm gson that referenced this pull request mar 2018 merge pull request google 773 from google rfc 7159 1101967 update reader and writer for rfc 7159 marcono 1234 added commit marcono 1234 gson that referenced this pull request aug 2020 fix json reader json writer documentation regarding top level value 0956ae rfc 7159 allows any top level value not only arrays objects however when google 773 added this functionality appears the author forgot update the documentation these classes https tools ietf org html rfc 7159 appendix changed the definition json text that can any json value removing the constraint that object array marcono 1234 mentioned this pull request aug 2020 fix json reader json writer documentation regarding top level value 1766 open sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.stream.JsonReader</file>
+<file>com.google.gson.stream.JsonWriter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

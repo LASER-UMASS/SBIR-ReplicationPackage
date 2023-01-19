@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_25" link="https://issues.apache.org/jira/browse/COMPRESS-264">
+<buginformation>
+<summary>zip  reads  correctly  with  commons  compress  gives  nul  bytes</summary>
+<description>when  running  the  code  below  commons  compress  writes  content  test  txt  data  comparison  commons  compress  writes  content  test  txt  package  com  example  jrn  import  org  apache  commons  compress  archivers  zip  ziparchiveentry  import  org  apache  commons  compress  archivers  zip  ziparchiveinputstream  import  java  bytearrayinputstream  import  java  ioexception  import  java  lang  system  hello  world  public  class  app  public  static  void  main  string  args  byte  zip  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xd  byte  byte  byte  0xc  byte  0xc  byte  0xe  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xbf  byte  byte  byte  byte  0xbf  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xff  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xd  byte  byte  byte  0xc  byte  0xc  byte  0xe  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xa  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xbf  byte  byte  byte  byte  byte  byte  byte  byte  byte  0xff  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  byte  bytearrayinputstream  bin  new  bytearrayinputstream  zip  try  ziparchiveinputstream  new  ziparchiveinputstream  bin  try  while  true  ziparchiveentry  entry  getnextzipentry  entry  null  break  byte  buf  new  byte  int  entry  getsize  read  buf  system  out  println  content  entry  getname  system  out  write  buf  finally  close  catch  ioexception  system  err  println  ioexception</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

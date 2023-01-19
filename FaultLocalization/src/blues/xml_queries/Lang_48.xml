@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_48" link="https://issues.apache.org/jira/browse/LANG-393">
+<buginformation>
+<summary>equals builder  don  compare big decimals  correctly</summary>
+<description>when  comparing  bigdecimal  the  comparing  made  using  equals  not  compareto  which  more  appropriate  the  case  bigdecimal</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.builder.EqualsBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

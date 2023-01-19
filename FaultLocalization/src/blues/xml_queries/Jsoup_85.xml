@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_85" link="https://github.com/jhy/jsoup/issues/1159">
+<buginformation>
+<summary>attribute  java  line  variable  key  scope  error  seems  should  this  key</summary>
+<description>attribute java line should validate not empty this key rather than validate not empty key this issue only happens when key blank empty reality this would rarely happen but the syntax context still issue better fix this the text was updated successfully but these errors were encountered jhy added the fixed label dec 2018 jhy closed this 25ba 713 dec 2018 jhy added this the milestone dec 2018 copy link owner jhy commented dec 2018 thanks for the report fixed sign for free join this conversation git hub already have account sign comment assignees one assigned labels fixed projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Attribute</file>
+</fixedfiles>
+</bug>
+</bugrepository>

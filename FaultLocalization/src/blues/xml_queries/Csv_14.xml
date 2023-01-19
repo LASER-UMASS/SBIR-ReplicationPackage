@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_14" link="https://issues.apache.org/jira/browse/CSV-171">
+<buginformation>
+<summary>negative  numeric  values  the  first  column  are  always  quoted  minimal  mode</summary>
+<description>negative  numeric  values  are  always  quoted  minimal  mode  and  only  they  are  the  first  column  long  lat  data  222  333  looking  the  code  this  design  but  seem  for  unknown  reason  from  csvprinter  line  230  todo  where  did  this  rule  come  from  newrecord  quote  true  else  propose  this  rule  either  remove  minimum  changed  todo  where  did  this  rule  come  from  newrecord  quote  true  else</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

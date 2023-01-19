@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_16" link="https://sourceforge.net/p/jfreechart/bugs/834">
+<buginformation>
+<summary>834  bug  propgated  from  present</summary>
+<description>the  method get row count  class  org  jfree  data  category default interval category dataset  says  that  returns  the  number  series  the  dataset  possibly  zero  the  implementation  from  longer  checks  for  null  condition  which  would  then  return  zero  the series keys  did  and  previous  this  now  throws  null  pointer series keys  never  got  initialized  and  the get row count  method  called</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.data.category.DefaultIntervalCategoryDataset</file>
+</fixedfiles>
+</bug>
+</bugrepository>

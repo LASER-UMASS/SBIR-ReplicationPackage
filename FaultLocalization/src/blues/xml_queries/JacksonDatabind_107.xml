@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_107" link="https://github.com/FasterXML/jackson-databind/issues/2221">
+<buginformation>
+<summary>returning enable default typing  causing  npe</summary>
+<description>returning void class from com fasterxml jackson databind deser handle unknow type test test deserialization with deserialization problem handler new deserialization problem handler handle unknown type deserialization context java type string type resolver string causing npe jackson provide pull request illustrating the issue test the text was updated successfully but these errors were encountered meyer nils mentioned this issue jan 2019 test illustrating handle unknown type problem 2222 merged cowtowncoder added active labels jan 2019 copy link member cowtowncoder commented jan 2019 thank you for reporting this have look cowtowncoder changed the title handle unknown type with void class enable default typing and generic collections not working expected deserialization problem handler handle unknown type returning void class enable default typing causing npe jan 2019 cowtowncoder closed this 1798 jan 2019 cowtowncoder removed active labels mar 2020 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase</file>
+</fixedfiles>
+</bug>
+</bugrepository>

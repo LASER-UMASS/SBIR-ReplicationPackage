@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_11" link="https://github.com/google/gson/pull/964">
+<buginformation>
+<summary>allow  deserialization  number  represented  string</summary>
+<description>this works gson from json int class this doesn gson from json number class this makes the second case works too allow deserialization number represented string 1eb 6771 inder 123 self assigned this nov 2016 copy link collaborator inder 123 commented nov 2016 hide details view details inder 123 merged commit 44cad into google master nov 2016 checks passed checks passed cla google all necessary are signed continuous integration travis the travis build passed details sebasjm pushed commit sebasjm gson that referenced this pull request mar 2018 allow deserialization number represented string google 964 944297d sign for free join this conversation git hub already have account sign comment reviewers reviews assignees inder 123 labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.bind.TypeAdapters</file>
+</fixedfiles>
+</bug>
+</bugrepository>

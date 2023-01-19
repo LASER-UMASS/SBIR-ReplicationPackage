@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_24" link="https://github.com/mockito/mockito/issues/467">
+<buginformation>
+<summary>fix  some  rawtype  warnings  tests</summary>
+<description>description provided fix some rawtype warnings tests 03d copy link codecov commented jun 2016 current coverage merging 467 into master will not change coverage master 467 diff files 263 263 lines 4747 4747 methods messages branches 767 767 hits 4166 4166 misses 416 416 partials 165 165 powered codecov last updated 3fe 0fd 03d copy link contributor timvd lippe commented jun 2016 lgtm thanks for doing the chore work hide details view details timvd lippe merged commit 8bab 53a into mockito master jun 2016 checks passed checks passed codecov patch coverage not affected when comparing 3fe 0fd 03d details codecov project compared 3fe 0fd details continuous integration travis the travis build passed details sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues</file>
+</fixedfiles>
+</bug>
+</bugrepository>

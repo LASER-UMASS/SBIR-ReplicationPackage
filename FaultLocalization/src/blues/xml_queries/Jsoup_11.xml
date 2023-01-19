@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_11" link="https://github.com/jhy/jsoup/issues/36">
+<buginformation>
+<summary>implement  not  pseudo  selector</summary>
+<description>version the pseudo selector not not implemented the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2010 added not selector find elements that not match the selector div not logo finds divs that not have the logo class name closed 19beb jhy added commit that referenced this issue jul 2011 fixed issue entities when unescaping 20ed 24c fixes michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 added not selector find elements that not match the selecto 462438 div not logo finds divs that not have the logo class name fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fixed issue entities when unescaping jhy 6752d fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 added not selector find elements that not match the selecto 19beb div not logo finds divs that not have the logo class name fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.select.Selector</file>
+</fixedfiles>
+</bug>
+</bugrepository>

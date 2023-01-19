@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_15" link="https://github.com/FasterXML/jackson-core/issues/209">
+<buginformation>
+<summary>make  use</summary>
+<description>currently looks like that the allow multiple matches attribute filtering generator delegate not utilised value assigned this variable the documentation this attribute offers some useful functionality would nice could implemented properly see https groups google com msg jackson user 9hvrs fozl cqaj the text was updated successfully but these errors were encountered cowtowncoder changed the title make use allow multiple matches filtering generator delegate make use allow multiple matches filtering parser delegate dec 2015 this was referenced mar 2016 fix for issue 209 make use allow multiple matches filter parsing delegate 262 closed fix for issue 209 make use allow multiple matches filter parsing delegate 263 merged cowtowncoder changed the title make use allow multiple matches filtering parser delegate make use allow multiple matches filtering parser delegate mar 2016 cowtowncoder closed this ecf 088c mar 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.filter.FilteringParserDelegate</file>
+</fixedfiles>
+</bug>
+</bugrepository>

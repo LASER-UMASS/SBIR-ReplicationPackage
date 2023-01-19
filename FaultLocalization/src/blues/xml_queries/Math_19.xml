@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_19" link="https://issues.apache.org/jira/browse/MATH-865">
+<buginformation>
+<summary>wide  bounds cmaes optimizer  result  parameters  passed  fitness  function</summary>
+<description>you  give  large  values  lower  upper  bounds  for  example  double  max  value  lower  bound  the  optimizer  can  call  the  fitness  function  with  parameters  set  nan  guess  this  due  fitnessfunction  encode  decode  generating  nan  when  normalizing  denormalizing  parameters  for  example  the  difference  between  the  lower  and  upper  bound  greater  than  double  max  value  encode  could  divide  infinity  infinity</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.optimization.direct.CMAESOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

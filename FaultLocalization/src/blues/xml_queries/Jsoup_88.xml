@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_88" link="https://github.com/jhy/jsoup/issues/1065">
+<buginformation>
+<summary>attribute get value  broken  for  empty  attributes  since</summary>
+<description>document doc jsoup parse div hidden attributes attributes doc body child attributes system out println string format attr value hidden attributes get hidden attribute first attributes iterator next system out println string format attr value first get key first get value expected output attr hidden value attr hidden value output attr hidden value attr hidden value null the text was updated successfully but these errors were encountered artur mentioned this issue may 2018 update latest soup vaadin flow 4134 closed jhy closed this 837a dec 2018 jhy added bug fixed labels dec 2018 jhy added this the milestone dec 2018 copy link owner jhy commented dec 2018 thanks fixed jhy mentioned this issue may 2019 npe null href causes protocol analysis crash valid protocols contains 1205 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Attribute</file>
+</fixedfiles>
+</bug>
+</bugrepository>

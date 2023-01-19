@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_35" link="https://issues.apache.org/jira/browse/CLI-252">
+<buginformation>
+<summary>long opt  falsely  detected  ambiguous</summary>
+<description>options  options  new  options  options  addoption  option  builder  longopt  importtoopen  hasarg  argname  file  build  options  addoption  option  builder  longopt  import  hasarg  argname  file  build  parsing  import  file  not  possible  since  throws  ambiguousoptionexception  stating  that  cannot  decide  whether  import  import  importtoopen  this  not  issue  the  root  lies  the  new  defaultparser  which  does  startswith  check  internally</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Options</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_83" link="https://github.com/jhy/jsoup/issues/797">
+<buginformation>
+<summary>could  handle  missing  tag  ends  better</summary>
+<description>are using jsoup parse html documents from some external websites which are not under our control few days ago one these sites updated their website and introduced bug causing our crawling fail spectacularly the html which was broken looked bit like this class cell div class great formatting 100 div you can see the missing closing while did document select div great formatting this failed because jsoup couldn parse the document correctly anymore understand very edge case and maybe very hard fix however for was production issue and caused quite few headaches right now have sort preprocessor running over the html close all elements which should closed but would much nicer jsoup would handle this out the box the text was updated successfully but these errors were encountered jhy changed the title jsoup cannot parse broken html could handle missing tag ends better dec 2016 copy link owner jhy commented dec 2016 thanks for the report this implemented per the html spec and the same way browsers run that sounds like excuse cop out but just mean for context think see that would attribute name could assume the intent was start new tag not get attribute with its name even moreso there was newline between them although the state machine doesn know the latter atm jhy added the improvement label dec 2016 jhy added this the milestone apr 2018 jhy closed this bdf 1df apr 2018 copy link author bodiam commented apr 2018 thanks for fixing this issue much appreciated copy link akaakuk commented nov 2018 just quick one regarding this issue can see now closed are also using jsoup parse html documents from external websites but run testing tool and would need know something about the website was incorrect this behaviour configurable thanks copy link owner jhy commented dec 2018 akaakuk you can enable error tracking you want catch error during parsing jmeckman mentioned this issue jan 2021 tokeniser tag attributes that follow character attribute name are lost 1483 open sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.CharacterReader</file>
+<file>org.jsoup.parser.TokeniserState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

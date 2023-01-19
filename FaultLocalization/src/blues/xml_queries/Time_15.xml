@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_15" link="https://sourceforge.net/p/joda-time/bugs/147">
+<buginformation>
+<summary>147  possibly  bug  org  joda  time  field field utils safe multipl</summary>
+<description>seems  that  currently  written  joda  time  jar  org  joda  time  field field utils safe multiply  long  val  int  scalar  doesn  detect  the  overflow  the  long  val  long  min  value  and  the  int  scalar  the  attached  file  demonstrates  what  think  the  bug  and  suggests  patch  looked  the  joda  time  bugs  list source forge  but  couldn  see  anything  that  looked  relevant  apologies  missed  something  making  mistake  with  this  bug  report  colin  bartlett</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.field.FieldUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

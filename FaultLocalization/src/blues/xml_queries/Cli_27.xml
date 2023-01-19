@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_27" link="https://issues.apache.org/jira/browse/CLI-182">
+<buginformation>
+<summary>unable  select  pure  long  option  group</summary>
+<description>optiongroup  doesn  play  nice  with  options  with  long  name  and  short  name  the  selected  option  hasn  short  name  group  setselected  option  has  effect</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.OptionGroup</file>
+</fixedfiles>
+</bug>
+</bugrepository>

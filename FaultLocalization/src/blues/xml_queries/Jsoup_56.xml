@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_56" link="https://github.com/jhy/jsoup/issues/408">
+<buginformation>
+<summary>jsoup  parse  seems  remove  system  identifier  doctype</summary>
+<description>edited jhy specifically when call document doc jsoup parse xhtml parser xml parser xhtml document that has the following doctype doctype html system exampledtdfile dtd end with the following result the document system now missing doctype html exampledtdfile dtd but this works fine document with doctype html public dtd xhtml transitional http www org xhtml dtd xhtml transitional dtd since system proper way declaring dtd believe this issue with jsoup the text was updated successfully but these errors were encountered copy link ivanpgs commented nov 2015 gzli this thing also happening and not only has with the system identifier having file header like parsing document twice jsoup parse new file input stream xml file file encoding xml file get path parser xml parser will generate this the first iteration parse and then generate this the second iteration parse and using the latest version far copy link zazi commented sep 2016 jhy can you make statement this issue please jhy closed this 28e 5bf oct 2016 copy link owner jhy commented oct 2016 thanks sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.DocumentType</file>
+<file>org.jsoup.parser.HtmlTreeBuilderState</file>
+<file>org.jsoup.parser.Token</file>
+<file>org.jsoup.parser.TokeniserState</file>
+<file>org.jsoup.parser.XmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

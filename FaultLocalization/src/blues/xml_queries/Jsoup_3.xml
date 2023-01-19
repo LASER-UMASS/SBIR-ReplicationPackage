@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_3" link="https://github.com/jhy/jsoup/issues/21">
+<buginformation>
+<summary>issue  with</summary>
+<description>when calling append add table row the resulting gets wrapped table even though appended existing table the text was updated successfully but these errors were encountered copy link owner jhy commented mar 2010 thanks for the report this example has effectively the same root cause http groups google com group jsoup browse thread thread 81e 326108715 the valid ancestor check needs bit refactor fix copy link owner jhy commented jun 2010 improved implicit close tag heuristic detection when parsing malformed html fixes issue where appending prepending rows table similar implicit element structures would create redundant wrapping elements closed 8cf michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 improved implicit close tag heuristic detection when parsing malforme 0081d html fixes issue where appending prepending rows table similar implicit element structures would create redundant wrapping elements fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 improved implicit close tag heuristic detection when parsing malforme 8cf html fixes issue where appending prepending rows table similar implicit element structures would create redundant wrapping elements fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+<file>org.jsoup.parser.Parser</file>
+<file>org.jsoup.parser.Tag</file>
+</fixedfiles>
+</bug>
+</bugrepository>

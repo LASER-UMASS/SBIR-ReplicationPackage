@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_39" link="https://issues.apache.org/jira/browse/COMPRESS-351">
+<buginformation>
+<summary>defective  zip  archive  produces  problematic  error  message</summary>
+<description>truncated  zip  file  produces  java  eofexception  conatining  hughe  amount  byte  data  the  error  message  leading  beeps  and  crippeling  workload  potential  console  logger</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.utils.ArchiveUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

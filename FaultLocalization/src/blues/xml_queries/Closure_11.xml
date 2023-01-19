@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_11" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-810.json">
+<buginformation>
+<summary>record  type  invalid  property  not  reported  function  with  this  annotation</summary>
+<description>code  var make class  function proto methods  var  clazz  function  this  initialize  apply  this  arguments  for  var proto methods  clazz  prototype proto methods  return  clazz  constructor  param  name  string  height  number  options  var  person  function  options  person make class  lends  person  prototype  this  person  param  name  string  height  number  options  initialize  function  options  type  string  this  name  options this prop does not exist  param  string  message  this  person  say  function  message  window  console  log  this  name  says  message  var  joe  new  person  name  joe  height  300  joe  say  compiled  with  java  jar  build  compiler  jar  formatting  pretty  print  jscomp  error check types  jscomp  error externs validation  compilation  level  simple  optimizations  repro  would  expect  error  this  line  type  string  this  name  options this prop does not exist  which  works  other  contexts  thanks  here  much  simpler  repro  case  constructor  var  person  function  person  prototype  bar  function  options  this  options this prop does not exist  something  very  weird  going  because  making  very  small  changes  make  the  warning  appear  changing  options this prop does not exist  options this prop does not exist  see  the  problem  some  weird  coincidence  dimitris  pointed  this  out  yesterday  this  issue  was  closed  revision  2185</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeCheck</file>
+</fixedfiles>
+</bug>
+</bugrepository>

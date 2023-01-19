@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_39" link="https://issues.apache.org/jira/browse/LANG-552">
+<buginformation>
+<summary>string utils replace each  bug  missing  documentation</summary>
+<description>the  following  test  case  for  replaceeach  fails  with  null  pointer  exception  have  expected  that  all  stringutils  methods  are  null  friendly  the  use  case  that  will  stuff  values  into  the  replacementlist  which  not  want  check  whether  they  are  null  admit  the  use  case  not  perfect  because  unclear  what  happens  the  replace  outlined  three  expectations  the  test  case  course  only  one  should  met  decided  that  none  them  should  possible  propose  update  the  documentation  with  what  happens  when  null  passed  replacement  string  import  static  org  junit  assert  assertequals  import  org  apache  commons  lang  stringutils  import  org  junit  test  public  class  stringutilstest  test  public  void  replaceeach  string  original  hello  world  string  searchlist  hello  world  string  replacementlist  greetings  null  string  result  stringutils  replaceeach  original  searchlist  replacementlist  assertequals  greetings  result  perhaps  this  well  assertequals  greetings  world  result  even  assertequals  greetings  null  result</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.StringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

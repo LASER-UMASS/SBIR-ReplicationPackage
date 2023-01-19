@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_10" link="https://issues.apache.org/jira/browse/CLI-156">
+<buginformation>
+<summary>missing  required  options  not  throwing missing option exception</summary>
+<description>when  options  object  used  parse  second  set  command  arguments  won  throw  missingoptionexception  import  org  apache  commons  cli  commandline  import  org  apache  commons  cli  gnuparser  import  org  apache  commons  cli  optionbuilder  import  org  apache  commons  cli  options  import  org  apache  commons  cli  parseexception  public  class  example  public  static  void  main  string  args  throws  parseexception  brokenexample  workingexample  throws  exception  expected  private  static  void  workingexample  throws  parseexception  string  args  options  opts  new  options  opts  addoption  optionbuilder  isrequired  create  gnuparser  parser  new  gnuparser  commandline  secondcl  parser  parse  opts  args  system  out  println  done  workingexample  fails  throw  exception  second  invocation  parse  private  static  void  brokenexample  throws  parseexception  string  firstargs  string  secondargs  options  opts  new  options  opts  addoption  optionbuilder  isrequired  create  gnuparser  parser  new  gnuparser  commandline  firstcl  parser  parse  opts  firstargs  commandline  secondcl  parser  parse  opts  secondargs  system  out  println  done  brokenexample  this  result  the  options  object  returning  the  reference  its  own  list  and  the  parsers  modifying  that  list  the  first  call  removing  the  required  options  they  are  found  and  subsequent  calls  get  back  empty  list</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_74" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-413.json">
+<buginformation>
+<summary>obvious  optimizations  don  works  inline</summary>
+<description>try  advanced  mode  alert  true  null  ever  true  null  this  case  ever  will  trigger  but  get  alert  null  same  for  alert  true  false  real  life  use  function  sum  return  true  alert  sum  true  results  alert  but  correct  alert  this  issue  was  closed  revision  982</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeFoldConstants</file>
+</fixedfiles>
+</bug>
+</bugrepository>

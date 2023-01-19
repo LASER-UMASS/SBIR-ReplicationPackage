@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_54" link="https://github.com/jhy/jsoup/issues/721">
+<buginformation>
+<summary>invalid  character  err  when  converting  document</summary>
+<description>edited recent clear quest version has html generation bug which ignored both chrome and internet explorer jsoup parse also successful org jsoup nodes document doc jsoup parse html head head body style color red body html please note the single quotation mark the end the body start tag but trying convert this document fails new dom from jsoup doc exception thread main org dom dom exception invalid character err invalid illegal xml character specified org apache xerces dom core document impl create attribute unknown source org apache xerces dom element impl set attribute unknown source org jsoup helper dom builder copy attributes dom java 124 org jsoup helper dom builder head dom java org jsoup select node traversor traverse node traversor java org jsoup helper dom convert dom java org jsoup helper dom from jsoup dom java perhaps copy attributes should ignore invalid attributes catch exactly this error and ignore dom could have flags ignore such errors the text was updated successfully but these errors were encountered dbenesj mentioned this issue jul 2016 exception cdom from soup case attribute with invalid characters 738 closed jhy closed this 148f aug 2016 copy link owner jhy commented aug 2016 thanks copy link stephan 972 commented nov 2016 jhy there chance see dom class leave its experimental state people seem appreciate see how convert jsoup document document dportabella mentioned this issue jul 2018 invalid character err when converting document different page 1093 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.W3CDom</file>
+</fixedfiles>
+</bug>
+</bugrepository>

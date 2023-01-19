@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_86" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-303.json">
+<buginformation>
+<summary>side  effects  analysis  incorrectly  removing  function  calls  with  side  effects</summary>
+<description>sample  code  constructor  function  foo  var  self  this  window set timeout  function  window  location  self  location  foo  prototype set location  function  loc  this  location  loc  new  foo set location  http  www  google  com  the set location  call  will  get  removed  advanced  mode  this  issue  was  closed  revision  647</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

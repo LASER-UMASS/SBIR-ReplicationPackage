@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_92" link="https://issues.apache.org/jira/browse/MATH-241">
+<buginformation>
+<summary>math utils binomial coefficient  fails  for  large  results</summary>
+<description>probably  due  rounding  errors  mathutils  binomialcoefficient  fails  for  results  near  long  max  value  the  existence  failures  can  demonstrated  testing  the  recursive  property  assertequals  mathutils  binomialcoefficient  mathutils  binomialcoefficient  mathutils  binomialcoefficient  directly  using  the  externally  calculated  and  hopefully  correct  expected  value  assertequals  7219428434016265740l  mathutils  binomialcoefficient  suggest  nonrecursive  test  implementation  along  the  lines  mathutilstest  java  exact  implementation  using  biginteger  and  the  explicit  formula  public  static  long  binomialcoefficient  int  int  return  biginteger  result  biginteger  one  for  int  result  result  multiply  biginteger  valueof  for  int  result  result  divide  biginteger  valueof  result  compareto  biginteger  valueof  long  max  value  throw  new  arithmeticexception  binomial  coefficient  overflow  return  result  longvalue  which  would  allow  you  test  the  expected  values  directly  assertequals  binomialcoefficient  mathutils  binomialcoefficient</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.util.MathUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

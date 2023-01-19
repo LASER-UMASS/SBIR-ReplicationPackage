@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_16" link="https://github.com/FasterXML/jackson-databind/issues/771">
+<buginformation>
+<summary>annotation  bundles  ignored  when  added  mixin</summary>
+<description>when updating from appears though annotation bundles created with jackson annotations inside are ignored when placed mixin moving the annotation bundel the actual class seems resolve the issue below simple test that attempts rename property have more complicated test cases that are also failing but this should provide some context public class fun test public void test throws json processing exception object mapper mapper new object mapper add mix foo class foo mixin class string result mapper write value string new foo result assert assert equals bar result result target value element type constructor element type field element type method retention value retention policy runtime jackson annotations inside json property bar public interface expose stuff public abstract class foo mixin expose stuff public abstract string get stuff public class foo private string stuff foo string stuff this stuff stuff public string get stuff return stuff expecting the stuff property serialized bar apologize haven been able identify the culprit and perhaps usage let know your thoughts always happy provide more details the text was updated successfully but these errors were encountered copy link member cowtowncoder commented apr 2015 that certainly sounds like bug thank you for reporting this cowtowncoder added commit that referenced this issue apr 2015 streamlining annotated class slightly trying figure out 771 6dcb 13f cowtowncoder modified the milestones apr 2015 cowtowncoder closed this 612bb apr 2015 copy link member cowtowncoder commented apr 2015 found the problem the bowels code simple mismatch state return boolean value one place interesting that such simple case was not being tested although bundles are tested well basic mix ins just not combination thereof thank you for reporting this will sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.introspect.AnnotationMap</file>
+</fixedfiles>
+</bug>
+</bugrepository>

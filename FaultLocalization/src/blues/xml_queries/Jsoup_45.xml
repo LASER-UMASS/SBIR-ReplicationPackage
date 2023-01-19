@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_45" link="https://github.com/jhy/jsoup/issues/575">
+<buginformation>
+<summary>bug html tree builder reset insertion mode  checked  twice  must  and</summary>
+<description>https github com jhy jsoup blob master src main java org jsoup parser html tree builder java 394 testcase val html body table table table div table table div div div div div div div table body val doc jsoup parse html println doc body assert doc body children size this comment has been minimized sign view owner jhy commented jul 2015 thanks jhy closed this 9df jul 2015 zazi added commit dswarm jsoup that referenced this issue oct 2015 fix table insertion into tags 43575 fixes jhy 575 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

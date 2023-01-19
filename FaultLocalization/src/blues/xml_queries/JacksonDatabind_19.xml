@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_19" link="https://github.com/FasterXML/jackson-databind/issues/810">
+<buginformation>
+<summary>force  value  coercion  for  that  values  are</summary>
+<description>currently there custom handling for java util properties and although possible use since really map under the hood results are only good values are already strings the problem here that properties actually declared map string object probably due backwards compatibility constraints but jackson should know better perhaps type factory tweaking parameterizations bit the text was updated successfully but these errors were encountered cowtowncoder closed this 354e 139 may 2015 cowtowncoder added this the milestone jun 2015 this was referenced mar 2020 properties properties new properties properties put key fix bug such properties can serialized 2656 closed allow serialization properties with non string values 2657 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.type.TypeFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

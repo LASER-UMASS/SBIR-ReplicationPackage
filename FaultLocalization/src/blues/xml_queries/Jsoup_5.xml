@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_5" link="https://github.com/jhy/jsoup/issues/32">
+<buginformation>
+<summary>string index out bounds exception  when  testing  whether  string  content  valid  html</summary>
+<description>try parse tag with equals sign empty attribute but without any single double quotes around attribute value then get string index out bounds exception the stack trace pasted below example string would the following unit test case should not throw string index out bounds exception import static org junit assert assert true import org jsoup jsoup import org jsoup safety whitelist import org junit test public class bad attribute test test public void tag with bad attribute valid throws exception assert true jsoup valid whitelist relaxed java lang string index out bounds exception string index out range java lang string char string java 686 org jsoup parser token queue consume token queue java 130 org jsoup parser parser parse attribute parser java 207 org jsoup parser parser parse start tag parser java 142 org jsoup parser parser parse parser java org jsoup parser parser parse body fragment parser java org jsoup jsoup parse body fragment jsoup java org jsoup jsoup valid jsoup java 155 the text was updated successfully but these errors were encountered copy link owner jhy commented aug 2010 thanks well spotted fix that for the next release copy link owner jhy commented aug 2010 fixed issue when parsing tags with keyless attributes closed 856c 8ef michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue when parsing tags with keyless attributes 62afbdf fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fixed issue when parsing tags with keyless attributes 856c 8ef fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

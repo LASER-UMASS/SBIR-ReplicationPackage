@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_47" link="https://issues.apache.org/jira/browse/COMPRESS-436">
+<buginformation>
+<summary>zip archive input stream get next zip entry  should  verify  compressed  size  known  for  bzip  implode  etc</summary>
+<description>current  entry  getcompressedsize  archiveentry  size  unknown  current  entry  getmethod  zipmethod  unshrinking  getcode  current  new  unshrinkinginputstream  new  boundedinputstream  current  entry  getcompressedsize  else  current  entry  getmethod  zipmethod  imploding  getcode  current  new  explodinginputstream  current  entry  getgeneralpurposebit  getslidingdictionarysize  current  entry  getgeneralpurposebit  getnumberofshannonfanotrees  new  boundedinputstream  current  entry  getcompressedsize  else  current  entry  getmethod  zipmethod  bzip  getcode  current  new bzip 2compressorinputstream  new  boundedinputstream  current  entry  getcompressedsize  never  sets  current  the  compressed  size  unknown  which  probably  leads  nullpointerexception  read  later  should  fail  early  with  useful  error  message  instead</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

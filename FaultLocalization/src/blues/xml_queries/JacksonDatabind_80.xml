@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_80" link="https://github.com/FasterXML/jackson-databind/issues/1616">
+<buginformation>
+<summary>extraneous  type  mapping  added  for  base  type  itself</summary>
+<description>looks like type name matching base type included type resolution list automatically while this might useful sometimes seems quite odd and probably should only included base type concrete and base type has explicit name not add default name used the text was updated successfully but these errors were encountered cowtowncoder added the label apr 2017 cowtowncoder added this the milestone apr 2017 cowtowncoder closed this 974ccdd apr 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.jsontype.impl.StdSubtypeResolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

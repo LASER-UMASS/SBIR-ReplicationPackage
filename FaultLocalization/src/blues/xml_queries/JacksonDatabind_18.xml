@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_18" link="https://github.com/FasterXML/jackson-databind/issues/734">
+<buginformation>
+<summary>add  basic  error  recovery  for</summary>
+<description>follow for 733 case json processing exception mapping iterator will currently left pointing right after whatever token was last tokenized character following tokenization error while this better than indeterminate state ideally should try some error recover and although may not possible recover successfully from all kinds issues should possible best effort given that iterator has some knowledge state when was opened that can try heuristically match closing end object depending nesting level was created addition may make sense add switch prevent using any automated heuristics for those users who want full control over recovery the text was updated successfully but these errors were encountered cowtowncoder mentioned this issue mar 2015 mapping iterator does not clear current token after exception faster xml jackson dataformat csv closed cowtowncoder added this the milestone may 2015 cowtowncoder mentioned this issue may 2015 verify that object reader read values recovery works for csv too faster xml jackson dataformat csv closed cowtowncoder closed this 2abf may 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.MappingIterator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

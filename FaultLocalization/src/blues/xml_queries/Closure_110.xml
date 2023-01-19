@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_110" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1111.json">
+<buginformation>
+<summary>allow  private  top  level  functions  goog  scope</summary>
+<description>what  steps  will  reproduce  the  problem  goog  scope  function  private  function  test  the  code  above  gives  error  quot  the  local  variable  test  goog  scope  and  not  alias  quot  what  the  expected  output  the  code  above  should  compile  and  function  test  referenceable  only  from  inside  the  file  question  replace  quot  function  test  quot  with  quot  var  test  function  quot  the  code  compiles  nick  let  know  you  don  have  time  look  this  hurry  take  care  just  little  bit  tricky  because  function  hoisting  https  codereview  appspot  com 14583044 this  issue  was  closed  revision 13fb 7fcbcad  this  issue  was  closed  revision 13fb 7fcbcad</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ScopedAliases</file>
+<file>com.google.javascript.rhino.Node</file>
+</fixedfiles>
+</bug>
+</bugrepository>

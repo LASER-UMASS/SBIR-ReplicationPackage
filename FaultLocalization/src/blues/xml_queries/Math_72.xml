@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_72" link="https://issues.apache.org/jira/browse/MATH-344">
+<buginformation>
+<summary>brent  solver  returns  the  wrong  value  either  bracket  endpoint  root</summary>
+<description>the  solve  final  univariaterealfunction  final  double  min  final  double  max  final  double  initial  function  returns  ymin  ymax  min  max  are  deemed  roots  respectively  instead  min  max</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.analysis.solvers.BrentSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

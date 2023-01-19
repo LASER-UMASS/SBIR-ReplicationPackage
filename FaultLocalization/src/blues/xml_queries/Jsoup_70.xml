@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_70" link="https://github.com/jhy/jsoup/issues/722">
+<buginformation>
+<summary>whitespaces  not  properly  handled  pre  tag</summary>
+<description>pre tag contains deep nested tags whitespaces nested tags are not preserved example string pre code message span style color red other message with whitespaces span code pre document doc jsoup parse system out println doc select pre first outer html will output pre code message span style color red other message with whiptespaces span pre code output omit the code tag the text was updated successfully but these errors were encountered jhy closed this aeaf nov 2017 copy link owner jhy commented nov 2017 thanks fixed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+</fixedfiles>
+</bug>
+</bugrepository>

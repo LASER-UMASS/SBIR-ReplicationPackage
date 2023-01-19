@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_32" link="https://github.com/jhy/jsoup/issues/278">
+<buginformation>
+<summary>element  clone  wrongly  shared  same class names  set  instance</summary>
+<description>the clone method node the object clone called the original element class names set had been initialized before clone the original class names set will set the new cloned element instance due the jdk clone mechanism thus the old element and the newly cloned element will share same class names set instance the text was updated successfully but these errors were encountered copy link owner jhy commented dec 2012 thanks for pointing this out jhy closed this 37cba dec 2012 zazi added commit dswarm jsoup that referenced this issue oct 2015 don clone the element classnames adb 29fa fixes jhy 278 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+</fixedfiles>
+</bug>
+</bugrepository>

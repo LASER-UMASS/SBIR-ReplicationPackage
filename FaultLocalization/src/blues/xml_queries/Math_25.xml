@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_25" link="https://issues.apache.org/jira/browse/MATH-844">
+<buginformation>
+<summary>harmonic fitter parameter guesser  sometimes  fails  return  sensible  values</summary>
+<description>the  inner  class  parameterguesser  harmonicfitter  package  optimization  fitting  fails  compute  usable  guess  for  the  amplitude  parameter</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.optimization.fitting.HarmonicFitter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

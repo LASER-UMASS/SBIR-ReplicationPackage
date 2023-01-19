@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_61" link="https://issues.apache.org/jira/browse/MATH-349">
+<buginformation>
+<summary>dangerous  code poisson distribution impl</summary>
+<description>the  following  excerpt  from  class  poissondistributionimpl  poissondistributionimpl  java  public  poissondistributionimpl  double  normaldistribution  super  setnormal  setmean  overridable  methods  are  called  within  the  constructor  the  reference  stored  and  modified  within  the  class  encountered  problem  several  classes  while  working  issue  348  those  cases  order  remove  potential  problems  copied  pasted  the  body  the  setter  methods  inside  the  constructor  but  think  that  more  elegant  solution  would  remove  the  setters  altogether  make  the  classes  immutable  problem  can  also  create  unexpected  behaviour  really  necessary  pass  the  normaldistribution  object  can  always  created  within  the  class</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.distribution.PoissonDistributionImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

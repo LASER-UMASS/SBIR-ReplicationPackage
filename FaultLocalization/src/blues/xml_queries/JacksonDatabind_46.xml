@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_46" link="https://github.com/FasterXML/jackson-databind/issues/1194">
+<buginformation>
+<summary>incorrect  signature  for  generic  type  via java type get generic signature</summary>
+<description>see faster xml jackson modules base for background looks like generic signature generation missing one closing character produce ljava util concurrent atomic atomic reference ljava lang string instead expected ljava util concurrent atomic atomic reference ljava lang string that closing missing the text was updated successfully but these errors were encountered cowtowncoder closed this 67177 apr 2016 cowtowncoder added commit that referenced this issue apr 2016 fix 1194 loading status checks 2bb 0df xaviarias mentioned this issue jan 2019 jackson fails deserialize kotlin classes that contain spaces the name 2228 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.type.ReferenceType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

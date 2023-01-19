@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_58" link="https://issues.apache.org/jira/browse/LANG-300">
+<buginformation>
+<summary>number utils create number  throws number format exception  for  one  digit  long</summary>
+<description>numberutils  createnumber  throws  numberformatexception  when  parsing  etc  works  fine  you  try  parse  01l  02l  the  condition  isdigits  numeric  substring  line  455  return  false  numeric  substring  empty  string  for</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

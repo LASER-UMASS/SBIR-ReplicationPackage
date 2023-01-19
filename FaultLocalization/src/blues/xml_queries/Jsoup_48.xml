@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_48" link="https://github.com/jhy/jsoup/issues/618">
+<buginformation>
+<summary>small  bug  for  duplicate  tuple  response  header</summary>
+<description>for response headers have duplicate tuple this case powered php powered asp net jsoup can only get the second one run header powered got asp net url http 01pt com cache control store cache must revalidate post check pre check content encoding gzip content length 16224 content type text html charset 2312 date thu aug 2015 gmt expires thu nov 1981 gmt pragma cache server microsoft iis vary accept encoding powered php powered asp net the bug because values empty header name values get change values empty string val for string str values val val concat str concat header name val then able get php asp net when run header powered void process response headers map string list res headers for map entry string list entry res headers entry set string name entry get key name null continue http line list string values entry get value name equals ignore case set cookie for string value values value null continue token queue new token queue value string cookie name chomp trim string cookie val consume trim ignores path date domain validate tls certificates req name not blank value not null cookie name length cookie cookie name cookie val else only take the first instance each header values empty header name values get the text was updated successfully but these errors were encountered copy link owner jhy commented aug 2015 per the rfc multiple header values with the same name should comma separated http www org protocols rfc 2616 rfc 2616 sec html sec jhy closed this 6555358 aug 2015 copy link owner jhy commented aug 2015 thanks fixed zazi added commit dswarm jsoup that referenced this issue oct 2015 combine header values with comma 8be fixes jhy 618 jhy added this the milestone apr 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.HttpConnection</file>
+</fixedfiles>
+</bug>
+</bugrepository>

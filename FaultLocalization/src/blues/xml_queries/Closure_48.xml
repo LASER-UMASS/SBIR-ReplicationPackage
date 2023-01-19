@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_48" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-586.json">
+<buginformation>
+<summary>type  checking  error  when  replacing  function  with  stub  after  calling</summary>
+<description>given  the  following  javascript  constructor  var  myclass  function  param  boolean  success  myclass  prototype  function  success  myclass  prototype  test  function  this  this  function  would  expect  error  both  lines  test  instead  the  second  line  causes  the  error  the  first  not  reported  thanks  for  reporting</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

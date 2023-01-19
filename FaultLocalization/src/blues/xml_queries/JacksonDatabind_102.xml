@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_102" link="https://github.com/FasterXML/jackson-databind/issues/2064">
+<buginformation>
+<summary>cannot  set  custom  format  for  globally</summary>
+<description>version after 219 was fixed the default format for java sql date serialization switched from string numeric following the default value write dates timestamps order prevent breaks want java sql date serialize string without changing behavior for java util date which has always serialized number default according 219 comment should able revert the behavior for java sql date only with final object mapper mapper new object mapper mapper config override java sql date class set format json format value for pattern yyyy this doesn seem anything though looking the code looks like because the custom format isn actually added sql date serializer except the create contextual method https github com faster xml jackson databind blob master src main java com fasterxml jackson databind ser std date time serializer base java for now reverted this behavior with mapper register module new simple module add serializer java sql date class new sql date serializer with format false new simple date format yyyy but seems pretty hacky prefer the other method possible the text was updated successfully but these errors were encountered bkrieger mentioned this issue jun 2018 sql date serializer does not obey serialization config feature write dates timestamps 219 closed copy link member cowtowncoder commented jun 2018 quick note timing here bit unfortunate just released but course with fixes better late than never thank you for reporting the issue cowtowncoder added active labels jun 2018 cowtowncoder removed the active label aug 2018 cowtowncoder added this the milestone aug 2018 cowtowncoder changed the title cannot set custom format for sql date serializer globally cannot set custom format for sql date serializer globally aug 2018 cowtowncoder closed this 323cd aug 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.std.DateTimeSerializerBase</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_72" link="https://github.com/jhy/jsoup/issues/972">
+<buginformation>
+<summary>string index out bounds exception  jsoup</summary>
+<description>example jsoup parse new url https gist githubusercontent com valodzka 91ed 27043628e 9023009e 503d 41f 1aad raw 15f 68671e 0517e 48fdac 812983b 85fea 27c test html 000 the text was updated successfully but these errors were encountered copy link contributor krystiangorecki commented nov 2017 edited this document not complete that just the first 63k html and the last line code reproduce jsoup parse jhy added the bug label nov 2017 jhy added this the milestone nov 2017 jhy closed this 841199 nov 2017 copy link owner jhy commented nov 2017 thanks for the report fixed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.CharacterReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

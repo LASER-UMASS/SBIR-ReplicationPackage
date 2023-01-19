@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_19" link="https://github.com/mockito/mockito/issues/205">
+<buginformation>
+<summary>inject mocks  injects  mock  into  wrong  field</summary>
+<description>using when using inject mocks some android text views the mock injected into the wrong field have two fields txt gate view txt next step class and our test mocks out txt next step then tried inject this field injected wrong see screenshot from our quick testing the name txt next view doesn matter that can changed but both txt gate view and txt gate label messed things mock out both fields works correctly testproject https github com simen emptyandroid don know because android but was easiest for create minimal test from existing code the text was updated successfully but these errors were encountered copy link bluepoet commented may 2015 simen maybe txt next step text view class mocking the aneunge not work properly bug would not even inject mocks features copy link contributor timvd lippe commented jun 2015 have answered similar question stackoverflow and you can find investigations http stackoverflow com 29954211 2761676 copy link contributor author simen commented jun 2015 jeremybell yeah that seems the same thing while explains why happens still consider bug copy link contributor bric commented jun 2015 not bug just something that was left off thanks jeremybell look into your note the merge gonna happen line which beta and subject important changes both internally and api wise bric mentioned this issue jun 2015 improves inject mocks behavior when injectee has multiple fields the same type 215 merged copy link contributor timvd lippe commented jun 2015 after commented realised probably knew how fix hope the useful looking forward mockito bric closed this 110ffa jun 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter</file>
+<file>org.mockito.internal.configuration.injection.filter.MockCandidateFilter</file>
+<file>org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter</file>
+<file>org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter</file>
+<file>org.mockito.internal.configuration.injection.PropertyAndSetterInjection</file>
+</fixedfiles>
+</bug>
+</bugrepository>

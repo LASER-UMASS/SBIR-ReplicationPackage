@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_18" link="https://sourceforge.net/p/joda-time/bugs/130">
+<buginformation>
+<summary>130  chronology  rejects  valid  julian  dates</summary>
+<description>example date time  jdt  new date time  1500 julian chronology get instance utc  valid date time  gjdt  new date time  1500  chronology get instance utc  invalid  the  2nd  statement  fails  with  org  joda  time illegal field value exception  value  for day month  must  the  range  given  that  left  the  cutover  date  the  default  october  1582  isn  1500  valid  date  the  chronology</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.chrono.GJChronology</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_51" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-582.json">
+<buginformation>
+<summary>becomes  even  whitespace  mode</summary>
+<description>affects  dart  http  code  google  com  dart  issues  detail 146 this  issue  was  closed  revision  1519  this  issue  was  closed  revision  1754</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeConsumer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

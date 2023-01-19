@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_18" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-768.json">
+<buginformation>
+<summary>dependency  sorting  with closure pass  set  false  longer  works</summary>
+<description>what  steps  will  reproduce  the  problem  instantiate  new  instance  compiler  set closure pass  false  prevent  goog  require  goog  provide  removal compiler options set closure pass  false  turn  dependency  sorting dependency options dependency options  new dependency options dependency options set dependency sorting  true  compile  code  what  the  expected  output  dependent  files  should  sorted  and  concatenated  their  dependent  order  what  you  see  instead  dependent  files  are  not  sorted  what  version  the  product  are  you  using  what  operating  system  1824  mac  please  provide  any  additional  information  below  this  worked  the  1810  release  however  looks  like  this  was  changed  1824  the  compiler  now  expects closure pass  true  for  dependency  sorting  work  http  code  google  com  closure  compiler  source  detail  path  trunk  src  com  google  javascript  jscomp  compiler  java  amp  1824  what  are  looking  for  way  sort  dependencies  and  concatenate  all  files  their  dependent  order  without  removing  the  goog  require  goog  provide  calls  turning closure pass  true  causes  the  goog  calls  replaced  use  this  methodology  local  development  test  our  code  thanks  seems  reasonable  this  issue  was  closed  revision  2073  awesome  thanks  bunch  nick</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Compiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

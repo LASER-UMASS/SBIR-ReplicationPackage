@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_128" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-942.json">
+<buginformation>
+<summary>the  compiler  quotes  the  keys  object  literals</summary>
+<description>what  steps  will  reproduce  the  problem  compile  alert  what  the  expected  output  alert  what  you  see  instead  alert  quot  quot  what  version  the  product  are  you  using  what  operating  system  latest  version  goobuntu  thanks  not  sure  when  someone  will  get  around  fixing  this  this  issue  was  closed  revision 82fb 38b 0121</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

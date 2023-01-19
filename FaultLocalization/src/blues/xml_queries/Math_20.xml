@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_20" link="https://issues.apache.org/jira/browse/MATH-864">
+<buginformation>
+<summary>cmaes optimizer  does  not  enforce  bounds</summary>
+<description>the  cmaesoptimizer  can  exceed  the  bounds  passed  optimize  looking  the  generationloop  dooptimize  does  bounds  check  calling  isfeasible  but  checkfeasablecount  zero  the  default  then  isfeasible  never  even  called  also  even  with  non  zero  checkfeasablecount  may  give  before  finding  bounds  offspring  and  forward  with  out  bounds  offspring  this  against  svn  revision  1387637  can  provide  example  program  where  the  optimizer  ends  with  fit  outside  the  prescribed  bounds  that  would  help</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.optimization.direct.CMAESOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

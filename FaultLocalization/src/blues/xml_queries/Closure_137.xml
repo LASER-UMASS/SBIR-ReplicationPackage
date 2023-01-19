@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_137" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-124.json">
+<buginformation>
+<summary>invalid  jsc  deterministic  test</summary>
+<description>what  steps  will  reproduce  the  problem  compile  following  code closure compiler  output  file  name  default  compilation  level  advanced  optimizations closure compiler  var  null  window  test  function  null  null  what  the  expected  output  what  you  see  instead  code  should  compiled  without  warnings  but  see  quot  jsc  deterministic  test  condition  always  evaluates  false  quot  thanks  for  the  report  the  immediate  work  around  have  type  number  annotation  the  global  variable  this  issue  was  closed  revision  142</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.MakeDeclaredNamesUnique</file>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+<file>com.google.javascript.jscomp.Normalize</file>
+</fixedfiles>
+</bug>
+</bugrepository>

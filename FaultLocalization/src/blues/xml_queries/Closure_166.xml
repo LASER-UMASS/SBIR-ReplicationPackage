@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_166" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-785.json">
+<buginformation>
+<summary>anonymous  object  type  inference  inconsistency  when  used  union</summary>
+<description>code  param  prop  string  prop  string  undefined  record  var  func  function  record  window  console  log  record  prop  param  prop  string  prop  string  undefined  string  record  var  func  function  record  typeof  record  string  window  console  log  record  else  window  console  log  record  prop  func  prop  func  prop  errors  with  error  actual  parameter  func  does  not  match  formal  parameter  found  prop  string  required  string  prop  string  prop  string  undefined  func  prop  the  type  the  record  input  func  and  func  are  identical  but  the  parameters  func  allow  some  other  type  this  issue  was  closed  revision  2117</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.PrototypeObjectType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_32" link="https://issues.apache.org/jira/browse/COMPRESS-314">
+<buginformation>
+<summary>tar archive input stream  rejects  uid  gid  80000000</summary>
+<description>posix  format  archive  that  came  from  sysdiagnose  produces  numberformatexception  when  try  read  with  tararchiveinputstream  the  relevant  part  the  tar  file  looks  like  this  uid  429496729  that  the  uid  nobody  mac  mac  uid  unsigned  int  posix  doesn  say  anything  about  the  width  the  uid  extended  header  assume  the  tar  file  okay  gnu  tar  doesn  have  trouble  with  the  relevant  code  applypaxheaderstocurrententry  else  gid  equals  key  currentry  setgroupid  integer  parseint  val  else  uid  equals  key  currentry  setuserid  integer  parseint  val  uid  and  gid  are  typically  unsigned  bit  integers  these  should  presumably  use  long  parselong  handle  integers  with  the  top  bit  set  and  tararchiveentry  would  need  some  modifications  handle  large  uid  and  gid  too  java  lang  numberformatexception  for  input  string  4294967294  java  lang  numberformatexception  forinputstring  numberformatexception  java  java  lang  integer  parseint  integer  java  495  java  lang  integer  parseint  integer  java  527  org  apache  commons  compress  archivers  tar  tararchiveinputstream  applypaxheaderstocurrententry  tararchiveinputstream  java  488  org  apache  commons  compress  archivers  tar  tararchiveinputstream  paxheaders  tararchiveinputstream  java  415  org  apache  commons  compress  archivers  tar  tararchiveinputstream  getnexttarentry  tararchiveinputstream  java  295  http  pubs  opengroup  org  onlinepubs  9699919799  utilities  pax  html  tag  uid  the  user  the  file  owner  expressed  decimal  number  using  digits  from  the  iso  iec  646  1991  standard  this  record  shall  override  the  uid  field  the  following  header  block  when  used  write  copy  mode  pax  shall  include  uid  extended  header  record  for  each  file  whose  owner  greater  than  2097151  octal  7777777</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

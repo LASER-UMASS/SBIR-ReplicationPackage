@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_143" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-139.json">
+<buginformation>
+<summary>define  does  not  support  strings</summary>
+<description>java  jar  compiler  jar  compilation  level  advanced  optimizations  define  test  version  output  file  test  min  test  java  lang runtime exception  define  flag  syntax  invalid  test  version  com  google  javascript  jscomp abstract command line runner create define replacements  unknown  source  com  google  javascript  jscomp abstract command line runner init options from flags  unknown  source  com  google  javascript  jscomp command line runner create options  unknown  source  com  google  javascript  jscomp abstract command line runner  run  unknown  source  com  google  javascript  jscomp abstract command line runner  run  unknown  source  com  google  javascript  jscomp command line runner  main  unknown  source  test  define  string  test  version  quot  quot  have  tried  both  these  define  test  version  define  test  version  quot  quot  both  generate  the  same  error  what  and  shell  are  you  using  can  you  escape  your  quotes  something  like  this  java  jar  compiler  jar  compilation  level  advanced  optimizations  define  test  version  output  file  these  work  define  test  version  define  test  version  didn  expect  require  single  quotes  instead  double  quotes  around  the  string  this  issue  was  closed  revision  173  thanks  for  the  update  support  both  single  and  double  quotes</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.AbstractCommandLineRunner</file>
+<file>com.google.javascript.jscomp.RemoveConstantExpressions</file>
+</fixedfiles>
+</bug>
+</bugrepository>

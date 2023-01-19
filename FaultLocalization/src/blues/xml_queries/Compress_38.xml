@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_38" link="https://issues.apache.org/jira/browse/COMPRESS-356">
+<buginformation>
+<summary>pax  header  entry  name  ending  with  causes  problems</summary>
+<description>there  seems  problem  when  pax  header  entry  link  flag  has  name  ending  with  the  tararchiveentry  isdirectory  check  ends  returning  true  because  the  trailing  slash  which  means  content  can  read  from  the  entry  pax  header  parsing  effectively  finds  nothing  and  the  stream  not  advanced  this  leaves  the  stream  bad  state  the  next  entry  header  actually  read  from  the  header  contents  the  name  modified  remove  the  trailing  slash  when  the  link  flag  indicates  pax  header  everything  seems  work  fine  that  would  one  potential  fix  parsetarheader  changing  isdirectory  return  false  ispaxheader  true  before  the  trailing  check  would  probably  also  fix  the  issue  though  can  verify  that  the  debugger  like  can  with  changing  the  name  far  have  only  seen  this  when  using  docker  save  images  that  contain  yum  database  for  example  docker  pull  centos  latest  docker  save  centos  latest  tar  include  layer  tar  will  produce  least  one  layer  tar  that  exhibits  this  issue  come  across  smaller  tar  for  testing  will  attach</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveEntry</file>
+</fixedfiles>
+</bug>
+</bugrepository>

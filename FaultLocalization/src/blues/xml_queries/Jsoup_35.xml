@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_35" link="https://github.com/jhy/jsoup/issues/313">
+<buginformation>
+<summary>soup  parsing  unclosed  tags</summary>
+<description>using soup inclusive the last release there bug parsing html with unclosed tags example string tmp href www google com link error link jsoup parse tmp the document that generate html head head body href www google com link error link body html the browsers would generate something html head head body href www google com link href www google com error link body html jsoup should works browsers source code also there question stackoverflow http stackoverflow com questions 15813821 jsoup parsing unclosed tags the text was updated successfully but these errors were encountered copy link owner jhy commented oct 2013 the right thing copy the attributes like browsers jhy closed this 76399e oct 2013 philippbc mentioned this issue aug 2014 soup parsing unclosed tags continued 451 closed zazi added commit dswarm jsoup that referenced this issue oct 2015 fixed issue where elements added via the adoption agency algorithm 52fa did not preserve their attributes fixes jhy 313 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

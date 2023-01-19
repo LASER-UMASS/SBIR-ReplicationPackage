@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_104" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-114.json">
+<buginformation>
+<summary>typos  externs  html</summary>
+<description>line  354 canvas rendering context  prototype global compositing operation  line  366 canvas rendering context  prototype mitre limit  they  should global composite operation  and miter limit  respectively  thanks  for  catching  that  fix  monday  when  near  machine  that  can  edit  code  from  this  issue  was  closed  revision  113</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.UnionType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_26" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-732.json">
+<buginformation>
+<summary>process common modules  module  exports  failures  when check types  enabled</summary>
+<description>you  define  module  echo  define  function  return  echo  function  val  window  console  log  val  and  entry  point  that  does  not  define  any  new  modules  var  echo  require  echo  echo  echo  hello  world  and  compile  with  java  jar  build  compiler  jar  formatting  pretty  print  jscomp  error check types  compilation  level  simple  optimizations  transform  amd  modules  process  common  modules  echo  echo  main  common  entry  module  echo  main  you  get  the  error  echo  main  error  property  module  exports  never  defined  module  echo  main  which  probably  happening  because process common modules emit optional module exports override  testing  property  that  doesn  exist  can  try  cook  patch  but  would  probably  fall  back  using  goog  def  and  there  probably  cleaner  way  what  the  intended  definition  entry  points  that  not  define  new  modules  the  following  leaves  call  require  function  require  echo  function  echo  echo  echo  hello  world  this  issue  was  closed  revision  1982</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ProcessCommonJSModules</file>
+</fixedfiles>
+</bug>
+</bugrepository>

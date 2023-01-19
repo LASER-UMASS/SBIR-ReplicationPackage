@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_46" link="https://issues.apache.org/jira/browse/COMPRESS-416">
+<buginformation>
+<summary>tests  failing  under  jdk  one  reflection  issue  one  change zip entry  related  issue</summary>
+<description>5455  extendedtimestamptest  failing  under  jdk  due  what  appears  bogus  value  returned  from  gettime  seems  like  the  test  failure  might  due  the  changes  introduced  for  this  https  bugs  openjdk  java  net  browse  jdk  8073497  tests  were  run  using  intellij  testrunner  using  the  openjdk  build  from  the  tip  the  jdk  tree  not  dev  believe  that  this  most  one  commit  away  from  what  will  the  which  was  delayed  the  last  minute  due  two  issues  one  which  was  javadoc  related  and  the  other  hotspot</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp</file>
+</fixedfiles>
+</bug>
+</bugrepository>

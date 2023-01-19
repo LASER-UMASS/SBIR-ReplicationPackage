@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_19" link="https://issues.apache.org/jira/browse/LANG-710">
+<buginformation>
+<summary>string index out bounds exception  when  calling unescape html</summary>
+<description>when  calling  unescapehtml  the  string  any  string  that  contains  these  characters  exception  thrown  exception  thread  main  java  lang  stringindexoutofboundsexception  string  index  out  range  java  lang  string  charat  string  java  686  org  apache  commons  lang  text  translate  numericentityunescaper  translate  numericentityunescaper  java  org  apache  commons  lang  text  translate  aggregatetranslator  translate  aggregatetranslator  java  org  apache  commons  lang  text  translate  charsequencetranslator  translate  charsequencetranslator  java  org  apache  commons  lang  text  translate  charsequencetranslator  translate  charsequencetranslator  java  org  apache  commons  lang  stringescapeutils  unescapehtml  stringescapeutils  java  351</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.text.translate.NumericEntityUnescaper</file>
+</fixedfiles>
+</bug>
+</bugrepository>

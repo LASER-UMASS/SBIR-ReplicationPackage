@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_3" link="https://issues.apache.org/jira/browse/COMPRESS-64">
+<buginformation>
+<summary>are  the  public  finish  methods archive output stream  implementations  necessary  and  safe</summary>
+<description>some  the  archiveoutputstream  implementations  have  public  finish  methods  these  are  currently  only  called  from  the  close  methods  seems  that  there  need  allow  the  finish  methods  called  externally  and  the  user  can  corrupt  the  output  they  surely  the  close  method  all  that  needed</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveOutputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

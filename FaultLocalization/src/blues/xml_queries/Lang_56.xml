@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_56" link="https://issues.apache.org/jira/browse/LANG-303">
+<buginformation>
+<summary>fast date format  rules  not  transient  serializable</summary>
+<description>reported  findbugs  either  need  make  the  rule  interface  serializable  make  mrules  transient  and  add  deserializing  code  kick  off  init</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.time.FastDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

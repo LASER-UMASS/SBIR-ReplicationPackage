@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_16" link="https://issues.apache.org/jira/browse/CLI-123">
+<buginformation>
+<summary>the  minimum  and  maximum  constraints  group  not  take  other  groups  into  account</summary>
+<description>you  have  group  child  group  and  you  set  minimum  maximum  group  the  presence  not  group  will  not  affect  groupb  this  because  groups  are  never  added  commandline  hasoption  returns  false  and  isn  counted  writeablecommandline  addoption  option  should  used  indicate  that  group  present  any  groups  children  present</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli2.Option</file>
+<file>org.apache.commons.cli2.commandline.WriteableCommandLineImpl</file>
+<file>org.apache.commons.cli2.option.GroupImpl</file>
+<file>org.apache.commons.cli2.option.OptionImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_12" link="https://github.com/google/gson/issues/1013">
+<buginformation>
+<summary>bug  when  skipping  value  while  using  the json tree reader</summary>
+<description>edited when using json reader read json object skip value skips the structure successfully test public void test skip value json reader throws exception try json reader new json reader new string reader skip value but when using json tree reader read json object skip value throws array index out bounds exception test public void test skip value json tree reader throws exception try json tree reader new json tree reader new json object skip value stacktrace java lang array index out bounds exception com google gson internal bind json tree reader skip value json tree reader java 262 the method pop stack being called line 261 with stack size and afterwards the stack size and the call line 262 must result array index out bounds exception the text was updated successfully but these errors were encountered arouel mentioned this issue feb 2017 fix array index out bounds exception when skipping value with json tre 1014 merged inder 123 added commit that referenced this issue feb 2017 fix array index out bounds exception when skipping value with json tre loading status checks 2ba reader 1013 1014 arouel closed this feb 2017 sebasjm pushed commit sebasjm gson that referenced this issue mar 2018 fix array index out bounds exception when skipping value with json tre 4fc 0daa reader google 1013 google 1014 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.bind.JsonTreeReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

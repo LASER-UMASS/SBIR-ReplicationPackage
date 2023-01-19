@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_14" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-779.json">
+<buginformation>
+<summary>bogus  missing  return  warning</summary>
+<description>the  following  sample  code  compiles  with  quot  missing  return  statement  function  expected  return  boolean  quot  warning  return  boolean  function  try  alert  some  method  which  can  throw  return  false  finally  return  true  could  the  control  flow  graph  incorrect  the  missing  return  check  not  looking  the  graph  correctly  really  subtle  sent  you  for  basically  there  are  uncond  edges  flowing  out  the  finally  node  and  there  are  couple  different  but  reasonable  ways  interpret  this  this  issue  was  closed  revision  2101</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ControlFlowAnalysis</file>
+</fixedfiles>
+</bug>
+</bugrepository>

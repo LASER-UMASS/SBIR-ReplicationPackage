@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_36" link="https://issues.apache.org/jira/browse/COMPRESS-348">
+<buginformation>
+<summary>calling seven file  read  empty seven archive entry  throws illegal state exception</summary>
+<description>pretty  sure  compress  340  breaks  reading  empty  archive  entries  when  calling  getnextentry  and  that  entry  has  content  the  code  jumps  into  the  first  block  line  830  sevenzfile  class  clearing  the  deferredblockstreams  when  calling  entry  read  afterwards  illegalstateexception  current  entry  call  getnextentry  first  thrown  imho  there  should  another  check  for  entry  getsize  this  worked  correctly  until</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.sevenz.SevenZFile</file>
+</fixedfiles>
+</bug>
+</bugrepository>

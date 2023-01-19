@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_124" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1017.json">
+<buginformation>
+<summary>different  output  from rest api  and  command  line  jar</summary>
+<description>when  compile  using  the  jar  file  from  the  command  line  get  result  that  not  correct  however  when  test  via  the  rest  api  the  web  get  correct  output  attached  file  with  the  code  that  are  compiling  what  steps  will  reproduce  the  problem  compile  the  attached  file  with  quot  java  jar  compiler  jar  test  quot  compile  the  content  the  attached  file  http  closure  compiler  appspot  com  home  compare  the  output  note  how  the  following  part  converted  the  two  cases  quot  var foreign object  gfx parent node parent node  var parent container foreign object parent node parent node  quot  what  the  expected  output  what  you  see  instead  the  web  converts  the  lines  into parent node parent node parent node parent node  null  the  command  line  converts  into  var parent node parent node  the  web  results  correct  code  the  other  results  code  that  tries  quot append child  quot  with parent node parent node  what  version  the  product  are  you  using  what  operating  system  compiler  jar  20130411  19b  mac  osx  java  java  please  provide  any  additional  information  below  are  also  using  the  compiler  form  within  our  java  code  with  the  same  result  web  was  called  with closure compiler  compilation  level  simple  optimizations  output  file  name  default closure compiler  thanks  for  the  report  this  issue  was  closed  revision 4269d 0289</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ExploitAssigns</file>
+</fixedfiles>
+</bug>
+</bugrepository>

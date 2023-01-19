@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_126" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-936.json">
+<buginformation>
+<summary>break  finally  block  isn  optimized  properly</summary>
+<description>try  throw  quot  throw  quot  finally  fake  catcher  break  console  log  quot  then  quot  gets  optimized  into  throw  quot  throw  quot  which  not  the  same  the  break  the  finally  block  should  prevent  the  exception  from  being  passed  the  expected  result  console  log  quot  then  quot  ecma  262  says  the  production try statement  try  block  finally  evaluated  follows  let  the  result  evaluating  block  let  the  result  evaluating  finally  type  normal  return  return  type  this  case  would  break  and  not  normal  break  overrides  the  throw  this  with  the  build  available  for  download  feb  2013  thanks  for  the  report  this  issue  was  closed  revision 211dc 0161ae</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.MinimizeExitPoints</file>
+</fixedfiles>
+</bug>
+</bugrepository>

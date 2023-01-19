@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_40" link="https://github.com/jhy/jsoup/issues/460">
+<buginformation>
+<summary>doctype illegal argument exception  string  must  not  empty</summary>
+<description>while this may contrived example jsoup parse doctype throws exception this was unexpected possibly related proper document with doctype name generating corrupt html doctype html missing right angle bracket doctype spec says when doctype token created its name public identifier and system identifier must marked missing which distinct state from the empty string the text was updated successfully but these errors were encountered copy link author righton commented sep 2014 doctype handling has some issues jsoup parse npe org jsoup parser tokeniser state before doctype name doctype pending name append replacement char copy link owner jhy commented sep 2014 the doctype html because the parser really expecting doctype name and thinks that name html where did you come across doctype without name seems odd use the tag jhy self assigned this sep 2014 jhy added this the milestone sep 2014 jhy closed this 033535 sep 2014 copy link owner jhy commented sep 2014 thanks for pointing this out zazi added commit dswarm jsoup that referenced this issue oct 2015 relaxed doctype validation 9274b fixes jhy 460 sign for free join this conversation git hub already have account sign comment assignees jhy labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.DocumentType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

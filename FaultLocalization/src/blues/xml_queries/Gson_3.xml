@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_3" link="https://github.com/google/gson/issues/624">
+<buginformation>
+<summary>error  desirialization concurrent navigable map</summary>
+<description>what steps will reproduce the problem create pojo with filled concurrent navigable map field sirialize json string desirialize from json string what the expected output what you see instead original state expected illegal argument exception thrown what version the product are you using what operating system gson java windows please provide any additional information below gson works only with class type field such concurrent skip list map good programming style using interface type such concurrent navigable map see attach for log and unit test original issue reported code google com dkhomya gmail com jan 2015 attachments gson err log txt json utils test java the text was updated successfully but these errors were encountered copy link collaborator inder 123 commented sep 2015 concurrent navigable map was introduced jdk swankjesse jake wharton joel leitch shall abandon support for jdk inder 123 added the priority high label sep 2015 copy link contributor jake wharton commented sep 2015 favor jvm users java aren likely going updating their gson instances any frequent pace the stronger realization this change that eliminates android and older this accounts for the some billion devices that talk google play the last weeks far know google has stopped officially supporting with their apps and this was well behind others who have long since moved from this far outdated platform copy link collaborator swankjesse commented sep 2015 yeah those users can continue use earlier releases copy link collaborator inder 123 commented sep 2015 agreed let switch java the minimum version once introduce support for concurrent navigable map and other java standard classes inder 123 mentioned this issue nov 2015 added support serialize deserialize concurrent map and concurrent 730 merged swankjesse closed this 730 nov 2015 inder 123 self assigned this nov 2015 sign for free join this conversation git hub already have account sign comment assignees inder 123 labels priority high projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue added support serialize deserialize concurrent map and concurrent participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.ConstructorConstructor</file>
+</fixedfiles>
+</bug>
+</bugrepository>

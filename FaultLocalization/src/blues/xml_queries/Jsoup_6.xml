@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_6" link="https://github.com/jhy/jsoup/issues/34">
+<buginformation>
+<summary>string index out bounds exception  when  parsing  link  http  news  yahoo  com  20100831  china</summary>
+<description>java lang string index out bounds exception string index out range java lang string char string java 686 java util regex matcher append replacement matcher java 711 org jsoup nodes entities unescape entities java org jsoup nodes text node create from encoded text node java org jsoup parser parser parse text node parser java 222 org jsoup parser parser parse parser java org jsoup parser parser parse parser java org jsoup jsoup parse jsoup java the text was updated successfully but these errors were encountered copy link owner jhy commented sep 2010 fixed issue entities when unescaping closed 6752d copy link owner jhy commented sep 2010 thanks for reporting this fixed now michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue entities when unescaping jhy 20ed 24c fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fixed issue entities when unescaping jhy 6752d fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Entities</file>
+</fixedfiles>
+</bug>
+</bugrepository>

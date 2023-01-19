@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_5" link="https://issues.apache.org/jira/browse/CSV-106">
+<buginformation>
+<summary>csv format  format  allways  append  null</summary>
+<description>when  now  call  csvformat  newformat  withskipheaderrecord  true  withheader  format  get  the  output  bnull  the  expected  output  would</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVPrinter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

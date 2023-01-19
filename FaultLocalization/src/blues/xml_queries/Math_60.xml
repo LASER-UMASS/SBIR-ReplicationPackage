@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_60" link="https://issues.apache.org/jira/browse/MATH-414">
+<buginformation>
+<summary>convergence exception normal distribution impl cumulative probability</summary>
+<description>get  convergenceexception  normaldistributionimpl  cumulativeprobability  for  very  large  small  parameters  including  infinity  infinity  for  instance  the  following  code  test  public  void  testcumulative  final  normaldistribution  new  normaldistributionimpl  for  int  500  final  double  val  math  exp  try  system  out  println  val  val  cumulative  cumulativeprobability  val  catch  mathexception  printstacktrace  fail  version  get  exception  suggestion  change  the  implementation  cumulativeprobability  double  catch  all  convergenceexception  and  return  for  very  large  and  very  small  values  not  just  maxiterationsexceededexception</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.distribution.NormalDistributionImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

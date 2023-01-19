@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_9" link="https://issues.apache.org/jira/browse/CODEC-112">
+<buginformation>
+<summary>base encode base  byte binary data  boolean  chunked  boolean url safe  int max result size  throws  iae  for  valid max result size  chunked  false</summary>
+<description>ischunked  false  base  encodebase  byte  binarydata  boolean  ischunked  boolean  urlsafe  int  maxresultsize  throws  iae  for  valid  maxresultsize  test  case  and  fix  will  applied  shortly</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.Base64</file>
+</fixedfiles>
+</bug>
+</bugrepository>

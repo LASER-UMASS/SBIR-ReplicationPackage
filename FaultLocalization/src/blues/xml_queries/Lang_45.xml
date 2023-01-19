@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_45" link="https://issues.apache.org/jira/browse/LANG-419">
+<buginformation>
+<summary>word utils  abbreviate  bug  when  lower  greater  than  str  length</summary>
+<description>wordutils  abbreviate  upper  adjusted  the  length  the  string  then  lower  but  lower  never  adjusted  the  length  the  string  lower  greater  than  str  lengt  upper  will  too  then  str  substring  upper  throw  stringindexoutofboundsexception  the  fix  adjust  lower  the  length  the  string</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.WordUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

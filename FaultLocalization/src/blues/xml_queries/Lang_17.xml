@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_17" link="https://issues.apache.org/jira/browse/LANG-720">
+<buginformation>
+<summary>string escape utils escape xml  input  outputs  wrong  results  when  input  contains  characters  supplementary  planes</summary>
+<description>hello  use  stringescapeutils  escapexml  input  escape  special  characters  for  xml  this  method  outputs  wrong  results  when  input  contains  characters  supplementary  planes  string  str  842  udfb  string  str  stringescapeutils  escapexml  str  the  value  str  must  equal  the  one  str  because  str  does  not  contain  characters  escaped  however  str  diffrent  from  str  system  out  println  urlencoder  encode  str  utf  16be  system  out  println  urlencoder  encode  str  utf  16be  the  cause  this  problem  that  the  loop  translate  input  character  character  wrong  charsequencetranslator  translate  charsequence  input  writer  out  loop  counter  moves  from  character  codepointcount  input  input  length  but  should  move  from  input  length</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.text.translate.CharSequenceTranslator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

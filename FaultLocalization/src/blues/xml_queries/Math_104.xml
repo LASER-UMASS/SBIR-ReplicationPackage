@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_104" link="https://issues.apache.org/jira/browse/MATH-166">
+<buginformation>
+<summary>special  functions  not  very  accurate</summary>
+<description>the  gamma  and  beta  functions  return  values  double  precision  but  the  default  epsilon  set  10e  think  that  the  default  should  set  the  highest  possible  accuracy  this  what  expect  returned  double  precision  routine  note  that  the  erf  function  already  uses  call  gamma  regularizedgammap  with  epsilon</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.special.Gamma</file>
+</fixedfiles>
+</bug>
+</bugrepository>

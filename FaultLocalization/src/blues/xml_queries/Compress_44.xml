@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_44" link="https://issues.apache.org/jira/browse/COMPRESS-412">
+<buginformation>
+<summary>null pointer exception  defect checksum calculating input stream get value</summary>
+<description>nullpointerexception  defect  checksumcalculatinginputstream  getvalue  detected  stated  pull  request  https  github  com  apache  commons  compress  pull  furthermore  the  following  test  describes  the  problem  test  expected  nullpointerexception  class  assume  this  behaviour  bug  least  defect  public  void  testgetvaluethrowsnullpointerexception  checksumcalculatinginputstream  checksumcalculatinginputstream  new  checksumcalculatinginputstream  null  null  checksumcalculatinginputstream  getvalue</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.utils.ChecksumCalculatingInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

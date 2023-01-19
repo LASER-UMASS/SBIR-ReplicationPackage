@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_1" link="https://issues.apache.org/jira/browse/CLI-13">
+<buginformation>
+<summary>cli command line get option value  behaves  contrary  docs</summary>
+<description>have  final  string  debugopt  debug  option  debug  optionbuilder  withargname  debugopt  with  turn  debugging  withlongopt  debugopt  create  and  then  later  string  dbg  commandline  getoptionvalue  debugopt  then  dbg  will  null  instead  have  use  getoptionvalue  this  seems  contrary  the  docs  see  bottom  http  jakarta  apache  org  commons  cli  usage  html  which  implies  that  should  able  query  the  commandline  object  using  full  string  rather  than  just  the  string  first  character  can  suggest  that  the  api  optionbuilder  made  clearer  that  obvious  that  you  can  have  long  and  short  option  names  perhaps  make  the  create  method  take  arguments  thus  forcing  long  and  short  arg  names  set  explicitly  also  there  seems  some  confusion  between  the  terms  argument  and  option  the  api  but  perhaps  that  just  also  would  hop  able  query  commandline  either  single  char  entire  string  suggested  the  docs  thanks  chris</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.CommandLine</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_67" link="https://github.com/jhy/jsoup/issues/955">
+<buginformation>
+<summary>quadratic  behaviour  deeply  nested  pages</summary>
+<description>pages with very deep sequence elements like this one stargate wikia com wiki jsoup gets very slow and spends too much time this function https github com jhy jsoup blob master src main java org jsoup parser html tree builder java 462 there any way remove this quadratic behaviour either using better data structures having option limit stack size and throw exception when too deep the text was updated successfully but these errors were encountered copy link owner jhy commented oct 2017 interesting looks like chrome has bit perf issue that page too performance monitor shows continually parsing the page maybe can implement improvement here just running counter the tags that scope put them hash something walking through the scope stack each time and hunting for them jhy closed this 60b oct 2017 jhy added this the milestone oct 2017 copy link owner jhy commented oct 2017 thanks fixed this limiting the search scope depth 100 sampled bunch sites the wild from alexa though could more rigorous and found the max was this depth should safe parse completes 200 millis now also tuned the string array searches use binary searches sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

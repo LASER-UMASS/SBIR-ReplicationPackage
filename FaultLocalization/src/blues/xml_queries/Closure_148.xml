@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_148" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-196.json">
+<buginformation>
+<summary>css writing mode  not  recognised  advanced  mode</summary>
+<description>element  style writing mode  was  defined  css  but  later  dropped  however  supported  possibly  earlier  useful  way  achieve  vertical  text  closure  compiler  will  change  references  element  style writing mode  element  style  breaking  implementation  attached  patch  adding  this  the  css  properties  cheers  jake  jake  have  you  signed  cla  described  here  http  code  google  com  closure  compiler  wiki contributors just  have  very  short  fix  makes  things  easier  could  delete  the  diff  and  you  guys  could  treat  this  has  simple  bug  report  comment  deleted  john  for  patches  lines  can  also  just  dan  bentley  for  legal  approval  accept  without  cla  but  doesn  hurt  have  cla  since  will  make  bigger  patches  faster  the  future  this  issue  was  closed  revision  279</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeFoldConstants</file>
+<file>com.google.javascript.jscomp.SourceMap</file>
+</fixedfiles>
+</bug>
+</bugrepository>

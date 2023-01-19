@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_42" link="https://issues.apache.org/jira/browse/MATH-713">
+<buginformation>
+<summary>negative  value  with restrict non negative</summary>
+<description>problem  commons  math  simplexsolver  variable  with  coefficient  may  assigned  negative  value  nevertheless  restricttononnegative  flag  call  simplexsolver  optimize  function  constraints  goaltype  minimize  true  function  constraints  result  probably  variables  with  coefficients  are  omitted  some  point  computation  and  because  that  the  restrictions  not  affect  their  values</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.linear.SimplexTableau</file>
+</fixedfiles>
+</bug>
+</bugrepository>

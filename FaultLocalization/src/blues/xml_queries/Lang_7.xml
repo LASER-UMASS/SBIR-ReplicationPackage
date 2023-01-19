@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_7" link="https://issues.apache.org/jira/browse/LANG-822">
+<buginformation>
+<summary>number utils create number  bad  behaviour  for  leading</summary>
+<description>numberutils  createnumber  checks  for  leading  the  string  and  returns  null  found  this  documented  work  round  for  bug  bigdecimal  returning  nulll  contrary  the  javadoc  and  the  behaviour  for  other  methods  which  would  throw  numberformatexception  not  clear  whether  the  bigdecimal  problem  still  exists  with  recent  versions  java  however  does  exist  then  the  check  needs  done  for  all  invocations  bigdecimal  needs  moved  createbigdecimal</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

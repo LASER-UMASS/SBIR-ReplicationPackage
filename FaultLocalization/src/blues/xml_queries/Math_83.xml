@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_83" link="https://issues.apache.org/jira/browse/MATH-286">
+<buginformation>
+<summary>simplex solver  not  working  expected</summary>
+<description>guess  but  could  wrong  that  simplexsolver  does  not  always  return  the  optimal  solution  nor  satisfies  all  the  constraints  consider  this  max  lpsolve  returns  with  the  same  expressed  apache  commons  math  linearobjectivefunction  new  linearobjectivefunction  new  double  collection  linearconstraint  constraints  new  arraylist  linearconstraint  constraints  add  new  linearconstraint  new  double  relationship  constraints  add  new  linearconstraint  new  double  relationship  constraints  add  new  linearconstraint  new  double  relationship  geq  constraints  add  new  linearconstraint  new  double  relationship  geq  constraints  add  new  linearconstraint  new  double  relationship  geq  realpointvaluepair  solution  new  simplexsolver  optimize  constraints  goaltype  maximize  true  that  returns  with  possible  simplexsolver  buggy  that  way  the  returned  value  instead  and  the  last  constraint  not  satisfied  using  the  interface  wrongly</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.linear.SimplexTableau</file>
+</fixedfiles>
+</bug>
+</bugrepository>

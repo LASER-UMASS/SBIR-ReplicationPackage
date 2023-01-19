@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_86" link="https://github.com/jhy/jsoup/issues/1139">
+<buginformation>
+<summary>jsoup index out bounds exception</summary>
+<description>using jsoup while trying parse html content getting index out bounds exception using such jsoup call this the only way parse iframe content jsoup call jsoup parse html parser xml parser html here https files 43yemgb can add the body huge the text was updated successfully but these errors were encountered copy link contributor krystiangorecki commented dec 2018 edited reproduce string html script var var script document doc jsoup parse html parser xml parser don think xml parser suitable for this page expects everything inside script xml try using standard html parser document doc jsoup parse html copy link author grigoriy didorenko commented dec 2018 krystiangorecki using current parser avoid iframe content encoding based your answer this issue using default parser not option copy link cfrasineanu intx commented dec 2018 edited ran into the same issue with jsoup and hibernate validator final the input value and exception caused java lang index out bounds exception index size java util array list range check array list java 653 java util array list get array list java 429 org jsoup nodes element child element java 254 org jsoup parser xml tree builder insert xml tree builder java org jsoup parser xml tree builder process xml tree builder java org jsoup parser tree builder run parser tree builder java org jsoup parser tree builder parse tree builder java org jsoup parser parser parse input parser java org jsoup jsoup parse jsoup java org hibernate validator internal constraintvalidators safe html validator get fragment document safe html validator java org hibernate validator internal constraintvalidators safe html validator valid safe html validator java org hibernate validator internal constraintvalidators safe html validator valid safe html validator java copy link owner jhy commented dec 2018 thanks fixed jhy closed this 38c 13b dec 2018 jhy added this the milestone dec 2018 jhy added the fixed label dec 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels fixed projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Comment</file>
+</fixedfiles>
+</bug>
+</bugrepository>

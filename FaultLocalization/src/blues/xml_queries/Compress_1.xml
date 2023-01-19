@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_1" link="https://issues.apache.org/jira/browse/COMPRESS-28">
+<buginformation>
+<summary>cpio  reports  unexpected  eof</summary>
+<description>when  unpacking  cpio  archive  made  with  the  compress  classes  even  made  with  osx  cpio  comandline  tool  eof  exception  thrown  here  the  testcode  final  file  input  getfile  cmdcreated  cpio  final  inputstream  new  fileinputstream  input  cpioarchiveinputstream  cin  new  cpioarchiveinputstream  cpioarchiveentry  entry  null  while  entry  cpioarchiveentry  cin  getnextcpioentry  null  file  target  new  file  dir  entry  getname  final  outputstream  out  new  fileoutputstream  target  ioutils  copy  out  out  close  cin  close  stacktrace  here  java  eofexception  org  apache  commons  compress  archivers  cpio  cpioarchiveinputstream  readfully  cpioarchiveinputstream  java  293  org  apache  commons  compress  archivers  cpio  cpioarchiveinputstream  getnextcpioentry  cpioarchiveinputstream  java  168  org  apache  commons  compress  archivers  cpio  cpioarchiveinputstreamtest  testcpiounpack  cpioarchiveinputstreamtest  java  this  happens  with  the  first  read  access  the  archive  occured  while  try  improve  the  testcases</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

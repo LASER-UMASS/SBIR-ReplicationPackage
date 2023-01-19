@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_55" link="https://github.com/FasterXML/jackson-databind/issues/1322">
+<buginformation>
+<summary>enum map  keys  not  using  enum  values  unlike  enum  values</summary>
+<description>based these issues 677 1148 faster xml jackson annotations implemented json property for enum constants and they show nicely when they are property values but also have enum map which uses the enum and generated json uses the original enum names for the keys and not the json property values using spring boot thanks the text was updated successfully but these errors were encountered cowtowncoder changed the title enum map keys not using enum json property values enum map keys not using enum json property values unlike enum values aug 2016 copy link member cowtowncoder commented aug 2016 thank you for reporting this copy link member cowtowncoder commented aug 2016 looks like use json value works least next checking json property part cowtowncoder added commit that referenced this issue aug 2016 add failing test case for 1322 loading status checks 958c 824 copy link member cowtowncoder commented aug 2016 can reproduce this and can see the problem fix will take while need add enum specific key serializer not particularly difficult but some work cowtowncoder added this the milestone aug 2016 cowtowncoder closed this 2936ba aug 2016 evser mentioned this issue oct 2016 add json property support for enum values springfox springfox 1533 open sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.std.StdKeySerializers</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_94" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-255.json">
+<buginformation>
+<summary>closure  compiler  define  annotation  does  not  allow  line  split  characters</summary>
+<description>what  steps  will  reproduce  the  problem  create java script  file  with  the  followiing  define  string  var  constant  quot  some  very  long  string  name  that  want  wrap  quot  quot  and  break  using  since  don  want  quot  quot  introduce  newline  into  the  string  quot  run  closure  compiler  the  file  see  generate  error  the  what  the  expected  output  what  you  see  instead  should  work  since  the  line  assigning  constant  value  the  var  please  provide  any  additional  information  below  removing  the  and  making  the  string  all  one  line  does  work  correctly  this  issue  was  closed  revision  474</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

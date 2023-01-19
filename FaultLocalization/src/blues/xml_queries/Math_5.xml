@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_5" link="https://issues.apache.org/jira/browse/MATH-934">
+<buginformation>
+<summary>complex  zero  reciprocal  returns  but  should  return  inf</summary>
+<description>complex  zero  reciprocal  returns  nan  but  should  return  inf  class  org  apache  commons  math  complex  complex  method  reciprocal  version  complex  java  1416643  2012  14z</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.complex.Complex</file>
+</fixedfiles>
+</bug>
+</bugrepository>

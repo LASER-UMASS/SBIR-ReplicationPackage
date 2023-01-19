@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_37" link="https://github.com/jhy/jsoup/issues/368">
+<buginformation>
+<summary>whitespaces  are  discared  element  html  method</summary>
+<description>trying make exact copy document changing just couple attributes and appending few nodes and the trim inside the element html killing using parsers xml and pretty print think this trim should enabled for pretty print only the text was updated successfully but these errors were encountered jhy closed this 07ba nov 2013 zazi added commit dswarm jsoup that referenced this issue oct 2015 pretty print disabled don trim outer whitespace element 0cef tml fixes jhy 368 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+</fixedfiles>
+</bug>
+</bugrepository>

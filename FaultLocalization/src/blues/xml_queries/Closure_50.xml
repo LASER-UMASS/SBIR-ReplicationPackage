@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_50" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-558.json">
+<buginformation>
+<summary>optimisation  convert  array  join  array  join</summary>
+<description>what  steps  will  reproduce  the  problem  compile  this  code  var  variable  confirm  quot  value  from  user  quot  var  array  quot  constant  quot  variable  alert  array  join  quot  quot  what  the  expected  output  what  you  see  instead  java  jar  usr  local  slando  lib  google  compiler  jar  compilation  level  advanced  optimizations  foo  var  quot  constant  quot  confirm  quot  value  from  user  quot  alert  join  quot  quot  could  save  three  bytes  here  producing  var  quot  constant  quot  confirm  quot  value  from  user  quot  alert  join  what  version  the  product  are  you  using  what  operating  system  java  jar  usr  local  slando  lib  google  compiler  jar  version  closure  compiler  http  code  google  com  closure  compiler  version  1180  built  2011  running  linux  please  provide  any  additional  information  below  here  common  pattern  this  would  useful  var  jquery  selectors  append  jquery  selectors  from  various  parts  the  codebase  jquery  selectors  join  quot  quot  html  quot  the  code  more  readable  with  the  comma  left  place  quot  simple  enough  was  working  some  join  and  split  optimization  for  jquery  but  got  side  tracked  keep  that  mind  can  handle  the  literal  case  join  but  the  general  case  join  requires  type  information  don  currently  use  type  inference  this  kind  optimization  this  issue  was  closed  revision  1536</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeReplaceKnownMethods</file>
+</fixedfiles>
+</bug>
+</bugrepository>

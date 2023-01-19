@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_13" link="https://issues.apache.org/jira/browse/CSV-168">
+<buginformation>
+<summary>csv format null string  should  not  escaped</summary>
+<description>hello  use  case  generating  mysql  dump  files  text  format  for  more  details  check  this  http  dev  mysql  com  doc  refman  select  into  html  issue  the  value  null  represented  also  default  the  escape  char  the  csvprinter  printandescape  method  will  convert  this  value  into  suggest  modify  the  csvprinter  order  not  escape  the  nullstring  value  should  written  can  create  pull  request  you  want  consider  minor  issue  because  can  mitigated  making  sure  that  the  escape  character  not  part  the  nullstring  however  case  means  that  the  load  commands  should  modified  accordingly</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVFormat</file>
+<file>org.apache.commons.csv.CSVPrinter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_22" link="https://github.com/jhy/jsoup/issues/184">
+<buginformation>
+<summary>sibling elements  element  throws  null  pointer  exception</summary>
+<description>have noticed that the sibling methods next sibling previous sibling sibling elements rely element underlying node having parent the node does not have parent throws null pointer exception would possible modify the code that checks for parent nullness around node java 468 the event nullness return null the javadoc confirmed the text was updated successfully but these errors were encountered jhy closed this 0dde apr 2012 copy link owner jhy commented apr 2012 thanks for pointing this out copy link author dakkad commented apr 2012 very cool thanks for the quick response again awesome project sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+<file>org.jsoup.nodes.Node</file>
+<file>org.jsoup.select.Elements</file>
+</fixedfiles>
+</bug>
+</bugrepository>

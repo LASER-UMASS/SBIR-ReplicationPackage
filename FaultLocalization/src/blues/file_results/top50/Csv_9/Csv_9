@@ -1,0 +1,11 @@
+Csv_9 Q0 org.apache.commons.csv.CSVParser.java 1 0.0931403 indri
+Csv_9 Q0 org.apache.commons.csv.CSVRecord.java 2 0.0595614 indri
+Csv_9 Q0 org.apache.commons.csv.CSVFormat.java 3 0.0586544 indri
+Csv_9 Q0 org.apache.commons.csv.CSVPrinter.java 4 0.0335021 indri
+Csv_9 Q0 org.apache.commons.csv.Lexer.java 5 0.0302788 indri
+Csv_9 Q0 org.apache.commons.csv.ExtendedBufferedReader.java 6 0.00927373 indri
+Csv_9 Q0 org.apache.commons.csv.package-info.java 7 0.00482325 indri
+Csv_9 Q0 org.apache.commons.csv.Constants.java 8 0.00209269 indri
+Csv_9 Q0 org.apache.commons.csv.Assertions.java 9 0.00145305 indri
+Csv_9 Q0 org.apache.commons.csv.Quote.java 10 0.00139005 indri
+Csv_9 Q0 org.apache.commons.csv.Token.java 11 0.0010619 indri

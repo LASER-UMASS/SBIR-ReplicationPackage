@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_3" link="https://github.com/JodaOrg/joda-time/issues/77">
+<buginformation>
+<summary>add days  changes  value mutable date time</summary>
+<description>upon dst transition from summer winter time zone adding the amount zero days mutable date time object changes the value the object the code final mutable date time mdt new mutable date time 2011 date time zone for europe berlin system out println start date mdt mdt instant get millis mdt add hours system out println add hours mdt mdt instant get millis mdt add hours system out println add hours mdt mdt instant get millis mdt add days system out println add days mdt mdt instant get millis prints start date 2011 000 1319940000000 add hours 2011 000 1319936400000 add hours 2011 000 1319936400000 change time add days 2011 000 1319932800000 error time has changed hour the methods add months and add years show the same problem add seconds add minutes and add hours are have tested with version however repeat the test with joda the invocation add days does not change the date value the text was updated successfully but these errors were encountered jodastephen closed this 109fe nov 2013 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 adding zero longer changes the offset during dst overlap 10151b fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.MutableDateTime</file>
+</fixedfiles>
+</bug>
+</bugrepository>

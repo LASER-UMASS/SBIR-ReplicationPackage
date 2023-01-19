@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_139" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-33.json">
+<buginformation>
+<summary>redefinition  function  third  party  code  can  miscompiled</summary>
+<description>what  steps  will  reproduce  the  problem  run  this  code  snippet  and  observe  that  doesn  raise  error  function  assert  throw  quot  error  quot  assert  var  function  return  assert  function  return  compile  third  party  observe  that  the  first  definition  has  been  changed  from  assignment  declaration  and  that  the  code  now  raises  error  what  version  the  product  are  you  using  what  operating  system  please  provide  any  additional  information  below  this  bug  originally  from  blog  comment  don  know  has  hit  anyone  the  wild  yet  http  webreflection  blogspot  com  2009  google  closure  not  impressed  html 1604178721861066706 collapse anonymous functions  has  been  turned  off  for  simple  mode  this  problem  surfaced  result  allowing  redefinitions  functions  reproduce  this  use  the  webservice  the  command  line  with  the  third  party  option  issue  has  been  merged  into  this  issue  think  the  thing  modify  the  scope  builder  that  the  named  function  the  declaration  the  var  from  var  should  removed  anyway  this  issue  was  closed  revision  148</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Normalize</file>
+</fixedfiles>
+</bug>
+</bugrepository>

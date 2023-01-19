@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_42" link="https://issues.apache.org/jira/browse/COMPRESS-379">
+<buginformation>
+<summary>unix symlink  returns  true  for  zip  entries  with  unix  permissions  177777</summary>
+<description>this  issue  was  originally  reported  massembly  842  but  seems  the  root  cause  inside  commons  compress  consider  the  attached  invalid  entry  jar  whose  contents  shown  the  zipinfo  utility  rwsrwsrwt  unx  stor  jan  meta  inf  maven  drwxr  unx  stor  jan  meta  inf  there  are  some  jar  files  created  the  maven  assembly  plugin  with  content  similar  this  and  the  entry  meta  inf  maven  has  permissions  177777  octal  constructing  zipfile  from  this  file  the  method  isunixsymlink  incorrectly  returns  true  for  the  entry  meta  inf  maven  and  correctly  returns  false  for  the  entry  meta  inf  here  sample  java  code  that  can  used  see  the  behaviour  public  static  void  main  string  args  throws  ioexception  try  zipfile  zipfile  new  zipfile  new  file  invalid  entry  jar  printattributes  zipfile  meta  inf  printattributes  zipfile  meta  inf  maven  private  static  void  printattributes  zipfile  zipfile  string  name  ziparchiveentry  entry  zipfile  getentriesinphysicalorder  name  iterator  next  system  out  printf  17s  symlink  unixmode  name  entry  isunixsymlink  entry  getunixmode  this  code  outputs  meta  inf  symlink  false  unixmode  16877  meta  inf  maven  symlink  true  unixmode  65535  the  rwsrwsrwt  permissions  show  that  the  zip  entry  broken  the  first  place  but  think  isunixsymlink  should  still  return  false  that  case  and  not  consider  this  entry  symlink  seems  the  fix  would  update  isunixsymlink  and  check  whether  the  unix  mode  equal  short  mask  and  return  false  that  case  would  indicate  broken  entry  this  change  does  not  break  any  existing  tests  but  not  sure  this  the  proper  fix  public  boolean  isunixsymlink  int  unixmode  getunixmode  return  unixmode  short  mask  false  unixmode  unixstat  link  flag  unixstat  link  flag</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.UnixStat</file>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveEntry</file>
+</fixedfiles>
+</bug>
+</bugrepository>

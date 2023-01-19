@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_11" link="https://github.com/FasterXML/jackson-databind/issues/609">
+<buginformation>
+<summary>problem  resolving  locally  declared  generic  type</summary>
+<description>reported hal case like class something public extends ruleform get entity public extends ruleform void set entity entity appears fail deserialization the text was updated successfully but these errors were encountered cowtowncoder added commit that referenced this issue nov 2014 add test for 609 loading status checks 2657ff cowtowncoder added this the milestone mar 2015 cowtowncoder closed this 66bfe mar 2015 cowtowncoder mentioned this issue mar 2015 type factory from variable returns unknown type even though has enough information provide more specific type 728 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.type.TypeFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_13" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-787.json">
+<buginformation>
+<summary>true  false  are  not  always  replaced  for</summary>
+<description>what  steps  will  reproduce  the  problem  function  some  function  var  var  any  expression  external  ref  function  content  return  return  method  function  return  true  method  function  return  false  what  the  expected  output  what  you  see  instead  expect  that  true  false  will  replaced  for  but  doesn  happend  function  some  function  var  any  expression  amp  amp  external  ref  function  return  return  method  function  amp  amp  return  true  method  function  return  false  what  version  the  product  are  you  using  what  operating  system  this  output  for  latest  official  build  also  got  the  same  output  for  20120430  20120305  but  20111117  please  provide  any  additional  information  below  here  just  one  example  found  too  many  non  replaced  true  false  compiler  output  replacement  non  replaced  true  false  conpiler  output  saves  for  850  file  the  peephole  optimizations  are  being  short  circuited  pretty  sure  caused  this  problem  look  into  this  issue  was  closed  revision  2119</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeOptimizationsPass</file>
+</fixedfiles>
+</bug>
+</bugrepository>

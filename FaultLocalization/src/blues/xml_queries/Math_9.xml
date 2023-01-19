@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_9" link="https://issues.apache.org/jira/browse/MATH-938">
+<buginformation>
+<summary>line  revert  imprecise</summary>
+<description>line  revert  only  maintains  digits  for  the  direction  this  becomes  issue  when  the  line  position  evaluated  far  from  the  origin  simple  fix  would  use  vector  negate  for  the  direction  also  there  reason  why  line  not  immutable  just  comprised  two  vectors</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.geometry.euclidean.threed.Line</file>
+</fixedfiles>
+</bug>
+</bugrepository>

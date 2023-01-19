@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_30" link="https://issues.apache.org/jira/browse/COMPRESS-309">
+<buginformation>
+<summary>zip compressor input stream  return  value  wrong  when  told  read  full  buffer</summary>
+<description>bzip 2compressorinputstream  read  buffer  offset  length  returns  when  given  offset  equal  the  length  the  buffer  this  indicates  not  that  the  buffer  was  full  but  that  the  stream  was  finished  seems  like  pretty  stupid  thing  but  getting  this  when  trying  use  kryo  serialization  which  probably  bug  their  part  too  does  occur  and  has  negative  affects  here  junit  test  that  shows  the  problem  specifically  test  public  void  testapachecommonsbzipuncompression  throws  exception  create  big  random  piece  data  byte  rawdata  new  byte  1048576  for  int  rawdata  length  rawdata  byte  math  floor  math  random  256  compress  bytearrayoutputstream  baos  new  bytearrayoutputstream bzip 2compressoroutputstream  bzipout  new bzip 2compressoroutputstream  baos  bzipout  write  rawdata  bzipout  flush  bzipout  close  baos  flush  baos  close  try  read  back  bytearrayinputstream  bais  new  bytearrayinputstream  baos  tobytearray bzip 2compressorinputstream  bzipin  new bzip 2compressorinputstream  bais  byte  buffer  new  byte  1024  works  fine  assert  assertequals  1024  bzipin  read  buffer  1024  fails  returns  indicating  the  stream  complete  rather  than  that  the  buffer  was  full  assert  assertequals  bzipin  read  buffer  1024  but  you  change  the  above  expected  value  the  following  line  still  works  assert  assertequals  1024  bzipin  read  buffer  1024  bzipin  close</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

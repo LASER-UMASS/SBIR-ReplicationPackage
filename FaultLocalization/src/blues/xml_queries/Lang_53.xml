@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_53" link="https://issues.apache.org/jira/browse/LANG-346">
+<buginformation>
+<summary>dates  round  behaves  incorrectly  for  minutes  and  seconds</summary>
+<description>get  unexpected  output  for  rounding  minutes  seconds  public  void  testround  calendar  testcalendar  calendar  getinstance  timezone  gettimezone  gmt  testcalendar  set  2007  date  date  testcalendar  gettime  system  out  println  before  round  date  system  out  println  after  round  dateutils  round  date  calendar  minute  produces  before  round  mon  jul  cdt  2007  after  round  mon  jul  cdt  2007  this  what  would  expect  and  produces  before  round  mon  jul  cdt  2007  after  round  mon  jul  cdt  2007  this  appears  wrong</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.time.DateUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

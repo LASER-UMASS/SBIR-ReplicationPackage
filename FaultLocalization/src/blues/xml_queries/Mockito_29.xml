@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_29" link="https://github.com/mockito/mockito/issues/229">
+<buginformation>
+<summary>fixes  228  fixed  verify  call  example  captor  javadoc</summary>
+<description>description provided fixes 228 fixed verify call example captor javadoc 9ed bric added commit that referenced this pull request jun 2015 merge pull request 229 from eugene ivakhno issue 228 fix example 225ca captor javadoc fixes 228 fixed verify call example captor javadoc hide details view details bric merged commit 225ca into mockito master jun 2015 check passed check passed continuous integration travis the travis build passed details copy link contributor bric commented jun 2015 thanks for the fix sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.matchers.Same</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_16" link="https://issues.apache.org/jira/browse/MATH-905">
+<buginformation>
+<summary>fast math  cosh  sinh  not  support  the  same  range  values  the  math  counterparts</summary>
+<description>reported  jeff  hain  cosh  double  and  sinh  double  math  cosh  709  783 991046692770538e 307  fastmath  cosh  709  783  infinity  math  sinh  709  783 991046692770538e 307  fastmath  sinh  709  783  infinity  this  due  using  exp  for  values  above  the  result  sometimes  should  not  overflow  but  exp  does  end  with  some  infinity  for  values  strictmath  log  double  max  value  exp  will  overflow  you  need  use  that  instead  for  positive  double  exp  return  for  negative  double  exp  return</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.util.FastMath</file>
+</fixedfiles>
+</bug>
+</bugrepository>

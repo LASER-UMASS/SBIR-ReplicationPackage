@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_19" link="https://github.com/FasterXML/jackson-core/issues/317">
+<buginformation>
+<summary>array index out bounds exception  200  floating  point  number  with  exactly  200  length  decimal  part</summary>
+<description>edited very similar issue 160 and 157 with jackson core when attempting parse fractional number that has exactly 200 numbers the decimal part and some random fractional part then java lang array index out bounds exception 200 thrown public class test public static void main string args throws exception string builder input new string builder for int 201 input append input append json factory factory new json factory json parser parser factory create parser new byte array input stream input string get bytes charset for name utf parser next token produces exception thread main java lang array index out bounds exception 200 com fasterxml jackson core json utf stream json parser parse float utf stream json parser java 1576 com fasterxml jackson core json utf stream json parser parse number utf stream json parser java 1509 com fasterxml jackson core json utf stream json parser parse pos number utf stream json parser java 1410 com fasterxml jackson core json utf stream json parser next token not object utf stream json parser java 876 com fasterxml jackson core json utf stream json parser next token utf stream json parser java 772 the text was updated successfully but these errors were encountered copy link member cowtowncoder commented aug 2016 thank you for reporting this obviously needs fixed can also check this affects cowtowncoder closed this 345cad sep 2016 cowtowncoder added this the milestone sep 2016 copy link member cowtowncoder commented sep 2016 fixed for sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.json.ReaderBasedJsonParser</file>
+<file>com.fasterxml.jackson.core.json.UTF8StreamJsonParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

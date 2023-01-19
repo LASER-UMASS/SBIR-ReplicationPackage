@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_92" link="https://github.com/jhy/jsoup/issues/1219">
+<buginformation>
+<summary>duplicated  attribute  parsing  problem</summary>
+<description>case there duplicated tag attribute jsoup parses the last one but chrome browser takes the first one the text was updated successfully but these errors were encountered krystiangorecki mentioned this issue jul 2019 input with two values 1234 closed copy link contributor krystiangorecki commented jul 2019 edited that the place for fix jsoup src main java org jsoup parser token java line 128 7ff todo check attribute name exists drop and error let just keep the first attribute value and drop the next one without raising error will try implement soon when the user agent leaves the attribute name state and before emitting the tag token appropriate the complete attribute name must compared the other attributes the same token there already attribute the token with the exact same name then this parse error and the new attribute must dropped along with the value that gets associated with any https dev org html summary syntax html attribute name state jhy added the bug label jul 2019 jhy closed this 0fc jul 2019 jhy self assigned this jul 2019 jhy added this the milestone jul 2019 copy link owner jhy commented jul 2019 thanks fixed dependabot preview bot mentioned this issue feb 2020 bump jsoup from stub idp stub idp 329 merged sign for free join this conversation git hub already have account sign comment assignees jhy labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Attributes</file>
+<file>org.jsoup.parser.HtmlTreeBuilder</file>
+<file>org.jsoup.parser.ParseSettings</file>
+<file>org.jsoup.parser.Token</file>
+<file>org.jsoup.parser.XmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

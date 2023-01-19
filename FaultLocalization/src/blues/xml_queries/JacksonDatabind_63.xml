@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_63" link="https://github.com/FasterXML/jackson-databind/issues/1403">
+<buginformation>
+<summary>reference  chain  hints  use  incorrect  class  name  for  inner  classes</summary>
+<description>import com fasterxml jackson annotation json creator import com fasterxml jackson annotation json property import com fasterxml jackson databind json mapping exception import com fasterxml jackson databind object mapper import org junit jupiter api test import java exception import static com google common truth truth assert that import static org junit jupiter api assertions expect throws public class reference chain test illustrates that jackson reference chain help text uses incorrect class names for inner classes test public void incorrect reference chain throws exception json mapping exception json mapping exception expect throws json mapping exception class object mapper object mapper new object mapper object mapper read value object mapper write value bytes new outer outer class json mapping exception reference reference json mapping exception get path get assert that reference string equal reference chain test outer inner static class outer public inner inner new inner static class inner public int json creator public static inner create json property int throw new runtime exception test exception the text was updated successfully but these errors were encountered cowtowncoder modified the milestones oct 2016 cowtowncoder closed this 17f oct 2016 copy link member cowtowncoder commented oct 2016 yup the problem was with use get simple name with get package dropping enclosing class name the original reason was avoid ugly notation used jdk for array types but rewrote able just use get name after unwrapping array type decided fix for minimize risk for maintenance branch while unlikely cause problems suspect there may unit tests out there that use straight comparison error messages jackson itself had couple and while not fatal seems better avoid possible hassle fix will well whenever that released sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.JsonMappingException</file>
+</fixedfiles>
+</bug>
+</bugrepository>

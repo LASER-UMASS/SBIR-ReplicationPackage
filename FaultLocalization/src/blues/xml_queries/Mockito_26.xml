@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_26" link="https://github.com/mockito/mockito/issues/352">
+<buginformation>
+<summary>use inject mocks  for  final  fields</summary>
+<description>trying upgrade the mockito version that using newer version but there problem with inject mocks which since doesn inject into final field anymore were there any reasons for that feature removed there another way achieve this without polutting our class with useless outside testing context constructors accessors there possibility get that feature back the text was updated successfully but these errors were encountered bric added the wontfix label mar 2016 copy link contributor bric commented mar 2016 were there any reasons for that feature removed actually this design want the mock injection functionality good oop citizen and then respect object constructor when there one this won coming back this was issue back the days even allow that there another way achieve this without polutting our class with useless outside testing context constructors accessors better design according each object use there constructor that declared why modify fields there constructor then setter field access will used just like spring bean and yet this not proper object oriented programming java beans are anti pattern for everything that not capturing data structure like for views the swing gui bric closed this mar 2016 neworld pushed commit neworld mockito that referenced this issue aug 2019 merge pull request mockito 352 from nhaarman createinstance primitive verified this commit was created git hub com and signed with git hub verified signature gpg key aee afdeb learn about vigilant mode 632b types manually provide values for primitive types sign for free join this conversation git hub already have account sign comment assignees one assigned labels wontfix projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.util.Primitives</file>
+</fixedfiles>
+</bug>
+</bugrepository>

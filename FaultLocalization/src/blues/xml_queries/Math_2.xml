@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_2" link="https://issues.apache.org/jira/browse/MATH-1021">
+<buginformation>
+<summary>hypergeometric distribution  sample  suffers  from  integer  overflow</summary>
+<description>have  application  which  broke  when  ported  from  commons  math  looks  like  the  hypergeometricdistribution  sample  method  doesn  work  well  used  with  large  integer  values  the  example  code  below  should  return  sample  between  and  but  usually  returns  import  org  apache  commons  math  distribution  hypergeometricdistribution  public  class  foo  public  static  void  main  string  args  hypergeometricdistribution  new  hypergeometricdistribution  43130568  42976365  system  out  printf  getsupportlowerbound  getsupportupperbound  prints  system  out  printf  sample  prints  the  debugger  traced  far  integer  overflow  hypergeometricdistribution  getnumericalmean  instead  doing  return  double  getsamplesize  getnumberofsuccesses  double  getpopulationsize  could  return  getsamplesize  double  getnumberofsuccesses  double  getpopulationsize  this  seemed  fix  based  quick  test</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.distribution.HypergeometricDistribution</file>
+</fixedfiles>
+</bug>
+</bugrepository>

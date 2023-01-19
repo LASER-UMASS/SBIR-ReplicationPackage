@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_21" link="https://issues.apache.org/jira/browse/COMPRESS-252">
+<buginformation>
+<summary>writing  empty  entries  produces  incorrect  corrupt  archive</summary>
+<description>couldn  find  exact  rule  that  causes  this  incorrect  behavior  but  tried  reduce  some  simple  scenarios  reproduce  input  folder  with  certain  files  tried  archive  the  folder  contains  more  than  files  the  incorrect  behavior  appears  scenario  empty  files  result  the  created  archive  contains  single  folder  entry  with  the  name  the  archive  matter  which  was  the  name  the  file  scenario  files  some  empty  some  with  content  result  the  created  archive  contains  folder  entry  with  the  name  the  archive  and  number  file  entries  also  with  the  name  the  archive  the  number  the  entries  equal  the  number  non  empty  files  scenario  empty  files  result  7zip  manager  cannot  open  archive  and  stops  working  scenario  files  some  empty  some  with  content  last  file  alphabetically  with  content  result  same  behavior  described  for  scenario  scenario  files  some  empty  some  with  content  last  file  empy  result  archive  corrupt  the  following  message  received  cannot  open  file  archivename  archive  7zip  manager  does  not  crash</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.sevenz.SevenZOutputFile</file>
+</fixedfiles>
+</bug>
+</bugrepository>

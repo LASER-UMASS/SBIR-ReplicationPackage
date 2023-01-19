@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_89" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-289.json">
+<buginformation>
+<summary>compiler  removes  function  properties  that  should  not</summary>
+<description>the  compiler  appears  remove  properties  that  are  added  functions  not  believe  that  should  such  thing  the  following  example  add  property  named  quot always call  quot  function  that  check  later  the  property  appears  stripped  which  changes  the  behavior  the  program  see  this  action  run  the  following  through  http  closure  compiler  appspot  com  home closure compiler  compilation  level  advanced  optimizations  output  file  name  default  use  closure  library  true  formatting  pretty  print closure compiler  var last msg  var  map  var add map  function  key  func  map  key  func  var  function  alert always call  true  var  function  alert add map add map  var call function key  function  key  var  map  key always call call function key  math  random  the  compiled  code  var  function  alert  quot  quot  function  alert  quot  quot  var  math  random  quot  quot  quot  quot  amp  amp  note  that  does  not  have  property  defined  anymore  though  still  appears  checked  this  line  code  amp  amp  looks  like  missing  the  following  true  for  now  can  workaround  this  quoting  the  property always call  true call function key always call  but  that  seems  though  should  not  necessary  thanks  for  the  report  think  know  what  the  problem  you  can  also  workaround  for  now  having set always call  true  method  this  issue  was  closed  revision  580  awesome  thanks  much  for  fixing  this  understand  correctly  there  now  distinction  between  collapsing  properties  ordinary  functions  opposed  constructor  functions  the  latter  are  collapsed  become  global  variables  rather  than  properties  the  constructor  function  they  are  semantically  static  variables  anyway  whereas  the  former  will  continue  properties  the  function  nifty  hopefully  this  distinction  works  for  everyone  yep  think  this  the  correct  behavior</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CollapseProperties</file>
+<file>com.google.javascript.jscomp.GlobalNamespace</file>
+</fixedfiles>
+</bug>
+</bugrepository>

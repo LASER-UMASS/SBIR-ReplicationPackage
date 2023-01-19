@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_25" link="https://sourceforge.net/p/joda-time/bugs/90">
+<buginformation>
+<summary>date time zone get offset from local  error  during  dst  transition</summary>
+<description>this  may  failure  understanding  but  the  comments date time zone get offset from local  lead  believe  that  ambiguous  local  time  given  the  offset  corresponding  the  later  the  two  possible  utc  instants  will  returned  the  greater  offset  this  doesn  appear  tally  with  experience  fall  2009  america  los  angeles  changed  from  2am  wall  time  november  thus  2am  became  1am  30am  ambiguous  would  therefore  expect  that  constructing date time  for  november  11th  30am  would  give  instant  corresponding  with  the  later  value  30am  utc  this  appears  not  the  case  import  org  joda  time date time  import  org  joda  time date time zone  public  class  test  public  static  void  main  string  args  throws  exception date time zone  zone date time zone  for  america  los  angeles date time  when  new date time  2009  zone date time  when  new date time  2009  zone date time  when  new date time  2009  zone  system  out  println  when  system  out  println  when  system  out  println  when  results  2009  000  correct  2009  000  should  2009  000  correct</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.DateTimeZone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

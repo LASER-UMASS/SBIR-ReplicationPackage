@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_11" link="https://issues.apache.org/jira/browse/COMPRESS-171">
+<buginformation>
+<summary>create archive input stream  detects  text  files  less  than  100  bytes  tar  archives</summary>
+<description>the  fix  for  compress  117  which  modified  archivestreamfactory  createarchiveinputstream  inputstream  results  short  text  files  empirically  seems  those  100  bytes  being  detected  tar  archives  which  obviously  not  desirable  one  wants  know  whether  not  the  files  are  archives  not  expert  compressed  archives  but  perhaps  the  heuristic  that  stream  interpretable  tar  file  without  exception  being  thrown  should  only  applied  archives  greater  than  100  bytes</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.ArchiveStreamFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

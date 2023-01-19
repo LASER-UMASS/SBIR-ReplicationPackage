@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_107" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1135.json">
+<buginformation>
+<summary>variable  names  prefixed  with  msg  cause  error  with  advanced  optimizations</summary>
+<description>variables  named  something  with  msg  seem  cause  problems  with  the  module  system  even  modules  are  used  the  code  echo  quot  var  msg  foo  bar  quot  closure  compilation  level  advanced  optimizations  stdin  error  message  not  initialized  using  goog get msg  var  msg  foo  bar  works  fine  with  msg  foo  msg  foo  etc  actually  isn  modules  related  all  but  has  with  goog get msg  call  replacements  the  compiler  using  the  prefix  msg  internally  which  conflicting  with  your  variable  names  seems  like  the  compiler  should  use  prefix  less  likely  collide  with  user  prefixes  something  like  compiler  msg  however  unsure  the  impact  this  would  have  internal  google  projects  but  this  the  case  then  the  prefix  should  moved  coding  convention  minimum  prefixing  internal  names  with  would  make  sense  since  that  usually  used  indicate  implementation  browser  level  identifier  perhaps  compiler  msg  chad  has  misunderstanding  the  way  closure  compiler  translation  system  works  that  looks  for  all  variables  with  the  name  msg  and  tries  translate  them  complaining  here  that  the  message  not  formatted  correctly  for  translation  the  real  bug  that  advanced  optimizations  turns  translation  nick  suspected  much  but  still  think  that  prefix  should  set  the  coding  convention  and  not  hard  coded  into  the  pass  fix  posted  here  https  codereview  appspot  com  30140045  this  issue  was  closed  revision 49e 9565febba  this  issue  was  closed  revision 49e 9565febba</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CommandLineRunner</file>
+</fixedfiles>
+</bug>
+</bugrepository>

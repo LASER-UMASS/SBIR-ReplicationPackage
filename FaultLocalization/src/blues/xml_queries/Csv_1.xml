@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_1" link="https://issues.apache.org/jira/browse/CSV-75">
+<buginformation>
+<summary>extended buffer reader  does  not  handle  eol  consistently</summary>
+<description>extendedbufferreader  checks  for  the  read  methods  incrementing  linecount  when  found  however  the  readline  method  calls  bufferedreader  readline  which  treats  and  crlf  equally  and  drops  them  the  code  flexible  what  accepts  the  class  should  also  allow  for  alone  line  terminator  should  work  the  code  increments  the  line  counter  for  and  for  the  previous  character  was  not</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.ExtendedBufferedReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

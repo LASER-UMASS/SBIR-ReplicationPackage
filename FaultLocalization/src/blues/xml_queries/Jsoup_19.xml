@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_19" link="https://github.com/jhy/jsoup/issues/127">
+<buginformation>
+<summary>cleaning  html  containing  the  cid  identifier  breaks  images</summary>
+<description>mail type html the following common the item after cid can almost anything ascii think and any length corresponds image linked elsewhere mime say like this mimebounday content content type image jpeg snip mark long story somewhat shorter use jsoup sanitizer extensively however need these cid references preserved post sanitization add protocols does not work because the items are not valid result the above becomes which for purposes not good the text was updated successfully but these errors were encountered copy link author mikebell commented aug 2011 see http xml resource org public rfc html rfc 2392 html for description the cid protocol schema which internet standard suspect mailto could also not unsanitized but haven tried copy link author mikebell commented aug 2011 related this the data uri also sanitized and cannot whitelisted copy link author mikebell commented aug 2011 worked around this lame fashion use jsoup parse find all cid refs img tags replace them with http contentid com sanitize find all http contentid com refs replace with data uris but the issue with mailto cid and data really should somehow addressable grant you they are abusable tags and ones that should not whitelisted lightly jhy closed this 98349a aug 2011 copy link owner jhy commented aug 2011 thanks for suggesting this sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.safety.Whitelist</file>
+</fixedfiles>
+</bug>
+</bugrepository>

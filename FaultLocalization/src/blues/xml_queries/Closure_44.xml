@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_44" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-620.json">
+<buginformation>
+<summary>alert</summary>
+<description>alert  output  alert  should  alert  this  will  fun  one  fix  think  thanks  fixed  1678</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeConsumer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

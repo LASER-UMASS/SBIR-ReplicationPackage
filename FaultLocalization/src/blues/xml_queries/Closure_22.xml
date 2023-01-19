@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_22" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-753.json">
+<buginformation>
+<summary>classify  non  rightmost  expressions  problematic</summary>
+<description>purpose  code  changes  when  comes  expression  involving  the  comma  operator  only  the  first  element  such  sequence  checked  for  being  free  side  effects  the  element  free  side  effects  classified  problematic  and  warning  issued  other  non  rightmost  elements  are  not  checked  for  being  free  side  effects  and  therefore  cannot  classified  problematic  this  leads  unexpected  behavior  foo  transformed  into  foo  and  warning  issued  only  with  regard  the  first  element  foo  bar  transformed  into  foo  bar  and  warning  issued  foo  transformed  into  foo  and  warnings  are  issued  with  regard  the  first  elements  inner  sequences  only  this  issue  was  closed  revision  2054  this  issue  was  closed  revision  2056  this  issue  was  closed  revision  2058</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CheckSideEffects</file>
+</fixedfiles>
+</bug>
+</bugrepository>

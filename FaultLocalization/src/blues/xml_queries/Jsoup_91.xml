@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_91" link="https://github.com/jhy/jsoup/issues/1192">
+<buginformation>
+<summary>jsoup  parse  method  hangs  for  certain  bogus  input  text</summary>
+<description>are indexing the clue web dataset using lucene clueweb retrieval library are using soup parse web pages after drop upgrade soup version our indexing processes hanged note than this was not the issue for earlier version soup using jstack spot document that cause this problem crated failing test case using understand that the input bogus not html code but binary file but expect soup throw exception return empty string but the program hangs and never ends would like report this the community the hope for obtaining fix for the issue the text was updated successfully but these errors were encountered copy link author iorixxx commented mar 2019 here the failing test case and the bogus input file necessary reproduce jsoup parse method hangs for certain bogus input text does not throw exception but just hangs public class bogus input test timeout 5000 public void bogus input throws exception file get file htmltests clueweb 0200wb 08218 txt jsoup parse null http example com clueweb 0200wb 08218 txt copy link jasonsperske commented mar 2019 getting hung line tokeniser java while emit pending state read this reader seems have something with the null character characters getting stuck infinite loop where never emits pending value working building smaller unit test the recreates this copy link owner jhy commented may 2019 when testing with version found that does actually complete the parse takes stupid amount time though 11m 40s this doc was fetched through the jsoup connect methods either one the default max size the timeout would prevent this apparent hang those don apply here because they are implemented the data reader section jsoup connect not the core parser probably the thing here look for decent way detect binary files add the max size and timeouts default the core parser well jhy added the improvement label may 2019 jhy added this the milestone may 2019 jhy closed this 247c may 2019 copy link owner jhy commented may 2019 thanks for reporting this one added simple test identify binary files and jsoup will now throw exception forced try parsing sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.UncheckedIOException</file>
+<file>org.jsoup.parser.CharacterReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

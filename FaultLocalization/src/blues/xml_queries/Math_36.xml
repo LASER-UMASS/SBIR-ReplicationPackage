@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_36" link="https://issues.apache.org/jira/browse/MATH-744">
+<buginformation>
+<summary>big fraction double value  returns  double  for  large  numerators  denominators</summary>
+<description>the  current  implementation  doublevalue  divides  numerator  doublevalue  denominator  doublevalue  biginteger  doublevalue  fails  for  any  number  greater  than  double  max  value  the  user  has  308  digit  numerator  denominator  the  resulting  quotient  fails  even  cases  where  the  result  would  well  inside  double  range  have  patch  fix  can  figure  out  how  attach  here  will</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.fraction.BigFraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

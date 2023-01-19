@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_99" link="https://github.com/FasterXML/jackson-databind/issues/2109">
+<buginformation>
+<summary>canonical  string  for  reference  type  built  incorrectly</summary>
+<description>canonical string for reference type built incorrectly new reference type new type factory new lru map object java type 10000 construct type object class new placeholder for type canonical yields java lang object while the expected value java lang object the text was updated successfully but these errors were encountered cowtowncoder added active and removed labels aug 2018 cowtowncoder closed this 91126 aug 2018 copy link member cowtowncoder commented aug 2018 thank you for reporting this and pointing out the fix had manually merge this just for ease backporting will but fix the suggested one cowtowncoder added this the milestone aug 2018 cowtowncoder removed the active label aug 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.type.ReferenceType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

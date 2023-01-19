@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_9" link="https://issues.apache.org/jira/browse/CSV-118">
+<buginformation>
+<summary>csv record  map  throws  npe  formats  with  headers</summary>
+<description>the  method  tomap  csvrecord  throws  nullpointerexcpetion  when  called  records  derived  using  format  with  headers  the  method  documentation  states  null  map  should  returned  instead</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVRecord</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_147" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-182.json">
+<buginformation>
+<summary>lost  jsc  used  global  this  warning  0616  release  0514</summary>
+<description>what  steps  will  reproduce  the  problem  should  warn  quot  jsc  used  global  this  dangerous  use  the  global  this  object  quot  both  methods  none  these  warns  0616  release  var  read  function  return  this  foo  does  not  warn  0514  release  write  function  this  foo  123  warns  0514  release  only  the  non  inline  notation  warns  0616  release  write  function  this  foo  123  what  the  expected  output  what  you  see  instead  since  the  0514  release  warned  the  quot  write  quot  case  above  would  expect  the  0616  also  report  this  what  version  the  product  are  you  using  what  operating  system  said  above  20100514  and  20100616  releases  please  provide  any  additional  information  below  understand  that  the  status  that  inline  notation  isn  preferred  though  wouldn  expect  previous  correct  warning  disappear  since  reported  issue  144  also  aware  the  previous  limitation  global  this  nick  you  were  working  the  heuristic  for  this  lately  did  you  have  comment  this  this  issue  was  closed  revision  270</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CheckGlobalThis</file>
+<file>com.google.javascript.jscomp.RuntimeTypeCheck</file>
+</fixedfiles>
+</bug>
+</bugrepository>

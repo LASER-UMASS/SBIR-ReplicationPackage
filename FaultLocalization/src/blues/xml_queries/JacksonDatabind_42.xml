@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_42" link="https://github.com/FasterXML/jackson-databind/issues/1123">
+<buginformation>
+<summary>serializing  and  deserializing  locale  root</summary>
+<description>serializing and deserializing locale objects seems work just fine until you try the root locale writes out empty string and when reads the value null test public void test locale deserialization throws exception object mapper object mapper new object mapper locale root locale root string json object mapper write value string root system out printf root locale json locale actual object mapper read value json locale class assert assert equals root actual here the output root locale java lang assertion error expected actual null the text was updated successfully but these errors were encountered copy link author hookumsnivy commented feb 2016 this might not backwards compatible but java you can use locale for language tag string deserialize and locale language tag serialize for the time being added custom serializer and deserializer that does exactly that copy link member cowtowncoder commented feb 2016 hookumsnivy thank you for reporting this for the suggestion fix have think about the solution main concern just that while are moving require jdk baseline there bit transition where try keep runtime jdk compatible but adding special handling for seems simple enough even using work around copy link author hookumsnivy commented feb 2016 cowtowncoder looks like from string deserializer already has special handling for the case copy link member cowtowncoder commented feb 2016 hookumsnivy right that not problem from perspective can add once have time work this copy link member cowtowncoder commented feb 2016 the problem really the special handling for empty string gotcha cowtowncoder added this the milestone feb 2016 cowtowncoder closed this 90441 feb 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.std.FromStringDeserializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

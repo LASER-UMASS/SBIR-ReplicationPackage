@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_63" link="https://issues.apache.org/jira/browse/MATH-370">
+<buginformation>
+<summary>equals  methods</summary>
+<description>mathutils  some  equals  methods  will  return  true  both  argument  are  nan  unless  mistaken  this  contradicts  the  ieee  standard  nobody  objects  going  make  the  changes</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.util.MathUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

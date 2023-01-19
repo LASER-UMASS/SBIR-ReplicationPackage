@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonXml_5" link="https://github.com/FasterXML/jackson-dataformat-xml/issues/282">
+<buginformation>
+<summary>malfunction  when  using  with  multiple  and  disabling  annotations</summary>
+<description>found this version running some tests that back and forth serializing with xml mapper that uses annotations and another one that ignores them may related issue 171 and the cache class annotations when running this code the second print statement should use the annotation local name but instead uses the class name jackson xml root element local name myname public class xml test public static void main string throws exception final object mapper xml mapper new xml mapper final object mapper annotations xml mapper xml mapper copy configure mapper feature use annotations false configure serialization feature fail empty beans false system out println annotations xml mapper write value string new xml test system out println xml mapper write value string new xml test output xml test xml test the text was updated successfully but these errors were encountered cowtowncoder added the label feb 2018 copy link member cowtowncoder commented feb 2018 does sound like caching root names might causing the issue here cowtowncoder added the active label may 2018 cowtowncoder added commit that referenced this issue may 2018 add reproduction 282 loading status checks 61138 cowtowncoder changed the title jackson xml root element malfunction when using with multiple xml mappers and disabling annotations jackson xml root element malfunction when using with multiple xml mappers and disabling annotations may 2018 cowtowncoder removed the active label may 2018 cowtowncoder added this the milestone may 2018 cowtowncoder closed this 8aa 276b may 2018 copy link member cowtowncoder commented may 2018 turned out inadvertent sharing root name lookup cache was resolved for due the way construction changed but test now covers and fix will sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider</file>
+</fixedfiles>
+</bug>
+</bugrepository>

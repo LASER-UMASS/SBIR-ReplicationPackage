@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_2" link="https://github.com/FasterXML/jackson-core/issues/105">
+<buginformation>
+<summary>parser  parsers  numbers  eagerly  does  not  report  error  with  missing  space</summary>
+<description>note moved from faster xml jackson databind 260 you give input like 123true will first successfully parse integer 123 and then boolean true this should instead result parse exception the text was updated successfully but these errors were encountered cowtowncoder closed this 38d sep 2013 gsson mentioned this issue feb 2019 input ptr off one utf stream json parser parse number 516 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.json.ReaderBasedJsonParser</file>
+<file>com.fasterxml.jackson.core.json.UTF8StreamJsonParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_23" link="https://sourceforge.net/p/joda-time/bugs/112">
+<buginformation>
+<summary>112  incorrect  mapping  the  met  time  zone</summary>
+<description>this  timezone  mapped  asia  tehran date time zone  should  middle  europena  time  know  that  this  bug  has  been  raised  before  incorrect  mapping  the  met  time  zone  2012274  and  there  comment  stating  that  you  won  break  backward  compatibility  fix  this  bug  disagree  that  this  backward  compatibility  argument  matter  how  you  look  bug  you  could  very  well  state  that  all  bugs  won  fixed  because  backward  compatibility  request  again  that  this  bug  fixed</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.DateTimeZone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

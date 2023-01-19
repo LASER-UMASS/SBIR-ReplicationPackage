@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_64" link="https://github.com/jhy/jsoup/issues/906">
+<buginformation>
+<summary>incorrect  handling  self  closing  tags  noframes  style  and  title  cause  remainder  document  html  escaped</summary>
+<description>edited given the input html head style this the culprit head body whatever body html soup and also http try jsoup org wpj xyust zhd 56g will produce html head style style head body head body whatever body html body html with title instead style the result different but still wrong http try jsoup org 3uo mki 904f uow ljo html head title title head body head whatever body html that weirdness was fixed for script with issue 305 http try jsoup org crrda pgxg ury yvw html head script script head body whatever body html looking the source seems only the html tree builder state handling for noframes style and title the methods handle raw text and handle data doesn get along with the self closing tags any other tagname checked and tried cover all branches that case start tag switch results good parse similar the script case which what expect thanks for looking into this the text was updated successfully but these errors were encountered jhy closed this 195566f jun 2017 copy link owner jhy commented jun 2017 thanks for the report and the analysis made fixing very easy jhy added the bug label jun 2017 jhy added this the milestone jun 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

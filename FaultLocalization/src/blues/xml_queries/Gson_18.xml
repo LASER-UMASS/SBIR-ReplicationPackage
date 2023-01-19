@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_18" link="https://github.com/google/gson/issues/1107">
+<buginformation>
+<summary>gson  deserializes  wildcards linked hash map</summary>
+<description>edited this issue successor 1101 models extends causes the issue class big class map string extends list small class big class small class string small json big key small hello gson call small class small new gson from json json big class class big get small get this call will fail with class cast exception exception com google gson internal linked tree map cannot cast entry remove extends then everything works fine the text was updated successfully but these errors were encountered egor mentioned this issue jun 2017 kotlin var does not save generic type deserialized linked tree map instead 1101 closed amogilev added commit amogilev gson that referenced this issue aug 2017 fix issue google 1107 resolve element type wildcard collection types 15c amogilev mentioned this issue aug 2017 fix issue 1107 resolve element type wildcard collection types 1146 merged inder 123 added commit that referenced this issue sep 2017 fix issue 1107 resolve element type wildcard collection types loading status checks 1fb 9ca 1146 fix issue 1107 resolve element type wildcard collection types fix codacy warnings fix codacy warnings sebasjm pushed commit sebasjm gson that referenced this issue mar 2018 fix issue google 1107 resolve element type wildcard collection 2ab 33e pes google 1146 fix issue google 1107 resolve element type wildcard collection types fix codacy warnings fix codacy warnings copy link kiptoomm commented may 2018 was this ever fixed released still see the problem even alexander kozubets added commit techmagic team techmagic android that referenced this issue feb 2019 add quick fix parsing response model gson issue 5664c gson issue google gson 1107 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.$Gson$Types</file>
+</fixedfiles>
+</bug>
+</bugrepository>

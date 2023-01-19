@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_43" link="https://issues.apache.org/jira/browse/COMPRESS-394">
+<buginformation>
+<summary>zip  local  version  needed  extract  does  not  match  central  directory</summary>
+<description>this  followup  issue  reported  plexus  archiver  https  github  com  codehaus  plexus  plexus  archiver  issues  plexus  archiver  uses  ziparchiveoutputstream  create  zip  archives  constructs  the  ziparchiveoutputstream  using  bufferedoutputstream  result  the  output  not  provide  random  access  and  additional  data  descriptor  records  are  added  unfortunately  this  leads  different  values  being  set  for  version  needed  extract  field  the  local  file  header  and  the  central  directory  looks  like  that  the  root  cause  the  way  the  local  header  version  needed  extract  field  value  calculated  phased iszip 64required  entry  entry zip 64mode  putshort  initial  version  buf  lfh  version  needed  offset  else  putshort  versionneededtoextract  zipmethod haszip 64extra  buf  lfh  version  needed  offset  you  can  see  the  need  for  data  descriptors  not  taken  into  account  other  hand  when  the  central  directory  created  the  following  used  determine  the  minimum  required  version  private  int  versionneededtoextract  final  int  zipmethod  final  boolean  zip  zip  return  zip  min  version  requires  version  are  going  store  length  info  the  data  descriptor  return  isdeflatedtooutputstream  zipmethod  data  descriptor  min  version  initial  version  side  note  not  zip  expert  any  means  could  wrong  but  understanding  that  deflate  compression  used  then  the  minimum  required  version  should  regardless  data  descriptors  are  used  not</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

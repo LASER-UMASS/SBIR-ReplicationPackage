@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_98" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-174.json">
+<buginformation>
+<summary>bad  variable  inlining  closure</summary>
+<description>closure compiler  compilation  level  simple  optimizations  output  file  name  default  formatting  pretty  print closure compiler  function  foo  var  arr  for  var  arr  length  var  arr  function  var set timeout  function  console  log  foo  quot  quot  will  get  incorrectly  inlined  clearly  problem  with inline variablesyep  know  the  exact  problem  have  patch  tomorrow  this  issue  was  closed  revision  241</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ReferenceCollectingCallback</file>
+</fixedfiles>
+</bug>
+</bugrepository>

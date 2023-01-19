@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_28" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-728.json">
+<buginformation>
+<summary>constant  functions  not  inlined  aggressively  enough</summary>
+<description>you  call  function  that  returns  false  enough  times  under  certain  conditions  doesn  get  inlined closure compiler  compilation  level  advanced  optimizations  output  file  name  default closure compiler  function  return  false  alert  repeat  this  about  times  this  issue  was  closed  revision  1969</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineCostEstimator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

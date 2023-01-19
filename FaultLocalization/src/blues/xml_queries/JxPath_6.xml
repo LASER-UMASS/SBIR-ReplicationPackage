@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_6" link="https://issues.apache.org/jira/browse/JXPATH-94">
+<buginformation>
+<summary>equality  test  for  multi  valued  variables  does  not  conform  spec</summary>
+<description>given  variable  the  spec  implies  that  and  that  instead  iterating  the  variable  components  its  immediate  content  here  the  string  compared  causing  the  aforementioned  assertions  fail</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.compiler.CoreOperationCompare</file>
+</fixedfiles>
+</bug>
+</bugrepository>

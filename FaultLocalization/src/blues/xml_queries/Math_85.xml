@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_85" link="https://issues.apache.org/jira/browse/MATH-280">
+<buginformation>
+<summary>bug inverse cumulative probability  for  normal  distribution</summary>
+<description>version  revision  617953  date  2008  0700  sat  feb  2008  public  class  normaldistributionimpl  extends  abstractcontinuousdistribution  version  revision  506600  date  2007  0700  mon  feb  2007  public  abstract  class  abstractcontinuousdistribution  this  code  distributionfactory  factory  app  getdistributionfactory  normaldistribution  normal  factory  createnormaldistribution  double  result  normal  inversecumulativeprobability  9772498680518209  gives  the  exception  below  should  return  approx  0000  normal  inversecumulativeprobability  977249868051820  works  fine  these  also  give  errors  9986501019683698  should  return  0000  9999683287581673  should  return  0000  org  apache  commons  math  mathexception  number  iterations  maximum  iterations  147  483  647  initial  lower  bound  upper  bound  179  769  313  486  231  570  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  000  final  value  final  value  477  org  apache  commons  math  distribution  abstractcontinuousdistribution  inversecumulativeprobability  abstractcontinuousdistribution  java  103  org  apache  commons  math  distribution  normaldistributionimpl  inversecumulativeprobability  normaldistributionimpl  java  145</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

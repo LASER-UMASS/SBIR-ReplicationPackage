@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_8" link="https://issues.apache.org/jira/browse/LANG-818">
+<buginformation>
+<summary>fast date format  pattern  does  not  respect  timezone  calendar  instances  passed  format</summary>
+<description>the  work  lang  462  has  introduced  time  zone  formatting  bug  fastdateformat  commons  lang  the  problem  can  seen  this  snippet  always  prints  timezone  name  machine  default  timezone  ignoring  set  calendar  even  though  the  printed  time  itself  respects  calendar  calendar  mycal  calendar  getinstance  timezone  gettimezone  central  system  out  println  fastdateformat  getinstance  mma  format  mycal  you  happen  central  this  will  print  the  right  thing  but  just  try  with  eastern  pacific  etc  will  print  the  time  the  correct  timezone  but  the  timezone  name  the  end  the  pattern  will  always  the  system  default  timezone  this  regression  against  commons  lang  basically  when  the  forced  time  zone  code  was  removed  the  timezonenamerule  class  stopped  respecting  the  calendar  instance  timezone  and  instead  now  always  uses  the  mtimezone  the  fastdateformat  instance  itself  which  only  supposed  used  when  formatting  timezone  less  objects  such  date  long  the  removal  the  forced  time  zone  stuff  surely  the  right  thing  was  mess  think  the  fix  change  the  timezonenamerule  inner  class  not  take  timezone  instance  but  rather  use  the  timezone  the  calendar  instance  passed  into  appendto  just  like  timezonenumberrule  does  presumably  then  for  efficiency  one  would  use  the  gettimezonedisplay  package  static  method  quickly  retrieve  the  required  timezone  display  name</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.time.FastDatePrinter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

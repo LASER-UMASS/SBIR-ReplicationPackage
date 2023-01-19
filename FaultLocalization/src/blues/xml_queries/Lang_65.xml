@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_65" link="https://issues.apache.org/jira/browse/LANG-59">
+<buginformation>
+<summary>lang date utils  truncate  method  buggy  when  dealing  with  dst  switching  hours</summary>
+<description>try  truncate  2004  mdt  hour  and  you  actually  get  2004  mst  which  one  hour  after  the  input  hour  truncate  2004  mdt  date  oct  01mdt  new  date  1099206000000l  date  result  dateutils  truncate  oct  01mdt  calendar  hour  day  assertequals  oct  01mdt  result</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.time.DateUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

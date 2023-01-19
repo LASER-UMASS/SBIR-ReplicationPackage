@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Collections_27" link="https://issues.apache.org/jira/browse/COLLECTIONS-580">
+<buginformation>
+<summary>arbitrary  remote  code  execution  with invoker transformer</summary>
+<description>with  invokertransformer  serializable  collections  can  build  that  execute  arbitrary  java  code  sun  reflect  annotation  annotationinvocationhandler  readobject  invokes  entryset  and  get  deserialized  collection  you  have  endpoint  that  accepts  serialized  java  objects  jmx  rmi  remote  ejb  you  can  combine  the  two  create  arbitrary  remote  code  execution  vulnerability  don  know  good  fix  short  removing  invokertransformer  making  not  serializable  both  probably  break  existing  applications  this  not  research  but  has  been  discovered  other  people  https  github  com  frohoff  ysoserial  http  foxglovesecurity  com  2015  what  weblogic  websphere  jboss  jenkins  opennms  and  your  application  have  common  this  vulnerability</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.collections4.map.MultiValueMap</file>
+</fixedfiles>
+</bug>
+</bugrepository>

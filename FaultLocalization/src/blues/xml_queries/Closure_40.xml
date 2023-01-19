@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_40" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-284.json">
+<buginformation>
+<summary>smart name removal  causing  compiler  crash</summary>
+<description>what  steps  will  reproduce  the  problem  compiler  the  following  code  advanced  mode  var  goog  goog  inherits  function  var  constructor page selection model  function  constructor page selection model foo event  function  constructor page selection model select event  function  goog  inherits page selection model change event page selection model foo event  what  the  expected  output  what  you  see  instead  the  compiler  will  crash  the  last  var  check  throws  illegal  state  exception  because  knows  something  wrong  the  crash  caused smart name removal  has  special  logic  for  counting  references  class  defining  function  calls  like  goog  inherits  and  isn  properly  creating  reference page selection model  can  longer  reproduce  this  with  the  latest  build  nick  you  still  see  problem  can  still  repro  this  issue  was  closed  revision  1759</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NameAnalyzer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

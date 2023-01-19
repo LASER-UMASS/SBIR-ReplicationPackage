@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_12" link="https://sourceforge.net/p/jfreechart/patches/213">
+<buginformation>
+<summary>213  fix  for multiple pie plot</summary>
+<description>when  dataset  passed  into  constructor  for multiple pie plot  the  dataset  not  wired  listener  would set dataset  called</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.chart.plot.MultiplePiePlot</file>
+</fixedfiles>
+</bug>
+</bugrepository>

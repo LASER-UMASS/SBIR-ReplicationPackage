@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_43" link="https://github.com/jhy/jsoup/issues/554">
+<buginformation>
+<summary>unexpected  behavior element sibling index</summary>
+<description>the documentation for element sibling index states get the list index this element its element sibling list this the first element sibling returns this would imply that elem element sibling index then elem parent children get elem however this not how element sibling index behaves what guaranteed that elem parent children get equals elem for example both row and row table are cell cell then the element object associated with both rows will have the same element sibling index the text was updated successfully but these errors were encountered copy link owner jhy commented apr 2015 this the same issue 561 jhy closed this 11f apr 2015 copy link owner jhy commented apr 2015 thanks for finding this fixed this was referenced jul 2015 fix issue 580 587 closed duplicate children roll into 579 closed nested selects not work with src 580 closed overthink mentioned this issue jul 2015 element select nth child not work when node have same content 599 closed this was referenced aug 2015 elements select does not return all matching element objects 614 closed add breaking tests test element equals 616 closed zazi added commit dswarm jsoup that referenced this issue oct 2015 search for element siblings identity not content 818 fixes jhy 554 jhy 561 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+</fixedfiles>
+</bug>
+</bugrepository>

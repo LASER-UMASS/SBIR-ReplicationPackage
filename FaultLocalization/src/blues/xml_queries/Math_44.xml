@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_44" link="https://issues.apache.org/jira/browse/MATH-695">
+<buginformation>
+<summary>incomplete  reinitialization  with  some  events  handling</summary>
+<description>get  bug  with  event  handling  track  events  that  occur  the  same  step  when  the  first  one  accepted  resets  the  state  but  the  reinitialization  not  complete  and  the  second  one  becomes  unable  find  its  way  can  give  context  which  rather  large  but  tried  patch  that  works  for  unfortunately  breaks  the  unit  tests</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.ode.AbstractIntegrator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_42" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-644.json">
+<buginformation>
+<summary>simple  whitespace  only  compression  removing  each  keyword  from  for  each  var  arr  loop</summary>
+<description>what  steps  will  reproduce  the  problem  see  below  code  snippet  before  after  compression  before  contactcenter  screenpop update pop status  function  stamp  status  for  each  var cur timing  this time log  timings cur timing  call  stamp cur timing  flag  status  break  after  contactcenter  screenpop update pop status  function  stamp  status  for  var cur timing  this time log  timings cur timing  call  stamp cur timing  flag  status  break  what  the  expected  output  what  you  see  instead  each  keyword  should  preserved  what  version  the  product  are  you  using  what  operating  system  please  provide  any  additional  information  below  for  each  returns  object  value  for  returns  index  for  each  not  part  the ecma script  standard  https  developer  mozilla  org java script  reference  statements  for  each  should  however  parse  error  this  issue  was  closed  revision  1737</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.parsing.IRFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

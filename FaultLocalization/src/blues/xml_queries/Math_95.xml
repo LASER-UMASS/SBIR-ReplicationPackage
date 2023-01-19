@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_95" link="https://issues.apache.org/jira/browse/MATH-227">
+<buginformation>
+<summary>denominator degree freedom  distribution  leads illegal arguments exception univariate real solver utils  bracket</summary>
+<description>are  using  the  fdistributionimpl  from  the  commons  math  project  some  statistical  calculations  namely  receiving  the  upper  and  lower  boundaries  confidence  interval  everything  working  fine  and  the  results  are  matching  our  reference  calculations  however  the  fdistribution  behaves  strange  denominatordegreeoffreedom  used  with  alpha  value  this  results  illegalargumentsexception  stating  invalid  endpoint  parameters  lowerbound  initial  infinity  upperbound 7976931348623157e 308  coming  from  org  apache  commons  math  analysis  univariaterealsolverutils  bracket  the  problem  the  initial  parameter  that  function  wich  positive  infinity  and  therefore  not  within  the  boundaries  already  pinned  down  the  problem  the  fdistributions  getinitialdomain  method  wich  goes  like  return  getdenominatordegreesoffreedom  getdenominatordegreesoffreedom  obviously  case  denominatordegreesoffreedom  this  must  lead  division  zero  resulting  postive  infinity  the  result  this  operation  then  directly  passed  into  the  univariaterealsolverutils  bracket  method  second  argument</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.distribution.FDistributionImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

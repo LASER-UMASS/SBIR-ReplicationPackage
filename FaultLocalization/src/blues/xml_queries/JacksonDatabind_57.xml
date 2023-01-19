@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_57" link="https://github.com/FasterXML/jackson-databind/issues/1362">
+<buginformation>
+<summary>ignores  offset  and  length  when  reading  array</summary>
+<description>object reader read values ignores offset and length when reading array data format readers will always use the full array https github com faster xml jackson databind blob src main java com fasterxml jackson databind object reader java 1435 the text was updated successfully but these errors were encountered copy link member cowtowncoder commented sep 2016 right you are thank you for reporting this cowtowncoder changed the title object reader read values ignores offset and length when reading array object reader read values ignores offset and length when reading array sep 2016 cowtowncoder closed this bbd 8190 sep 2016 cowtowncoder added this the milestone sep 2016 copy link member cowtowncoder commented sep 2016 fixed for earlier branches are closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ObjectReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

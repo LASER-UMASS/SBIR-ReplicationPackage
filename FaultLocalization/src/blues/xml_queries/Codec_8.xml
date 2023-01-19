@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_8" link="https://issues.apache.org/jira/browse/CODEC-105">
+<buginformation>
+<summary>array index out bounds exception  when  doing  multiple  reads  encoding base input stream</summary>
+<description>when  encoding  sizable  stream  byte  byte  just  calling base 64inputstream  read  after  10920  successful  read  this  happens  java  lang  arrayindexoutofboundsexception  org  apache  commons  codec  binary  base  encode  base  java  502  org  apache  commons  codec  binary base 64inputstream  read base 64inputstream  java  157  org  apache  commons  codec  binary base 64inputstream  read base 64inputstream  java  109  based  this  the  necessary  conditions  seem  that  buffer  null  and  modulus  then  read  done  single  byte  buffer  used  whose  length  doubled  resizebuffer  but  that  still  doesn  make  big  enough  hold  the  bytes  written  because  modulus  was  just  incremented  here  some  sample  code  import  org  apache  commons  codec  binary base 64inputstream  public  class  testreads  public  static  void  main  string  args base 64inputstream  64stream  new base 64inputstream  system  true  null  int  try  while  64stream  read  catch  exception  system  out  println  printstacktrace</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.Base64</file>
+<file>org.apache.commons.codec.binary.Base64InputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

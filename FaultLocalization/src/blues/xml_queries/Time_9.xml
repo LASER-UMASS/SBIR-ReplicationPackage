@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_9" link="https://github.com/JodaOrg/joda-time/issues/43">
+<buginformation>
+<summary>ensure  there  max  min  valid  offset</summary>
+<description>date time zone does not apply max min value for offset however the parse method limited make 999 the maximum the text was updated successfully but these errors were encountered jodastephen closed this 96f 586c jul 2013 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 ensure there max min valid offset date time zone 872e fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.DateTimeZone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_52" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-569.json">
+<buginformation>
+<summary>converts  string  properties  into  numbers  literal  object  definitions</summary>
+<description>what  steps  will  reproduce  the  problem  minimize  the  following  script  var  lit  quot  0102  quot  quot  zero  one  zero  two  quot  alert  lit  quot  0102  quot  what  the  expected  output  what  you  see  instead  expected  var  lit  quot  0102  quot  quot  zero  one  zero  two  quot  alert  lit  quot  0102  quot  actual  var  lit  102  quot  zero  one  zero  two  quot  alert  lit  quot  0102  quot  what  version  the  product  are  you  using  what  operating  system  1459  please  provide  any  additional  information  below  should  add  that  this  happens  whitespace  only  mode  thanks  for  the  report  this  issue  was  closed  revision  1491  issue  595  has  been  merged  into  this  issue</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

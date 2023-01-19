@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_7" link="https://issues.apache.org/jira/browse/JXPATH-93">
+<buginformation>
+<summary>binary  operators  behaviour  involving  node  sets  incorrect</summary>
+<description>according  xpath  specification  both  objects  compared  are  node  sets  then  the  comparison  will  true  and  only  there  node  the  first  node  set  and  node  the  second  node  set  such  that  the  result  performing  the  comparison  the  string  values  the  two  nodes  true  one  object  compared  node  set  and  the  other  number  then  the  comparison  will  true  and  only  there  node  the  node  set  such  that  the  result  performing  the  comparison  the  number  compared  and  the  result  converting  the  string  value  that  node  number  using  the  number  function  true  but  following  example  illustrates  that  this  not  jxpath  behaviour  jxpathcontext  pathcontext  jxpathcontext  newcontext  documentbuilderfactory  newinstance  newdocumentbuilder  parse  new  inputsource  new  stringreader  xml  version  encoding  utf  doc  boolean  result  boolean  pathcontext  getvalue  child  boolean  class  assertfalse  result  booleanvalue  child  not  found  right  operand  node  set  empty  but  result  true  instead  false  please  check  greaterthan  lesserthan  etc  methods  org  apache  xpath  objects  xobject  for  possible  solution</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan</file>
+<file>org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual</file>
+<file>org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan</file>
+<file>org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual</file>
+<file>org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression</file>
+</fixedfiles>
+</bug>
+</bugrepository>

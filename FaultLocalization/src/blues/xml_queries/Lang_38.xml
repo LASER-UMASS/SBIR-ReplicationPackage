@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_38" link="https://issues.apache.org/jira/browse/LANG-538">
+<buginformation>
+<summary>date format utils  format  does  not  correctly  change  calendar time zone  certain  situations</summary>
+<description>calendar  object  constructed  certain  ways  call  calendar  settimezone  does  not  correctly  change  the  calendars  fields  calling  calenar  gettime  seems  fix  this  problem  while  this  probably  bug  the  jdk  would  nice  dateformatutils  was  smart  enough  detect  resolve  this  problem  for  example  the  following  unit  test  fails  public  void  testformat  calendarisomszulu  final  string  datetime  2009  16t  000z  more  commonly  constructed  with  cal  new  gregoriancalendar  2009  for  the  unit  test  work  any  time  zone  constructing  with  gmt  rather  than  default  locale  time  zone  gregoriancalendar  cal  new  gregoriancalendar  timezone  gettimezone  gmt  cal  clear  cal  set  2009  fastdateformat  format  fastdateformat  getinstance  yyyy  sss  timezone  gettimezone  gmt  assertequals  datetime  datetime  format  format  cal  however  this  unit  test  passes  public  void  testformat  calendarisomszulu  final  string  datetime  2009  16t  000z  gregoriancalendar  cal  new  gregoriancalendar  timezone  gettimezone  gmt  cal  clear  cal  set  2009  cal  gettime  fastdateformat  format  fastdateformat  getinstance  yyyy  sss  timezone  gettimezone  gmt  assertequals  datetime  datetime  format  format  cal</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.time.FastDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

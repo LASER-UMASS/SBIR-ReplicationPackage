@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_135" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-59.json">
+<buginformation>
+<summary>inheritance  not  detected  when  prototype  directly  assigned</summary>
+<description>given  the  following  input  constructor  function super class super class  prototype custom method  function  constructor  extends super class  function sub class sub class  prototype  new super class  override sub class  prototype custom method  function  this  property  quot  value  quot  window sub class instance  new sub class  when  compiled  with  advanced  optimizations  produces  the  warning  jsc  unknown  override  property custom method  not  defined  any  superclass sub class  this  error  has  been  reproduced  both  the  downloaded  compiler  and  the  compiler  service  when  the  prototype  assignment  wrapped  function  correctly  detected  see  below  function  inherit  child  parent  child  prototype  new  parent  inherit sub class super class  this  issue  was  closed  revision  this  issue  not  fixed  the  above  code  still  generates  the  warning  when  the  prototype  assignment  not  inside  function  the  test  case  disagrees  can  you  give  repro  case  the  warning  that  you  see  further  testing  shows  the  bug  only  comes  into  play  very  specific  circumstances  requires  extern  file  well  aliasing  the  type  with  typedef  attached  are  the  files  simple  can  get  them  and  still  get  the  error  should  mention  that  the  compiler  testing  was  built  about  hours  ago  against  the  latest  svn  source  also  enabled  the ambiguate properties  and disambiguate properties  passes</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.DevirtualizePrototypeMethods</file>
+<file>com.google.javascript.rhino.jstype.FunctionType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

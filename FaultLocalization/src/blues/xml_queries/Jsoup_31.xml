@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_31" link="https://github.com/jhy/jsoup/issues/242">
+<buginformation>
+<summary>xml  declaration  parsed  comment</summary>
+<description>using jsoup the following snippet system out println jsoup parse xml encoding utf version html head title title head body document content body html outer html prints xml encoding utf version html head title title head body document content body html while expect xml encoding utf version html head title title head body document content body html the text was updated successfully but these errors were encountered copy link remisbaima commented sep 2012 this actually the expected behavior jsoup you are parsing html code using the html parser you need parse xml you must use jsoup parse xml text parser xml parser copy link remisbaima commented sep 2012 suggestion solved your problem you could close this issue helps the developer keep the focus copy link author apatry commented sep 2012 yes problem solved for thanks apatry closed this sep 2012 copy link cdsimpkins commented sep 2012 actually still see this issue while using the xml parser jhy reopened this sep 2012 jhy closed this caf 61a sep 2012 copy link pagrusze commented oct 2012 using jsoup the following test failed for test public void xml parser test string html xml version encoding utf body one body comment document doc jsoup parse html parser xml parser assert equals xml version encoding utf body one body comment string util normalise whitespace doc outer html sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.Token</file>
+<file>org.jsoup.parser.TokeniserState</file>
+<file>org.jsoup.parser.XmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

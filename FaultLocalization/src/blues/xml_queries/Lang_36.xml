@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_36" link="https://issues.apache.org/jira/browse/LANG-521">
+<buginformation>
+<summary>number utils  number  should  return  true  for  valid  number  with  trailing  decimal  place</summary>
+<description>numberutils  isnumber  should  return  true  for  valid  number  ending  trailing  decimal  place  should  considered  number  because  new  bigdecimal  works  fine  this  could  done  adding  the  code  below  after  line  1444  which  the  chars  chars  block  chars  hasdecpoint  hasexp  two  decimal  points  dec  exponent  return  false  return  founddigit  single  trailing  decimal  point  after  non  exponent</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

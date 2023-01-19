@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_9" link="https://github.com/google/gson/pull/836">
+<buginformation>
+<summary>add  boxed  boolean  value  overload</summary>
+<description>edited when calling value with boolean overload resolution would choose value boolean which would throw npe null the other boxed types are all numbers which would resolve value number and behave correctly proof this happens bugsnag bugsnag android add boxed boolean value overload 59edfc when calling value with boolean overload resolution would choose value boolean which would throw npe null the other boxed types are all numbers which would resolve value number and behave correctly jake wharton force pushed the boxed boolean branch from 16623 59edfc apr 2016 jake wharton mentioned this pull request apr 2016 remove null checks instruct json writer ignore them bugsnag bugsnag android 105 merged hide details view details swankjesse merged commit 874e 74a into master apr 2016 checks passed checks passed cla google all necessary are signed continuous integration travis the travis build passed details continuous integration travis push the travis build passed details copy link collaborator swankjesse commented apr 2016 sigh jake wharton mentioned this pull request apr 2016 add writer value overload for boxed booleans square moshi 158 merged jake wharton deleted the boxed boolean branch feb 2017 sebasjm pushed commit sebasjm gson that referenced this pull request mar 2018 merge pull request google 836 from google boxed boolean 963d 09e add boxed boolean value overload sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.bind.JsonTreeWriter</file>
+<file>com.google.gson.internal.bind.TypeAdapters</file>
+<file>com.google.gson.stream.JsonWriter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

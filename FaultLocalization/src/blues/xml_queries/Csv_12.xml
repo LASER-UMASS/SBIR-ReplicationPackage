@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_12" link="https://issues.apache.org/jira/browse/CSV-128">
+<buginformation>
+<summary>csv format  excel  should  ignore  empty  header  names</summary>
+<description>have  excel  file  with  first  row  with  column  names  there  are  additional  columns  that  are  not  labeled  excel  exports  empty  columns  for  example  this  causes  iae  like  java  lang  illegalargumentexception  the  header  contains  duplicate  name  org  apache  commons  csv  csvparser  initializeheader  csvparser  java  368  org  apache  commons  csv  csvparser  init  csvparser  java  248  org  apache  commons  csv  csvparser  parse  csvparser  java  206  seems  like  the  simplest  solution  ignore  empty  column  names  such  that  they  cannot  addressable  and  not  attempt  index  them</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

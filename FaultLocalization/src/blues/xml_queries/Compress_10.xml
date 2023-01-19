@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_10" link="https://issues.apache.org/jira/browse/COMPRESS-164">
+<buginformation>
+<summary>cannot  read  winzip  archives  with  unicode  extra  fields</summary>
+<description>have  zip  file  created  with  winzip  containing  unicode  extra  fields  upon  attempting  extract  with  org  apache  commons  compress  archivers  zip  zipfile  zipfile  getinputstream  returns  null  for  ziparchiveentries  previously  retrieved  with  zipfile  getentry  even  zipfile  getentries  see utf 8zipfilestest  patch  the  attachments  for  test  case  exposing  the  bug  the  original  test  case  stopped  short  trying  read  the  entries  that  why  this  wasn  flagged  before  the  problem  lies  the  fact  that  inside  zipfile  java  entries  are  stored  hashmap  however  one  point  after  populating  the  hashmap  the  unicode  extra  fields  are  read  which  leads  change  the  ziparchiveentry  name  and  therefore  change  its  hash  code  because  this  subsequent  gets  the  hashmap  fail  retrieve  the  original  values  zipfile  patch  contains  admittedly  simple  minded  fix  for  this  problem  reconstructing  the  entries  hashmap  after  the  unicode  extra  fields  have  been  parsed  the  purpose  this  patch  mainly  show  that  the  problem  indeed  what  think  rather  than  providing  well  designed  solution  the  patches  have  been  tested  against  revision  1210416</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipFile</file>
+</fixedfiles>
+</bug>
+</bugrepository>

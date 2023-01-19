@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_71" link="https://issues.apache.org/jira/browse/MATH-358">
+<buginformation>
+<summary>ode  integrator  goes  past  specified  end  integration  range</summary>
+<description>end  integration  range  ode  solving  handled  event  some  cases  numerical  accuracy  events  detection  leads  error  events  location  the  following  test  case  shows  the  end  event  not  handled  properly  and  integration  that  should  cover  60s  range  fact  covers  160s  range  more  than  twice  the  specified  range  public  void  testmissedevent  throws  integratorexception  derivativeexception  final  double  1878250320  0000029  final  double  1878250379  9999986  firstorderdifferentialequations  ode  new  firstorderdifferentialequations  public  int  getdimension  return  public  void  computederivatives  double  double  double  ydot  throws  derivativeexception  ydot dormandprince 853integrator  integrator  new dormandprince 853integrator  100  double  integrator  setinitialstepsize  double  finalt  integrator  integrate  ode  assert  assertequals  finalt</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator</file>
+<file>org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

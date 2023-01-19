@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_25" link="https://github.com/jhy/jsoup/issues/167">
+<buginformation>
+<summary>soup  not  preserving  whitespace  for text area  tags</summary>
+<description>this tag may have been mistakenly left out the array preserve whitespace tags the tag class private static final string preserve whitespace tags pre plaintext title there comment next the preserve whitespace boolean that indicates this should have been added here private boolean preserve whitespace false for pre textarea script etc the text was updated successfully but these errors were encountered copy link commented may 2012 would nice this could corrected indeed for the now can patch the library entreprise repository doing side this ugly trick switch the preserve white space boolean for each text area jsoup tag object just after parsing the document for final element jsoup doc get all elements tag name equals ignore case textarea final tag tag tag final field private string field tag class get declared field preserve whitespace private string field set accessible true private string field set tag true jhy closed this 94002db may 2012 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.Tag</file>
+</fixedfiles>
+</bug>
+</bugrepository>

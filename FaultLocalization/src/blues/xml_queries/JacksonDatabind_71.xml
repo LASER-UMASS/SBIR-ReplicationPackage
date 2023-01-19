@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_71" link="https://github.com/FasterXML/jackson-databind/issues/1506">
+<buginformation>
+<summary>missing  for</summary>
+<description>looks like use nominal map key type char sequence does not work yet this something that needed work with certain frameworks such avro generated poj the text was updated successfully but these errors were encountered cowtowncoder added active and removed active labels jan 2017 cowtowncoder added this the milestone jan 2017 copy link member author cowtowncoder commented jan 2017 fixed for cowtowncoder closed this 23a 7332 jan 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

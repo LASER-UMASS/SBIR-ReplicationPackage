@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_76" link="https://issues.apache.org/jira/browse/MATH-320">
+<buginformation>
+<summary>singular  value  from  svd</summary>
+<description>the  following  jython  code  start  code  from  org  apache  commons  math  linear  import  alist array 2drowrealmatrix  alist  decomp  singularvaluedecompositionimpl  print  decomp  getsingularvalues  end  code  prints  array  218599757513008  3781791648535976  nan  the  last  singular  value  should  something  very  close  since  the  matrix  rank  deficient  when  use  the  result  from  getsolver  solve  system  end  with  bunch  nans  the  solution  assumed  would  get  back  least  squares  solution  does  this  svd  implementation  require  that  the  matrix  full  rank  then  would  expect  exception  thrown  from  the  constructor  one  the  methods</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.linear.SingularValueDecompositionImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

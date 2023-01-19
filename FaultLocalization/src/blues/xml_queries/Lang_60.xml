@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_60" link="https://issues.apache.org/jira/browse/LANG-295">
+<buginformation>
+<summary>str builder  contains  usages this buf  length  when  they  should  use  size</summary>
+<description>while  fixing  lang  294  noticed  that  there  are  two  other  places  strbuilder  that  reference  thisbuf  length  and  unless  mistaken  they  shouldn</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.text.StrBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

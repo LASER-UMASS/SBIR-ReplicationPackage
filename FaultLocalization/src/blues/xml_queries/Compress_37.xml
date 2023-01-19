@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_37" link="https://issues.apache.org/jira/browse/COMPRESS-355">
+<buginformation>
+<summary>parsing  pax  headers  fails  with negative array size exception</summary>
+<description>the  tararchiveinputstream  parsepaxheaders  method  fails  with  negativearraysizeexception  when  there  empty  line  the  end  the  headers  the  inner  loop  starts  reading  the  length  but  gets  newline  and  ends  subtracting  from  the  result  negative  length  that  blows  attempt  allocate  the  rest  array  would  say  that  check  see  less  the  and  break  the  loop  used  npm  pack  aws  sdk  generate  tarball  with  this  issue</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

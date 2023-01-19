@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_65" link="https://issues.apache.org/jira/browse/MATH-377">
+<buginformation>
+<summary>weight  versus  sigma abstract least squares</summary>
+<description>abstractleastsquares  residualsweights  contains  the  weights  assigned  each  observation  the  method  getrms  these  weights  are  multiplicative  they  should  unlike  getchisquare  where  appears  the  denominator  the  weight  really  the  weight  the  observation  should  multiply  the  square  the  residual  even  the  computation  the  chi  once  corrected  getrms  can  even  reduce  public  double  getrms  return  math  sqrt  getchisquare  rows</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_21" link="https://issues.apache.org/jira/browse/JXPATH-151">
+<buginformation>
+<summary>null  handling  inconsistent</summary>
+<description>comparing  vaule  null  using  unequals  yields  false  map  string  integer  new  hashmap  string  integer  put  put  null  put  jxpathcontext  jxpathcontext  newcontext  system  out  println  getvalue  should  true  system  out  println  getvalue  should  false  system  out  println  getvalue  should  false  system  out  println  getvalue  should  true  system  out  println  getvalue  not  should  true  system  out  println  getvalue  not  should  false  output  using  false  should  true  false  should  false  false  should  false  true  should  true  true  should  true  false  should  false  works  correctly</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.beans.PropertyPointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_106" link="https://issues.apache.org/jira/browse/MATH-60">
+<buginformation>
+<summary>math  function  math  fraction proper fraction format  parse  string parse position  return  illogical  result</summary>
+<description>hello  find  illogical  returned  result  from  function  fraction  parse  string  source  parsepostion  pos  class  properfractionformat  the  fraction  package  the  commons  math  library  please  see  the  following  code  segment  for  more  details  properfractionformat  properformat  new  properfractionformat  result  null  string  source  parseposition  pos  new  parseposition  test  fail  public  void  testparsenegative  string  source  parseposition  pos  new  parseposition  fraction  actual  properformat  parse  source  pos  assertnull  actual  test  success  public  void  testparsenegative  string  source  parseposition  pos  new  parseposition  fraction  actual  properformat  parse  source  pos  return  fraction  assertequals  source  getnumerator  assertequals  source  getdenominator  note  similarly  when  passed  the  following  inputs  input  source  pos  input  source  pos  function  fraction  parse  string  parseposition  returned  fraction  means  the  result  fraction  had  numerator  and  denominator  for  all  inputs  above  think  the  function  does  not  handle  parsing  the  numberator  denominator  properly  incase  input  string  provide  invalid  numerator  denominator  thank  you</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.fraction.ProperFractionFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

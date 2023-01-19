@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_33" link="https://github.com/jhy/jsoup/issues/305">
+<buginformation>
+<summary>self  closing  script  tag  causes  remainder  document  html  escaped</summary>
+<description>when self closing script block encountered appears that the state transitions not account for the closing tag the rest the document considered the body the script tag and escaped the unit test html parser test handles known empty blocks will fail self closing script tag included the string the text was updated successfully but these errors were encountered bouncysteve mentioned this issue mar 2013 jsoup fails parse html with trailing new lines 258 closed copy link owner jhy commented mar 2013 thanks for the report that bit weird copy link owner jhy commented mar 2013 the problem that the unexpected self closing tag handler which out spec not getting the tokeniser out the script data state don want just force back into the data state because that ignores other internal states probably the right thing track the previous tokeniser and tree builder states the emit method and transition those read copy link owner jhy commented oct 2013 review think force back state data explicitly self closing tag and could only have got into that state via the data state jhy closed this 2518e oct 2013 zazi added commit dswarm jsoup that referenced this issue oct 2015 fixed support for self closing script tags 7fdca fixes jhy 305 dsvensson mentioned this issue jan 2016 update jsoup dependency davidsantiago hickory closed hannibal 218bc mentioned this issue jun 2017 incorrect handling self closing tags noframes style and title cause remainder document html escaped 906 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

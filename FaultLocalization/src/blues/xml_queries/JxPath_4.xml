@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_4" link="https://issues.apache.org/jira/browse/JXPATH-83">
+<buginformation>
+<summary>xpath  automatically  trims  string  values</summary>
+<description>when  xml  contains  value  with  leading  trailing  spaces  jxpath  trims  this  value  example  value  12324  value  retrieved  jxpath  1234  while  expect  1234</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMNodePointer</file>
+<file>org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

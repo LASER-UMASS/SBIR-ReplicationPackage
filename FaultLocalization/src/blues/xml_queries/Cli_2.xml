@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_2" link="https://issues.apache.org/jira/browse/CLI-51">
+<buginformation>
+<summary>cli  parameter  value  something  misinterpreted  parameter</summary>
+<description>parameter  value  passed  that  contains  hyphen  the  delimited  first  character  cli  parses  this  parameter  for  example  using  the  call  java  myclass  something  results  the  parser  creating  the  invalid  parameter  noting  that  skipping  the  code  using  the  posix  parser  follows  options  options  buildcommandlineoptions  commandlineparser  parser  new  posixparser  commandline  commandline  null  try  commandline  parser  parse  options  args  catch  parseexception  system  out  println  invalid  parameters  getmessage  new  line  system  exit  exit  code  error  this  has  been  tested  against  the  nightly  build  dated  20050503</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.PosixParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_2" link="https://issues.apache.org/jira/browse/COMPRESS-11">
+<buginformation>
+<summary>doesn  delete  correct</summary>
+<description>when  working  the  testcases  figured  out  that  deletion  from  archive  not  successful  look  first  glance  for  example  bla  file  contains  test  xml  and  test  xml  delete  test  xml  the  getnextentry  method  just  delivers  test  xml  looks  correct  but  checking  the  result  file  commandline  brings  the  following  tmp dir 26673  bla  test  xml  test  xml  shows  that  there  still  the  test  xml  entry  the  archive  even  when  getnextentry  returns  null  deleting  test  xml  and  adding  test  txt  afterward  brings  the  following  tmp dir 24825  bla  test  txt  tmp dir 24825  bla  inappropriate  file  type  format</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.ar.ArArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

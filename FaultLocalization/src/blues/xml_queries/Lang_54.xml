@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_54" link="https://issues.apache.org/jira/browse/LANG-328">
+<buginformation>
+<summary>locale utils  locale  rejects  strings  with  only  language  variant</summary>
+<description>localeutils  tolocale  throws  exception  strings  containing  language  and  variant  but  country  code  for  example  posix  this  string  can  produced  with  the  jdk  instanciating  locale  with  empty  string  for  the  country  new  locale  posix  tostring  according  the  javadoc  for  the  locale  class  variant  allowed  with  just  language  code  just  country  code  commons  configuration  handles  this  case  its  propertyconverter  tolocale  method  like  replace  our  implementation  the  one  provided  localeutils  but  our  tests  fail  due  this  case</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.LocaleUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

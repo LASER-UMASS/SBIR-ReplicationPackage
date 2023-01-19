@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_22" link="https://issues.apache.org/jira/browse/COMPRESS-253">
+<buginformation>
+<summary>zip compressor input stream  reads  fewer  bytes  from  truncated  file  than  python  implementation</summary>
+<description>jython  includes  support  for  decompressing  files  using  commons  compress  and  shares  regression  tests  with  cpython  the  cpython  test  test  read  truncated  test  passes  under  cpython  but  fails  under  jython  the bzip 2compressorinputstream  able  read  769  bytes  from  the  truncated  data  rather  than  the  770  bytes  that  the  cpython  implementation  can  read</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

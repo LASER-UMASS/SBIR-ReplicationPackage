@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_15" link="https://issues.apache.org/jira/browse/LANG-775">
+<buginformation>
+<summary>type utils get type arguments  misses  type  arguments  for  partially  assigned  classes</summary>
+<description>failing  test  code  add  typeutilstest  testgettypearguments  typevarassigns  typeutils  gettypearguments  other  class  this  class  assert  assertequals  typevarassigns  size  assert  assertequals  string  class  typevarassigns  get  this  class  gettypeparameters  assert  assertequals  other  class  gettypeparameters  typevarassigns  get  this  class  gettypeparameters  these  should  pass  based  public  interface  this  public  class  other  implements  this  string  this  case  fails  because  the  current  code  ignores  the  other  class  due  its  specifying  its  own  type  variables  which  obviously  incorrect  this  report  extrapolated  from  offline  report  received  hen</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.reflect.TypeUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_13" link="https://issues.apache.org/jira/browse/CODEC-184">
+<buginformation>
+<summary>null pointer exception double meta phone double metaphone equal  when  using  empty  strings</summary>
+<description>isdoublemetaphoneequal  does  not  work  with  empty  strings  the  following  test  throws  nullpointerexception  public  void  test  throws  throwable  org  apache  commons  codec  language  doublemetaphone  var  new  org  apache  commons  codec  language  doublemetaphone  boolean  var  var  isdoublemetaphoneequal  false</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.CharSequenceUtils</file>
+<file>org.apache.commons.codec.binary.StringUtils</file>
+<file>org.apache.commons.codec.language.DoubleMetaphone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

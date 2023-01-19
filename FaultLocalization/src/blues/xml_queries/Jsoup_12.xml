@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_12" link="https://github.com/jhy/jsoup/issues/52">
+<buginformation>
+<summary>tag  attr  regex  fails  preceded  combinator</summary>
+<description>all following selectors fail with selector parse exception div table class div table class div table class div table class note that div table class does not fail using jsoup and jdk build 116 the text was updated successfully but these errors were encountered copy link owner jhy commented jan 2011 fixed issue when using descendant regex attribute selectors closed 53a 207d michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue when using descendant regex attribute selectors fixes jhy michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue when using descendant regex attribute selectors 53a 207d fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.select.Selector</file>
+</fixedfiles>
+</bug>
+</bugrepository>

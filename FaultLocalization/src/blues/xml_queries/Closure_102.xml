@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_102" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-115.json">
+<buginformation>
+<summary>compiler  assumes  that  arguments  can  shadowed</summary>
+<description>the  code  function  name  var  arguments  array  prototype  slice  call  arguments  gets  compiled  function  name  var  array  prototype  slice  call  thanks  tescosquirrel  for  the  report  original  report  http  groups  google  com  group  closure  compiler  discuss  browse  thread  thread 37a 3ab 97238d  comment  deletedhttp  groups  google  com  group  closure  compiler  discuss  browse  thread  thread 37a 3ab 97238d  this  issue  was  closed  revision  117</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Normalize</file>
+</fixedfiles>
+</bug>
+</bugrepository>

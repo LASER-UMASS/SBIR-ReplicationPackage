@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_165" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-725.json">
+<buginformation>
+<summary>properties  defined  any  record  type  applying  unrelated  record  types</summary>
+<description>consider  the  following  code  typedef  name  string  number  var record type  param record type  rec  var  func  function  rec  alert  rec  name  func  name  jim  compiled  with  java  jar  build  compiler  jar  compilation  level  advanced  optimizations  jscomp  error access controls  jscomp  error check types  jscomp  error check vars  desktop  test  properly  errors  users  dolapo  desktop  test  error  property  name  never  defined  rec  alert  rec  name  however  add  another  recordtype  with  name  defined  typedef  name  string  number  var record type  typedef  name  string  var record type  param record type  rec  var  func  function  rec  alert  rec  name  func  name  jim  and  this  compiles  with  errors  this  issue  was  closed  revision  1984</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.JSTypeRegistry</file>
+<file>com.google.javascript.rhino.jstype.ObjectType</file>
+<file>com.google.javascript.rhino.jstype.RecordType</file>
+<file>com.google.javascript.rhino.jstype.RecordTypeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

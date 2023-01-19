@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_41" link="https://issues.apache.org/jira/browse/COMPRESS-367">
+<buginformation>
+<summary>zip archive input stream get next zip entry  should  differentiate  between  invalid  entry  encountered  and  more  entries</summary>
+<description>ziparchiveinputstream  getnextzipentry  currently  returns  null  invalid  entry  encountered  thus  not  possible  differentiate  between  more  entries  and  invalid  entry  encountered  conditions  instead  should  throw  exception  invalid  entry  encountered  created  test  case  and  fix  will  submit  pull  request  shortly</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

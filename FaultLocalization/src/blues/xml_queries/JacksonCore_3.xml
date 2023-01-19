@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_3" link="https://github.com/FasterXML/jackson-core/issues/111">
+<buginformation>
+<summary>curr input row start  isn  initialized utf stream json parser  constructor  the  column  position  will  wrong</summary>
+<description>the utf stream json parser constructor allows specify the start position but doesn set the curr input row start the same value still when raise the exception the column calculation parser base get current location will wrong int col input ptr curr input row start based public utf stream json parser context ctxt int features input stream object codec codec bytes name canonicalizer sym byte input buffer int start int end boolean buffer recyclable the text was updated successfully but these errors were encountered cowtowncoder closed this 911cca oct 2013 copy link member cowtowncoder commented oct 2013 yes you are right fixed for there potential issue with respect bom markers offset will now ignore bom considered out input but work expected for input that does not start index may need visit this question again future short term problem just that bom stripped off bootstrapper all parser sees different offset but this problem should also occur with streams sort consistent least sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.json.UTF8StreamJsonParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

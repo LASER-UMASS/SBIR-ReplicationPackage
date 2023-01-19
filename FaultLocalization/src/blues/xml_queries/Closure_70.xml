@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_70" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-433.json">
+<buginformation>
+<summary>unexpected  typed  coverage  less  than  100</summary>
+<description>what  steps  will  reproduce  the  problem  create java script  file  global  window  jslint  sub  true  constructor  param  element  element  function  example  element  param  string  param  string  name  return  undefined  this append element  function append element  name  var  element owner document create element  name  element append child  window  quot  example  quot  example  compile  java  jar  compiler  jar  jscomp  error check types  summary  detail  level  output  file  compiled  observe  the  outcome  error  warning  typed  what  the  expected  output  what  you  see  instead  this  was  expected  error  warning  100  typed  what  version  the  product  are  you  using  what  operating  system  closure  compiler  version  964  built  2011  gnu  linux  please  provide  any  additional  information  below  this  issue  was  closed  revision  1120</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

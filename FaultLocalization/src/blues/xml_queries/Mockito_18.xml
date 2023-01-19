@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_18" link="https://github.com/mockito/mockito/issues/210">
+<buginformation>
+<summary>return  empty  value  for  iterables</summary>
+<description>http code google com mockito issues detail 175 expect iterable mocked default with empty iterable understand from the initial issue this behavior would introduced mockito but beta still returns null could return null for iterables should have the same behavior for iterator thanks the text was updated successfully but these errors were encountered copy link contributor bric commented may 2015 yes should thanks for the reminder bric added the enhancement label may 2015 bric added this the milestone may 2015 bric added commit bric mockito that referenced this issue jun 2015 adds empty iterable new empty value mockito 210 loading status checks 19dace bric added commit bric mockito that referenced this issue jun 2015 adds empty iterable new empty value mockito 210 loading status checks 8ceb 04a copy link contributor bric commented jun 2015 fixed 8ceb 04a bric closed this jun 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels enhancement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues</file>
+</fixedfiles>
+</bug>
+</bugrepository>

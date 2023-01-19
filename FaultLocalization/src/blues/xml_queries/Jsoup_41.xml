@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_41" link="https://github.com/jhy/jsoup/issues/537">
+<buginformation>
+<summary>element hash code  ignores  the  content  text  the  element</summary>
+<description>found this question was using element hash code and wasn woring right the problem that when jsoup generates the hash code element the content text the element will ignored and the hash code generated only based the attributes and the hash code the parent element using the following html html head head body div style blah todo write content div div style blah nothing here div style test empty style nothing empty body html and the following code string html html posted above document doc jsoup parse html elements elements doc select style for element elements system out println hash code gives 148184373 148184373 1050420242 2013043377 believe the hash code should different for the first two elements since the content text different this intended behaviour the text was updated successfully but these errors were encountered copy link freedombird commented mar 2015 encountered the same bug and have use the node object itself hash key jhy closed this 8391b mar 2015 copy link owner jhy commented mar 2015 thanks fixed zazi added commit dswarm jsoup that referenced this issue oct 2015 improved hashcode and equals for node 9813649 fixes jhy 537 robliao mentioned this issue nov 2015 elements hash maps are very slow 658 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Element</file>
+</fixedfiles>
+</bug>
+</bugrepository>

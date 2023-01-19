@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_32" link="https://github.com/mockito/mockito/issues/216">
+<buginformation>
+<summary>mockito  can  create  mock  public  class  that  extends  package  private  class</summary>
+<description>created simple project demonstrate this https github com astafev mockito package private class please take look even can implemented think that mockito should throw some normal exception time creation variant first creation returns wrong working mock invokes real method instead stubbed second creation throws exception that doesn really connected with problem everything works fine you mock package private parent the text was updated successfully but these errors were encountered copy link contributor author astafev commented jun 2015 both actual for and beta versions copy link contributor bric commented jun 2015 known issue with cglib and raised there too 168 merging 171 replacing cglib byte buddy should fix the problem for reference the old issue tracker https code google com mockito issues detail 212 bric added the duplicate label jun 2015 bric closed this jun 2015 copy link contributor author astafev commented jun 2015 good that known problem but the main problem that takes lot time find out real cause please consider adding special exception because exceptions that raised currently really confuse copy link contributor bric commented jun 2015 note 171 merged you may want give the latest beta try but note that public api subject change when released and during development neworld pushed commit neworld mockito that referenced this issue aug 2019 merge pull request mockito 216 from nhaarman answer verified this commit was created git hub com and signed with git hub verified signature gpg key aee afdeb learn about vigilant mode 9cd 2095 implement ongoing stubbing answer answer sign for free join this conversation git hub already have account sign comment assignees one assigned labels duplicate projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.configuration.SpyAnnotationEngine</file>
+</fixedfiles>
+</bug>
+</bugrepository>

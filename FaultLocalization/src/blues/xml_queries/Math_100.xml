@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_100" link="https://issues.apache.org/jira/browse/MATH-200">
+<buginformation>
+<summary>abstract estimator get covariances  and guess parameters errors  crash  when  having  bound  parameters</summary>
+<description>the  two  methods  getcovariances  and  guessparameterserrors  from  org  apache  commons  math  estimation  abstractestimator  crash  with  arrayoutofbounds  exception  when  some  the  parameters  are  bound  the  reason  that  the  jacobian  calculated  only  for  the  unbound  parameters  the  code  you  loop  through  all  parameters  line  166  final  int  cols  problem  getallparameters  length  should  replaced  final  int  cols  problem  getunboundparameters  length  similar  changes  could  done  guessparameterserrors  the  dissadvantage  the  above  bug  fix  that  what  returned  the  user  array  with  smaller  size  than  the  number  all  parameters  alternatively  you  can  have  some  logic  the  code  which  writes  zeros  for  the  elements  the  covariance  matrix  corresponding  the  bound  parameters</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.estimation.AbstractEstimator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

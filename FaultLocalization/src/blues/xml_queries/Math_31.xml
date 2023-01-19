@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_31" link="https://issues.apache.org/jira/browse/MATH-718">
+<buginformation>
+<summary>inverse cumulative probability binomial distribution  returns  wrong  value  for  large  trials</summary>
+<description>the  inversecumulativeprobability  method  the  binomialdistributionimpl  class  returns  wrong  value  for  large  trials  following  code  will  reproduce  the  problem  system  out  println  new  binomialdistributionimpl  1000000  inversecumulativeprobability  this  returns  499525  though  should  499999  not  sure  how  should  fixed  but  the  cause  that  the  cumulativeprobability  method  returns  infinity  not  nan  the  result  the  checkedcumulativeprobability  method  doesn  work  expected</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.util.ContinuedFraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_5" link="https://issues.apache.org/jira/browse/LANG-865">
+<buginformation>
+<summary>locale utils  locale  does  not  parse  strings  starting  with  underscore</summary>
+<description>javadocs  locale  tostring  states  that  the  language  missing  the  string  will  begin  with  underbar  this  not  handled  the  localeutils  tolocale  method  meant  the  inversion  method  locale  tostring  the  fix  for  the  ticket  328  does  not  handle  well  the  case  which  found  out  during  fixing  the  first  bug  attaching  the  patch  for  both  problems</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.LocaleUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

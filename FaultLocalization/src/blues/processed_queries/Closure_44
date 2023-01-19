@@ -1,0 +1,6 @@
+<parameters>
+	<query>
+		<number>Closure_44</number>
+		<text> #weight(1.0 alert.(class)  1.0 alert.(class) 1.0 output.(class) 1.0 alert.(class) 1.0 should.(class) 1.0 alert.(class) 1.0 this.(class) 1.0 will.(class) 1.0 fun.(class) 1.0 one.(class) 1.0 fix.(class) 1.0 think.(class) 1.0 thanks.(class) 1.0 fixed.(class) 1.0 1678.(class)  1.0 alert.(method)  1.0 alert.(method) 1.0 output.(method) 1.0 alert.(method) 1.0 should.(method) 1.0 alert.(method) 1.0 this.(method) 1.0 will.(method) 1.0 fun.(method) 1.0 one.(method) 1.0 fix.(method) 1.0 think.(method) 1.0 thanks.(method) 1.0 fixed.(method) 1.0 1678.(method)  1.0 alert.(identifier)  1.0 alert.(identifier) 1.0 output.(identifier) 1.0 alert.(identifier) 1.0 should.(identifier) 1.0 alert.(identifier) 1.0 this.(identifier) 1.0 will.(identifier) 1.0 fun.(identifier) 1.0 one.(identifier) 1.0 fix.(identifier) 1.0 think.(identifier) 1.0 thanks.(identifier) 1.0 fixed.(identifier) 1.0 1678.(identifier)  1.0 alert.(comments)  1.0 alert.(comments) 1.0 output.(comments) 1.0 alert.(comments) 1.0 should.(comments) 1.0 alert.(comments) 1.0 this.(comments) 1.0 will.(comments) 1.0 fun.(comments) 1.0 one.(comments) 1.0 fix.(comments) 1.0 think.(comments) 1.0 thanks.(comments) 1.0 fixed.(comments) 1.0 1678.(comments)  )</text>
+	</query>
+</parameters>

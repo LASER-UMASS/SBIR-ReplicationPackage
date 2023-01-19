@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_1" link="https://github.com/FasterXML/jackson-core/issues/98">
+<buginformation>
+<summary>null pointer exception  thrown  when  read big decimal</summary>
+<description>moved from https github com faster xml jackson issues reported jroper json parser feature allow non numeric numbers turned then when encountered will reported being float number token subsequently invoking get decimal number throws npe null pointer exception null text buffer java 394 com fasterxml jackson core util text buffer contents decimal text buffer java 394 com fasterxml jackson core base parser base parse slow float value parser base java 799 com fasterxml jackson core base parser base parse numeric value parser base java 781 com fasterxml jackson core base parser base get decimal value parser base java 711 the way the expected behaviour here would say would throw number format exception this what thrown the big decimal constructor when you pass double any the infinity double values not sure but maybe this npe also issue for integers too and the expected behaviour for them would also throw number format exception the text was updated successfully but these errors were encountered cowtowncoder mentioned this issue aug 2013 null pointer exception thrown when read big decimal faster xml jackson closed copy link member author cowtowncoder commented aug 2013 hmmh with master branch snapshot looks like actually get number format exception already cowtowncoder closed this 40ac aug 2013 copy link member author cowtowncoder commented aug 2013 this probably depends code path improved handling add proper error message and trying ensure always number format exception fix will since needed some refactoring sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.io.NumberInput</file>
+<file>com.fasterxml.jackson.core.util.TextBuffer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

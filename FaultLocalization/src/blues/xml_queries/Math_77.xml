@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_77" link="https://issues.apache.org/jira/browse/MATH-326">
+<buginformation>
+<summary>get inf norm  uses  wrong  formula  both array real vector  and open map real vector  different  ways</summary>
+<description>the  infinity  norm  finite  dimensional  vector  just  the  max  the  absolute  value  its  entries  the  current  implementation  arrayrealvector  has  typo  public  double  getlinfnorm  double  max  for  double  data  max  math  max  max  math  abs  return  max  the  should  just  there  sadly  unit  test  assuring  that  this  the  correct  behavior  effectively  regression  only  test  not  test  for  correctness  worse  the  implementation  openmaprealvector  not  even  positive  semi  definite  public  double  getlinfnorm  double  max  iterator  iter  entries  iterator  while  iter  hasnext  iter  advance  max  iter  value  return  max  would  suggest  that  this  method  moved  the  abstractrealvector  superclass  and  implemented  using  the  sparseiterator  public  double  getlinfnorm  double  norm  iterator  entry  sparseiterator  entry  while  hasnext  next  null  norm  math  max  norm  math  abs  getvalue  return  norm  unit  tests  with  negative  valued  vectors  would  helpful  check  for  this  kind  thing  the  future</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.linear.ArrayRealVector</file>
+<file>org.apache.commons.math.linear.OpenMapRealVector</file>
+</fixedfiles>
+</bug>
+</bugrepository>

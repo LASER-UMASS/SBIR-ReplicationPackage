@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_46" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-603.json">
+<buginformation>
+<summary>class cast exception  during type check  pass</summary>
+<description>what  steps  will  reproduce  the  problem  compile  code  that  has proxy object type  that  references record type  for  example  have named type  typedef  that  references record type  please  provide  any  additional  information  below  patch  attached  this  the  correct  fix  thanks  for  the  patch  yes  this  issue  was  closed  revision  1638</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.RecordType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

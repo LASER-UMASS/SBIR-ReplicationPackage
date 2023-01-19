@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Collections_25" link="https://issues.apache.org/jira/browse/COLLECTIONS-566">
+<buginformation>
+<summary>iterator utils collated iterator  not  use  natural  ordering  comparator  was  provided</summary>
+<description>case  null  comparator  was  provided  natural  ordering  should  used  stated  the  javadoc  fact  exception  thrown  the  first  time  the  returned  iterator  used</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.collections4.IteratorUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

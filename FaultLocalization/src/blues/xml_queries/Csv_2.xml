@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_2" link="https://issues.apache.org/jira/browse/CSV-96">
+<buginformation>
+<summary>csv record  does  not  verify  that  the  length  the  header  mapping  matches  the  number  values</summary>
+<description>csvrecord  does  not  verify  that  the  size  the  header  mapping  matches  the  number  values  the  following  test  will  produce  arrayoutofboundsexception  test  public  void  testinvalidheadertoolong  throws  exception  final  csvparser  parser  new  csvparser  csvformat  newbuilder  withheader  build  final  csvrecord  record  parser  iterator  next  record  get</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVRecord</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_23" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-747.json">
+<buginformation>
+<summary>try fold array access  does  not  check  for  side  effects</summary>
+<description>what  steps  will  reproduce  the  problem  compile  the  following  program  with  simple  advanced  optimization  console  log  console  log  hello  world  what  the  expected  output  what  you  see  instead  the  expected  output  would  preserve  side  effects  would  not  transform  the  program  all  transform  into  console  log  console  log  quot  hello  quot  quot  world  quot  instead  the  program  transformed  into  console  log  quot  world  quot  what  version  the  product  are  you  using  what  operating  system  revision  2022  ubuntu  please  provide  any  additional  information  below try fold array access  com  google  javascript  jscomp peephole fold constants  should  check  whether  every  array  element  that  not  going  preserved  has  side  effects  thanks  this  issue  was  closed  revision  2030</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeFoldConstants</file>
+</fixedfiles>
+</bug>
+</bugrepository>

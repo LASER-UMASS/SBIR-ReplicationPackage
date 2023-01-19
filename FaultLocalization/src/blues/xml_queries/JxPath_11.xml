@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_11" link="https://issues.apache.org/jira/browse/JXPATH-97">
+<buginformation>
+<summary>incomplete  handling  undefined  namespaces</summary>
+<description>mcduffey  joe  jdmcduf  nsa  gov  can  someone  tell  how  register  namespaces  that  attributes  with  namespaces  does  not  cause  the  exception  org  apache  common  model  dom  domnodepointer  createattribute  unknown  namespace  prefix  xsi  for  example  the  following  elementa  myattr  mytype  elementb  value  elementb  elementa  would  result  the  following  exception  org  apache  common  model  dom  domnodepointer  createattribute  unknown  namespace  prefix  fyi  this  example  there  was  namespace  decaration  the  file  and  also  manually  called  the  registernamespace  http  registernamespace  http  there  was  problem  encountered  for  elements  only  attributes  can  someone  help  thanks</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator</file>
+<file>org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

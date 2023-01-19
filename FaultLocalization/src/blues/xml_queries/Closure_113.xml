@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_113" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1079.json">
+<buginformation>
+<summary>bug  require  calls  processing</summary>
+<description>the  problem process closure primitives  pass  has  bug process require call  method  the  method  processes  goog  require  calls  require  symbol  invalid  not  provided  anywhere  the  method  collects  for  further  error  reporting  the  require  symbol  valid  the  method  removes  from  the  ast  all  invalid  require  calls  must  left  for  further  using  checking  the  code  the  related  comment  the  code  confirms  this  nevertheless  the  second  condition requires level  see  source  code  invalid  and  always  causes  removing  the  requires  when  want  check  these  requires  any  case  the  method  should  not  use  the requires level  decide  need  removing  the requires level  should  used  check  need  error  reporting  the  solution  remove  the  condition  please  see  the  attached  patch  nick  any  chance  you  want  take  look  this  seems  fine  this  issue  was  closed  revision 87071ddf 324c  this  issue  was  closed  revision 0fb 76a 81bbdd  this  issue  was  closed  revision 87071ddf 324c  this  issue  was  closed  revision 0fb 76a 81bbdd</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ProcessClosurePrimitives</file>
+</fixedfiles>
+</bug>
+</bugrepository>

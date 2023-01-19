@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_101" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-130.json">
+<buginformation>
+<summary>process  closure  primitives  can  set  false</summary>
+<description>what  steps  will  reproduce  the  problem  compile  file  with  quot  process  closure  primitives  false  quot  compile  file  with  quot  process  closure  primitives  true  quot  default  result  primitives  are  processed  both  cases  what  the  expected  output  what  you  see  instead  the  file  should  still  have  its  goog  provide  require  tags  place  instead  they  are  processed  what  version  the  product  are  you  using  what  operating  system  current  svn  also  tried  two  the  preceding  binary  releases  with  same  result  please  provide  any  additional  information  below  flag  can  set  false  due  missing  quot  else  quot  the  command  line  parser  thanks  for  the  report  this  issue  was  closed  revision  152</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CommandLineRunner</file>
+</fixedfiles>
+</bug>
+</bugrepository>

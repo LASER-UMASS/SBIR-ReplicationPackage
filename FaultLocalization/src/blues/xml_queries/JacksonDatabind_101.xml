@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_101" link="https://github.com/FasterXML/jackson-databind/issues/2088">
+<buginformation>
+<summary>fields  are  skipped  when  using  they  appear  after  the  last  creator  property</summary>
+<description>example static class bean int int json unwrapped unwrapped bean public bean json property int json property int this this public void set unwrapped bean this static class unwrapped bean int int public unwrapped bean json property int json property int this this and are deserialized expected skipped entirely think found the root cause and the fix doesn appear break any tests opening for further review the text was updated successfully but these errors were encountered 6bangs added commit technologies jackson databind that referenced this issue jul 2018 fix faster xml 2088 41d 6bangs added commit technologies jackson databind that referenced this issue jul 2018 fix faster xml 2088 5853863 6bangs mentioned this issue aug 2018 don skip the field name following the last creator property during json unwrapped property based deserialization 2089 closed copy link member cowtowncoder commented aug 2018 thank you for reporting this not sure how managed miss looking now hoping merge for cowtowncoder added active and removed active labels aug 2018 cowtowncoder added this the milestone aug 2018 cowtowncoder changed the title json unwrapped fields are skipped when using property based creator they appear after the last creator property json unwrapped fields are skipped when using property based creator they appear after the last creator property aug 2018 cowtowncoder added commit that referenced this issue aug 2018 fix 2088 loading status checks 644831c cowtowncoder closed this 555cbeb aug 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.BeanDeserializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

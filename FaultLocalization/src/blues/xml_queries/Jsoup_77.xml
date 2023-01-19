@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_77" link="https://github.com/jhy/jsoup/issues/998">
+<buginformation>
+<summary>xml parser  with parse settings html default  does  not  put  end  tag  lower  case</summary>
+<description>test public void test parser parser parser xml parser settings parse settings html default document document jsoup parse div test div parser assert equals div test div document string fail string div test div test public void test parser parser parser xml parser settings parse settings html default document document jsoup parse div test div parser assert equals div test div document string pass the text was updated successfully but these errors were encountered jhy added the bug label dec 2017 jhy added this the milestone dec 2017 jhy closed this 272b dec 2017 copy link owner jhy commented dec 2017 thanks for the report and the testcase fixed jhy added commit that referenced this issue dec 2017 corrected fix for 998 loading status checks 5210d dependabot preview bot mentioned this issue mar 2018 bump org jsoup jsoup from stachu 540 rez api merged sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.XmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

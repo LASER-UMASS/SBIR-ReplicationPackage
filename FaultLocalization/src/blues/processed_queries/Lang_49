@@ -1,0 +1,6 @@
+<parameters>
+	<query>
+		<number>Lang_49</number>
+		<text> #weight(1.0 infinite.(class) 1.0 loop.(class) 1.0 fraction.(class) 1.0 reduce.(class) 1.0 when.(class) 1.0 numerator.(class)  1.0 summary.(class) 1.0 pretty.(class) 1.0 much.(class) 1.0 says.(class) 1.0 all.(class)  1.0 infinite.(method) 1.0 loop.(method) 1.0 fraction.(method) 1.0 reduce.(method) 1.0 when.(method) 1.0 numerator.(method)  1.0 summary.(method) 1.0 pretty.(method) 1.0 much.(method) 1.0 says.(method) 1.0 all.(method)  1.0 infinite.(identifier) 1.0 loop.(identifier) 1.0 fraction.(identifier) 1.0 reduce.(identifier) 1.0 when.(identifier) 1.0 numerator.(identifier)  1.0 summary.(identifier) 1.0 pretty.(identifier) 1.0 much.(identifier) 1.0 says.(identifier) 1.0 all.(identifier)  1.0 infinite.(comments) 1.0 loop.(comments) 1.0 fraction.(comments) 1.0 reduce.(comments) 1.0 when.(comments) 1.0 numerator.(comments)  1.0 summary.(comments) 1.0 pretty.(comments) 1.0 much.(comments) 1.0 says.(comments) 1.0 all.(comments)  )</text>
+	</query>
+</parameters>

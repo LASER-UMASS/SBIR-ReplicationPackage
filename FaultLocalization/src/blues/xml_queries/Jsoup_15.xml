@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_15" link="https://github.com/jhy/jsoup/issues/104">
+<buginformation>
+<summary>script  containing  tags  causes  issues</summary>
+<description>thanks for the release using now and getting issues with http techcrunch com html has script tag containing tags inside javascript strings seems treating those real tag openers creating tag elements and causing the close script tag ignored and therefore include ton other stuff think this was working simplified example html body div class vsc sig uga div class before div script type text javascript header query header features header length header prepend class prev page browse left append class next page browse right items wrap all div class scrollable wrap all class items wrap script div class after div div body html result notice the script strings become tags and the script tag now subsumes the following div html body div class vsc sig uga div class before div script type text javascript header query header features header length header prepend class prev page browse left append class next page browse right items wrap all div class scrollable wrap all class items wrap div class after div div script div body html the text was updated successfully but these errors were encountered copy link author kozura commented jun 2011 looking around both script and style tags should treated cdata not that seen any examples issues the latter gravatar scheme get join making default avatar kitty bugger copy link owner jhy commented jun 2011 thanks that very odd ghost assigned jhy jun 2011 jhy closed this 97ecc jun 2011 copy link author kozura commented jun 2011 works great now thanks michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue when parsing script tags 7fe 8680 when body where the tokeniser wouldn switch the script state which meant that data script wouldn parse correctly fixes jhy 104 sign for free join this conversation git hub already have account sign comment assignees jhy labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.TreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

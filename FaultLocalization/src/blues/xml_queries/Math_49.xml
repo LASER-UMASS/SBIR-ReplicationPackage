@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_49" link="https://issues.apache.org/jira/browse/MATH-645">
+<buginformation>
+<summary>math runtime exception  with  simple ebe multiply open map real vector</summary>
+<description>the  following  piece  code  import  org  apache  commons  math  linear  openmaprealvector  import  org  apache  commons  math  linear  realvector  public  class  demobugopenmaprealvector  public  static  void  main  string  args  final  realvector  new  openmaprealvector  setentry  setentry  setentry  final  realvector  new  openmaprealvector  setentry  setentry  setentry  system  out  println  system  out  println  system  out  println  ebemultiply  raises  exception  org  apache  commons  math  linear  openmaprealvector  7170a  exception  thread  main  org  apache  commons  math  mathruntimeexception  map  has  been  modified  while  iterating  org  apache  commons  math  mathruntimeexception  createconcurrentmodificationexception  mathruntimeexception  java  373  org  apache  commons  math  util  openinttodoublehashmap  iterator  advance  openinttodoublehashmap  java  564  org  apache  commons  math  linear  openmaprealvector  ebemultiply  openmaprealvector  java  372  org  apache  commons  math  linear  openmaprealvector  ebemultiply  openmaprealvector  java  demobugopenmaprealvector  main  demobugopenmaprealvector  java</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.linear.OpenMapRealVector</file>
+</fixedfiles>
+</bug>
+</bugrepository>

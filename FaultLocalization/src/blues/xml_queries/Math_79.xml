@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_79" link="https://issues.apache.org/jira/browse/MATH-305">
+<buginformation>
+<summary>npe means plus plus clusterer  unittest</summary>
+<description>when  running  this  unittest  facing  this  npe  java  lang  nullpointerexception  org  apache  commons  math  stat  clustering  kmeansplusplusclusterer  assignpointstoclusters  kmeansplusplusclusterer  java  this  the  unittest  package  org  fao  fisheries  chronicles  calcuation  cluster  import  static  org  junit  assert  assertequals  import  static  org  junit  assert  asserttrue  import  java  util  arrays  import  java  util  list  import  java  util  random  import  org  apache  commons  math  stat  clustering  cluster  import  org  apache  commons  math  stat  clustering  euclideanintegerpoint  import  org  apache  commons  math  stat  clustering  kmeansplusplusclusterer  import  org  fao  fisheries  chronicles  input  csvimportprocess  import  org  fao  fisheries  chronicles  input top 200csv  import  org  junit  test  public  class  clusteranalysistest  test  public  void  testperformclusteranalysis  kmeansplusplusclusterer  euclideanintegerpoint  transformer  new  kmeansplusplusclusterer  euclideanintegerpoint  new  random  1746432956321l  euclideanintegerpoint  points  new  euclideanintegerpoint  new  euclideanintegerpoint  new  int  1959  325100  new  euclideanintegerpoint  new  int  1960  373200  list  cluster  euclideanintegerpoint  clusters  transformer  cluster  arrays  aslist  points  assertequals  clusters  size</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.util.MathUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

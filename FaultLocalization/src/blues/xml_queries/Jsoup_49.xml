@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_49" link="https://github.com/jhy/jsoup/issues/689">
+<buginformation>
+<summary>bug  element insert children</summary>
+<description>when using org jsoup nodes element insert children int collection extends node move more than one child elements from one parent element the same parent but different index then produces wrong results the problem that the first element move leaves the sibling index unchanged and then the second move removes wrong element and produces some crap maybe calling reindex children inside the loop add children fixes this version workaround call remove the elements before passing them insert children easy test case test public void must correctly move children inside one parent element document doc new document element body doc append element body body append element div body append element div element div body append element div element div body append element div array list element move new array list element add div add div body insert children move string result doc string replace all assert equals body div div div div div div div div body result the text was updated successfully but these errors were encountered jhy added the bug label apr 2016 jhy closed this 37fc apr 2016 copy link owner jhy commented apr 2016 thanks for raising this and providing test case made much easier fix jhy added this the milestone apr 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Node</file>
+</fixedfiles>
+</bug>
+</bugrepository>

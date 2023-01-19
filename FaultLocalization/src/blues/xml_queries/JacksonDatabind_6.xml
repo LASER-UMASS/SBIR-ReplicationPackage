@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_6" link="https://github.com/FasterXML/jackson-databind/issues/570">
+<buginformation>
+<summary>add  support  for  parsing  all  compliant  iso  8601  date  formats</summary>
+<description>some providers create json date stamps iso 8601 formats that cannot parsed the jackson databind library here sampling some valid formats that not parse correctly 2014 2014 1997 1997 the last two actually come from the iso 8601 notes http www org note datetime the text was updated successfully but these errors were encountered copy link member cowtowncoder commented oct 2014 thank you for pointing out this gap iso 8601 definition big enough that can say this would get all compliant variants but definitely sounds like reasonable improvement one thing need verify just whether some these might already covered one recent patch cowtowncoder added this the milestone oct 2014 cowtowncoder added commit that referenced this issue oct 2014 fix 570 799a cowtowncoder modified the milestones oct 2014 cowtowncoder closed this oct 2014 cowtowncoder modified the milestones oct 2014 cowtowncoder added commit that referenced this issue oct 2014 add test wrt 570 master 2901e cowtowncoder added commit that referenced this issue oct 2014 merge fix for 570 master loading status checks 103 copy link member cowtowncoder commented oct 2014 after verifying this fix included originally planned cowtowncoder modified the milestones oct 2014 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.util.StdDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

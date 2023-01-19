@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_6" link="https://github.com/JodaOrg/joda-time/issues/28">
+<buginformation>
+<summary>questionable  behaviour  chronology  when  dates  pass</summary>
+<description>expect the following test pass chronology chronology chronology get instance local date start new local date 2013 chronology local date expected end new local date chronology assert that start minus years 2013 equal expected end assert that start plus period years 2013 equal expected end the error gives org joda time illegal field value exception value for year not supported however never provided for the year myself thought was the job the framework skip over non existent year for return the text was updated successfully but these errors were encountered copy link member jodastephen commented jun 2013 looks like bug jodastephen closed this 28aeba aug 2013 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 fix chronology plus minus across cutover and year zero 196b fixes joda org when subtracting number years from date the chronology there are two considerations the cutover date might crossed and year zero might crossed there year zero previously each were handled separately but not together now fixed part this change the minimum cutover instant was set 0001 gregorian sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.chrono.GJChronology</file>
+</fixedfiles>
+</bug>
+</bugrepository>

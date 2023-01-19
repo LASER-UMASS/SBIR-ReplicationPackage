@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_71" link="https://github.com/jhy/jsoup/issues/550">
+<buginformation>
+<summary>please  support  text  node  selector</summary>
+<description>please support some kind text node selectors currently not possible select sibling text node element without coding java possible expression would elem text the text was updated successfully but these errors were encountered copy link owner jhy commented apr 2015 could you tell what your use case how this different from the text methods element and elements just trying dig and understand the requirement get the right impl copy link author mohsen commented apr 2015 thanks for the quick reply the actual requirement pure jsoup expression appication like the one try jsoup org which only accepts sizzle like expressions currently there way select salaam the following html foo div class someclass salaam bar something bar foo please see http stackoverflow com 29468319 141438 copy link owner jhy commented apr 2015 but the signature elements els element select query select always returns list element type what signature are you suggesting wed apr 2015 mohsen notifications github com wrote thanks for the quick reply the actual requirement pure jsoup expression appication like the one try jsoup org which only accepts sizzle like expressions currently there way select salaam the following html salaam something please see http stackoverflow com 29468319 141438 reply this email directly view git hub 550 comment copy link author mohsen commented apr 2015 mmm how about pseudo element type text this case there may side effects pseudo functions such though how about select nodes query method which returns list node jhy added the improvement label nov 2017 jhy added this the milestone nov 2017 jhy closed this 6fa nov 2017 copy link owner jhy commented nov 2017 added new pseudo selector match text you can this for example string html div one two three div document doc jsoup parse html elements els doc select match text assert equals els size assert equals one els get text assert equals two els get text assert equals three els get string and match text first child gives one dependabot preview bot mentioned this issue mar 2018 bump org jsoup jsoup from stachu 540 rez api merged sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.PseudoTextElement</file>
+<file>org.jsoup.select.Evaluator</file>
+<file>org.jsoup.select.QueryParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

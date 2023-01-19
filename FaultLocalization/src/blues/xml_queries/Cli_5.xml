@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_5" link="https://issues.apache.org/jira/browse/CLI-133">
+<buginformation>
+<summary>null pointer exception  util strip leading hyphens  when  passed  null  argument</summary>
+<description>you  try  hasoption  null  you  get  npe  java  lang  nullpointerexception  org  apache  commons  cli  util  stripleadinghyphens  util  java  org  apache  commons  cli  commandline  resolveoption  commandline  java  166  org  apache  commons  cli  commandline  hasoption  commandline  java  either  hasoption  should  reject  the  null  argument  the  function  should  simply  return  false  think  the  latter  makes  more  since  this  how  java  collections  generally  work</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Util</file>
+</fixedfiles>
+</bug>
+</bugrepository>

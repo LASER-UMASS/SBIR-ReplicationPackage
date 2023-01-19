@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_56" link="https://github.com/FasterXML/jackson-databind/issues/1344">
+<buginformation>
+<summary>deserializing  locale  assumes  jdk  separator  underscore  does  not  accept  rfc  specified  hyphen</summary>
+<description>edited when deserializing locale jackson currently uses the underscore character the separator rather than the dash specifically from string deserializer java line 234 int value index many locale implementations use dash the separator per https tools ietf org html rfc 5646 given the rfc states that only the characters and are valid should possible leave the current code for backward compatibility but should also check for separator the text was updated successfully but these errors were encountered mcdee changed the title deserializing locale uses incorrect separator deserializing locale uses non standard separator aug 2016 copy link member cowtowncoder commented aug 2016 mcdee thank you for reporting this sounds like bug indeed you know existing jdk provided locale value that would exhibit this would great have unit test against regression beyond fixing the issue itself copy link member cowtowncoder commented aug 2016 actually think jdk always uses underscore have just test deserializer with made codes cowtowncoder changed the title deserializing locale uses non standard separator deserializing locale assumes jdk separator underscore does not accept rfc specified hyphen aug 2016 cowtowncoder added this the milestone aug 2016 cowtowncoder closed this 07b aug 2016 akoshman mentioned this issue apr 2017 serializing locale with underscore not standard hyphen 1600 closed takeseem mentioned this issue feb 2018 locale deserialize hant 1948 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.std.FromStringDeserializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

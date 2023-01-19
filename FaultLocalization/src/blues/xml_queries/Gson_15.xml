@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_15" link="https://github.com/google/gson/issues/1090">
+<buginformation>
+<summary>json writer  value  java  lang  number  can  lenient  but json writer  value  double  can</summary>
+<description>lenient mode json writer value java lang number can write pseudo numeric values like infinity infinity lenient string equals infinity string equals infinity string equals throw new illegal argument exception numeric values must finite but was value but json writer value double behaves different way double value double infinite value throw new illegal argument exception numeric values must finite but was value while working with streaming impossible write semi numeric value without boxing double out value number double value double think this should possible because boxing gives worse performance the text was updated successfully but these errors were encountered copy link collaborator inder 123 commented may 2017 can you create pull request with unit test that fails even better would fix that makes the test pass thanks miha mentioned this issue may 2017 value double can write and infinite values when lenient value number does 1093 merged inder 123 closed this 1093 may 2017 inder 123 added commit that referenced this issue may 2017 value double can write and infinite values when lenient valu loading status checks ada 597e number does 1093 added test which shows that lenient json writer fails writing infinite primitive doubles but does not fail writing boxed doubles stated 1090 fixed json writer value double write infinite and values when lenient json writer value number does fixes 1090 sebasjm pushed commit sebasjm gson that referenced this issue mar 2018 value double can write and infinite values when lenient valu 145270 number does google 1093 added test which shows that lenient json writer fails writing infinite primitive doubles but does not fail writing boxed doubles stated google 1090 fixed json writer value double write infinite and values when lenient json writer value number does fixes google 1090 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.stream.JsonWriter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

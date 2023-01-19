@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_23" link="https://github.com/jhy/jsoup/issues/145">
+<buginformation>
+<summary>entity  whose  name  made  letters  and  digits  not  retained</summary>
+<description>about line 136 tokenizer java reader consume letter sequence called this fine until entity such sup encountered just the letter part the entity name will read causing the entities named entity name ref call about line 140 fail have fixed this quickly locally replacing reader consumer letter sequence with call new consume letter digit sequence the character reader java there may better way doing this string consume letter digit sequence string letters consume letter sequence string digits consume digit sequence return letters digits the following sample unit test test public void letter digit entities string html sup sup sup frac frac frac whitelist whitelist whitelist none whitelist add tags string html jsoup clean html whitelist assert equals sup sup sup frac frac frac html the text was updated successfully but these errors were encountered jhy closed this 37cef apr 2012 copy link owner jhy commented apr 2012 thanks for pointing this out and the code examples sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.CharacterReader</file>
+<file>org.jsoup.parser.Tokeniser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

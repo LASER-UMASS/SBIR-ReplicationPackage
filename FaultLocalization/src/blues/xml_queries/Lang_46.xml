@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_46" link="https://issues.apache.org/jira/browse/LANG-421">
+<buginformation>
+<summary>string escape utils escape java  string  escapes  characters</summary>
+<description>commons  lang  stringescapeutils  escapejava  string  now  escapes  characters  which  not  valid  escapable  character  java  strings  haven  tried  the  other  java  escape  unescape  methods  see  they  have  similar  problem  that  only  java  escapable  characters  are  escaped  escapejava  string  this  bug  may  have  appeared  unintended  side  effect  the  fix  for  lang  363  also  the  javadoc  for  escapejava  now  little  off  that  should  now  included  the  sentence  describing  the  differences  between  java  and  javascript  strings  with  respect  escaping  rules  the  following  junit  test  demonstrating  the  bug  import  junit  framework  testcase  import  org  apache  commons  lang  stringescapeutils  public  class  stringescapeutilstest  extends  testcase  public  void  testescapejavawithslash  final  string  input  string  with  slash  final  string  expected  input  final  string  actual  stringescapeutils  escapejava  input  stringescapeutils  escapejava  string  escapes  characters  which  are  not  valid  character  escape  java  string  assertequals  expected  actual</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.StringEscapeUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

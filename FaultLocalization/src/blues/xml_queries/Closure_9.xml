@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_9" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-824.json">
+<buginformation>
+<summary>compiler  fails  find  amd  module  subdirectory</summary>
+<description>what  steps  will  reproduce  the  problem  create  1st  amd  module  lib  foo  create  2nd  amd  module  bar  depending  lib  foo  try  compile  both  files  with  bar  main  module  what  the  expected  output  what  you  see  instead  java  jar  compiler  jar  transform  amd  modules  process  common  modules  common  entry  module  bar  compilation  level  advanced  optimizations  output  file  out  bar  lib  foo  error  required  entry  point  quot  module  lib  foo  quot  never  provided  error  warning  make  out  error  what  version  the  product  are  you  using  what  operating  system  latest  version  from  trunk  including  fix  for  issue  804  please  provide  any  additional  information  below  find  minimal  not  working  example  attached  with  makefile  the  same  setup  has  been  working  prior  fix  for  804  although  with  backslashes  this  feature  does  not  seem  have  enough  unit  test  coverage  what  are  you  building  see  the  problem  fair  the  code  also  emitted  error  before  issue  804  was  fixed  was  just  worse  error  this  issue  was  closed  revision  2223</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ProcessCommonJSModules</file>
+</fixedfiles>
+</bug>
+</bugrepository>

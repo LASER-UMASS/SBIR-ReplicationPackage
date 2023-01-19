@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_74" link="https://github.com/jhy/jsoup/issues/978">
+<buginformation>
+<summary>shy  renders  when  node  text  called</summary>
+<description>edited consider the following unit test test public void test shy stripped string htmlwith shy html body quite shy shy long shy word body html document parse jsoup parse htmlwith shy string text parse body text assert equals quitealongword text this test fails text parsed quite long word rather then actual textual representation that would have been quitealongword any browser perhaps this working intended but would interesting understand the reasoning behind the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2017 edited would make sense normalize the soft hyphen like nbsp normalized related commit 0240 probably best normalize all invisible characters out jhy closed this 8caa nov 2017 jhy added the improvement label nov 2017 jhy added this the milestone nov 2017 copy link owner jhy commented nov 2017 thanks implemented dependabot preview bot mentioned this issue mar 2018 bump org jsoup jsoup from stachu 540 rez api merged jhy mentioned this issue jul 2019 incorrect farsi parsing plain text 1227 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.StringUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

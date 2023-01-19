@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_4" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-873.json">
+<buginformation>
+<summary>converting  from  interface  type  constructor  which  implements  itself  causes  stack  overflow</summary>
+<description>options  externs  externs  property  renaming  off  variable  renaming  off  jscomp  warning check types  file  interface  var other type  function  implements  type  constructor  var  type  function  type  type  var  type other type  new  object  get  infinite  recursion prototype object type  subtype  350  options  prevent  cycles  the  inheritance  implements  graph  detect  cycles  after  they  are  created  and  exit  compilation  before  any  subsequent  passes  run  detect  and  remove  cycles  after  they  are  created  but  before  any  subsequent  passes  run  make  every  subsequent  pass  robust  against  cycles  that graph fixed  2399</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.NamedType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

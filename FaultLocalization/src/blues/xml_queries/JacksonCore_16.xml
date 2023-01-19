@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_16" link="https://github.com/FasterXML/jackson-core/issues/296">
+<buginformation>
+<summary>json parser sequence  skips  token  switched  parser</summary>
+<description>having parsers concatenated with json parser sequence create flattened parser parser the second parser token that not null and should not skipped the json parser sequence will still skip json parser sequence next token calls next token the new delegate which may cause that miss token for more details forum question open for this thanks the text was updated successfully but these errors were encountered newkek mentioned this issue jun 2016 issue 296 fix json parser sequence next token for non null delegate 297 closed cowtowncoder added this the milestone jul 2016 cowtowncoder closed this 052c jul 2016 copy link member cowtowncoder commented jul 2016 implemented added simple test would great you could verify that works for you before released copy link member cowtowncoder commented jul 2016 hmmh actually trying change the behavior breaks few tests jackson databind not sure how safe the change for usage whether actually even the right thing will have thing about this and potentially just revert the change unless can think reasonable heuristic perhaps just add different constructor for alternate behavior defaulting old behavior with existing construction cowtowncoder reopened this jul 2016 cowtowncoder added commit that referenced this issue jul 2016 rewrite 296 require setting during construction enable check loading status checks 14d for existing current token copy link author newkek commented jul 2016 the constructor and create flattened with the boolean argument sound good ran the tests you wrote for this and they pass for guess must btw had opened 297 for this guess you can close thanks newkek mentioned this issue jul 2016 tinkerpop 1274 graph son apache tinkerpop 351 closed copy link member cowtowncoder commented jul 2016 new functionality now thank you for working through this let know mangled something cowtowncoder closed this jul 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.util.JsonParserSequence</file>
+</fixedfiles>
+</bug>
+</bugrepository>

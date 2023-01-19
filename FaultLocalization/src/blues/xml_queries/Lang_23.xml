@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_23" link="https://issues.apache.org/jira/browse/LANG-636">
+<buginformation>
+<summary>text extended message format  doesn  override  java  text message format  equals  object</summary>
+<description>findbugs  bug  org  apache  commons  lang  text  extendedmessageformat  doesn  override  java  text  messageformat  equals  object  pattern  doesnt  override  equals  type  category  style  this  class  extends  class  that  defines  equals  method  and  adds  fields  but  doesn  define  equals  method  itself  thus  equality  instances  this  class  will  ignore  the  identity  the  subclass  and  the  added  fields  sure  this  what  intended  and  that  you  don  need  override  the  equals  method  even  you  don  need  override  the  equals  method  consider  overriding  anyway  document  the  fact  that  the  equals  method  for  the  subclass  just  return  the  result  invoking  super  equals</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.text.ExtendedMessageFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

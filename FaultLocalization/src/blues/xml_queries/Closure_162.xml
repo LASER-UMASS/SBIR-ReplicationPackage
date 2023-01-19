@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_162" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-548.json">
+<buginformation>
+<summary>type  aliases  cannot  used  type  annotations  before  their  definitions</summary>
+<description>what  steps  will  reproduce  the  problem  compile  the  following  with  full  warnings  goog  provide  foo  foo  goog  provide  foo  foo  bar  goog  scope  function  param  foo  bar  bar  constructor  foo  foo  function  bar  this  bar  bar  var  foo  foo  foo  type  foo  bar  foo  prototype  bar  null  constructor  foo  bar  function  what  the  expected  output  what  you  see  instead  this  should  work  but  instead  get  error  error  bad  type  annotation  unknown  type  foo  bar  param  foo  bar  bar  this  can  worked  around  writing  explicitly  foo  foo  bar  but  this  leads  strange  inconsistencies  the  code  before  after  the  alias  definition  what  version  the  product  are  you  using  what  operating  system  1346  linux  please  provide  any  additional  information  below  this  issue  was  closed  revision  1412</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Scope</file>
+<file>com.google.javascript.jscomp.ScopedAliases</file>
+</fixedfiles>
+</bug>
+</bugrepository>

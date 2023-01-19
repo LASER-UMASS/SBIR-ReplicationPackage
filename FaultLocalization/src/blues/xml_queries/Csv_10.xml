@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_10" link="https://issues.apache.org/jira/browse/CSV-120">
+<buginformation>
+<summary>csv format with header  doesn  work  with csv printer</summary>
+<description>the  current  version  csvformat  withheader  only  used  csvparser  would  nice  csvprinter  also  supported  ideally  the  following  line  code  csvprinter  csvprinter  csvformat  tdf  withheader  print  files  newbufferedwriter  paths  get  data  csv  csvprinter  printrecord  csvprinter  close  should  produce  you  alright  with  the  idea  automatically  inserting  headers  can  attach  patch</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVPrinter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

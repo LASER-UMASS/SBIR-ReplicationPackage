@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_55" link="https://issues.apache.org/jira/browse/LANG-315">
+<buginformation>
+<summary>stop watch  suspend  acts  split  followed  stop</summary>
+<description>opinion  bug  that  suspend  acts  split  followed  stop  see  below  stopwatch  new  stopwatch  start  thread  sleep  1000  suspend  time  system  out  println  gettime  thread  sleep  2000  time  again  system  out  println  gettime  resume  thread  sleep  3000  suspend  time  system  out  println  gettime  thread  sleep  4000  time  again  system  out  println  gettime  thread  sleep  5000  stop  time  should  but  time  not  system  out  println  gettime  suspend  resume  like  pause  where  time  counter  doesn  continue  following  stop  call  shouldn  increase  the  time  counter  should</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.time.StopWatch</file>
+</fixedfiles>
+</bug>
+</bugrepository>

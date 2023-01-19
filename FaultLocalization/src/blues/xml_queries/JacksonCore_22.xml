@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_22" link="https://github.com/FasterXML/jackson-core/issues/208">
+<buginformation>
+<summary>make  use</summary>
+<description>currently looks like that the match count attribute filtering generator delegate not utilised value assigned this variable the documentation this attribute offers some useful functionality would nice could implemented properly see https groups google com msg jackson user 9hvrs fozl cqaj the text was updated successfully but these errors were encountered cowtowncoder changed the title make use match count filtering generator delegate make use match count filtering parser delegate dec 2015 copy link member cowtowncoder commented dec 2015 had quick look try see how easy would add this and head hurting now code gets complicated pretty quickly and although some aspects zero some matches would doable gets tricky properly update with sub tree matches need spend more time some point right rfoltyns added commit rfoltyns jackson core that referenced this issue may 2017 faster xml 208 filtering parser delegate match count support 89815 copy link contributor rfoltyns commented may 2017 cowtowncoder gave try please have look copy link member cowtowncoder commented may 2017 rfoltyns could you create pull request for this rfoltyns added commit rfoltyns jackson core that referenced this issue may 2017 faster xml 208 filtering parser delegate match count support 0ba copy link contributor rfoltyns commented may 2017 sure done had remove couple tests after 330 revert but still does the job cowtowncoder closed this 6feec jun 2017 cowtowncoder added commit that referenced this issue jun 2017 merge pull request 380 from rfoltyns feature filtering parser match loading status checks 4548a count 208 filtering parser delegate match count support cowtowncoder changed the title make use match count filtering parser delegate make use match count filtering parser delegate jun 2017 cowtowncoder added this the milestone jun 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.filter.FilteringParserDelegate</file>
+</fixedfiles>
+</bug>
+</bugrepository>

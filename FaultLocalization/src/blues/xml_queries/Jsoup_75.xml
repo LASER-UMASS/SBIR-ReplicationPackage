@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_75" link="https://github.com/jhy/jsoup/issues/985">
+<buginformation>
+<summary>regression  boolean  attributes  not  collapsed  when  using  html  syntax</summary>
+<description>hello first off thanks for really useful library upgrading from see that boolean attributes are longer collapsed when using html syntax example test case test public void test document document jsoup parse html head head body size noshade body html assert equals html head head body size noshade body html document outer html tracked down commit refactored attributes array pair linked hash set 1fb the attibutes html final appendable accum final document output settings out method longer uses attribute and fails check the value the attribute for empty string line 320 may also suggest use attribute should collapse attribute string key string val document output settings out instead single source truth the boolean expression complex enough and easy make mistake not sure this would have impact performance though but guessing that optimizer will inline the call some point anyways the text was updated successfully but these errors were encountered jhy modified the milestones dec 2017 jhy closed this 627193 dec 2017 copy link owner jhy commented dec 2017 thanks fixed dependabot preview bot mentioned this issue mar 2018 bump org jsoup jsoup from stachu 540 rez api merged sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Attributes</file>
+</fixedfiles>
+</bug>
+</bugrepository>

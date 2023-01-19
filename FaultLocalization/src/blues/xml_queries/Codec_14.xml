@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_14" link="https://issues.apache.org/jira/browse/CODEC-187">
+<buginformation>
+<summary>beider  morse  phonetic  matching  producing  incorrect  tokens</summary>
+<description>believe  the  beider  morse  phonetic  matching  algorithm  was  added  commons  codec  the  bmpm  algorithm  evolving  algorithm  that  currently  version  though  had  been  static  since  version  dated  dec  2011  was  first  available  opensource  version  may  2009  can  see  nothing  the  commons  codec  docs  say  which  version  bmpm  was  implemented  not  sure  the  problem  with  the  algorithm  coded  the  codec  simply  old  version  whether  there  are  more  basic  problems  with  the  implementation  how  determine  the  version  the  algorithm  that  was  implemented  the  commons  codec  how  ensure  that  the  algorithm  updated  when  the  bmpm  algorithm  changes  how  ensure  that  the  algorithm  coded  the  commons  codec  accurate  and  working  expected</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.language.bm.Lang</file>
+<file>org.apache.commons.codec.language.bm.PhoneticEngine</file>
+<file>org.apache.commons.codec.language.bm.Rule</file>
+<file>src.main.resources.org.apache.commons.codec.language.bm.ash_lang.txt</file>
+<file>src.main.resources.org.apache.commons.codec.language.bm.gen_lang.txt</file>
+<file>src.main.resources.org.apache.commons.codec.language.bm.sep_lang.txt</file>
+</fixedfiles>
+</bug>
+</bugrepository>

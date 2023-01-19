@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_134" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-86.json">
+<buginformation>
+<summary>inherit doc  doesn  play  well  with  interfaces</summary>
+<description>use  interface  inheritance  with inherit doc  the  compiler  doesn  know  about  the  types  used  the  method  signature  sample  code  interface  interface  function  param  string  prototype  foo  function  constructor  implements  function inherit doc  prototype  foo  function  alert  substring  error  could  not  determine  the  type  this  expression  should  add  this  only  shows  with  report  unknown  types  turned  should  fixed head are  you  sure  this  fixed  just  tried  this  http  closure  compiler  appspot  com  and  didn  produce  any  warnings  interface  function  param  string  prototype  foo  function  constructor  implements  function inherit doc  prototype  foo  function  alert  substring  var  inst  new  inst  foo  but  this  does  produce  warnings  interface  function  param  string  prototype  foo  function  constructor  implements  function  param  string  prototype  foo  function  alert  substring  var  inst  new  inst  foo  this  not  fixed  nicolas  could  you  reopen  the  bug  you  think  this  not  fixed  please  open  bug  github  with  repro  case  the  example  here  works  you  declare  and  rather  than  leave  them  global  variables  you  can  try  appspot  interface  var  function  param  string  prototype  foo  function  constructor  implements  var  function inherit doc  prototype  foo  function  alert  substring  var  inst  new  inst  foo  the  varcheck  pass  the  compiler  which  runs  before  type  checking  warns  about  global  variables  the  code</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.AmbiguateProperties</file>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

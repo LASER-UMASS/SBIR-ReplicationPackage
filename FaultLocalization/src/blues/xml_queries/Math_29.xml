@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_29" link="https://issues.apache.org/jira/browse/MATH-803">
+<buginformation>
+<summary>bugs real vector ebe multiply real vector  and ebe divide real vector</summary>
+<description>openmaprealvector  ebemultiply  realvector  and  openmaprealvector  ebedivide  realvector  return  wrong  values  when  one  entry  the  specified  realvector  nan  infinity  the  bug  easy  understand  here  the  current  implementation  ebemultiply  public  openmaprealvector  ebemultiply  realvector  checkvectordimensions  getdimension  openmaprealvector  res  new  openmaprealvector  this  iterator  iter  entries  iterator  while  iter  hasnext  iter  advance  res  setentry  iter  key  iter  value  getentry  iter  key  return  res  the  assumption  that  for  any  double  holds  which  not  true  the  bug  easy  enough  identify  but  more  complex  solve  the  only  solution  can  come  with  loop  through  all  entries  instead  those  entries  which  correspond  non  zero  entries  this  afraid  about  performance  losses</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.linear.OpenMapRealVector</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_35" link="https://issues.apache.org/jira/browse/COMPRESS-335">
+<buginformation>
+<summary>tar  checksum  fails  when  checksum  right  aligned</summary>
+<description>the  linked  tar  has  checksum  with  zero  padding  the  left  instead  the  expected  null  space  terminator  the  right  result  the  last  two  digits  the  stored  checksum  are  lost  and  the  otherwise  valid  checksum  treated  invalid  given  that  the  code  already  checks  for  digits  being  range  before  adding  them  the  stored  sum  necessary  only  look  the  first  octal  digits  instead  the  whole  field</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

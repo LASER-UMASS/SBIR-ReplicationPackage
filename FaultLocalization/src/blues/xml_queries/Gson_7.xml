@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_7" link="https://github.com/google/gson/issues/604">
+<buginformation>
+<summary>json reader next int  doesent  work  peeked  unquoted</summary>
+<description>what steps will reproduce the problem this unit test describes the problem test public void test map integer integer expected new hash map integer integer put map integer integer actual new gson from json new type token map integer integer get type assert equals expected actual what version the product are you using what operating system version works original issue reported code google com feathoro gmail com oct 2014 the text was updated successfully but these errors were encountered sgbrown mentioned this issue mar 2016 allow unquoted long and integer keys 809 merged sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.stream.JsonReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

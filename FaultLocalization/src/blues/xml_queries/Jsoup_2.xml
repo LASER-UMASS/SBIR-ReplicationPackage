@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_2" link="https://github.com/jhy/jsoup/issues/22">
+<buginformation>
+<summary>unadorned  text  following  data  only  tags  doesn  parse  properly</summary>
+<description>this html parsed and immediately printed out results html body script type text javascript var inside true script this should outside body html results html head head body script type text javascript var inside true this should outside script body html note how this should outside ends inside the script tag instead following from what can tell this only happens data only tags the text was updated successfully but these errors were encountered copy link owner jhy commented jun 2010 thanks for finding and reporting that the issue caused the routine that greedily parses the data content not cleaning the stack copy link owner jhy commented jun 2010 clean the parse stack correctly when parsing data nodes closed 886e 4fe michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 clean the parse stack correctly when parsing data nodes 4ead fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 clean the parse stack correctly when parsing data nodes 886e 4fe fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

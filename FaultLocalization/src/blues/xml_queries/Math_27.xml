@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_27" link="https://issues.apache.org/jira/browse/MATH-835">
+<buginformation>
+<summary>fraction percentage value  rare  overflow</summary>
+<description>the  percentagevalue  method  the  fraction  class  works  first  multiplying  the  fraction  100  then  converting  the  fraction  double  this  causes  overflows  when  the  numerator  greater  than  integer  max  value  100  even  when  the  value  the  fraction  far  below  this  value  the  patch  changes  the  method  first  convert  double  value  and  then  multiply  this  value  100  the  result  should  the  same  but  with  less  overflows  addition  the  test  for  the  method  that  covers  this  bug  also  included</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.fraction.Fraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

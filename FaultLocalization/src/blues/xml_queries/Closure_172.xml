@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_172" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1042.json">
+<buginformation>
+<summary>type  prototype  property  incorrectly  inferred  string</summary>
+<description>what  steps  will  reproduce  the  problem  compile  the  following  code  param  object  function  prototype  proto  param  object  function  prototype  function  what  the  expected  output  what  you  see  instead  should  type  check  instead  gives  error  warning  assignment  property  prototype  object  found  function  undefined  required  string  prototype  function  maybe  better  example  would  param  object  function  prototype  proto  param  object  function  prototype  function  this  issue  was  closed  revision 86cc 4600  nick  you  mind  taking  look  this  change  lgtm  comment  the  top  the  function  remains  applicable</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

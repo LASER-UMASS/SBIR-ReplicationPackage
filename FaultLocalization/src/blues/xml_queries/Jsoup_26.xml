@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_26" link="https://github.com/jhy/jsoup/issues/154">
+<buginformation>
+<summary>nullpointer exception  when  applying  cleaner  frameset</summary>
+<description>reproduce create find html document frameset parse the html create cleaner instance and call the clean method with the document from step null pointer exception cause cleaner clean document https github com jhy jsoup blob master src main java org jsoup safety cleaner java the copy safe nodes called with the document body however this null when handling frameset document expected empty document perhaps null returned but not nullpointer exception the text was updated successfully but these errors were encountered copy link padurgeat commented may 2012 html does not officially support frameset but still wildly used over the web jsoup seems not handle those frameset document normalize also seems break frameset html document quickfix you can avoid launching clean frameset using dirty root get elements tag frameset jhy closed this jun 2012 copy link owner jhy commented jun 2012 thanks for pointing this out sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.safety.Cleaner</file>
+</fixedfiles>
+</bug>
+</bugrepository>

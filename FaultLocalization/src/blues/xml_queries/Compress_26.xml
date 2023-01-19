@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_26" link="https://issues.apache.org/jira/browse/COMPRESS-277">
+<buginformation>
+<summary>utils  skip  does  not  work  advertised</summary>
+<description>trying  feed  tarinputstream  from  cipherinputstream  does  not  work  because  ioutils  skip  does  not  adhere  the  contract  claims  javadoc  this  method  will  only  skip  less  than  the  requested  number  bytes  the  end  the  input  stream  has  been  reached  however  does  long  skipped  input  skip  numtoskip  skipped  break  and  the  input  stream  javadoc  says  this  may  result  from  any  number  conditions  reaching  end  file  before  code  code  bytes  have  been  skipped  only  one  possibility  the  case  cipherinputstream  stops  the  end  each  byte  buffer  you  check  the  ioutils  from  colleagues  commons  they  have  considered  this  case  ioutils  skip  where  they  use  read  skip  through  the  stream  optimized  version  could  combine  trying  skip  then  read  then  trying  skip  again</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.utils.IOUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_91" link="https://issues.apache.org/jira/browse/MATH-252">
+<buginformation>
+<summary>fraction  compar  returns  for  some  differente  fractions</summary>
+<description>two  different  fractions  evaluate  the  same  double  due  limited  precision  the  compareto  methode  returns  they  were  identical  value  roughly  07e  fraction  new  fraction  1068966896  340262731  value  roughly  936e  fraction  new  fraction  411557987  131002976  system  out  println  doublevalue  doublevalue  exactly  due  limited ieee 754  precision  system  out  println  compareto  display  instead  negative  value</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.fraction.Fraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

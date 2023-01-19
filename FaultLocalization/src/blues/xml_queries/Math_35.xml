@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_35" link="https://issues.apache.org/jira/browse/MATH-776">
+<buginformation>
+<summary>need  range  checks  for elitism rate elitistic list population  constructors</summary>
+<description>there  range  check  for  setting  the  elitismrate  via  elitisticlistpopulation  setelitismrate  method  but  not  via  the  constructors</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.genetics.ElitisticListPopulation</file>
+</fixedfiles>
+</bug>
+</bugrepository>

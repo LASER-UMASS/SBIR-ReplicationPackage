@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Collections_28" link="https://issues.apache.org/jira/browse/COLLECTIONS-586">
+<buginformation>
+<summary>patricia trie prefix map  clear  throws null pointer exception</summary>
+<description>clearing  all  entries  prefixmap  returned  patriciatrie  using  the  clear  method  throws  nullpointerexception  the  workaround  removing  each  entry  using  the  remove  method  seems  work  here  are  the  test  cases  for  the  bug  and  the  workaround  public  class  patriciatrietest  private  trie  string  integer  trie  before  public  void  setup  trie  new  patriciatrie  integer  trie  put  anna  trie  put  anael  trie  put  analu  trie  put  andreas  trie  put  andrea  trie  put  andres  trie  put  anatole  test  public  void  testprefixmapclear  sortedmap  string  integer  prefixmap  trie  prefixmap  and  assertequals  new  hashset  arrays  aslist  andrea  andreas  andres  prefixmap  keyset  assertequals  arrays  aslist  new  arraylist  prefixmap  values  prefixmap  clear  asserttrue  prefixmap  keyset  isempty  asserttrue  prefixmap  values  isempty  assertequals  new  hashset  arrays  aslist  anael  analu  anatole  anna  trie  keyset  assertequals  arrays  aslist  new  arraylist  trie  values  test  public  void  testprefixmapclearusingremove  sortedmap  string  integer  prefixmap  trie  prefixmap  and  assertequals  new  hashset  arrays  aslist  andrea  andreas  andres  prefixmap  keyset  assertequals  arrays  aslist  new  arraylist  prefixmap  values  set  string  keys  new  hashset  string  prefixmap  keyset  for  final  string  key  keys  prefixmap  remove  key  asserttrue  prefixmap  keyset  isempty  asserttrue  prefixmap  values  isempty  assertequals  new  hashset  arrays  aslist  anael  analu  anatole  anna  trie  keyset  assertequals  arrays  aslist  new  arraylist  trie  values  the  stacktrace  the  nullpointerexception  thrown  the  testprefixmapclear  test  case  java  lang  nullpointerexception  org  apache  commons  collections  trie  abstractpatriciatrie  prefixrangeentryset  entryiterator  remove  abstractpatriciatrie  java  2370  java  util  abstractcollection  clear  abstractcollection  java  432  java  util  abstractmap  clear  abstractmap  java  288  patriciatrietest  testprefixmapclear  patriciatrietest  java</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.collections4.trie.AbstractPatriciaTrie</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_17" link="https://github.com/jhy/jsoup/issues/107">
+<buginformation>
+<summary>cleaning  fragment  with  just  returns  empty  string</summary>
+<description>when using soup sanitize some fragments that are inserted into another document noticed text node contains just the ends cleaning just the root this seems come from tree builder state methods such places like body and select when checks for type character seems cause the token equal the nullstring this shouldn the case character not the same null character the text was updated successfully but these errors were encountered copy link owner jhy commented jun 2011 thanks will sort out jhy closed this 9ccf jun 2011 michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue where single character was lexed incorrectly nul character fixes jhy 107 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.TreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

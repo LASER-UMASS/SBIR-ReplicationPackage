@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonXml_3" link="https://github.com/FasterXML/jackson-dataformat-xml/issues/204">
+<buginformation>
+<summary>from xml parser next text value  incorrect  for  attributes</summary>
+<description>129 the method next text value from xml parser will longer return value for attributes the curr token json token value string this case think wrong return null and should return curr text the text was updated successfully but these errors were encountered copy link member cowtowncoder commented aug 2016 quite possible you have simple reproduction show the problem and make sure fix would resolve the problem copy link author frederikz commented aug 2016 edited modified test from xml parser test public void test xml attributes with next text value throws exception final string xml data max offset from xml parser from xml parser xml factory create parser new string reader xml first verify handling without forcing array handling assert token json token start object next token data assert token json token field name next token max assert equals max get current name assert equals next text value assert token json token field name next token offset assert equals offset get current name string writer new string writer assert equals get text assert equals offset string assert equals next text value new string writer assert equals get text assert equals string assert token json token end object next token data close copy link member cowtowncoder commented aug 2016 frederikz forgot ask which versions this with cowtowncoder added this the milestone aug 2016 copy link member cowtowncoder commented aug 2016 was occurring least with and and since earlier branches not maintained any more bit moot point fix will was simple case not actually returning the text thank you for reporting this cowtowncoder closed this 79a aug 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

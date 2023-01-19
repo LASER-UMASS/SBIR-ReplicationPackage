@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_38" link="https://issues.apache.org/jira/browse/MATH-728">
+<buginformation>
+<summary>errors bobyqa optimizer  when number interpolation points  greater  than  dim</summary>
+<description>been  having  trouble  getting  bobyqa  minimize  function  actually  non  linear  least  squares  fit  one  change  increased  the  number  interpolation  points  seems  that  anything  larger  than  dim  causes  error  typically  line  1662  interpolationpoints  setentry  nfm  ipt  interpolationpoints  getentry  ipt  ipt  guessing  there  off  one  error  the  translation  from  fortran  changing  the  bobyqaoptimizertest  follows  increasing  number  interpolation  points  one  will  cause  failures  bruce  index  src  test  java  org  apache  commons  math  optimization  direct  bobyqaoptimizertest  java  src  test  java  org  apache  commons  math  optimization  direct  bobyqaoptimizertest  java  revision  1221065  src  test  java  org  apache  commons  math  optimization  direct  bobyqaoptimizertest  java  working  copy  258  258  realpointvaluepair  result  optim  optimize  100000  func  goal  startpoint  final  double  boundaries  null  null  boundaries  final  double  boundaries  null  null  boundaries  bobyqaoptimizer  optim  new  bobyqaoptimizer  dim  bobyqaoptimizer  optim  new  bobyqaoptimizer  dim  realpointvaluepair  result  optim  optimize  maxevaluations  func  goal  startpoint  system  out  println  func  getclass  getname  optim  getevaluations</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.direct.BOBYQAOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_169" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-791.json">
+<buginformation>
+<summary>strange  wrong  parameter  warning  for  callback  function</summary>
+<description>what  steps  will  reproduce  the  problem  compile  the  followed  code  param  func  function  obj  function  test  obj  var  struc  struc  func  function  test  struc  what  the  expected  output  what  you  see  instead  expected  compiled  see  warning  actual  parameter  func  does  not  match  formal  parameter  found  func  function  undefined  required  func  function  func  struc  what  version  the  product  are  you  using  what  operating  system  2102  win  please  provide  any  additional  information  below  the  followed  code  compiles  param  func  function  obj  function  test  obj  var  struc  func  function  test  struc  discussion  https  groups  google  com  topic  closure  compiler  discuss  juz discussion this  issue  was  closed  revision  2265</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.ArrowType</file>
+<file>com.google.javascript.rhino.jstype.EquivalenceMethod</file>
+<file>com.google.javascript.rhino.jstype.FunctionType</file>
+<file>com.google.javascript.rhino.jstype.JSType</file>
+<file>com.google.javascript.rhino.jstype.RecordType</file>
+<file>com.google.javascript.rhino.jstype.UnionType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

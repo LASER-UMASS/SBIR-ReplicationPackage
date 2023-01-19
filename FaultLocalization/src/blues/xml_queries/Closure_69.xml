@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_69" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-440.json">
+<buginformation>
+<summary>compiler  should  warn  error  when  instance  methods  are  operated</summary>
+<description>what  steps  will  reproduce  the  problem  compile  and  run  the  following  code  goog  require  goog  graphics  path  function  demo  var  path  new  goog  graphics  path  var  points  for  var  points  length  path  move  path  line  points  points  goog export symbol  demo  demo  what  the  expected  output  what  you  see  instead  expect  either  work  produce  warning  this  case  the  latter  since  there  error  the  javascript  when  calling  path  move  quot  this  quot  set  correctly  the  path  element  the  move  function  but  when  the  function  operated  path  move  path  line  longer  instance  method  invocation  quot  this  quot  reverts  the  window  object  this  case  error  results  because  move  references  field  path  that  now  quot  undefined  quot  better  would  issue  warning  error  that  instance  method  being  converted  normal  function  perhaps  only  references  this  what  version  the  product  are  you  using  what  operating  system  unknown  built  into  build  tools  presume  this  issue  present  all  builds  running  ubuntu  please  provide  any  additional  information  below  this  issue  was  closed  revision  1147</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeCheck</file>
+</fixedfiles>
+</bug>
+</bugrepository>

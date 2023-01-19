@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_5" link="https://sourceforge.net/p/jfreechart/bugs/862">
+<buginformation>
+<summary>862  series add update  should  add  duplicates  are  allowed</summary>
+<description>copied  from  this  post  ted  schwartz  the  forum  http  www  jfree  org  php  viewtopic  php  24523  found  bug  jfreechart  code  for  org  jfree  data  series  there  was  change  some  time  ago  which  introduced  the  notion  allowing  duplicate  values  series  data  the  method add update  number  number  was  never  modified  support  this  and  therefore  duplicate  data  were  overwriting  existing  data  this  the  fix  made  but  don  know  how  submit  patch  diff  original  jfreechart  source  org  jfree  data  series  java  fixed  org  jfree  data  series  java 537c 537  index  index allow duplicate values 545a 546  559  else  index data item  item  new data item  need  make  sure  are  adding  after  any  duplicates  int  size  this  data  size  while  index  size  item  compare  this  data  get  index  index  index  this  data  size  this  data  add  index  item  else  this  data  add  item  558 561d 571  check  this  addition  will  exceed  the  maximum  item  count get item count  this maximum item count  this  data  remove 562a 573  576  check  this  addition  will  exceed  the  maximum  item  count get item count  this maximum item count  this  data  remove</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.data.xy.XYSeries</file>
+</fixedfiles>
+</bug>
+</bugrepository>

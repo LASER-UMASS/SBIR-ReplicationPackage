@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_144" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-143.json">
+<buginformation>
+<summary>auto  identify  void  functions</summary>
+<description>function  alert  should  emit warning this  issue  was  closed  revision  249</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.FunctionTypeBuilder</file>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+<file>com.google.javascript.rhino.jstype.FunctionBuilder</file>
+<file>com.google.javascript.rhino.jstype.FunctionType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

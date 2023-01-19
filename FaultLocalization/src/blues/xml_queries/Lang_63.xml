@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_63" link="https://issues.apache.org/jira/browse/LANG-281">
+<buginformation>
+<summary>duration format utils  returns  wrong  result</summary>
+<description>durationformatutils  returns  wrong  result  oddly  only  when  date  set  dec  2005  the  following  code  will  result  string  which  way  off  tested  against  and  calendar  cal  calendar  getinstance  cal  set  calendar  month  calendar  december  cal  set  calendar  day  month  cal  set  calendar  year  2005  cal  set  calendar  hour  day  cal  set  calendar  minute  cal  set  calendar  second  cal  set  calendar  millisecond  string  result  durationformatutils  formatperiod  cal  gettimeinmillis  system  currenttimemillis  system  out  println  result</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.time.DurationFormatUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

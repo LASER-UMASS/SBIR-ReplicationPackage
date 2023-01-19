@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_64" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-489.json">
+<buginformation>
+<summary>language  ecmascript  strict  results  use  strict  per  input  file</summary>
+<description>what  steps  will  reproduce  the  problem  create  file  called  quot  get  num  quot  with  the  contents  quot  var get num  function  return  quot  create  file  called  quot  alert  quot  with  the  contents  quot  alert get num  quot  compile  the  two  files  with  the  following  command  java  jar  compiler  jar  language  ecmascript  strict  compilation  level  advanced  optimizations  warning  level  verbose  get  num  alert  what  the  expected  output  what  you  see  instead  would  expect  the  output  use  strict  alert  the  compiler  wants  really  clever  just  quot  alert  quot  since  this  already  strict  compliant  what  version  the  product  are  you  using  what  operating  system  head  mac  please  provide  any  additional  information  below  https  groups  google  com  forum  topic  closure  compiler  discuss tol xpe pju  taking  look  right  now  its  fixed  should  the  next  release  this  issue  was  closed  revision  1192</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Compiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

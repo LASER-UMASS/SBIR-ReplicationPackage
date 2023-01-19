@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_88" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-297.json">
+<buginformation>
+<summary>incorrect  assignment  removal  from  expression  simple  mode</summary>
+<description>function closure compiler test some node  var  node  return  node some node  amp  amp  node parse int  node  substr  amp  amp  node  compiles  function closure compiler test  var  return  amp  amp parse int  substr  amp  amp  quot  node some node  quot  replaced  with  simply  quot  quot  which  incorrect  the  value  quot  node  quot  used  problem  the dead assignment elimination  pass  this  issue  was  closed  revision  629</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.DeadAssignmentsElimination</file>
+</fixedfiles>
+</bug>
+</bugrepository>

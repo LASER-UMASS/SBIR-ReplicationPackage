@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_40" link="https://issues.apache.org/jira/browse/CLI-282">
+<buginformation>
+<summary>type handler  should  throw parse exception  for  unsupported  class</summary>
+<description>javadoc  for  typehandler  states  that  createvalue  will  throws  parseexception  the  value  creation  for  the  given  object  type  failedtype  however  createvalue  string  str  class  clazz  will  return  null  the  clazz  unknown</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.TypeHandler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

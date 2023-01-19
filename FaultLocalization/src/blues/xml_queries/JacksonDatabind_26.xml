@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_26" link="https://github.com/FasterXML/jackson-databind/issues/899">
+<buginformation>
+<summary>problem  serializing  and  possibly</summary>
+<description>looks like serializability missing for one new helper classes compact string object map leading problems with systems like apache spark that may need serialize handlers like object reader and object writer the text was updated successfully but these errors were encountered cowtowncoder added commit that referenced this issue aug 2015 try reproduce 899 73f 54a cowtowncoder added commit that referenced this issue aug 2015 fix 899 2ea cowtowncoder added this the milestone aug 2015 copy link member author cowtowncoder commented aug 2015 looks like there were few issues trying serialize object mapper object writer but only json serializer was being pre fetched improved testing and implementation make formerly failing cases work while not fully problem was occurring some form fix only try reduce likelihood regression for maintenance branch cowtowncoder closed this aug 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.BeanPropertyWriter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

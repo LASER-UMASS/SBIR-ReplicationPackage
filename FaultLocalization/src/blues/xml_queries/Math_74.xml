@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_74" link="https://issues.apache.org/jira/browse/MATH-338">
+<buginformation>
+<summary>wrong  parameter  for  first  step  size  guess  for  embedded  runge  kutta  methods</summary>
+<description>space  application  using dop 853  detected  what  seems  bad  parameter  the  call  the  method  initializestep  class  adaptivestepsizeintegrator  here dormandprince 853integrator  subclass  for  embeddedrungekuttaintegrator  which  perform  the  call  initializestep  the  beginning  its  method  integrate  the  problem  comes  from  the  array  scale  that  used  parameter  the  call  off  initializestep  following  the  theory  described  hairer  his  book  solving  ordinary  differential  equations  nonstiff  problems  the  scaling  should  sci  atol  rtoli  whereas  embeddedrungekuttaintegrator  uses  sci  atoli  note  that  the  gragg  bulirsch  stoer  integrator  uses  the  good  implementation  sci  atol  rtoli  when  performs  the  call  the  same  method  initializestep  the  method  initializestep  the  error  leads  wrong  step  size  used  perform  euler  step  most  the  time  unvisible  for  the  user  but  space  application  the  euler  step  with  this  wrong  step  size  much  bigger  than  should  makes  exception  occur  satellite  hits  the  ground  fix  the  bug  one  should  use  the  same  algorithm  the  rescale  method  graggbulirschstoerintegrator  for  exemple  final  double  scale  new  double  length  vecabsolutetolerance  null  for  int  scale  length  final  double  math  max  math  abs  math  abs  scale  scalabsolutetolerance  scalrelativetolerance  else  for  int  scale  length  final  double  math  max  math  abs  math  abs  scale  vecabsolutetolerance  vecrelativetolerance  hnew  initializestep  equations  forward  getorder  scale  stepstart  ydotk  ytmp  ydotk  sorry  for  the  length  this  message  looking  forward  hearing  from  you  soon  vincent  morand</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

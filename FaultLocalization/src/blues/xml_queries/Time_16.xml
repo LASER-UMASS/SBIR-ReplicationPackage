@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_16" link="https://sourceforge.net/p/joda-time/bugs/148">
+<buginformation>
+<summary>148 date time formatter parse into  broken  when  year  format</summary>
+<description>joda  time  the  default  year  was  set  2000  that  feb  could  parsed  correctly  however parse into  now  overwrites  the  given  instant  year  with  2000  whatever default year  set  the  correct  behavior  would  seem  use  the  given  instant  year  instead default year  this  does  mean  that  feb  might  not  parseable  the  instant  year  not  leap  year  but  this  case  the  caller  asked  for  that  sense</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.format.DateTimeFormatter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

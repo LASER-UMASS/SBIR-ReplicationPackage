@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_36" link="https://github.com/jhy/jsoup/issues/321">
+<buginformation>
+<summary>more  robust  charset  detection  code</summary>
+<description>with the following html html lang head meta charset utf meta http equiv content type content text html head jsoup fails parse the page with illegal charset name exception see that http equiv content type has invalid content type but would possible still parse correctly using the html jsoup could more robust this one other domains which are not working but could 9kuhkep net www bright org use this code parse the sites jsoup connect url execute the text was updated successfully but these errors were encountered jhy closed this 052908 nov 2013 zazi added commit dswarm jsoup that referenced this issue oct 2015 make http charset detection code more robust 77f 56aa fixes jhy 321 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.DataUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

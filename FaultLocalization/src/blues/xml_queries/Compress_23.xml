@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_23" link="https://issues.apache.org/jira/browse/COMPRESS-256">
+<buginformation>
+<summary>dictionary  too  big</summary>
+<description>created  archiv  with  7zip  containing  the  compress  src  directory  also  tried  with  version  and  directory  downloaded  the  zip  file  and  reziped  the  standard  setting  where  used  compression  level  normal  compression  method  lzma  dictionary  size  word  size  solid  block  size  get  exception  try  open  the  file  with  the  simple  line  code  sevenzfile  input  new  sevenzfile  new  file  arcname  maybe  bug  the  tukaani  library  but  not  know  how  report  them  the  exception  thrown  org  tukaani  unsupportedoptionsexception  lzma  dictionary  too  big  for  this  implementation  org  tukaani  lzmainputstream  initialize  unknown  source  org  tukaani  lzmainputstream  init  unknown  source  org  apache  commons  compress  archivers  sevenz  coders  lzmadecoder  decode  coders  java  117  org  apache  commons  compress  archivers  sevenz  coders  adddecoder  coders  java  org  apache  commons  compress  archivers  sevenz  sevenzfile  readencodedheader  sevenzfile  java  278  org  apache  commons  compress  archivers  sevenz  sevenzfile  readheaders  sevenzfile  java  190  org  apache  commons  compress  archivers  sevenz  sevenzfile  init  sevenzfile  java  org  apache  commons  compress  archivers  sevenz  sevenzfile  init  sevenzfile  java  116  compress  sevenziperror  main  sevenziperror  java</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.sevenz.Coders</file>
+</fixedfiles>
+</bug>
+</bugrepository>

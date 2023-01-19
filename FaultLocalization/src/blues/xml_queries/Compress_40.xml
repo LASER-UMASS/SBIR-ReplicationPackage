@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_40" link="https://issues.apache.org/jira/browse/COMPRESS-363">
+<buginformation>
+<summary>overflow bit input stream</summary>
+<description>class  bitinputstream  java  src  main  java  org  apache  commons  compress  utils  funcion  public  long  readbits  final  int  count  throws  ioexception  count  count  maximum  cache  size  throw  new  illegalargumentexception  count  must  not  negative  greater  than  maximum  cache  size  while  bitscachedsize  count  final  long  nextbyte  read  nextbyte  return  nextbyte  byteorder  byteorder  little  endian  bitscached  nextbyte  bitscachedsize  else  bitscached  bitscached  nextbyte  bitscachedsize  final  long  bitsout  byteorder  byteorder  little  endian  bitsout  bitscached  masks  count  bitscached  count  else  bitsout  bitscached  bitscachedsize  count  masks  count  bitscachedsize  count  return  bitsout  think  here  bitscached  nextbyte  bitscachedsize  will  overflow  some  cases  for  example  below  test  case  public  static  void  test  bytearrayinputstream  new  bytearrayinputstream  new  byte  bitinputstream  bin  new  bitinputstream  byteorder  little  endian  try  long  ret  bin  readbits  ret  bin  readbits  ret  bin  readbits  catch  exception  printstacktrace  overflow  occur  bin  readbits  result  wrong  result  from  bin  readbits</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.utils.BitInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

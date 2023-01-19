@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_57" link="https://issues.apache.org/jira/browse/MATH-546">
+<buginformation>
+<summary>truncation  issue means plus plus clusterer</summary>
+<description>the  for  loop  inside  kmeansplusplusclusterer  chooseinitialclusters  defines  variable  int  sum  this  variable  should  have  type  double  rather  than  int  using  int  causes  the  method  truncate  the  distances  between  points  square  roots  integers  especially  bad  when  the  distances  between  points  are  typically  less  than  aside  version  this  bug  manifested  itself  making  the  clusterer  return  empty  clusters  wonder  the  emptyclusterstrategy  would  still  necessary  this  bug  were  fixed</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

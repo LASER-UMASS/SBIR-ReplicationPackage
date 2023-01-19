@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_6" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-635.json">
+<buginformation>
+<summary>better  this  type  checking</summary>
+<description>constructor  function  prototype  bar  function  this  baz  prototype  baz  function  constructor  function  prototype  bar  prototype  bar  should  notice  that  quot  prototype  bar  quot  and  quot  prototype  bar  quot  have  different  quot  this  quot  types  and  emit  warning  relatedly  new  types  return  should  checked  against  what  really  returned  below constructor factory  returns  constuctor  that  doesn  match  the  declared  return  type  yet  warning  ensues  typedef  foo  function  var  type  constructor  var  function  prototype  foo  function  window  alert  foo  return  function  new  type  var constructor factory  function  return  var constructor factory  var  new  foo  issue  tracking  has  been  migrated  github  please  make  any  further  comments  this  issue  through  https  github  com  google  closure  compiler  issues</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeValidator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

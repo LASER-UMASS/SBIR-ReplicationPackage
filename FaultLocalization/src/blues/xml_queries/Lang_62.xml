@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_62" link="https://issues.apache.org/jira/browse/LANG-292">
+<buginformation>
+<summary>unescape xml  12345678  should  12345678</summary>
+<description>following  test  entitiestest  java  fails  public  void  testnumberoverflow  throws  exception  dotestunescapeentity  12345678  12345678  dotestunescapeentity  12345678  12345678  dotestunescapeentity  12345678  12345678  dotestunescapeentity  12345678  12345678  maximim  value  for  char  0xffff  12345678  invalid  entity  reference  and  should  left</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.Entities</file>
+</fixedfiles>
+</bug>
+</bugrepository>

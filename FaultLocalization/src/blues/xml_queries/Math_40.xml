@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_40" link="https://issues.apache.org/jira/browse/MATH-716">
+<buginformation>
+<summary>bracketing nth order brent solver  exceeds max iteration count  while  updating  always  the  same  boundary</summary>
+<description>some  cases  the  aging  feature  bracketingnthorderbrentsolver  fails  attempts  balance  the  bracketing  points  targeting  non  zero  value  instead  the  real  root  however  the  chosen  target  too  close  too  zero  and  the  inverse  polynomial  approximation  always  the  same  side  thus  always  updates  the  same  bracket  the  real  used  case  for  large  program  had  bracket  point  12500  aginga  which  the  really  good  estimate  the  zero  one  side  the  root  and  12500  agingb  this  shows  that  the  bracketing  interval  completely  unbalanced  and  never  succeed  rebalance  always  updates  and  never  updates</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

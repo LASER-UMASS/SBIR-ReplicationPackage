@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_19" link="https://sourceforge.net/p/joda-time/bugs/124">
+<buginformation>
+<summary>124  inconsistent  interpretation  ambiguous  time  during  dst</summary>
+<description>the  inconsistency  appears  for  timezone  europe  london  consider  the  following  code date time british date  new date time  2011 date time zone  for  europe  london date time norw date  new date time  2011 date time zone  for  europe  oslo date time finnish date  new date time  2011 date time zone  for  europe  helsinki  system  out  println british date  system  out  println norw date  system  out  println finnish date  these  three date time  objects  should  all  represent  the  same  moment  time  even  they  are  ambiguous  and  using  jodatime  this  the  case  the  code  produces  the  following  output  2011  000  2011  000  2011  000  using  jodatime  however  the  output  2011  000  2011  000  2011  000  which  imo  wrong  for  europe  london  correct  output  should  have  been  2011  000  the  release  notes  for  states  that  now  always  returns  the  earlier  instant  summer  time  during  overlap</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.DateTimeZone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

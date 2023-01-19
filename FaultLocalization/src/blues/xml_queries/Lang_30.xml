@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_30" link="https://issues.apache.org/jira/browse/LANG-607">
+<buginformation>
+<summary>string utils  methods  not  handle  unicode  supplementary  characters  correctly</summary>
+<description>stringutils  containsany  methods  incorrectly  matches  unicode  supplementary  characters  for  example  define  test  fixture  the  unicode  character  20000  where  20000  written  java  source  840  udc  private  static  final  string charu 20000  840  udc  private  static  final  string charu 20001  840  udc  you  can  see  unicode  supplementary  characters  correctly  implemented  the  jre  call  assertequals charu 20000  indexof charu 20001  but  this  broken  assertequals  false  stringutils  containsany charu 20000 charu 20001  assertequals  false  stringutils  containsany charu 20001 charu 20000  this  fine  assertequals  true  stringutils  contains charu 20000 charu 20001 charu 20000  assertequals  true  stringutils  contains charu 20000 charu 20001 charu 20001  assertequals  true  stringutils  contains charu 20000 charu 20000  assertequals  false  stringutils  contains charu 20000 charu 20001  because  the  method  calls  the  jre  perform  the  match  more  than  you  want  know  http  java  sun  com  developer  technicalarticles  intl  supplementary</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.StringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

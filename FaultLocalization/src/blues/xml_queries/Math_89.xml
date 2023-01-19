@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_89" link="https://issues.apache.org/jira/browse/MATH-259">
+<buginformation>
+<summary>bugs  frequency  api</summary>
+<description>think  the  existing  frequency  api  has  some  bugs  the  addvalue  object  method  allows  one  add  plain  object  but  one  cannot  add  anything  further  the  instance  the  second  add  fails  with  illegalargumentexception  fact  the  problem  with  the  first  call  addvalue  object  which  should  not  allow  plain  object  added  should  only  allow  comparable  objects  this  could  fixed  checking  that  the  object  comparable  similar  considerations  apply  the  getcumfreq  object  and  getcumpct  object  methods  they  will  only  work  with  objects  that  implement  comparable  the  getcount  object  and  getpct  object  methods  don  fail  when  given  non  comparable  object  because  the  class  cast  exception  caught  however  they  just  return  the  object  was  not  present  final  object  obj  new  object  addvalue  obj  this  ought  fail  but  doesn  causing  the  unexpected  behaviour  below  system  out  println  getcount  obj  system  out  println  getpct  obj  rather  than  adding  extra  checks  for  comparable  seems  that  the  api  would  much  improved  using  comparable  instead  object  also  should  make  easier  implement  generics  however  this  would  cause  compilation  failures  for  some  programs  that  pass  object  rather  than  comparable  the  class  these  would  need  recoding  but  think  they  would  continue  run  against  the  new  api  would  also  affect  the  run  time  behaviour  slightly  the  first  attempt  add  non  comparable  object  would  fail  rather  than  the  second  add  possibly  valid  object  but  that  viable  program  can  only  add  one  object  and  any  attempt  get  statistics  will  either  return  exception  and  applying  the  instanceof  fix  would  also  cause  fail</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.stat.Frequency</file>
+</fixedfiles>
+</bug>
+</bugrepository>

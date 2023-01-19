@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_4" link="https://github.com/JodaOrg/joda-time/issues/88">
+<buginformation>
+<summary>constructing  invalid  partials</summary>
+<description>partials can constructed invoking constructor partial date time field type int merging together set partials using with each constructed calling partial date time field type int partial new partial new date time field type year hour day new int partial new partial year with hour day assert however the above doesn work all cases new partial new date time field type clockhour day hour day new int throws types array must not contain duplicate new partial clockhour day with hour day partial clockhour day hour day suppose the partials should not allow constructed either case that right there also related issue probably stems from the fact that the partial invalid new partial clockhour day with hour day equal new partial hour day with clockhour day throws objects must have matching field types the text was updated successfully but these errors were encountered copy link member jodastephen commented nov 2013 yes looks like the with method missing some validation jodastephen closed this 3ba 9ba nov 2013 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 prevent creation invalid partials via partial with date time field 27a 25a int validation this method was not thorough that the constructor this allowed invalid partials created fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.Partial</file>
+</fixedfiles>
+</bug>
+</bugrepository>

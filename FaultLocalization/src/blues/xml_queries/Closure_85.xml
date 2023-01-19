@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_85" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-311.json">
+<buginformation>
+<summary>reproduceable  crash  with  switch  statement</summary>
+<description>when  attempting  compile  the  following  code  with  default  options  jar  compiler  jar  filename  always  produces  the  same  error  function  switch  case  switch  return  else  return  undefined  break  whenever  try  and  compile  the  above  script  get runtime exception  thrown  internal  compiler  error  please  report  this  problem  null  node  break  test  break  parent  null  the  result  calling  version  compiler  jar  version  20100917  revision  440  built  2010  the  result  calling  version  java  exe  java  version  quot  quot  java  runtime  environment  build  java hot spot  client  build  mixed  mode  sharing  anyone  else  with  the  same  issue  work  around  the  short  term  comment  out  the  quot  break  quot  line  thanks  for  the report this  issue  was  closed  revision  676</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.UnreachableCodeElimination</file>
+</fixedfiles>
+</bug>
+</bugrepository>

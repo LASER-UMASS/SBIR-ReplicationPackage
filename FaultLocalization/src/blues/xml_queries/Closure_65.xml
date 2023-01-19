@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_65" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-486.json">
+<buginformation>
+<summary>string  escaping  mishandles  null  byte</summary>
+<description>what  steps  will  reproduce  the  problem  run  var  quot  00003  quot  length  alert  quot  fail  quot  else  alert  quot  win  quot  compile  and  run  what  the  expected  output  what  you  see  instead  quot  win  quot  expected  quot  fail  quot  observed  what  version  the  product  are  you  using  what  operating  system  1167  please  provide  any  additional  information  below  the  problem  here  http  code  google  com  closure  compiler  source  browse  trunk  src  com  google  javascript  jscomp code generator  java  1015  here  patch  that  fixes  svn  diff  index  src  com  google  javascript  jscomp code generator  java  src  com  google  javascript  jscomp code generator  java  revision  1167  src  com  google  javascript  jscomp code generator  java  working  copy  1012  1012  for  int  length  char  char  switch  case  append  quot  quot  break  case  append  quot  000  quot  break  case  append  quot  quot  break  case  append  quot  quot  break  case  append  quot  quot  break  you  could  also  lookahead  and  output  quot  000  quot  only  the  following  char  octal  valid  and  otherwise  output  quot  quot  bytes  worth  the  complexity  this  bug  was  introduced  904  special  case  the  nul  character  thanks  for  the  patch  can  you  sign  cla  that  can  accept  patches  from  you  see  this  for  more  explanation  http  code  google  com  closure  compiler  source  browse  trunk  contributorscla  email  sent  grant  sheets  ashimaarts  com  licensure  privilege  over  the  above  patch  accept  full  license  rights  the  above  patch  and  submit  the  patch  google  under  the  aforementioned  cla  this  issue  was  closed  revision  1179</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

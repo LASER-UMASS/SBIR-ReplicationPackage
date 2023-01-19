@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_36" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-668.json">
+<buginformation>
+<summary>goog add singleton getter  prevents  unused  class  removal</summary>
+<description>what  steps  will  reproduce  the  problem closure compiler  compilation  level  advanced  optimizations  output  file  name  default  use  closure  library  true  formatting  pretty  print  print  input  delimiter  warning  level  verbose  debug  true closure compiler  goog  provide  foo  var  foo  function  this  values  goog add singleton getter  foo  foo  prototype  add  function  value  this  values  push  value  what  the  expected  output  what  you  see  instead  expect  the  code  completely  removed  instead  function  ctor  ctor get instance  function  ctor get instance  return  ctor  instance  ctor  instance  new  ctor  function  what  version  the  product  are  you  using  what  operating  system  http  closure  compiler  appspot  com  feb  2012  please  provide  any  additional  information  below  the  failure  sequence  like  this  remove  unused  prototype  properties  removes  the  properties inline variables  moves  the  constructor  into  the  goog add singleton getter  call name analyzer  won  remove  because  has  name  goog add singleton getter  has  side  effect  won  removed  its  own  this  issue  was  closed  revision  1800</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineVariables</file>
+</fixedfiles>
+</bug>
+</bugrepository>

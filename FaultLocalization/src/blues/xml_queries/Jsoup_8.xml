@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_8" link="https://github.com/jhy/jsoup/issues/45">
+<buginformation>
+<summary>string  npe  for  orphans</summary>
+<description>working code that frequently calls remove and then adds element while the element detached string string throws something eclipse prints only invocation target exception would nice this were not the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2010 support node outer html method when node has parent closed 6271f michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 support node outer html method when node has parent 977 fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 support node outer html method when node has parent 6271f fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Node</file>
+</fixedfiles>
+</bug>
+</bugrepository>

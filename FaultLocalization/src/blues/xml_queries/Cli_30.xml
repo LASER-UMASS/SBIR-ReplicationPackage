@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_30" link="https://issues.apache.org/jira/browse/CLI-203">
+<buginformation>
+<summary>the  state  the  option  groups  not  updated  the  default  options</summary>
+<description>the  state  the  option  groups  neither  checked  nor  updated  when  the  default  options  passed  properties  instance  the  parse  method  are  processed  for  example  and  are  two  mutually  exclusive  options  the  command  line  argument  could  specify  and  the  default  options  could  contain  the  parser  will  not  complain  and  the  resulting  commandline  will  contain  and</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.DefaultParser</file>
+<file>org.apache.commons.cli.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

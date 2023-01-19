@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_74" link="https://github.com/FasterXML/jackson-databind/issues/1533">
+<buginformation>
+<summary>property type deserializer  ignores deserialization feature  accept  empty  string  null  object</summary>
+<description>the property type deserializer implementation does not respect the deserialization feature accept empty string null object feature when deserializing empty string throws deserialization feature accept empty string null object instead creating null object the text was updated successfully but these errors were encountered cowtowncoder added commit that referenced this issue feb 2017 merge pull request 1534 from tillerino loading status checks 10d 5ab fix 1533 respect accept empty string null object for polymorphism cowtowncoder added this the milestone feb 2017 cowtowncoder added commit that referenced this issue feb 2017 minor tweaks 1533 loading status checks 5bd 7605 cowtowncoder closed this 1971732 feb 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

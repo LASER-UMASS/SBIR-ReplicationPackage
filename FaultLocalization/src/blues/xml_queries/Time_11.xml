@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_11" link="https://github.com/JodaOrg/joda-time/issues/18">
+<buginformation>
+<summary>npe date time zone builder</summary>
+<description>when date time zone build with duplicate named recurring saving time first thread all goes warning message generated and identifier automatically generated precalculated zone create when second thread does the same npe generated zone info compiler verbose the cause that the verbose thread local incorrectly initialized zone info compiler static verbose set boolean false will initialize verbose only for the first thread and not for the subsequent ones the npe caused the autoboxing public static boolean verbose return verbose get better approach could remove the initialization and test for null public static boolean verbose boolean verbose verbose get return verbose null verbose false here follows test case test public void test date time zone builder throws exception get test data time zone builder date time zone test dtz true thread new thread new runnable override public void run get test data time zone builder date time zone test dtz true start join private date time zone builder get test data time zone builder return new date time zone builder add cutover 1601 false 7200000 set standard offset 3600000 add recurring savings 3600000 1601 integer max value false 7200000 add recurring savings 1601 integer max value false 10800000 the text was updated successfully but these errors were encountered jodastephen closed this 57eb 4cb apr 2013 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 fix zone info compiler and date time zone builder multi threading 27f 6029 fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.tz.ZoneInfoCompiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

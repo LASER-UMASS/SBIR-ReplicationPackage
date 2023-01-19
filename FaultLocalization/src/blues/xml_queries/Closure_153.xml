@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_153" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-290.json">
+<buginformation>
+<summary>namespace  definition  prototype  broken</summary>
+<description>what  steps  will  reproduce  the  problem  namespace  definition  prototype  prototype  library  looks  like  node  var  node  compile  with  latest  command  line  compiler  version  20100917  revision  440  built  2010  with  default  options  open  html  which  uses  this  script  will  show  error  message  something  like  quot  node  definition  missing  quot  use  localized  version  and  cannot  write  exact  english  message  what  the  expected  output  something  like  node  var  node  what  you  see  instead  node  node  what  version  the  product  are  you  using  what  operating  system  command  line  compiler  version  20100917  revision  440  built  2010  with  default  options  linux  mint  thanks  for  the report this  issue  was  closed  revision  614</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Normalize</file>
+<file>com.google.javascript.jscomp.SyntacticScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

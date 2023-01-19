@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_132" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-925.json">
+<buginformation>
+<summary>statement</summary>
+<description>what  steps  will  reproduce  the  problem  input  esi  esi  esi  else  esi  output  esi  esi  esi  but  must  esi  esi  esi  using  latest  version  windows  thank  you  for  the  report  this  issue  was  closed  revision  9485903b</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax</file>
+</fixedfiles>
+</bug>
+</bugrepository>

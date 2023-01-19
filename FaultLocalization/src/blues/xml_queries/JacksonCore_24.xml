@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_24" link="https://github.com/FasterXML/jackson-core/issues/508">
+<buginformation>
+<summary>add  new  exception  type  used  for  failed  coercions  like  overflow  for</summary>
+<description>currently problems like overflow for numeric type when json number value exceeds range requested target type like int simply use json parse exception indicate the problem both streaming and databind level but would better could use more targeted exception let calling application potentially handle problems differently can also add some metadata about type failure such initial token type and expected target type also true that coercion failures where start from valid json value but fail convert into desired target type are not parse decode problems all but rather mismatch problems let add something like input coercion exception which extends json processing exception but not json parse exception with may want tackle other problems for example lack context for lower level json processing exceptions compared json mapping exception the text was updated successfully but these errors were encountered cowtowncoder added active labels jan 2019 cowtowncoder changed the title add new exception type used for failed coercions like overflow for int add new exception type input coercion exception used for failed coercions like overflow for int jan 2019 cowtowncoder added commit that referenced this issue jan 2019 start work 508 new exception type 491c copy link member author cowtowncoder commented jan 2019 also still allow catching all reader side streaming exception add intermediate stream read exception cowtowncoder removed the active label jan 2019 cowtowncoder added this the milestone jan 2019 cowtowncoder closed this 4dd 84e jan 2019 iverase mentioned this issue may 2020 ignored malfored flag ignored numeric types for out range values elastic elasticsearch 57272 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.base.ParserBase</file>
+<file>com.fasterxml.jackson.core.base.ParserMinimalBase</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_20" link="https://github.com/FasterXML/jackson-core/issues/318">
+<buginformation>
+<summary>add  support  for  writing  via</summary>
+<description>note should safe for patch that default implementation added write embedded object throws exception unsupported operation for all values since json does not have any native object types this different from handling write object which tries either delegate object codec one registered even encode simple values however since support for binary data already handled some cases using value embedded object would actually make sense handle case byte and feasible perhaps byte buffer for extra points and also ensure null can written this likely necessary support faster xml jackson databind 1361 and should general make system more robust the text was updated successfully but these errors were encountered cowtowncoder closed this 64390 sep 2016 cowtowncoder mentioned this issue sep 2016 error when trying deserialize bson into existing property polymorphic class michel kraemer bson 4jackson closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.JsonGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

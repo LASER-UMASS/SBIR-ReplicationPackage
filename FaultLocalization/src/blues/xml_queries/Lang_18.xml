@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_18" link="https://issues.apache.org/jira/browse/LANG-719">
+<buginformation>
+<summary>fast date format  formats  year  differently  than simple date format  java</summary>
+<description>starting  with  java  does  simpledateformat  format  year  pattern  yyy  2003  instead  former  java  releases  according  javadoc  this  pattern  should  have  been  always  been  formatted  number  therefore  the  new  behavior  seems  bug  fix  the  jdk  fastdateformat  adjusted  behave  the  same</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.time.FastDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

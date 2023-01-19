@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_4" link="https://github.com/jhy/jsoup/issues/31">
+<buginformation>
+<summary>uppercase  umlauts  get  replaced  lowercase  umlaut  entities</summary>
+<description>the line system out println jsoup clean überschrift whitelist none should print uuml berschrift but prints uuml berschrift this used work correctly but fails while base array entities java distinguishes between lowercase and uppercase umlauts the above call yields the wrong result the text was updated successfully but these errors were encountered copy link owner jhy commented aug 2010 thanks for reporting this fix for the next release copy link owner jhy commented aug 2010 fixed support for case sensitive html escape entities closed 17d 07c michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed support for case sensitive html escape entities 52f fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fixed support for case sensitive html escape entities 17d 07c fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Entities</file>
+</fixedfiles>
+</bug>
+</bugrepository>

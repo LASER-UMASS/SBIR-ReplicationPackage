@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_17" link="https://issues.apache.org/jira/browse/MATH-778">
+<buginformation>
+<summary>dfp  dfp  multiply  int  does  not  comply  with  the  general  contract field element  multiply  int</summary>
+<description>class  org  apache  commons  math  dfp  the  method  multiply  int  limited  9999  this  not  consistent  with  the  general  contract  fieldelement  multiply  int  where  there  should  limitation  the  values</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.dfp.Dfp</file>
+</fixedfiles>
+</bug>
+</bugrepository>

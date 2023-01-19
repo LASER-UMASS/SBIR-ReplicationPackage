@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_35" link="https://issues.apache.org/jira/browse/LANG-571">
+<buginformation>
+<summary>array utils  add  array  element  can  create  unexpected class cast exception</summary>
+<description>arrayutils  add  array  element  can  create  unexpected  classcastexception  for  example  the  following  code  compiles  without  warning  string  arrayutils  add  stringarray  astring  and  works  fine  provided  least  one  the  parameters  non  null  however  both  parameters  are  null  the  add  method  returns  object  array  hence  the  exception  both  parameters  are  null  not  possible  determine  the  correct  array  type  return  seems  this  should  disallowed  think  the  method  ought  changed  throw  illegalparameterexception  when  both  parameters  are  null</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.ArrayUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_2" link="https://issues.apache.org/jira/browse/JXPATH-50">
+<buginformation>
+<summary>does  not  properly  handle node set  returned  extension  function</summary>
+<description>per  the  documentation  function  returning  basicnodeset  containing  zero  more  pointers  public  static  nodeset  observations  expressioncontext  context  the  cast  below  shouldn  break  this  the  only  pointer  type  that  makes  sense  this  context  list  nodepointer  ptrs  extractobservations  nodepointer  context  getcontextnodepointer  new  arraylist  nodepointer  basicnodeset  result  new  basicnodeset  for  nodepointer  ptr  ptrs  result  add  ptr  return  result  however  call  jxpathcontext  selectnodes  ems  observations  getting  single  node  containing  the  basicnodeset  notice  that  there  testcase  for  functions  that  return  nodesets  but  that  uses  expressions  that  actually  return  the  children  the  nodeset  test  nodeset  name  there  appear  two  problems  first  expression  iterate  and  expression  iteratepointers  not  correctly  recognize  nodeset  something  iterable  resolved  this  reaching  into  the  nodeset  and  getting  iterator  over  its  pointers  second  expression  pointeriterator  doesn  recognize  when  already  has  pointer  and  instead  tries  wrap  new  pointer  this  ends  treating  the  pointer  bean  made  these  changes  and  written  testcase  that  uses  unadorned  nodeset  function  also  found  class  that  used  variable  named  enum  and  changed  this  that  would  compile  under  the  patch  attached  relative  commons  jxpath  root  extract  directory</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.compiler.Expression</file>
+</fixedfiles>
+</bug>
+</bugrepository>

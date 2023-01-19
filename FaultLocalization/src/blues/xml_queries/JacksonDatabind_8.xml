@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_8" link="https://github.com/FasterXML/jackson-databind/issues/667">
+<buginformation>
+<summary>problem  with  bogus  conflict  between  single  arg  string  constructor</summary>
+<description>although good idea allow recognizing char sequence almost like alias for string this can cause problems for classes like string builder that have separate constructors for both this actually throws bogus exception for due introduction ability recognize char sequence the text was updated successfully but these errors were encountered cowtowncoder added this the milestone jan 2015 cowtowncoder closed this 041e jan 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.impl.CreatorCollector</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_32" link="https://issues.apache.org/jira/browse/CLI-193">
+<buginformation>
+<summary>string index out bounds exception help formatter find wrap pos</summary>
+<description>the  last  while  loop  helpformatter  findwrappos  can  pass  text  length  text  charat  int  which  throws  stringindexoutofboundsexception  the  first  expression  that  while  loop  condition  should  use  not  this  line  908  779646  http  svn  apache  org  viewvc  commons  proper  cli  trunk  src  java  org  apache  commons  cli  helpformatter  java  revision  779646  view  markup</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.HelpFormatter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

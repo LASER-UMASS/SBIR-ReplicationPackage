@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_7" link="https://issues.apache.org/jira/browse/MATH-950">
+<buginformation>
+<summary>event  state  not  updated  unrelated  event  triggers  reset  state  during  ode  integration</summary>
+<description>when  ode  solver  manages  several  different  event  types  there  are  some  unwanted  side  effects  one  event  handler  asks  for  reset  state  for  integration  state  when  its  eventoccurred  method  called  the  other  event  handlers  that  did  not  trigger  event  the  same  step  are  not  updated  correctly  due  early  return  result  when  the  next  step  processed  with  reset  integration  state  the  forgotten  event  still  refer  the  start  date  the  previous  state  this  implies  that  when  these  event  handlers  will  checked  for  some  cases  the  function  defining  event  double  double  called  with  state  parameters  that  are  completely  wrong  one  case  when  the  array  should  have  contained  values  between  and  one  function  call  got  values  the  attached  file  reproduces  the  problem</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.ode.AbstractIntegrator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

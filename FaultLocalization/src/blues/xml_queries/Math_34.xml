@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_34" link="https://issues.apache.org/jira/browse/MATH-779">
+<buginformation>
+<summary>list population  iterator  allows  you  remove  chromosomes  from  the  population</summary>
+<description>calling  the  iterator  method  listpopulation  returns  iterator  the  protected  modifiable  list  before  returning  the  iterator  should  wrap  unmodifiable  list</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.genetics.ListPopulation</file>
+</fixedfiles>
+</bug>
+</bugrepository>

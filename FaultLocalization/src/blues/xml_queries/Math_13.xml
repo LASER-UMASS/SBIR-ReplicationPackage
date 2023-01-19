@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_13" link="https://issues.apache.org/jira/browse/MATH-924">
+<buginformation>
+<summary>new  multivariate  vector  optimizers  cannot  used  with  large  number  weights</summary>
+<description>when  using  the  weigth  class  pass  large  number  weights  multivariate  vector  optimizers  nxn  full  matrix  created  and  copied  when  elements  vector  used  this  exhausts  memory  when  large  this  happens  for  example  when  using  curve  fitters  even  simple  curve  fitters  like  polynomial  ones  for  low  degree  with  large  number  points  encountered  this  with  curve  fitting  41200  points  which  created  matrix  with  billion  elements</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

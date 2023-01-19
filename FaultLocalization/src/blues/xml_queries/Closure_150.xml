@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_150" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-61.json">
+<buginformation>
+<summary>type  checker  misses  annotations  functions  defined  within  functions</summary>
+<description>what  steps  will  reproduce  the  problem  compile  the  following  code  under  warning  level  verbose  var  param  string  function  function  123  observe  that  the  type  checker  correctly  emits  one  warning  123  doesn  match  the  type  string  now  compile  the  code  with  defined  within  anonymous  function  like  var  function  param  string  function  function  123  observe  that  warning  emitted  for  calling  with  parameters  and  not  for  the  type  error  though  the  param  declaration  were  ignored  what  version  the  product  are  you  using  what  operating  system  please  provide  any  additional  information  below  this  sort  module  pattern  common  enough  that  strikes  worth  supporting  one  last  note  make  matters  stranger  the  calling  code  isn  itself  within  function  warnings  are  emitted  all  var  function  param  string  function  123  thanks  for  the  report  vaguely  recall  there  was  very  specific  reason  why  this  case  wasn  handled  but  think  that  reason  might  have  gone  away  play  with  again  and  report  back  notice  that  you  define  local  scope  and  use  later  scope  this  will  now  work  still  working  the  case  where  you  define  local  scope  and  call  from  global  scope  nick  this  specific  issue  fixed  any  reason  not  close  this  nope  the  specific  issue  not  fixed  did  you  read  last  comment  understand  now  fixed  now  but  not  the  call  from  global  scope  this  issue  was  closed  revision  2240</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

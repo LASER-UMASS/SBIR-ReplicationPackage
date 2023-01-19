@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_11" link="https://issues.apache.org/jira/browse/MATH-929">
+<buginformation>
+<summary>multivariate normal distribution  density  double  returns  wrong  value  when  the  dimension  odd</summary>
+<description>reproduce  assert  assertequals  398942280401433  new  multivariatenormaldistribution  new  double  new  double  density  new  double</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.distribution.MultivariateNormalDistribution</file>
+</fixedfiles>
+</bug>
+</bugrepository>

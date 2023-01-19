@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_146" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-172.json">
+<buginformation>
+<summary>bad  type  inference  for  undefined</summary>
+<description>what  steps  will  reproduce  the  problem closure compiler  compilation  level  advanced  optimizations  output  file  name  default closure compiler  param  string  function  param  undefined  function  undefined  what  the  expected  output  what  you  see  instead  jsc  deterministic  test  condition  always  evaluates  false  left  undefined  right  undefined  line  character  undefined  jsc  type  mismatch  actual  parameter  does  not  match  formal  parameter  found  undefined  required  string  line  character  undefined  the  second  warning  bogus  this  issue  was  closed  revision  265</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.JSType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

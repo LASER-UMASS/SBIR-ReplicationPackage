@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_8" link="https://github.com/JodaOrg/joda-time/issues/42">
+<buginformation>
+<summary>date time zone for offset hours minutes  cannot  handle  negative  offset  hour</summary>
+<description>date time zone for offset hours minutes cannot handle negative offset hour like due argument range checking used for offset millis instead this should probably mentioned the documentation negative minutes accepted the text was updated successfully but these errors were encountered jodastephen closed this 362ed jul 2013 copy link author eregon commented jul 2013 nice and clear fix thank you guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 fix allow offsets from ede 70a fixes joda org borja pushed commit guardiola 31337 joda time that referenced this issue feb 2016 fix allow offsets from 927bd fixes joda org borja pushed commit guardiola 31337 joda time that referenced this issue feb 2016 fix allow offsets from 9161eea fixes joda org guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue feb 2016 fix allow offsets from 87492b fixes joda org guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue feb 2016 fix allow offsets from 91c fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.DateTimeZone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

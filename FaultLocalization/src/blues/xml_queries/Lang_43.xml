@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_43" link="https://issues.apache.org/jira/browse/LANG-477">
+<buginformation>
+<summary>extended message format out memory  with  custom  format  registry  and  pattern  containing  single  quotes</summary>
+<description>when  using  extendedmessageformat  with  custom  format  registry  and  pattern  conatining  single  quotes  outofmemoryerror  will  occur  example  that  will  cause  error  extendedmessageformattest  java  private  static  map  string  object  formatregistry  new  hashmap  string  object  static  formatregistry  put  dummyformatfactory  dummy  format  new  dummyformatfactory  public  static  void  main  string  args  extendedmessageformat  new  extendedmessageformat  dummy  test  formatregistry  string  formattedpattern  format  new  string  great  system  out  println  formattedpattern  the  following  change  starting  line  421  the  release  seems  fix  the  problem  extendedmessageformat  java  current  broken  escapingon  start  quote  return  appendto  null  null  appendto  append  quote  working  escapingon  start  quote  next  pos  return  appendto  null  null  appendto  append  quote</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.text.ExtendedMessageFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

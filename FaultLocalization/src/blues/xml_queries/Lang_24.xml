@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_24" link="https://issues.apache.org/jira/browse/LANG-664">
+<buginformation>
+<summary>number utils  number  string  not  right  when  the  string</summary>
+<description>not  java  number  but  numberutils  isnumber  string  return  true  perhaps  change  chars  chars  not  allowing  with  exponent  return  founddigit  hasexp  chars  chars  not  allowing  with  exponent  return  founddigit  hasexp  hasdecpoint</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

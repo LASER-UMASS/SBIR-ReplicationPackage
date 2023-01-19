@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_32" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-701.json">
+<buginformation>
+<summary>preserve  doesn  preserve  whitespace  start  line</summary>
+<description>what  steps  will  reproduce  the  problem  code  such  preserve  this  was  ascii  art  what  the  expected  output  what  you  see  instead  the  words  line  the  left  this  was  ascii  art  what  version  the  product  are  you  using  what  operating  system  live  web  verison  please  provide  any  additional  information  below  this  issue  was  closed  revision  1869</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.parsing.JsDocInfoParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

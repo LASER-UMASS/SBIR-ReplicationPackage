@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_70" link="https://issues.apache.org/jira/browse/MATH-369">
+<buginformation>
+<summary>bisection solver  solve  final univariate real function  double  min  double  max  double  initial  throws null pointer exception</summary>
+<description>method  bisectionsolver  solve  final  univariaterealfunction  double  min  double  max  double  initial  invokes  bisectionsolver  solve  double  min  double  max  which  throws  nullpointerexception  member  variable  univariaterealsolverimpl  null  instead  the  method  bisectionsolver  solve  final  univariaterealfunction  double  min  double  max  should  called  steps  reproduce  invoke  new  bisectionsolver  solve  someunivariatefunctionimpl  nullpointerexception  will  thrown</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.analysis.solvers.BisectionSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

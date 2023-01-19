@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_29" link="https://issues.apache.org/jira/browse/COMPRESS-306">
+<buginformation>
+<summary>archive stream factory  fails  pass  the  encoding  when  creating  some  streams</summary>
+<description>archivestreamfactory  fails  pass  the  encoding  when  creating  the  following  streams  some  all  cases  arjarchiveinputstream  cpioarchiveinputstream  dumparchiveinputstream  jararchiveinputstream  jararchiveoutputstream</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.ArchiveStreamFactory</file>
+<file>org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream</file>
+<file>org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream</file>
+<file>org.apache.commons.compress.archivers.dump.DumpArchiveInputStream</file>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveInputStream</file>
+<file>org.apache.commons.compress.archivers.tar.TarArchiveOutputStream</file>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveInputStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

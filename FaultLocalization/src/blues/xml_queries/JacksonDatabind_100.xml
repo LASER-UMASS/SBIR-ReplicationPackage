@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_100" link="https://github.com/FasterXML/jackson-databind/issues/2096">
+<buginformation>
+<summary>does  not  take  base  variant  into  account</summary>
+<description>this affects least current versions tree traversing parser get binary value base variant accepted but ignored the call binary value when text node then uses the default base variant instead what specified seems the correct behavior would call text node get binary value instead the text was updated successfully but these errors were encountered cowtowncoder added the label jul 2018 copy link member cowtowncoder commented jul 2018 sounds like flaw indeed just need see how where access base variant cowtowncoder added the active label jul 2018 copy link author tangiel commented jul 2018 you change the assignment byte data byte data textual text node get binary value 64variant binary value that seems sufficient though operating and looks like object mapper has undergone lot refactoring since then presumably would propagate the variant down correctly the method cowtowncoder changed the title tree traversing parser does not take base variant into account tree traversing parser does not take base variant into account aug 2018 cowtowncoder closed this 98ae aug 2018 cowtowncoder removed the active label aug 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.node.TreeTraversingParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

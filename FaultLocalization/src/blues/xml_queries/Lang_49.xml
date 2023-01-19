@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_49" link="https://issues.apache.org/jira/browse/LANG-380">
+<buginformation>
+<summary>infinite  loop  fraction  reduce  when  numerator</summary>
+<description>summary  pretty  much  says  all</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.math.Fraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

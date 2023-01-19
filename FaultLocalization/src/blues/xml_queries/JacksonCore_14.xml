@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_14" link="https://github.com/FasterXML/jackson-core/issues/255">
+<buginformation>
+<summary>relax  ownership  checks  for  buffers  not  require  increase  size</summary>
+<description>checks context expect buffer either the same grow but should actually completely legal return another buffer with similar size given that most allocation strategies will eventually converge into maximum allowed block size the text was updated successfully but these errors were encountered cowtowncoder changed the title relax ownership checks for buffers not require increase size relax ownership checks for buffers not require increase size mar 2016 cowtowncoder closed this 961 mar 2016 cowtowncoder added this the milestone mar 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.io.IOContext</file>
+</fixedfiles>
+</bug>
+</bugrepository>

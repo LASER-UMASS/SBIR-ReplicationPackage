@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_9" link="https://github.com/jhy/jsoup/issues/46">
+<buginformation>
+<summary>html  entities  containing  digits  are  not  unescaped  correctly</summary>
+<description>some html entities such sup sup are not unescaped correctly entities unescape because they contain digits the problem the pattern entities unescape pattern changed and worked fine for but there might side effects you can see changes here clementdenis 65387c the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2010 thanks for finding this copy link owner jhy commented nov 2010 fixed support for html entities with numbers name frac sup closed 48121 michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed support for html entities with numbers name frac 49694 sup fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fixed support for html entities with numbers name frac 48121 sup fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Entities</file>
+</fixedfiles>
+</bug>
+</bugrepository>

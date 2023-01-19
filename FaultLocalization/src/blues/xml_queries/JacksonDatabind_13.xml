@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_13" link="https://github.com/FasterXML/jackson-databind/issues/742">
+<buginformation>
+<summary>allow  deserialization  object</summary>
+<description>note related faster xml jackson annotations for some use cases one known case being use from orm like hibernate makes sense allow use null missing object cases where actual will generated something other than jackson may also make sense add matching deserialization feature which allows such condition either acceptable default not throw exception allow for strict checks cases where null missing object not legal use case the text was updated successfully but these errors were encountered copy link member author cowtowncoder commented apr 2015 looks like missing object was acceptable already per tests cowtowncoder added commit that referenced this issue apr 2015 update release notes wrt 742 0ec 81c cowtowncoder closed this 59af 571 apr 2015 copy link leo lozes commented mar 2016 the object value property class the check you added the deserialize set and return function null return null positioned after the object value deserializer deserialize ctxt could that should positioned before the deserialization don change have exceptions like this one json mapping exception can not deserialize instance java lang string out value null when send json with null with this annotation json identity info generator object generators property generator class property are simply doing something wrong here thanks xavitorrens mentioned this issue mar 2016 problem with object handling explicit null token 1150 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.DefaultDeserializationContext</file>
+<file>com.fasterxml.jackson.databind.deser.impl.ObjectIdValueProperty</file>
+</fixedfiles>
+</bug>
+</bugrepository>

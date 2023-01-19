@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_33" link="https://issues.apache.org/jira/browse/LANG-587">
+<buginformation>
+<summary>class utils  class  object  throws  npe  null  array  element</summary>
+<description>see  summary</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.ClassUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

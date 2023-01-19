@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_17" link="https://issues.apache.org/jira/browse/CLI-163">
+<buginformation>
+<summary>posix parser  keeps  bursting  tokens  even  non  option  character  found</summary>
+<description>posixparser  doesn  stop  the  bursting  process  token  stopatnonoption  enabled  and  non  option  character  encountered  for  example  the  options  and  are  defined  with  stopatnonoption  true  the  following  command  line  azb  turned  into  the  right  output  should</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.PosixParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

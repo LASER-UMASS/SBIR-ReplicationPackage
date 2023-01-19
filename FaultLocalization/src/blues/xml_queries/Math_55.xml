@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_55" link="https://issues.apache.org/jira/browse/MATH-554">
+<buginformation>
+<summary>vector cross product  sensitive  numerical  cancellation</summary>
+<description>cross  product  implementation  uses  the  naive  formulas  these  formulas  fail  when  vectors  are  almost  colinear  like  the  following  example  vector  new  vector  9070467121  4535233560  vector  new  vector  9070467123  4535233561  system  out  println  vector  crossproduct  the  previous  code  displays  instead  the  correct  answer</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.geometry.Vector3D</file>
+</fixedfiles>
+</bug>
+</bugrepository>

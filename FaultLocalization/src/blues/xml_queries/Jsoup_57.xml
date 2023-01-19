@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_57" link="https://github.com/jhy/jsoup/issues/759">
+<buginformation>
+<summary>remove ignore case concurrent modification exception</summary>
+<description>when testing out the remove ignore case method now seeing concurrent modification exception with code like element select abc first remove attr attr remove attr attr appears due using foreach loop over the linked hash map the removal changing the removal directly with iterator fixes this issue like for iterator map entry string attribute iter attributes entry set iterator iter has next map entry string attribute entry iter next entry get key equals ignore case key iter remove the text was updated successfully but these errors were encountered copy link kim 365 commented oct 2016 charlesmadere mentioned this issue oct 2016 concurrent modification exception caused node remove attr 779 closed jhy closed this 58e oct 2016 copy link owner jhy commented oct 2016 thanks jhy mentioned this issue nov 2016 remove attr with empty attribute syntax throws java util concurrent modification exception 785 closed chinhodado mentioned this issue feb 2017 concurrent modification exception when remove attr 829 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Attributes</file>
+</fixedfiles>
+</bug>
+</bugrepository>

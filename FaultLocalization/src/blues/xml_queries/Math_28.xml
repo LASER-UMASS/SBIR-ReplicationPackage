@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_28" link="https://issues.apache.org/jira/browse/MATH-828">
+<buginformation>
+<summary>not  expected unbounded solution exception</summary>
+<description>simplexsolver  throws  unboundedsolutionexception  when  trying  solve  minimization  linear  programming  problem  the  number  exception  thrown  depends  the  number  variables  order  see  that  behavior  simplexsolver  first  try  run  junit  test  setting  final  variable  entities  count  and  that  will  give  almost  good  result  and  then  set  and  you  get  massive  unbounded  exceptions  first  iteration  runned  with  predefined  set  input  data  with  which  the  solver  gives  back  appropriate  result  the  problem  itself  well  tested  authors  mathematicians  who  believe  know  what  they  developed  using  matlab  with  unbounded  solutions  the  same  rules  creatnig  random  variables  values  what  strange  the  dependence  the  number  unboundedsolutionexception  exceptions  the  number  variables  the  problem  the  problem  formulated  min  for  every  subject  where  vector  rows  and  column  coefficients  matrix  mxr  coefficients  matrix  nxr</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.optimization.linear.SimplexSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

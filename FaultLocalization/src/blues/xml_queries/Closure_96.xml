@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_96" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-229.json">
+<buginformation>
+<summary>missing  type  checks  for  var  args  notation</summary>
+<description>what  steps  will  reproduce  the  problem  compile  this closure compiler  compilation  level  simple  optimizations  warning  level  verbose  output  file  name  default  formatting  pretty  print closure compiler  param  string  var  args  function  foo  var  args  return  arguments  length  foo  hello  warning  foo  123  warning  foo  hello  123  warning  error  what  the  expected  output  what  you  see  instead  should  get  type  mismatch  warning  for  the  second  parameter  the  third  foo  call  what  version  the  product  are  you  using  what  operating  system  both  online  compiler  and  the  20100616  release  please  provide  any  additional  information  below  seems  like  the  type  checker  treats  var  args  single  param  and  thus  fails  type  check  the  subsequent  parameters fredrik this  issue  was  closed  revision  402</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeCheck</file>
+</fixedfiles>
+</bug>
+</bugrepository>

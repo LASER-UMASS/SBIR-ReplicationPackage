@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_37" link="https://issues.apache.org/jira/browse/MATH-722">
+<buginformation>
+<summary>math  complex  tanh  for  big  numbers</summary>
+<description>complex  java  the  tanh  computed  with  the  following  formula  tanh  sinh  cosh  cos  sin  cosh  cos  the  problem  that  finding  that  soon  big  number  both  sinh  and  cosh  are  infinity  and  then  the  method  tanh  returns  the  real  part  nan  infinity  infinity  when  should  return  wouldn  appropiate  add  something  the  fastmath  library  real  return  createcomplex  real  return  createcomplex  best  regards  jbb</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.complex.Complex</file>
+</fixedfiles>
+</bug>
+</bugrepository>

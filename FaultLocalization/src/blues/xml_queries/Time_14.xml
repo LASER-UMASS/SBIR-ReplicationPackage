@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_14" link="https://sourceforge.net/p/joda-time/bugs/151">
+<buginformation>
+<summary>151  unable  add  days month day  set  the  iso  leap  date</summary>
+<description>not  possible  add  days month day  set  the  iso  leap  date  february  29th  this  even  more  bizarre  given  the  exact  error  message  thrown  sample  snippet  final month day iso leap  new month day date time constants  february iso chronology get instance utc  system  out  println iso leap  system  out  println iso leap plus days  which  generates  the  following  combined  console  output  and  stack  trace  exception  thread  main  org  joda  time illegal field value exception  value  for day month  must  the  range  org  joda  time  field field utils verify value bounds field utils  java  215  org  joda  time  field precise duration date time field  set precise duration date time field  java  org  joda  time  chrono basic month year date time field  add basic month year date time field  java  212  org  joda  time  field base date time field  add base date time field  java  324  org  joda  time month day with field added month day  java  519  org  joda  time month day minus days month day  java  672  ext  site  time  chrono  main  main  java  191  ext  site  time  chrono  main  main  main  java  the  follwing  method  calls  and  parameters  also  generate  the  same  related  error iso leap plus months iso leap plus months iso leap minus months iso leap minus months iso leap minus days  however  the  following  methods  work iso leap minus days iso leap plus days  performing  operations  dates  around  the  iso  leap  date  react  exists  system  out  println iso leap minus days plus days  prints  out  expected</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.chrono.BasicMonthOfYearDateTimeField</file>
+</fixedfiles>
+</bug>
+</bugrepository>

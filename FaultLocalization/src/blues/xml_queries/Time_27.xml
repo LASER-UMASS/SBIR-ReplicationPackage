@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_27" link="https://sourceforge.net/p/joda-time/bugs/64">
+<buginformation>
+<summary>different  behaviour period formatter</summary>
+<description>period formatter  pfmt  pfmtbuilder  append iso period format  standard  formatter  not  the  same period formatter builder  pfmtbuilder  new period formatter builder append literal append years append suffix append months append suffix append weeks append suffix append days append suffix append separator fields after append hours append suffix append minutes append suffix append seconds with optional millis append suffix  which  copied  from iso period format  standard  method</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.format.PeriodFormatterBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

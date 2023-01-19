@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_16" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-772.json">
+<buginformation>
+<summary>compiler  does  not  recursively  resolve  typedefs</summary>
+<description>goog  provide  goog  scope  function  var  var  typedef  string  type  param  type  the  variable  func  function  results  compiler  error  given  that  compiler  does  recursively  resolve  other  names  this  appears  bug  rather  than  intended  limitation  fairly  certain  that  typedefs  have  the  global  scope  although  not  sure  that  has  been  documented  anywhere  the  intent  you  remove  the  goog  scope  wrapper  your  code  compiles  correctly  typedefs  don  have  the  global  scope  goog  scope  must  enclose  everything  the  file  except  goog  provide  goog require scope  affects  some  way  here  test  code  var  foo  typedef  string  foo  bar  typedef  string  var  foo  var  foo  function  typedef  string  foo  bar  typedef  string  var  foo  var  foo  typedef  string  foo  bar  param  foo  bar  the  variable  var  func  function  errors  param  foo  the  variable  var  func  function  errors  param  foo  bar  the  variable  var  func  function  unknown  type  error  param  foo  the  variable  var  func  function  unknown  type  error  param  foo  bar  the  variable  var  func  function  unknown  type  error  for  the  record  the  error  message  jsc  type  parse  error  bad  type  annotation  unknown  type  type  line  character  param  type  the  variable  this  issue  was  closed  revision  2077</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ScopedAliases</file>
+</fixedfiles>
+</bug>
+</bugrepository>

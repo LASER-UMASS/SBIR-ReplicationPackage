@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_32" link="https://issues.apache.org/jira/browse/MATH-780">
+<buginformation>
+<summary>bsp tree  class  and  recovery  euclidean  rep</summary>
+<description>new  the  work  here  thanks  for  your  efforts  this  code  create  bsptree  from  boundaryrep  brep  test  brep  cube  represented  float  array  containing  points  order  and  array  indices  triplets  for  the  faces  the  cube  construct  bspmesh  shown  the  code  below  can  construct  the  polyhedronsset  but  have  problems  extracting  the  faces  from  the  bsptree  reconstruct  the  brep  the  attached  code  bspmesh  java  shows  that  small  change  the  vertex  positions  causes  corrects  the  problem  any  ideas</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet</file>
+</fixedfiles>
+</bug>
+</bugrepository>

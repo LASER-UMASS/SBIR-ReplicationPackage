@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_2" link="https://github.com/FasterXML/jackson-databind/issues/467">
+<buginformation>
+<summary>unwanted  pojo  embedded  tree  via  serialization  tree</summary>
+<description>have class more less class string list items has custom serializer when serialize tree the entire list ends value embedded object the array list itself here the serializer class note the use write object field public class list attribute serializer extends json serializer list attribute override public void serialize list attribute value json generator jgen serializer provider provider throws exception jgen write start object jgen write string field item type value get item json key jgen write object field items value get items jgen write end object override public void serialize with type list attribute value json generator jgen serializer provider provider type serializer type ser throws exception type ser write type prefix for object value jgen jgen write string field item type value get item json key jgen write object field items value get items type ser write type suffix for object value jgen and tatu wrote value tree uses token buffer target probably then simply retains object passed defer conversion serialization for common use case buffering but your case you would rather get actual serialization into json nodes you will probably want write conversion out then something like byte json mapper write value bytes reference text json node tree mapper read tree json this just the work around short term but this one thing where configurability might needed possibly different methods one that forces full serialization into json with pojo nodes other that leaves things the text was updated successfully but these errors were encountered cowtowncoder added this the milestone may 2014 cowtowncoder closed this 5fec may 2014 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.util.TokenBuffer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

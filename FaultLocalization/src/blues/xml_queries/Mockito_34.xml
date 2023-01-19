@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_34" link="https://github.com/mockito/mockito/issues/157">
+<buginformation>
+<summary>source  files  should  not  put  binary  jar</summary>
+<description>source files java should not put into binary mockito core jar stupefies idea show decompiled file even when source jar available the text was updated successfully but these errors were encountered szpak mentioned this issue jan 2015 157 source files should not put binary jar 158 closed copy link contributor bric commented feb 2015 duplicate though the team thought was better for project that don rely maven like source repositories szczepiq bric closed this feb 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.invocation.InvocationMatcher</file>
+</fixedfiles>
+</bug>
+</bugrepository>

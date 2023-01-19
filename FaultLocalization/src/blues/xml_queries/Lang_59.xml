@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_59" link="https://issues.apache.org/jira/browse/LANG-299">
+<buginformation>
+<summary>bug  method append fixed width pad right  class str builder  causes array index out bounds exception</summary>
+<description>there  bug  method  appendfixedwidthpadright  class  strbuilder  public  strbuilder  appendfixedwidthpadright  object  obj  int  width  char  padchar  width  ensurecapacity  size  width  string  str  obj  null  getnulltext  obj  tostring  int  strlen  str  length  strlen  width  str  getchars  strlen  buffer  size  bug  should  str  getchars  width  buffer  size  else  int  padlen  width  strlen  str  getchars  strlen  buffer  size  for  int  padlen  buffer  size  strlen  padchar  size  width  return  this  this  causing  arrayindexoutofboundsexception  this  method  unusable  when  strlen  width  counterpart  method  appendfixedwidthpadleft  seems</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.text.StrBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,6 @@
+<parameters>
+	<query>
+		<number>Closure_144</number>
+		<text> #weight(1.0 auto.(class) 1.0 identify.(class) 1.0 void.(class) 1.0 functions.(class)  1.0 function.(class) 1.0 alert.(class) 1.0 should.(class) 1.0 emit.(class) 1.0 warning.(class) 1.0 this.(class) 1.0 issue.(class) 1.0 was.(class) 1.0 closed.(class) 1.0 revision.(class) 1.0 249.(class)  1.0 auto.(method) 1.0 identify.(method) 1.0 void.(method) 1.0 functions.(method)  1.0 function.(method) 1.0 alert.(method) 1.0 should.(method) 1.0 emit.(method) 1.0 warning.(method) 1.0 this.(method) 1.0 issue.(method) 1.0 was.(method) 1.0 closed.(method) 1.0 revision.(method) 1.0 249.(method)  1.0 auto.(identifier) 1.0 identify.(identifier) 1.0 void.(identifier) 1.0 functions.(identifier)  1.0 function.(identifier) 1.0 alert.(identifier) 1.0 should.(identifier) 1.0 emit.(identifier) 1.0 warning.(identifier) 1.0 this.(identifier) 1.0 issue.(identifier) 1.0 was.(identifier) 1.0 closed.(identifier) 1.0 revision.(identifier) 1.0 249.(identifier)  1.0 auto.(comments) 1.0 identify.(comments) 1.0 void.(comments) 1.0 functions.(comments)  1.0 function.(comments) 1.0 alert.(comments) 1.0 should.(comments) 1.0 emit.(comments) 1.0 warning.(comments) 1.0 this.(comments) 1.0 issue.(comments) 1.0 was.(comments) 1.0 closed.(comments) 1.0 revision.(comments) 1.0 249.(comments)  )</text>
+	</query>
+</parameters>

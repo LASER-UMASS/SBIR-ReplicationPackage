@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_105" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-106.json">
+<buginformation>
+<summary>array  join  munged  incorrectly</summary>
+<description>has class  function  selector  return  this  length  this class name  join  index  selector  join  false  munges  into has class  function  return  this  length  quot  quot  this class name  index  quot  quot  false  which  not  identical  looks  like  there  might  issue  with  join  and  comment  deleted  simpler  example  would  var  join  which  evaluates  but  the  compiler  converts  the  code  var  fixed  last  night  pushed  out  the  next  release  this  issue  was  closed  revision</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.FoldConstants</file>
+</fixedfiles>
+</bug>
+</bugrepository>

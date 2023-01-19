@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_15" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-773.json">
+<buginformation>
+<summary>switched  order  delete  key  and  key  statements  changes  semantic</summary>
+<description>input  var custom data  key  value  function test remove key  key  var data slot custom data  retval data slot  amp  amp data slot  key had key data slot  amp  amp  key data slot data slot  delete data slot  key  return had key  retval  null  console  log test remove key  key  value  console  log  key custom data  false  compiled  version  var custom data  key  quot  value  quot  function test remove key  var custom data  amp  amp  amp  amp  delete  return  amp  amp  null  console  log test remove key  quot  key  quot  console  log  quot  key  quot custom data  null  false  quot  quot  executed  after  quot  delete  quot  what  obviously  doesn  make  sense  this  case  reproducible  http  closure  compiler  appspot  com  home  and  quot  version  20120430  revision  1918  built  2012  quot  ack  thanks  for  the  reportjohn  figured  this  out  first  this  issue  was  closed  revision  2079  thanks  for  quick  patch</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.FlowSensitiveInlineVariables</file>
+</fixedfiles>
+</bug>
+</bugrepository>

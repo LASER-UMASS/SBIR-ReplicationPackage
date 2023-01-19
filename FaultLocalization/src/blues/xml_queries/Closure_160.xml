@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_160" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-467.json">
+<buginformation>
+<summary>check vars undefined vars  diagnostics  not  working  from  command  line</summary>
+<description>seems  that  setting  neither check vars  nor undefined vars  via  the  jscomp  warning  command  line  argument  does  anything  the  check  work  when  quot  warning  level  verbose  quot  set  though  other  diagnostic  groups  such global this  work  however  here  what  seeing  the  console  java  jar  compiler  jar  test  foo  bar  function  alert  this  baz  java  jar  compiler  jar  test  warning  level  verbose  test  warning  dangerous  use  the  global  this  object  test  error  variable  foo  undefined  foo  error  warning  java  jar  compiler  jar  test  jscomp  warning global this  test  warning  dangerous  use  the  global  this  object  error  warning  foo  bar  function  alert  this  baz  java  jar  compiler  jar  test  jscomp  warning check vars  foo  bar  function  alert  this  baz  java  jar  compiler  jar  test  jscomp  warning undefined vars  foo  bar  function  alert  this  baz  test  file  looks  like  this  foo  foo  bar  function  alert  this  baz  tested  against  1123  which  was  committed  this  issue  was  closed  revision  1138</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Compiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

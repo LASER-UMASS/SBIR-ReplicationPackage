@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_64" link="https://github.com/FasterXML/jackson-databind/issues/1417">
+<buginformation>
+<summary>further  issues  with  with</summary>
+<description>follow 1351 looks like there are still cases where class annotation like json include json include include non default does not work for default null value suppression for string type least the text was updated successfully but these errors were encountered cowtowncoder mentioned this issue oct 2016 added currently failing version issue 1351 test 1416 merged cowtowncoder closed this 30c oct 2016 boris naguet mentioned this issue mar 2017 regression deserialization with include non default 1586 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.PropertyBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

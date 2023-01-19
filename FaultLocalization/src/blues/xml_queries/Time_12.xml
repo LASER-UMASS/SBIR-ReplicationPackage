@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_12" link="https://github.com/JodaOrg/joda-time/issues/8">
+<buginformation>
+<summary>check  calendar  era local date from calendar fields</summary>
+<description>description provided check calendar era local date from calendar fields 23631b jodastephen closed this 77a nov 2012 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this pull request sep 2015 fix from calendar fields from date fields handle era correctly 16335a fixes joda org sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels bug fixed milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.LocalDate</file>
+<file>org.joda.time.LocalDateTime</file>
+</fixedfiles>
+</bug>
+</bugrepository>

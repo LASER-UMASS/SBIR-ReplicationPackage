@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_15" link="https://issues.apache.org/jira/browse/CSV-219">
+<buginformation>
+<summary>the  behavior  quote  char  using  not  similar  excel  does  when  the  first  string  contains  cjk  char</summary>
+<description>when  using  csvformat  excel  print  csv  file  the  behavior  quote  char  using  not  similar  microsoft  excel  does  when  the  first  string  contains  chinese  japanese  korean  cjk  char  there  are  data  members  record  with  japanese  chars  microsoft  excel  outputs  apache  common  csv  outputs</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_45" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-618.json">
+<buginformation>
+<summary>assignment  removed  when  used  expression  result  array  push</summary>
+<description>what  steps  will  reproduce  the  problem  open  online  closure  compiler  input  code  function  var  push  return  press  compile  what  the  expected  output  what  you  see  instead  except  output  function  var  push  return  wrong  what  version  the  product  are  you  using  what  operating  system  current  online  version  verified  simple  and  advanced  mode  command  line  compiler  well  seems remove unused variables  the  culprit  have  fix  pending  this  issue  was  closed  revision  1674</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.RemoveUnusedVars</file>
+</fixedfiles>
+</bug>
+</bugrepository>

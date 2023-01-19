@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_94" link="https://issues.apache.org/jira/browse/MATH-238">
+<buginformation>
+<summary>math utils  gcd  fails  when  and  both  contain  high  power</summary>
+<description>the  test  the  beginning  mathutils  gcd  for  arguments  equal  zero  fails  when  and  contain  high  enough  powers  that  their  product  overflows  zero  assertequals  mathutils  gcd  fix  replace  the  test  the  start  mathutils  gcd</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.util.MathUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

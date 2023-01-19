@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_14" link="https://issues.apache.org/jira/browse/LANG-786">
+<buginformation>
+<summary>string utils  equals  relies  undefined  behavior</summary>
+<description>since  the  java  lang  charsequence  class  was  first  introduced  the  javadoc  block  has  contained  the  following  note  this  interface  does  not  refine  the  general  contracts  the  equals  and  hashcode  methods  the  result  comparing  two  objects  that  implement  charsequence  therefore  general  undefined  each  object  may  implemented  different  class  and  there  guarantee  that  each  class  will  capable  testing  its  instances  for  equality  with  those  the  other  when  the  signature  the  stringutils  equals  method  was  changed  from  equals  string  string  equals  charsequence  charsequence  920543  the  implementation  still  relied  calling  charsequence  equals  object  even  though  general  the  result  undefined  one  example  where  equals  object  returns  false  even  though  charsequences  two  objects  represent  equal  sequences  when  one  object  instance  javax  lang  model  element  name  and  the  other  object  string</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.StringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

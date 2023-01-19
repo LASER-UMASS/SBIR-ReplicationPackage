@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_16" link="https://github.com/mockito/mockito/issues/151">
+<buginformation>
+<summary>investigate  why  125  did  not  trigger  release</summary>
+<description>investigate why 125 did not trigger release the text was updated successfully but these errors were encountered mockitoguy added the bug label dec 2014 bric added the continuous integration label jun 2015 copy link member author mockitoguy commented oct 2015 old issues mockitoguy closed this oct 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug continuous integration projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.MockitoCore</file>
+<file>org.mockito.Mockito</file>
+</fixedfiles>
+</bug>
+</bugrepository>

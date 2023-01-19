@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_20" link="https://github.com/jhy/jsoup/issues/134">
+<buginformation>
+<summary>some  html  file  head  element  will  empty</summary>
+<description>hello jonathan love jsoup and handling many html files but today under the problem when parse with jsoup some html file head element will empty sample html here http dropbox com 972460 test html please help the text was updated successfully but these errors were encountered copy link yang commented nov 2011 vote the priority this bug check out the latest version from the repository still not resolved jhy closed this 31086 mar 2012 copy link owner jhy commented mar 2012 thanks for pointing this out this issue fixed now please let know you see other cases copy link amnonpluralis commented apr 2012 jonathan been using jsoup production and loving well good clean api and proper documentation ran into the same problem this page http www visualbee com visualbee design your powerpoint presentation html same issue empty header and this fix didn help far can tell dropping the switch around the fix line will the job for would appreciate handling this thanks copy link yang commented apr 2012 jonathan you should also consider the propose this patch pull request 144 and comment has fixed the corner case sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.DataUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

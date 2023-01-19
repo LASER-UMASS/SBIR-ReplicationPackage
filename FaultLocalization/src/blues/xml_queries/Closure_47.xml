@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_47" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-575.json">
+<buginformation>
+<summary>original  source  line  numbers  are  one  based  source  maps</summary>
+<description>generated  source  line  column  numbers  and  original  column  numbers  are  zero  based  original  source  line  numbers  should  zero  based  well  john  what  does  the  spec  say  assume  this  source  map  encoding  issue  using  the  api  the  result  should  based  but  the  encoding  should  based  why  waste  bit  won  change  the  encoding  pavel  can  you  update  the  document  with  appropriate  text  doesn  indicate  the  starting  index  for  the  encoded  source  location  added  zero  based  all  segment  fields  definitions  this  just  encoding  problem  won  affect  users  the  common  library  this  issue  was  closed  revision  1596</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.debugging.sourcemap.SourceMapConsumerV3</file>
+<file>com.google.javascript.jscomp.SourceMap</file>
+</fixedfiles>
+</bug>
+</bugrepository>

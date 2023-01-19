@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_145" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-190.json">
+<buginformation>
+<summary>bug  with  labeled  loops  and  breaks</summary>
+<description>what  steps  will  reproduce  the  problem  try  compile  this  code  with  the  closure  compiler  var  lab  lab  break  lab  else  break  lab  while  false  while  false  console  log  what  the  expected  output  what  you  see  instead  the  generated  code  produced  var  break  while  while  console  log  which  works  all  browsers  except  looks  like  doesn  like  the  missing  brackets  just  after  the  first  instruction  what  version  the  product  are  you  using  what  operating  system  using  the  version  jun  latest  ubuntu  please  provide  any  additional  information  below  strangely  this  bug  doesn  happen  when  use  pretty  print  formatting  option  this  issue  was  closed  revision  255</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

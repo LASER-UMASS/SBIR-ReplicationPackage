@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_93" link="https://issues.apache.org/jira/browse/MATH-240">
+<buginformation>
+<summary>math utils  factorial  fails  for</summary>
+<description>the  result  mathutils  factorial  for  wrong  probably  because  rounding  errors  the  double  calculations  replace  the  first  line  mathutilstest  testfactorial  for  int  check  all  valid  arguments  for  the  long  result  and  see  the  failure  suggest  implementing  simple  loop  multiply  the  long  result  even  using  precomputed  long  instead  adding  logarithms</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.util.MathUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

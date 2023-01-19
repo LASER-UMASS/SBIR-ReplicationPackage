@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_27" link="https://issues.apache.org/jira/browse/LANG-638">
+<buginformation>
+<summary>number utils create number  throws string index out bounds exception  when  argument  containing  and  passed</summary>
+<description>numberutils  createnumber  throws  stringindexoutofboundsexception  instead  numberformatexception  when  string  containing  both  possible  exponent  indicators  passed  one  example  such  string  1ee</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_27" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-727.json">
+<buginformation>
+<summary>error  trying  build  try  catch  block  ast</summary>
+<description>example  node node try  block  var  name  quot  testing  quot  number  node node catch catch node  name  quot  blabla  quot  block  var  name  quot  testing  quot  number try catch node try node catch  throws  error  exception  thread  quot  main  quot  java  lang runtime exception  java  lang runtime exception  internal  compiler  error  please  report  this  problem  null  node  function  input  function  parent  block  input  try  solution  block  verifing  the  catch  node  statement  which  isnt  this  issue  was  closed  revision  1971</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.IR</file>
+</fixedfiles>
+</bug>
+</bugrepository>

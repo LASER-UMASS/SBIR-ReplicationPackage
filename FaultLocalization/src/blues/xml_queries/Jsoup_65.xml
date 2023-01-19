@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_65" link="https://github.com/jhy/jsoup/issues/807">
+<buginformation>
+<summary>parser  error  template  inside</summary>
+<description>been experimenting with jsoup validator for tensor board code and encountered bug have code like this name template dom smoothing enabled smoothed template value step time relative get errors like this error tensorflow tensorboard components line chart line chart html offset 1282 unexpected token start tag when state table error tensorflow tensorboard components line chart line chart html offset 1338 unexpected token end tag when state table error tensorflow tensorboard components line chart line chart html offset 1338 unexpected token end tag when state body please note that those offset numbers point the template tags template tag legal here because https www org html tabular data html the element says content model for zero more and script supporting elements and template script supporting element the text was updated successfully but these errors were encountered copy link owner jhy commented jan 2017 thanks for pointing out need refactor the insertion modes the tree builder the template object introduces insertion mode stack will probably take pass the implementation without having the children template become associated with another document document fragment like described the whatwg spec that follow not because without scripting implementation think just complexity that won help users jhy added the improvement label jan 2017 copy link author jart commented jan 2017 right now investigating whether not jsoup will good library for validating all the polymer code maintained hundreds googlers polymer code uses template very heavily want googlers able benefit from the amazing work you done what would you advise maximermilov added commit maximermilov jsoup that referenced this issue jun 2017 allow template inside thead tbody fixes jhy 807 176 jhy closed this 4fa 9339 oct 2017 jhy added this the milestone oct 2017 copy link owner jhy commented oct 2017 thanks merged 901 sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilder</file>
+<file>org.jsoup.parser.HtmlTreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

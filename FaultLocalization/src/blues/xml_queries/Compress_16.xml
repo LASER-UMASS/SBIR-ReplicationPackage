@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_16" link="https://issues.apache.org/jira/browse/COMPRESS-191">
+<buginformation>
+<summary>too  relaxed  tar  detection archive stream factory</summary>
+<description>the  relaxed  tar  detection  logic  added  compress  117  unfortunately  matches  also  some  non  tar  files  like  test  aiff  file  that  apache  tika  uses  would  good  improve  the  detection  heuristics  still  match  files  like  the  one  compress  117  but  avoid  false  positives  like  the  aiff  file  tika</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.ArchiveStreamFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

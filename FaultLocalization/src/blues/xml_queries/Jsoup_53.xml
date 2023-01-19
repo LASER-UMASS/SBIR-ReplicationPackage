@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_53" link="https://github.com/jhy/jsoup/issues/611">
+<buginformation>
+<summary>parse  failed  with  org  jsoup  select  selector selector parse exception  when  selector  has  unbalanced</summary>
+<description>selector having following div card content has subtitle title sub title title title title the text was updated successfully but these errors were encountered singingprophet changed the title parse failed with org jsoup select selector selector parse exception when selector has unbalanced parse failed with org jsoup select selector selector parse exception when selector has unbalanced aug 2015 copy link savatgithub commented aug 2015 query should allow escaping special characters part text the query jhy added the bug label may 2016 jhy added this the milestone may 2016 jhy closed this 229d may 2016 copy link owner jhy commented may 2016 thanks you quote the value now works like data title jhy mentioned this issue jan 2017 failed test while passed for contains query 803 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.TokenQueue</file>
+</fixedfiles>
+</bug>
+</bugrepository>

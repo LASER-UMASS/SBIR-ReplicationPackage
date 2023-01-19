@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_88" link="https://github.com/FasterXML/jackson-databind/issues/1735">
+<buginformation>
+<summary>missing  type  checks  when  using  polymorphic  type  ids</summary>
+<description>edited report lukes euler java type supports limited amount generic typing for textual representation originally just support typing needed for enum map think based some reports appears that some type compatibility checks are not performed those cases they should made since there potential for abuse the problem here although actual type assignment will fail later ability trigger some processing instantiation incompatible classes perhaps assingnment properties may itself vulnerability the text was updated successfully but these errors were encountered cowtowncoder added the label aug 2017 cowtowncoder added this the milestone aug 2017 cowtowncoder removed the label aug 2017 cowtowncoder closed this 445d aug 2017 cowtowncoder modified the milestone aug 2017 copy link member author cowtowncoder commented aug 2017 fixed cowtowncoder added commit that referenced this issue sep 2017 update release notes credits wrt 1735 50047c cowtowncoder added the cve label dec 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels cve projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

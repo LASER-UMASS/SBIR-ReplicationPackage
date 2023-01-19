@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_17" link="https://sourceforge.net/p/joda-time/bugs/141">
+<buginformation>
+<summary>141  bug with later offset overlap  method</summary>
+<description>the  method with later offset overlap  created  workaround  the  issue  3192457  seems  not  working  all  won  write  many  info  about  the  problem  solve  because  the  issue  3192457  have  this  info  indeed  but  something  unclear  can  answer  the  comments  problem  demonstration time zone set default time zone get time zone  america  sao  paulo date time zone set default date time zone  for  america  sao  paulo date time  dtch  dtch  new date time  2012 millis day with maximum value  system  out  println  dtch  prints  2012  999  were  are  the  first  the  day  this  point  dtch  have  the  offset  dtch  dtch  plus  60001  system  out  println  dtch  prints  2012  000  were  are  the  first  minute  the  second  the  day  its  correct  this  point  dtch  have  the  offset  dtch  dtch with earlier offset overlap  system  out  println  dtch  prints  2012  000  were  are  the  first  minute  the  first  the  day  its  correct  this  point  dtch  have  the  offset  because  called with earlier offset overlap  this  method  working  perfectly  dtch  dtch with later offset overlap  system  out  println  dtch  prints  2012  000  were  are  the  first  minute  the  first  the  day  here  the  problem  should  have  offset  here  since  called with later offset overlap  expecting  change  the  second  the  day  the  last  two  brackets  can  see  that with later offset overlap  not  undoing with earlier offset overlap  should  and  not  even  working  all</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.DateTimeZone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

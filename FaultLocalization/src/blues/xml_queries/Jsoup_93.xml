@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_93" link="https://github.com/jhy/jsoup/issues/1231">
+<buginformation>
+<summary>input  type  image  not  special  cased form data  method</summary>
+<description>edited the following code import org jsoup jsoup import org jsoup nodes form element class scratch public static void main string args system out println form element jsoup parse form input type image name form get element form data returns the following output when either expected not sure which but definitely wrong the text was updated successfully but these errors were encountered xfix changed the title input type image not special cased form data method remove please jun 2019 xfix closed this jun 2019 xfix changed the title remove please input type image not special cased form data method jun 2019 xfix reopened this jun 2019 jhy closed this 9439f jul 2019 jhy added the bug label jul 2019 jhy added this the milestone jul 2019 copy link owner jhy commented jul 2019 thanks fixed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.FormElement</file>
+</fixedfiles>
+</bug>
+</bugrepository>

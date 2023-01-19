@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_79" link="https://github.com/jhy/jsoup/issues/1032">
+<buginformation>
+<summary>leaf node child nodes  throws unsupported operation exception</summary>
+<description>leaf node child nodes throws unsupported operation exception since this commit 71712b diff 605d 28890f 72a 43298f 842d 3414f the javadoc node child nodes says this return list children children returns empty list but the case leaf node which has children throws unsupported operation exception this because child nodes calls ensure child nodes which throws exception when called leaf node the result that the calling application needs guard against this case but the application should not need know the node has leaf node not leaf node child nodes should simply return empty list used and per the javadoc the text was updated successfully but these errors were encountered mattp referenced this issue mar 2018 project slimfast loading status checks 71712b refactored node hierarchy that leaf nodes text comments scripts etc use bytes bytes each jhy added the bug label apr 2018 jhy closed this 1028b apr 2018 copy link owner jhy commented apr 2018 thanks for reporting this issue fixed jhy added this the milestone apr 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.LeafNode</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_77" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-383.json">
+<buginformation>
+<summary>and  0000  are  translated  null  character</summary>
+<description>what  steps  will  reproduce  the  problem  write  script  with  string  constant  quot  quot  quot  quot  quot  0000  quot  what  the  expected  output  what  you  see  instead  expected  string  literal  with  quot  quot  something  like  that  and  instead  get  string  literal  with  three  null  character  values  what  version  the  product  are  you  using  what  operating  system  compiler  20110119  zip  windows  please  provide  any  additional  information  below  this  causing  issue  with  and  query get script  causes  interpret  the  null  character  the  end  the  file  instead  null  character  this  issue  was  closed  revision  904</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_59" link="https://github.com/jhy/jsoup/issues/793">
+<buginformation>
+<summary>jsoup  clean  control  characters  throws illegal argument exception  string  must  not  empty</summary>
+<description>found that when running jsoup clean string that contains the format below jsoup throws illegal argument exception string must not empty the problematic string format where control char char followed letter then any chars and any control char ascii except any chars and char the text was updated successfully but these errors were encountered copy link owner jhy commented jan 2017 fixed thanks jhy closed this 623db jan 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.Token</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_25" link="https://github.com/mockito/mockito/issues/230">
+<buginformation>
+<summary>null  pointer  when  invoking  whitebox invoke method  with  null  one  the  params  null</summary>
+<description>getting below exceptions when trying invoke whitebox invoke method erx provider manager set command provider null retait mail version used failed test set enrollment command with enrollment with null java lang null pointer exception java lang class assignable from native method org powermock reflect internal whitebox impl check parameter types are same whitebox impl java 2257 org powermock reflect internal whitebox impl get methods whitebox impl java 1800 org powermock reflect internal whitebox impl get best method candidate whitebox impl java 955 org powermock reflect internal whitebox impl find method throw exception whitebox impl java 832 org powermock reflect internal whitebox impl invoke method whitebox impl java 770 org powermock reflect internal whitebox impl invoke method whitebox impl java 638 org powermock reflect whitebox invoke method whitebox java 401 the text was updated successfully but these errors were encountered copy link contributor bric commented jun 2015 powermock api also the code you mentioning use internal api which not thought for use outside the library bric added the invalid label jun 2015 bric closed this jun 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels invalid projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs</file>
+</fixedfiles>
+</bug>
+</bugrepository>

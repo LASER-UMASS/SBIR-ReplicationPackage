@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_7" link="https://issues.apache.org/jira/browse/CLI-121">
+<buginformation>
+<summary>tests  fail  under  error  end  that  may  may  not  related</summary>
+<description>testsuite  org  apache  commons  cli  bug bug 27575test  tests  run  failures  errors  time  elapsed  058  sec  testcase  testrequiredoptions  org  apache  commons  cli  bug bug 27575test  failed  expected  but  was  arg  junit  framework  comparisonfailure  expected  but  was  arg  org  apache  commons  cli  bug bug 27575test  testrequiredoptions bug 27575test  java  sun  reflect  nativemethodaccessorimpl  invoke  native  method  sun  reflect  nativemethodaccessorimpl  invoke  nativemethodaccessorimpl  java  and  error  end  exception  thread  thread  javax  xml  transform  transformerfactoryconfigurationerror  provider  for  javax  xml  transform  transformerfactory  cannot  found  javax  xml  transform  transformerfactory  newinstance  unknown  source  java  util  prefs  xmlsupport  writedoc  xmlsupport  java  246  java  util  prefs  xmlsupport  exportmap  xmlsupport  java  333  java  util  prefs  filesystempreferences  run  filesystempreferences  java  607</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli2.builder.PatternBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

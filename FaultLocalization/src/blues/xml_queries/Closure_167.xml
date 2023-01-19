@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_167" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-783.json">
+<buginformation>
+<summary>invalid  property  not  erroring  for  loop  prototype  function</summary>
+<description>think  this  example  can  simplified  use  typedef  instead  externs  but  using  extern  for  the  repro  case  compile  the  attached  with  java  jar  build  compiler  jar  formatting  pretty  print  jscomp  error check types  jscomp  error externs validation  compilation  level  simple  optimizations  externs  inloop  externs  inloop  pasted  below  for  completeness  would  expect  error  the  line  the  for  loop  the  function  but  this  compiles  just  fine  the  commented  out  line  above  properly  errors  and  the  same  code  outside  prototype  function  errors  does  not  error  within  the  prototype  function  thanks  param  thing  thing  constructor  class  function  thing  type  thing  this  thing  thing  class  prototype  function  var  subthing  this  thing  subthing  errors  window  console  log  subthing  noprop  error  for  var  subthing  noprop  window  console  log  var  thing  type  thing  subthing  prop  errors  var  subthing  thing  subthing  for  var  subthing  noprop  window  console  log  var  new  class  thing  this  issue  was  closed  revision  2121</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter</file>
+<file>com.google.javascript.rhino.jstype.JSType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

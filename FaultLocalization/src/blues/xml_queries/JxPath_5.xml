@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_5" link="https://issues.apache.org/jira/browse/JXPATH-89">
+<buginformation>
+<summary>cannot  compare  pointers  that  not  belong  the  same  tree</summary>
+<description>for  xpath  var  main  exception  thrown  org  apache  commons  jxpath  jxpathexception  cannot  compare  pointers  that  not  belong  the  same  tree  var  and  org  apache  commons  jxpath  model  nodepointer  comparenodepointers  nodepointer  java  665  org  apache  commons  jxpath  model  nodepointer  comparenodepointers  nodepointer  java  649  org  apache  commons  jxpath  model  nodepointer  comparenodepointers  nodepointer  java  649  org  apache  commons  jxpath  model  nodepointer  compareto  nodepointer  java  639  java  util  arrays  mergesort  arrays  java  1152  java  util  arrays  sort  arrays  java  1079  java  util  collections  sort  collections  java  113  org  apache  commons  jxpath  evalcontext  constructiterator  evalcontext  java  176  org  apache  commons  jxpath  evalcontext  hasnext  evalcontext  java  100  org  apache  commons  jxpath  jxpathcontext  selectnodes  jxpathcontext  java  648  org  apache  commons  jxpath  model  variablepointertestcase  testunionofvariableandnode  variablepointertestcase  java</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.NodePointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

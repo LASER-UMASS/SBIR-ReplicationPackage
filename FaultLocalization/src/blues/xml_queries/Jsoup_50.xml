@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_50" link="https://github.com/jhy/jsoup/issues/695">
+<buginformation>
+<summary>utf  streams  with  bom  are  processed  utf</summary>
+<description>the handling the character encoding org jsoup helper data util parse byte data bugged when the input utf stream with unicode bom this method does check for presence bom and finds one incorrectly assumes that this was utf bom fix this the code would have check the raw bom bytes the distinction between the various lost after conversion characters see also http unicode org faq utf bom html bom the text was updated successfully but these errors were encountered copy link owner jhy commented apr 2016 you know any example sites can validate fix jhy added the needs more info label apr 2016 copy link author arjohn kampman commented apr 2016 perhaps this one has utf bom http www 18nguy com unicode plane utf html jhy added bug and removed needs more info labels apr 2016 jhy added this the milestone apr 2016 jhy closed this 3cbe apr 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.DataUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

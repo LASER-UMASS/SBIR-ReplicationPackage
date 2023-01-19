@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_34" link="https://issues.apache.org/jira/browse/LANG-586">
+<buginformation>
+<summary>use thread locals string style  and hash code builder  trigger  memory  leaks  container  environments</summary>
+<description>the  thread  local  org  apache  commons  lang  builder  tostringstyle  created  but  never  removed  and  api  provided  remove  webapp  use  lang  triggers  the  loading  this  class  reference  chain  will  created  that  will  cause  memory  leak  web  application  reload  see  http  markmail  org  thread uetw 2fdrsqgbh 2cv  for  more  info</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.builder.ToStringStyle</file>
+</fixedfiles>
+</bug>
+</bugrepository>

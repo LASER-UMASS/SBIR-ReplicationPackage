@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_54" link="https://issues.apache.org/jira/browse/MATH-567">
+<buginformation>
+<summary>class  dfp  double  method  return  inf  whan  dfp  value  zero</summary>
+<description>found  bug  the  todouble  method  the  dfp  class  the  dfp  value  zero  the  todouble  method  returns  negative  infini  this  because  the  double  value  returned  has  exposant  equal  0xfff  and  significand  equal  the ieee 754  this  inf  equal  zero  the  exposant  and  the  significand  must  equal  zero  simple  test  case  import  org  apache  commons  math  dfp  dfpfield  public  class  test  param  args  public  static  void  main  string  args  dfpfield  field  new  dfpfield  100  system  out  println  todouble  value  getzero  field  getzero  todouble  ntodouble  value  newdfp  field  newdfp  todouble  may  the  simplest  way  fix  test  the  zero  equality  the  begin  the  todouble  method  able  return  the  correctly  signed  zero</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.dfp.Dfp</file>
+</fixedfiles>
+</bug>
+</bugrepository>

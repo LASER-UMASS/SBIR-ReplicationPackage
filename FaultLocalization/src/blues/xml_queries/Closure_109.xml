@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_109" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1105.json">
+<buginformation>
+<summary>constructor  types  that  return  all  unknown  fail  parse</summary>
+<description>constructor  types  that  return  the  all  type  the  unknown  type  currently  fail  parse  type  function  new  var  foo  function  type  function  new  var  bar  function  foo  error  bad  type  annotation  type  not  recognized  due  syntax  error  type  function  new  var  foo  function  foo  error  bad  type  annotation  type  not  recognized  due  syntax  error  type  function  new  var  bar  function  this  issue  for  code  generator  that  working  this  seems  similar  issue 790 the  parse  simply  needs  change  from  only  accepting  type  name  accepting  type  one  line  change  tests  would  think  seems  reasonable  that  this  could  record  type  anything  else  the  work  around  use  typedef  typedef  var  unknown  type  function  new  unknown  not  convinced  should  allow  function  new  because  function  new  string  impossible  the  proper  way  express  this  function  new  object  however  should  probably  emit  more  sensible  warning  rather  than  treating  syntax  error  posted  fix  here  https  codereview  appspot  com  21200043  this  issue  was  closed  revision 26b 7bcae  this  issue  was  closed  revision 763faa 34d  this  issue  was  closed  revision 26b 7bcae</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.parsing.JsDocInfoParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

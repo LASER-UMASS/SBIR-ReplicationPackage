@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_19" link="https://issues.apache.org/jira/browse/CLI-164">
+<buginformation>
+<summary>posix parser  ignores  unrecognized  tokens  starting  with</summary>
+<description>posixparser  doesn  handle  properly  unrecognized  tokens  starting  with  when  stopatnonoption  enabled  the  token  simply  ignored  for  example  the  option  defined  the  following  command  line  foo  interpreted  foo</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.PosixParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

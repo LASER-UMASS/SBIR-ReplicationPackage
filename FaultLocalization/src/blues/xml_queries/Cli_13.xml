@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_13" link="https://issues.apache.org/jira/browse/CLI-61">
+<buginformation>
+<summary>cli  argument  defaults  prevent  commandline  usage</summary>
+<description>have  found  bug  the  following  scenario  you  have  option  which  can  take  single  argument  which  turn  has  default  value  you  supply  value  the  command  line  which  intended  override  this  default  however  the  commandline  already  has  value  for  this  option  this  second  value  not  allowed  and  the  command  line  cannot  parsed  have  created  patch  which  adds  method  writablecommandline  and  its  impl  which  allows  you  retrieve  the  undefaulted  values  for  option  have  then  changed  argumentimpl  use  this  method  determine  the  argument  count</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli2.WriteableCommandLine</file>
+<file>org.apache.commons.cli2.commandline.WriteableCommandLineImpl</file>
+<file>org.apache.commons.cli2.option.ArgumentImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

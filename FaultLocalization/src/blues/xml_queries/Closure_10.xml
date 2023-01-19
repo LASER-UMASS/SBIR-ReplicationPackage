@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_10" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-821.json">
+<buginformation>
+<summary>wrong  code  generated  mixing  types  ternary  operator</summary>
+<description>what  steps  will  reproduce  the  problem  use  google  closure  compiler  compile  this  code  var  math  random  you  can  either  simple  advanced  doesn  matter  what  the  expected  output  what  you  see  instead  seeing  this  result  var  math  random  this  obviously  wrong  the  string  literal  got  converted  number  and  got  combined  into  while  that  not  134  not  what  version  the  product  are  you  using  what  operating  system  please  provide  any  additional  information  below  seems  like  this  issue  happens  only  when  you  are  mixing  types  together  both  and  are  string  literals  they  are  both  numbers  won  happen  was  also  little  surprised  see  this  happening  simple  mode  actually  breaks  the  behavior  thank  you  for  the  report  this  issue  was  closed  revision  2206</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

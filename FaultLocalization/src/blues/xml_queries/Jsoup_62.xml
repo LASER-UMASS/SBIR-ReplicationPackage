@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_62" link="https://github.com/jhy/jsoup/issues/819">
+<buginformation>
+<summary>wrong  parsing  case  sensitive  html</summary>
+<description>edited executing string xml parser parser parser html parser parser settings parse settings preserve case org jsoup nodes document doc parser parse input xml results html head head body body html manual hacking remove all lower case invocations from token java normal name the text was updated successfully but these errors were encountered tran changed the title wrong parsing case sensitive html parsing wrong parsing case sensitive html jan 2017 jhy added this the milestone jun 2017 jhy added the bug label jun 2017 jhy closed this 934c jun 2017 copy link owner jhy commented jun 2017 thanks fixed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

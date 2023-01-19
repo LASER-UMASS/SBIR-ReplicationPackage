@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_67" link="https://issues.apache.org/jira/browse/MATH-393">
+<buginformation>
+<summary>method get result multi start univariate real optimizer</summary>
+<description>multistartunivariaterealoptimizer  package  optimization  the  method  getresult  returns  the  result  the  last  run  the  underlying  optimizer  this  last  result  might  not  the  best  one  which  case  will  not  correspond  the  value  returned  the  optimize  method  this  confusing  and  does  not  seem  very  useful  think  that  getresult  should  defined  public  double  getresult  return  optima  and  similarly  public  double  getfunctionvalue  return  optimavalues</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

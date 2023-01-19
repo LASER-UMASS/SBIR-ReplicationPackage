@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_11" link="https://issues.apache.org/jira/browse/LANG-807">
+<buginformation>
+<summary>random string utils  throws  confusing  iae  when  end  start</summary>
+<description>randomutils  invokes  random  nextint  where  end  start  end  start  then  random  throws  java  lang  illegalargumentexception  must  positive  this  confusing  and  does  not  identify  the  source  the  problem</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.RandomStringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

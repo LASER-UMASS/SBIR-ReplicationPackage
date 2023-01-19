@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_81" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-251.json">
+<buginformation>
+<summary>unnamed  function  statement  statements  should  generate  parse  error</summary>
+<description>unnamed  function  statement  statements  should  generate  parse  error  but  does  not  for  example  function  note  unnamed  function  expression  are  legal  function  this  issue  was  closed  revision  797</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.parsing.IRFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

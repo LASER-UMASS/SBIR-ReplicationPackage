@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_4" link="https://issues.apache.org/jira/browse/CODEC-89">
+<buginformation>
+<summary>new  base  encode  appends  crlf  and  chunks  results  into  character  lines</summary>
+<description>the  instance  encode  method  new  base  encode  appends  crlf  actually  fully  chunking  the  output  into  character  lines  commons  codec  did  not  this  the  static  base  encodebase  method  behaves  the  same  both  and  this  problem  only  affects  the  instance  encode  method  import  org  apache  commons  codec  binary  public  class  public  static  void  main  string  args  throws  exception  base  new  base  string  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  string  aaaaaaaaaa  string  byte  getbytes  utf  byte  getbytes  utf  byte  getbytes  utf  byte  result  result  base  encodebase  system  out  println  new  string  result  utf  result  encode  system  out  println  new  string  result  utf  result  base  encodebase  system  out  println  new  string  result  utf  result  encode  system  out  println  new  string  result  utf  result  base  encodebase  system  out  println  new  string  result  utf  result  encode  system  out  println  new  string  result  utf  here  output  java  commons  codec  jar  ywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhyq  ywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhyq  ywfhywfhywfhyq  ywfhywfhywfhyq  java  commons  codec  jar  ywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhyq  ywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfhywfh  ywfhywfhywfhywfhywfhywfhywfhywfhyq  ywfhywfhywfhyq  ywfhywfhywfhyq</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.Base64</file>
+</fixedfiles>
+</bug>
+</bugrepository>

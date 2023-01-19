@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Chart_11" link="https://sourceforge.net/p/jfreechart/bugs/868">
+<buginformation>
+<summary>868  common shape utilities  equal  path  path</summary>
+<description>the  comparison  two general path  objects  uses  the  same path iterator  for  both  objects  equal general path  path general path  path  will  thus  return  true  for  any  pair  non  null general path  instances  having  the  same winding rule</description>
+</buginformation>
+<fixedfiles>
+<file>org.jfree.chart.util.ShapeUtilities</file>
+</fixedfiles>
+</bug>
+</bugrepository>

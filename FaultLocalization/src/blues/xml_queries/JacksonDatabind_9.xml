@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_9" link="https://github.com/FasterXML/jackson-databind/issues/682">
+<buginformation>
+<summary>deserializing  map  class  extends  object  string</summary>
+<description>having problems deserializing map class extends object string simple test case demonstrates test public void test map with class key throws exception map class extends object string map new hash map map put array list class array list map put hash map class hash map object mapper mapper new object mapper string json mapper writer with default pretty printer write value string map system out println json mapper read value json new type reference map class extends object string this test serializes the map class java util array list array list class java util hash map hash map mapper read value json new type reference map class extends object string then throws exception com fasterxml jackson databind exc invalid format exception can not construct map key type java lang class from string class java util array list not valid representation can not construct map key type java lang class from string class java util array list unable parse key class source understood from 630 the key deserializer for class should part jackson missing something the text was updated successfully but these errors were encountered copy link member cowtowncoder commented jan 2015 looks like problem with serialization not deserialization output not correct appears use class string need have look map serializers handling key types cowtowncoder closed this 00bb 11e jan 2015 copy link member cowtowncoder commented jan 2015 added handling class keys unfortunately key serializers are separate from value serializers sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.std.StdKeySerializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

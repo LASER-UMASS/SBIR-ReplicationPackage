@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_70" link="https://github.com/FasterXML/jackson-databind/issues/1493">
+<buginformation>
+<summary>fails  with</summary>
+<description>note moved from faster xml jackson dataformat csv 133 when trying deserialize type like public class person json unwrapped prefix business address public address business address public class address public string street public string addon public string zip public string town public string country with case insensitive mapper mapper enable mapper feature accept case insensitive properties get exception java util such element exception entry business address found can remove com fasterxml jackson databind deser impl bean property map remove bean property map java 447 com fasterxml jackson databind deser bean deserializer base resolve bean deserializer base java 534 com fasterxml jackson databind deser deserializer cache create and cache deserializer cache java 293 the text was updated successfully but these errors were encountered cowtowncoder added this the milestone jan 2017 cowtowncoder closed this 7155de jan 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap</file>
+</fixedfiles>
+</bug>
+</bugrepository>

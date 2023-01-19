@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_13" link="https://github.com/FasterXML/jackson-core/pull/246">
+<buginformation>
+<summary>fix utf json generator  allow  quote  field  names  toggled</summary>
+<description>description provided fix utf json generator allow quote field names toggled 9870f cowtowncoder added commit that referenced this pull request feb 2016 fix 246 58d 420 cowtowncoder added this the milestone feb 2016 copy link member cowtowncoder commented feb 2016 thank you for contributing this ended merging slightly modified form partly since wanted backported and master now for snapshot and partly refactor make char backed output also use same mechanism fix will included released soon cowtowncoder closed this feb 2016 sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels none yet projects none yet milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.json.JsonGeneratorImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

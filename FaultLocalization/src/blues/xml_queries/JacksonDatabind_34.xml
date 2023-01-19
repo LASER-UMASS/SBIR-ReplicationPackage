@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_34" link="https://github.com/FasterXML/jackson-databind/issues/1045">
+<buginformation>
+<summary>regression  for  schema  introspection  for</summary>
+<description>found via avro module but surprisingly json schema module has not test catch looks like schema type for big decimal not correctly produced due error refactoring made simplify introspection for simple serializers seen big integer and for avro for example results long getting written the text was updated successfully but these errors were encountered cowtowncoder closed this 471c dec 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.std.NumberSerializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

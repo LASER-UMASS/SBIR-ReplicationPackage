@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_45" link="https://issues.apache.org/jira/browse/MATH-679">
+<buginformation>
+<summary>integer  overflow open map real matrix</summary>
+<description>computekey  has  integer  overflow  since  sparse  matrix  this  quite  easily  encountered  long  before  heap  space  exhausted  the  attached  code  demonstrates  the  problem  which  could  potentially  security  vulnerability  for  example  one  was  use  this  matrix  store  access  control  information  workaround  never  create  openmaprealmatrix  with  more  cells  than  are  addressable  with  int</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.linear.OpenMapRealMatrix</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_22" link="https://issues.apache.org/jira/browse/LANG-662">
+<buginformation>
+<summary>org  apache  commons  lang  math  fraction  does  not  reduce  integer  min  value</summary>
+<description>the  greatestcommondivisor  method  class  fraction  does  not  find  the  gcd  integer  min  value  and  and  this  case  can  triggered  taking  integer  min  value  the  numerator  note  that  the  case  taking  integer  min  value  the  denominator  handled  explicitly  the  getreducedfraction  factory  method  fractiontest  java  additional  test  cases  public  void  testreducedfactory  int  int  fraction  getreducedfraction  integer  min  value  assertequals  integer  min  value  getnumerator  assertequals  getdenominator  public  void  testreduce  fraction  getfraction  integer  min  value  result  reduce  assertequals  integer  min  value  result  getnumerator  assertequals  result  getdenominator</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.Fraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

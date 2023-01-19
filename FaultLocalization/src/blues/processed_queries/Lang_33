@@ -1,0 +1,6 @@
+<parameters>
+	<query>
+		<number>Lang_33</number>
+		<text> #weight(1.0 class.(class) 1.0 utils.(class) 1.0 class.(class) 1.0 object.(class) 1.0 throws.(class) 1.0 npe.(class) 1.0 null.(class) 1.0 array.(class) 1.0 element.(class)  1.0 see.(class) 1.0 summary.(class)  1.0 class.(method) 1.0 utils.(method) 1.0 class.(method) 1.0 object.(method) 1.0 throws.(method) 1.0 npe.(method) 1.0 null.(method) 1.0 array.(method) 1.0 element.(method)  1.0 see.(method) 1.0 summary.(method)  1.0 class.(identifier) 1.0 utils.(identifier) 1.0 class.(identifier) 1.0 object.(identifier) 1.0 throws.(identifier) 1.0 npe.(identifier) 1.0 null.(identifier) 1.0 array.(identifier) 1.0 element.(identifier)  1.0 see.(identifier) 1.0 summary.(identifier)  1.0 class.(comments) 1.0 utils.(comments) 1.0 class.(comments) 1.0 object.(comments) 1.0 throws.(comments) 1.0 npe.(comments) 1.0 null.(comments) 1.0 array.(comments) 1.0 element.(comments)  1.0 see.(comments) 1.0 summary.(comments)  )</text>
+	</query>
+</parameters>

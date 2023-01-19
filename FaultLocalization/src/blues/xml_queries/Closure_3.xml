@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_3" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-864.json">
+<buginformation>
+<summary>optimization  fails  with  variable  catch  clause</summary>
+<description>enter  the  following  the  closure  service  function get stack  var get error object  function  try  throw  error  quot  quot  catch  err  return  err  return get error object  stack  window get stack trace get stack  use  optimization  simple  note  the  following  result  function get stack  try  throw  error  quot  quot  catch  return  stack  window get stack trace get stack  the  scope  the  variable  limited  the  catch  clause  but  the  compiler  references  illegally  the  return  value  the  inlined  function  thanks  for  the  report  and  the  reduced  test  case  looks  like  the  flow  sensitive  variable  inliner  causing  this  problem  have  fix  for  this  this  issue  was  closed  revision  2415</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.FlowSensitiveInlineVariables</file>
+</fixedfiles>
+</bug>
+</bugrepository>

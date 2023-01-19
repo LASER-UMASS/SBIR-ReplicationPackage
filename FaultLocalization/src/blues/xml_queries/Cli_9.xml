@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_9" link="https://issues.apache.org/jira/browse/CLI-149">
+<buginformation>
+<summary>missing option exception get message  changed  from  cli</summary>
+<description>the  missingoptionexception  getmessage  string  changed  from  cli  cli  was  poorly  formatted  but  readable  missing  required  options  format  source  properties  cli  almost  unreadable  missing  required  options  formatsourceproperties  cli  options  addoption  option  prefixed  the  stored  options  with  and  cli  doesn  would  suggest  changing  parser  checkrequiredoptions  add  the  options  the  error  message  with  prefix  old  loop  through  the  required  options  while  iter  hasnext  buff  append  iter  next  new  loop  through  the  required  options  while  iter  hasnext  buff  append  iter  next  resulting  missing  required  options  format  source  properties</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Parser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

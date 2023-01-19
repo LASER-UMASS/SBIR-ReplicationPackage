@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_66" link="https://issues.apache.org/jira/browse/MATH-395">
+<buginformation>
+<summary>bugs brent optimizer</summary>
+<description>apologize  for  having  provided  buggy  implementation  brent  optimization  algorithm  class  brentoptimizer  package  optimization  univariate  the  unit  tests  didn  show  that  there  was  something  wrong  although  from  the  changes  xml  file  discovered  that  the  time  luc  had  noticed  something  weird  the  implementation  behaviour  comparing  with  implementation  python  could  figure  out  the  fixes  modify  brentoptimizer  and  add  test  also  propose  change  the  name  the  unit  test  class  from  brentminimizertest  brentoptimizertest</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.univariate.BrentOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

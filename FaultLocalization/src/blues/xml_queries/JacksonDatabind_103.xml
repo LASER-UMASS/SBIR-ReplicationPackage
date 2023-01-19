@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_103" link="https://github.com/FasterXML/jackson-databind/issues/2128">
+<buginformation>
+<summary>location  information  included  twice  for  some</summary>
+<description>looks like due some double processing certain kinds json mapping exception observed with invalid format exception seem include source twice this probably due calls get message that add location being used pass message property when wrapping creating exceptions the text was updated successfully but these errors were encountered cowtowncoder added active labels sep 2018 cowtowncoder removed the active label sep 2018 cowtowncoder closed this 6cf 181 sep 2018 istudens mentioned this issue jan 2020 json mapping exception location column number one line behind the actual location 2482 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.DatabindContext</file>
+<file>com.fasterxml.jackson.databind.DeserializationContext</file>
+<file>com.fasterxml.jackson.databind.JsonMappingException</file>
+<file>com.fasterxml.jackson.databind.SerializerProvider</file>
+<file>com.fasterxml.jackson.databind.deser.BasicDeserializerFactory</file>
+<file>com.fasterxml.jackson.databind.deser.BeanDeserializerFactory</file>
+<file>com.fasterxml.jackson.databind.deser.DeserializerCache</file>
+<file>com.fasterxml.jackson.databind.deser.SettableAnyProperty</file>
+<file>com.fasterxml.jackson.databind.deser.SettableBeanProperty</file>
+<file>com.fasterxml.jackson.databind.deser.std.StdDeserializer</file>
+<file>com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer</file>
+<file>com.fasterxml.jackson.databind.deser.std.StdValueInstantiator</file>
+<file>com.fasterxml.jackson.databind.introspect.BasicBeanDescription</file>
+<file>com.fasterxml.jackson.databind.ser.DefaultSerializerProvider</file>
+<file>com.fasterxml.jackson.databind.ser.PropertyBuilder</file>
+<file>com.fasterxml.jackson.databind.util.ClassUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

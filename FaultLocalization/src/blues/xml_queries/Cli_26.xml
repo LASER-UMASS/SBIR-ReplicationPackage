@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_26" link="https://issues.apache.org/jira/browse/CLI-177">
+<buginformation>
+<summary>option builder  not  reseted  case  iae  create</summary>
+<description>the  call  optionbuilder  create  fails  with  illegalargumentexception  the  optionbuilder  not  resetted  and  its  next  usage  may  contain  unwanted  settings  actually  this  let  the  cli  rcs  fail  ibm  jdk  running  maven</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.OptionBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

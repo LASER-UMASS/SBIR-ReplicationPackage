@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_13" link="https://github.com/mockito/mockito/issues/138">
+<buginformation>
+<summary>fix  proposal  for  114</summary>
+<description>description provided fix proposal for 114 99c 60a copy link member mockitoguy commented dec 2014 bric can you take look this one you don have time just merge all existing tests are passing thanks for the fix copy link contributor bric commented dec 2014 sorry for the late feedback looks good anyway you have merged already 03bf copy link contributor bric commented dec 2014 fixed 03bf bric closed this dec 2014 bric added the bug label dec 2014 sign for free join this conversation git hub already have account sign comment reviewers reviews assignees one assigned labels bug projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.MockHandler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

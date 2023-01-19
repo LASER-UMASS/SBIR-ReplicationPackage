@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_21" link="https://github.com/jhy/jsoup/issues/179">
+<buginformation>
+<summary>selector  parsing  gets  confused  commata  regexes</summary>
+<description>the selector div matches causes java util regex pattern syntax exception because query parser line thinks that the comma inside the regex combinator and thus extracts matches the second alternative instead scanning ahead with chomp the parser needs parse its way through the alternative until reaches comma the end string that way commata regular expressions will correctly interpreted part the regex note that there may many more variations this bug the parser wherever construct allows embedding arbitrary string one should expect this problem attr for example likely cause the same issue way any invocation chomp needs examined the text was updated successfully but these errors were encountered copy link author eyealike commented apr 2012 currently work around this escaping the comma the regex div matches jhy closed this 249e apr 2012 copy link owner jhy commented apr 2012 thanks for pointing this out fixed now copy link author eyealike commented apr 2012 thank you mon apr 2012 jonathan hedley reply reply github com wrote thanks for pointing this out fixed now reply this email directly view git hub 179 comment hannes schmidt software engineer eyealike inc 206 696 2316 hannes eyealike com sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.select.CombiningEvaluator</file>
+<file>org.jsoup.select.QueryParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_3" link="https://issues.apache.org/jira/browse/CSV-58">
+<buginformation>
+<summary>unescape  handling  needs  rethinking</summary>
+<description>the  current  escape  parsing  converts  esc  char  plain  char  the  char  not  one  the  special  characters  escaped  this  can  affect  unicode  escapes  the  esc  character  backslash  one  way  round  this  specifically  check  for  char  but  seems  wrong  only  this  for  another  solution  would  leave  esc  char  unless  the  char  one  the  special  characters  there  are  several  possible  ways  treat  unrecognised  escapes  treat  the  escape  char  had  not  been  present  current  behaviour  leave  the  escape  char  throw  exception</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.Lexer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

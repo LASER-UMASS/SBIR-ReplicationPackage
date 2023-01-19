@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_24" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-737.json">
+<buginformation>
+<summary>goog  scope  doesn  properly  check  declared  functions</summary>
+<description>the  following  code  compiler  error  goog  scope  function  var  function  but  the  following  code  not  goog  scope  function  function  both  code  snippets  should  compiler  error  because  they  prevent  the  goog  scope  from  being  unboxed  this  issue  was  closed  revision  1993</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ScopedAliases</file>
+</fixedfiles>
+</bug>
+</bugrepository>

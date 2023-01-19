@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_36" link="https://github.com/FasterXML/jackson-databind/issues/803">
+<buginformation>
+<summary>allow  use</summary>
+<description>object mapper uses the std date format for date serialization jackson date parsing lenient default 2015 gets parsed 2015 jackson std date parser matching default behavior date parser std date parser wasn really designed for extension just enable strict date parsing were could just call object mapper set date format new std date format set lenient false but std date fomrat doesn support setting lenient false and the reason date like 2015 gets parsed 2015 jackson date parsing lenient defualt can std date format can enhanced support non lenient date parsing the text was updated successfully but these errors were encountered copy link member cowtowncoder commented may 2015 was about comment that set lenient exists from the base class but then realized that while true that will not have effect date format instances that are actually used should possible support non leniency setting can not change set lenient chainable non covariant change illegal think but could changed pass setting contained format instances cowtowncoder changed the title lenient date parsing std date format support for non lenient date parsing can call std date fomrat set lenient false allow use std date format set lenient dec 2015 cowtowncoder added this the milestone dec 2015 cowtowncoder closed this 48e 992 dec 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.util.StdDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

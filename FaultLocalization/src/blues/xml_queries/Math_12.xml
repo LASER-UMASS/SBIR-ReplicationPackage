@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_12" link="https://issues.apache.org/jira/browse/MATH-927">
+<buginformation>
+<summary>gamma distribution  cloning  broken</summary>
+<description>serializing  gammadistribution  and  deserializing  does  not  result  cloned  distribution  that  produces  the  same  samples  cause  gammadistribution  inherits  from  abstractrealdistribution  which  implements  serializable  abstractrealdistribution  has  random  which  have well 19937c  instance  which  inherits  from  abstractwell  abstractwell  implements  serializable  abstractwell  inherits  from  bitsstreamgenerator  which  not  serializable  but  does  have  private  field  nextgaussian  solution  make  bitstreamgenerator  implement  serializable  well  this  probably  affects  other  distributions  well</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.random.BitsStreamGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

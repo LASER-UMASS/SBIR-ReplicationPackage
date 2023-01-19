@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_8" link="https://issues.apache.org/jira/browse/COMPRESS-113">
+<buginformation>
+<summary>tar archive entry parse tar header  includes  the  trailing  space  nul  when  parsing  the  octal  size</summary>
+<description>tararchiveentry  parsetarheader  includes  the  trailing  space  nul  when  parsing  the  octal  size  although  the  size  field  the  header  bytes  the  last  byte  supposed  space  nul  only  octal  digits  are  allowed  for  the  size</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

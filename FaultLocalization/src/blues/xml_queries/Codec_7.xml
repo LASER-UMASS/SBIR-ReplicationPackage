@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_7" link="https://issues.apache.org/jira/browse/CODEC-99">
+<buginformation>
+<summary>base encode base string  shouldn  chunk</summary>
+<description>base encodebase 64string  shouldn  chunk  change  this  public  static  string encodebase 64string  byte  binarydata  return  stringutils  newstringutf  encodebase  binarydata  true  this  public  static  string encodebase 64string  byte  binarydata  return  stringutils  newstringutf  encodebase  binarydata  false  this  will  fix  the  following  tests  ggregory  added  few  minutes  ago  assertequals  base encodebase 64string  stringutils  getbytesutf  assertequals  base encodebase 64string  stringutils  getbytesutf  assertequals  base encodebase 64string  stringutils  getbytesutf  foo  assertequals  9vyg  base encodebase 64string  stringutils  getbytesutf  foob  assertequals  9vyme  base encodebase 64string  stringutils  getbytesutf  fooba  assertequals  9vymfy  base encodebase 64string  stringutils  getbytesutf  foobar</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.binary.Base64</file>
+</fixedfiles>
+</bug>
+</bugrepository>

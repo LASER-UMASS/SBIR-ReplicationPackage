@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_49" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-539.json">
+<buginformation>
+<summary>incorrect  output  function  assigned  variable  and  the  function  contains  variable  with  the  same  name</summary>
+<description>what  steps  will  reproduce  the  problem  enter  the  following  into  the  online  compiler  var  foo  function  bar  var  bar  alert  bar  compile  using  simple  optimization  what  the  expected  output  what  you  see  instead  expect  see  var  foo  function  alert  void  instead  see  var  foo  function  bar  alert  bar  what  version  the  product  are  you  using  what  operating  system  using  http  closure  compiler  appspot  com  home  please  provide  any  additional  information  below  the  compiled  output  correct  you  remove  the  quot  var  foo  quot  part  you  rename  the  function  from  quot  bar  quot  something  else  thanks  for  the  report  this  problem  with  how  the  compiler  currently  models  the  scope  which  overly  simplistic  the  variable  bar  should  shadow  the  function  name  but  does  not  can  work  around  this  tweaking  the  local  name  normalization  like  for  catch  declarations  removing  the  name  from  function  expression  which  inaccessible  the  proper  fix  will  likely  wait  until  support  with  its  lexically  scoped  declarations  let  const  function  this  issue  was  closed  revision  1552  issue  597  has  been  merged  into  this  issue</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.MakeDeclaredNamesUnique</file>
+</fixedfiles>
+</bug>
+</bugrepository>

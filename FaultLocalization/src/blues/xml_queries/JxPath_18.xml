@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_18" link="https://issues.apache.org/jira/browse/JXPATH-115">
+<buginformation>
+<summary>issue  with  attribute</summary>
+<description>checking  test issue 172  countattributenode  came  with  the  following  fix  for  the  code  attributecontext  line  from  nodetest  instanceof  nodenametest  return  false  qname  name  nodenametest  nodetest  getnodename  outside  method  private  static  final  qname  wildcard  new  qname  method  final  qname  name  nodetest  instanceof  nodetypetest  nodetypetest  nodetest  getnodetype  compiler  node  type  node  name  wildcard  else  return  false  else  nodetest  instanceof  nodenametest  name  nodenametest  nodetest  getnodename  else  return  false</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.axes.AttributeContext</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_66" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-482.json">
+<buginformation>
+<summary>enum  does  not  type  correctly</summary>
+<description>what  steps  will  reproduce  the  problem  create  enum  with  any  syntax  example  type  object  var  enum  number  keys  enum  window  keys  keys  complie  with  compilation  level  advanced  optimizations  summary  detail  level  warning  level  verbose  look  the  typed  what  the  expected  output  what  you  see  instead  shouldn  count  the  enum  typed  does  what  version  the  product  are  you  using  what  operating  system  version  1043  built  2011  please  provide  any  additional  information  below  also  tried  tersely  coerce  the  type  type  number  type  number  which  has  effect  thanks  for  pointing  this  out  zhu  found  that  the  problem  the  name  string  node  has  type  personally  think  doesn  really  matter  what  type  give  those  nodes  number  the  proper enum value type  make  sense  alternatively  can  just  not  count  those  the  type  tally  this  issue  was  closed  revision  1167</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeCheck</file>
+</fixedfiles>
+</bug>
+</bugrepository>

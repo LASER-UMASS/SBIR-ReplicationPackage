@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_89" link="https://github.com/jhy/jsoup/issues/1107">
+<buginformation>
+<summary>npe  attribute set value  for  attribute  without  parent</summary>
+<description>public string set value string val string old val parent get this key parent null int parent index key this key attributes not found parent vals val this val val return old val its useless check parent for null after has been dereferenced guess this copy paste bug public void set key string key validate not null key key key trim validate not empty key trimming could potentially make empty validate here parent null int parent index key this key attributes not found parent keys key this key key the text was updated successfully but these errors were encountered jhy added bug fixed labels dec 2018 jhy closed this 663ee dec 2018 jhy added this the milestone dec 2018 copy link owner jhy commented dec 2018 thanks fixed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Attribute</file>
+</fixedfiles>
+</bug>
+</bugrepository>

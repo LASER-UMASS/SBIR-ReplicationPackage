@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_28" link="https://github.com/jhy/jsoup/issues/224">
+<buginformation>
+<summary>jsoup  parse  unescapes  query  params  plain  text  url</summary>
+<description>trying clean the html snippet below but unfortunately the url parameter names have been mistaken for html entities and unescaped html href http www foo com num rooms children int http www foo com num rooms children int cleaned html http www foo com rooms 1χldren amp expected html http www foo com num rooms children int unit tests private static final string url http www foo com num rooms children int passes test public void test string escape utils unescape html throws exception org apache commons lang string escape utils assert equals url string escape utils unescape html url fails unescapes num chi and int and respectively expected http www foo com num rooms children int actual http www foo com rooms 1χldren amp test public void test jsoup clean throws exception string html href url url assert equals url jsoup clean html whitelist none fails unescapes num chi and int and respectively expected http www foo com num rooms children int actual http www foo com rooms children test public void test jsoup text node create from encoded throws exception assert equals url text node create from encoded url null text the text was updated successfully but these errors were encountered copy link author wmluke commented jul 2012 using jsoup pom file dependency group org jsoup group artifact jsoup artifact version version dependency jhy closed this 31ec sep 2012 copy link owner jhy commented sep 2012 thanks for pointing this out and providing tests sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Entities</file>
+<file>org.jsoup.parser.Parser</file>
+<file>org.jsoup.parser.Tokeniser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

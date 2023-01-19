@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_92" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-261.json">
+<buginformation>
+<summary>bug  with  implicit  namespaces  across  modules</summary>
+<description>there  are  three  modules  the  latter  two  which  depend  the  root  module  module  goog  provide  apps  module  goog  provide  apps  foo  bar  module  goog  provide  apps  foo  bar  and  this  compiled  simple  optimizations  mode  the  following  code  will  produced  module  var  apps  apps  foo  bar  apps  foo  module  apps  foo  bar  module  apps  foo  bar  this  will  result  runtime  error  module  because  apps  foo  bar  assigned  before  apps  foo  the  patch  for  the  fix  with  regression  test  available  http  codereview  appspot  com  2416041  upon  further  inspection  not  believe  that  the  patch  supplied  complete  fix  need  come  with  slightly  more  complex  test  case  demonstrate  the  incompleteness  actually  upon  further  further  inspection  the  patch  works  for  except  you  have  goog  provide  for  something  that  typedef  that  not  assigned  anything  and  therefore  isn  really  provided  remove  the  goog  provide  then  fine  this  issue  was  closed  revision  491</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ProcessClosurePrimitives</file>
+</fixedfiles>
+</bug>
+</bugrepository>

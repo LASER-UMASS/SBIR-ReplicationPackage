@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_154" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-204.json">
+<buginformation>
+<summary>add  support  for  data  members  interfaces</summary>
+<description>interface  function  type  string  prototype  foobar  constructor  implements  function  warning  generated  here  this  foobar  type  var  test  new  alert  test  foobar  just  update  here  made  couple  changes  last  year  improve  date  member  support  and  they  are  properly  checked  prototype  definitions  for  the  sample  above  prototype  foobar  would  generate  error  this  issue  was  closed  revision  829</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeCheck</file>
+<file>com.google.javascript.jscomp.TypeValidator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_29" link="https://issues.apache.org/jira/browse/LANG-624">
+<buginformation>
+<summary>system utils get java version float  throws string index out bounds exception  android  runtime  dalvik</summary>
+<description>can  replicated  the  android  emulator  quite  easily  stack  trace  org  apache  commons  lang  builder  tostringbuilder  clinit  tostringbuilder  java  androidruntime  1681  more  androidruntime  1681  caused  java  lang  exceptionininitializererror  androidruntime  1681  org  apache  commons  lang  builder  tostringstyle  multilinetostringstyle  init  tostringstyle  java  2276  androidruntime  1681  org  apache  commons  lang  builder  tostringstyle  clinit  tostringstyle  java  androidruntime  1681  more  androidruntime  1681  caused  java  lang  stringindexoutofboundsexception  androidruntime  1681  java  lang  string  substring  string  java  1571  androidruntime  1681  org  apache  commons  lang  systemutils  getjavaversionasfloat  systemutils  java  1153  androidruntime  1681  org  apache  commons  lang  systemutils  clinit  systemutils  java  818</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.SystemUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

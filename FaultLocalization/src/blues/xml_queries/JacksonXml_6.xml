@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonXml_6" link="https://github.com/FasterXML/jackson-dataformat-xml/issues/270">
+<buginformation>
+<summary>add  support  for  with</summary>
+<description>edited the regular utf json generator has method write binary base variant 64variant input stream data int data length that supports reading input stream converting the binary stream base and directly writing the content output thereby saving some memory not having load the entire stream content into memory all once however xml generator does not implement this method only implements write binary overload that takes already existing byte first reported this issue the jackson user google group and cowtowncoder suggested open issue git hub the text was updated successfully but these errors were encountered copy link marc christian schulze commented sep 2018 just came across the same issue because object serialization was working only under some circumstances the byte buffer has underlying array read from not due the implementation the byte buffer serializer the serializer falls back the stream writer method which apparently not supported would glad have least one working implementation even caching the whole data first byte before writing marc christian schulze added commit marc christian schulze jackson dataformat xml that referenced this issue sep 2018 add support for write binary with input streams xml generator faste 5bc xml 270 marc christian schulze mentioned this issue sep 2018 add support for write binary with input streams xml generator 310 closed cowtowncoder added active labels sep 2018 copy link member cowtowncoder commented sep 2018 shoot missed this one for cowtowncoder changed the title add support for write binary with input streams xml generator add support for write binary with input stream xml generator dec 2018 cowtowncoder added this the milestone dec 2018 cowtowncoder closed this 8fd 9463 dec 2018 cowtowncoder removed the active label may 2020 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_11" link="https://issues.apache.org/jira/browse/CODEC-121">
+<buginformation>
+<summary>quoted printable codec  does  not  support  soft  line  break  per  the  quoted  printable  example  wikipedia</summary>
+<description>writing  unit  test  discovered  that  the  example  wikipedia  uses  for  quoted  printable  data  does  not  decode  but  instead  throws  exception  their  example  here  http  wikipedia  org  wiki  quoted  printable  example  test  string  qpdata  you  believe  that  truth  3dbeauty  then  surely  mathematics  the  most  beautiful  branch  philosophy  string  expected  you  believe  that  truth  beauty  then  surely  mathematics  the  most  beautiful  branch  philosophy  assertequals  expected  new  quotedprintablecodec  decode  qpdata  suppose  could  fix  you  like  but  currently  not  registered  developer</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.net.QuotedPrintableCodec</file>
+</fixedfiles>
+</bug>
+</bugrepository>

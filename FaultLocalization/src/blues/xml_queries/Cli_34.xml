@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_34" link="https://issues.apache.org/jira/browse/CLI-215">
+<buginformation>
+<summary>string  default  option  type</summary>
+<description>getparsedoptionvalue  returns  null  unless  option  type  gets  explicitly  set  the  user  expects  string  unless  set  any  other  type  this  coult  either  fixed  the  option  constructor  commandline  getparsedoptionvalue  mentioning  this  behaviour  javadoc  would  advisable</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Option</file>
+<file>org.apache.commons.cli.OptionBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

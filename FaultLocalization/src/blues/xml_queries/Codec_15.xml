@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_15" link="https://issues.apache.org/jira/browse/CODEC-199">
+<buginformation>
+<summary>bug  rule  soundex</summary>
+<description>the  soundex  algorithm  says  that  two  characters  that  map  the  same  code  are  separated  the  second  one  not  encoded  however  the  implementation  soundex  getmappingcode  line  191  character  that  preceded  two  characters  that  are  either  not  encoded  regardless  what  the  last  consonant  was  source  http  wikipedia  org  wiki  soundex  american  soundex</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.language.Soundex</file>
+</fixedfiles>
+</bug>
+</bugrepository>

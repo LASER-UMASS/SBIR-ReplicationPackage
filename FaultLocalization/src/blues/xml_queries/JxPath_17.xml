@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_17" link="https://issues.apache.org/jira/browse/JXPATH-109">
+<buginformation>
+<summary>namespaced  attribute  not  selected  with  wildcard</summary>
+<description>with  expression  xml  xml  xml  xmlns  foo  pop  selectsinglenode  returns  null  works  fine  possible  fix  domattributeiterator  line  equalstrings  testprefix  nodeprefix  return  true  should  probably  changed  testprefix  null  equalstrings  testprefix  nodeprefix  return  true</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator</file>
+<file>org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_82" link="https://issues.apache.org/jira/browse/MATH-288">
+<buginformation>
+<summary>simplex solver  not  working  expected</summary>
+<description>simplexsolver  didn  find  the  optimal  solution  program  for  lpsolve  objective  function  max  constraints  variable  bounds  results  correct  value  program  for  simplexsolve  linearobjectivefunction  kritfcia  new  linearobjectivefunction  new  double  collection  linearconstraint  podmienky  new  arraylist  linearconstraint  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  podmienky  add  new  linearconstraint  new  double  relationship  leq  simplexsolver  solver  new  simplexsolver  realpointvaluepair  result  solver  optimize  kritfcia  podmienky  goaltype  maximize  true  results  incorrect  value  used  the  latest  software  from  the  repository  including  math  286  fix</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.linear.SimplexSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

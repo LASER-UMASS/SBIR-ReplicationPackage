@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_52" link="https://issues.apache.org/jira/browse/MATH-639">
+<buginformation>
+<summary>numerical  problems  rotation  creation</summary>
+<description>building  rotation  from  the  following  vector  pairs  leads  nan  4921140  837095533  1512094250440013e  890093  279426377  7238580938724895e  169664921341876e  749688708885301e  the  constructor  first  changes  the  pair  into  ensuring  the  following  scalar  products  hold  once  the  pair  has  been  computed  compute  the  cross  product  and  the  scalar  product  construction  positive  null  and  the  quaternion  axis  want  build  sqrt  should  null  only  some  the  vectors  are  aligned  and  this  dealt  with  later  the  algorithm  however  there  are  numerical  problems  with  the  vector  above  with  the  way  these  computations  are  done  shown  the  following  comparisons  showing  the  result  get  from  our  java  code  and  the  result  get  from  manual  computation  with  the  same  formulas  but  with  enhanced  precision  commons  math  38514476  1168590144  high  precision  38514410  36093388  374075245201180409222711  1168590152  10599715208  and  becomes  worse  when  computing  because  the  vectors  are  almost  orthogonal  each  other  hence  inducing  additional  cancellations  get  commons  math  2397173627587605e  high  precision  558382746168463196  7079627  have  lost  all  significant  digits  cancellations  and  even  the  sign  wrong</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.geometry.euclidean.threed.Rotation</file>
+</fixedfiles>
+</bug>
+</bugrepository>

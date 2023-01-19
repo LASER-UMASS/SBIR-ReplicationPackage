@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_35" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-669.json">
+<buginformation>
+<summary>assignment  object  conditional  causes  type  error  function  record  type  return  type</summary>
+<description>slightly  dodgy  code  returns  prop  object  undefined  prop  string  undefined  prop  string  undefined  function  func  var  results  results  results  prop  results  results  results  prop  prop  else  results  results  results  prop  prop  return  results  results  this  error  jsc  type  mismatch  inconsistent  return  type  found  prop  number  required  prop  object  null  undefined  prop  string  undefined  prop  string  undefined  line  character  return  results  defining  results  the  first  line  the  function  causes  the  world  the  still  dodgy  but  slightly  less  use  this  the  function  return  type  were  that  record  type  undefined  and  not  all  branches  were  guaranteed  executed  this  issue  was  closed  revision  1802</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeInference</file>
+</fixedfiles>
+</bug>
+</bugrepository>

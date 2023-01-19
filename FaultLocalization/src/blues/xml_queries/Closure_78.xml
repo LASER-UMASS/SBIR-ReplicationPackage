@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_78" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-381.json">
+<buginformation>
+<summary>division  zero  wrongly  throws  jsc  divide  error</summary>
+<description>what  steps  will  reproduce  the  problem  unaliased  division  zero  what  the  expected  output  what  you  see  instead  expect  minified  code  but  error  thrown  instead  what  version  the  product  are  you  using  what  operating  system  appspot  please  provide  any  additional  information  below  division  zero  perfectly  sane  operation ecma script  see  the ecma script  specification  aliased  division  zero  permitted  http  github  com  what  way  does  this  cause  problem  generally  devision  zero  indicative  programming  error  could  make  suppressible  however  infinity  writable  variable  just  like  undefined  for  these  cases  both  safer  and  faster  generate  the  value  rather  than  look  for  the  scope  chain  because  this  and  void  are  common  idioms  also  think  this  dumb  error  and  has  never  solved  any  real  problem  this  issue  was  closed  revision  900</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeFoldConstants</file>
+</fixedfiles>
+</bug>
+</bugrepository>

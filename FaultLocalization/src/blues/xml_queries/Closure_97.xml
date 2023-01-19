@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_97" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-200.json">
+<buginformation>
+<summary>unsigned  shift  right  bug  operating  negative  numbers</summary>
+<description>what  steps  will  reproduce  the  problem  what  the  expected  output  what  you  see  instead  expected  4294967295  instead  what  version  the  product  are  you  using  what  operating  system  the  version  2001  http  closure  compiler  appspot  com  home  please  provide  any  additional  information  below  4294967295  math  pow  test  any  browser  and  see  ecma  262  thanks  for  the  bug  report  this  issue  was  closed  revision  291</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeFoldConstants</file>
+</fixedfiles>
+</bug>
+</bugrepository>

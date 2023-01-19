@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_8" link="https://issues.apache.org/jira/browse/CLI-151">
+<buginformation>
+<summary>help formatter  wraps  incorrectly  every  line  beyond  the  first</summary>
+<description>the  method  findwrappos  the  helpformatter  couple  bugs  the  way  that  deals  with  the  startpos  variable  this  causes  format  every  line  beyond  the  first  line  startpos  many  characters  beyond  the  specified  width  see  this  create  option  with  long  and  then  use  the  help  formatter  print  the  first  line  will  the  correct  length  the  2nd  3rd  etc  lines  will  all  too  long  don  have  patch  sorry  but  here  corrected  version  the  method  fixed  two  places  both  were  using  width  startpos  when  they  should  have  been  using  width  protected  int  findwrappos  string  text  int  width  int  startpos  int  pos  the  line  ends  before  the  max  wrap  pos  new  line  char  found  pos  text  indexof  startpos  pos  width  pos  text  indexof  startpos  pos  width  return  pos  else  width  text  length  return  look  for  the  last  whitespace  character  before  startpos  width  pos  width  char  while  pos  startpos  text  charat  pos  pos  found  just  return  pos  startpos  return  pos  must  look  for  the  first  whitespace  chearacter  after  startpos  width  pos  startpos  width  while  pos  text  length  text  charat  pos  pos  return  pos  text  length  pos</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.HelpFormatter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

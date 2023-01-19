@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_28" link="https://github.com/mockito/mockito/issues/236">
+<buginformation>
+<summary>nicer  textual  printing  typed  parameters</summary>
+<description>when matchers fail but yield the same string mockito prints extra type information however the type information awkwardly printed for strings encountered this issue while working removing hard dependency hamcrest current some method integer some other string desired some other string the text was updated successfully but these errors were encountered mockitoguy added the enhancement label jun 2015 mockitoguy self assigned this jun 2015 mockitoguy closed this 349323d jun 2015 sign for free join this conversation git hub already have account sign comment assignees mockitoguy labels enhancement projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.configuration.DefaultInjectionEngine</file>
+</fixedfiles>
+</bug>
+</bugrepository>

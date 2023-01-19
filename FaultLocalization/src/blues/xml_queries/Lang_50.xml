@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_50" link="https://issues.apache.org/jira/browse/LANG-368">
+<buginformation>
+<summary>fast date format get date instance  and get date time instance  assume  locale get default  won  change</summary>
+<description>the  fastdateformat  getdateinstance  and  getdatetimeinstance  methods  create  the  hashmap  key  from  various  items  including  the  locale  the  locale  null  then  not  made  part  the  key  but  the  stored  object  created  using  the  current  default  locale  the  locale  changed  subsequently  then  the  wrong  locale  applied  patch  for  test  case  follow</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.time.FastDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_8" link="https://issues.apache.org/jira/browse/MATH-942">
+<buginformation>
+<summary>discrete distribution  sample  int  may  throw  exception  first  element  singletons  sub  class  type</summary>
+<description>creating  array  with  array  newinstance  singletons  get  getclass  samplesize  discretedistribution  sample  int  risky  exception  will  thrown  singleons  get  type  sub  class  and  discretedistribution  sample  returns  object  which  type  but  not  type  reproduce  list  pair  object  double  list  new  arraylist  pair  object  double  list  add  new  pair  object  double  new  object  new  double  list  add  new  pair  object  double  new  object  new  double  new  discretedistribution  object  list  sample  attaching  patch</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.distribution.DiscreteDistribution</file>
+</fixedfiles>
+</bug>
+</bugrepository>

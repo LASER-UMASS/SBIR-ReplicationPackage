@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_58" link="https://github.com/jhy/jsoup/issues/245">
+<buginformation>
+<summary>jsoup  valid  returns  true  even  when html fragment  includes  tags  not  whitelist</summary>
+<description>caused jsoup valid performing destructive parse before testing for validity the html returned from parse body fragment not what was passed according documentation html head tags etc should specifically added whitelist they should allowed test cases below package jsoup import junit framework assert import org jsoup jsoup import org jsoup nodes document import org jsoup parser parser import org jsoup safety cleaner import org jsoup safety whitelist import org junit test import org junit runner run with import org junit runners parameterized import java util arrays import java util collection run with parameterized class public class jsoup test private string html fragment public jsoup test string html fragment this html fragment html fragment parameterized parameters public static collection string dirty html string html fragments new string html html head head body body return arrays list html fragments test public void empty whitelist returns false for all tags assert assert equals false jsoup valid html fragment new whitelist test public void whitelist none returns false for all tags assert assert equals false jsoup valid html fragment whitelist none test public void typical whitelist returns false for non included tags whitelist whitelist new whitelist whitelist add tags assert assert equals false jsoup valid html fragment whitelist test public void code from source document dirty parser parse body fragment html fragment cleaner cleaner new cleaner whitelist none assert assert equals false cleaner valid dirty the text was updated successfully but these errors were encountered copy link margielm commented may 2016 there any reason why this was never touched jhy closed this 44d nov 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.Jsoup</file>
+<file>org.jsoup.parser.Parser</file>
+<file>org.jsoup.safety.Cleaner</file>
+</fixedfiles>
+</bug>
+</bugrepository>

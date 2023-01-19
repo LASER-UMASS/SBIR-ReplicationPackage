@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_57" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-530.json">
+<buginformation>
+<summary>compiler  crashes  when  goog  provide  used  with  non  string</summary>
+<description>what  steps  will  reproduce  the  problem  insert  goog  provide  some  function  compile  what  the  expected  output  what  you  see  instead  this  should  give  error  diagnostic  what  gives  java  lang runtime exception  java  lang runtime exception  internal  compiler  error  please  email  compiler  google  com  with  this  stack  trace  getprop  originalname  spike  source  file  file  not  string  node  node  call  file  goog  provide  mine  spike  stack  traces  think  this  the  current  build  the  day  this  report  this  issue  was  closed  revision  1357</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ClosureCodingConvention</file>
+</fixedfiles>
+</bug>
+</bugrepository>

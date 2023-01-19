@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_108" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1144.json">
+<buginformation>
+<summary>precondition  crash  goog  scope  local  with  aliased  the  type  declaration</summary>
+<description>var  goog  goog  scope  var  sub  constructor  sub  function  goog  scope  function  var  sub  sub  type  sub  var  null  produces  java  lang illegal state exception  com  google  common  base  preconditions check state  preconditions  java  137  com  google  javascript  jscomp scoped aliases aliased type node apply alias scoped aliases  java  236  com  google  javascript  jscomp scoped aliases hot swap script scoped aliases  java  147  com  google  javascript  jscomp scoped aliases  process scoped aliases  java  128  whew  this  really  subtle  and  took  while  figure  out  what  was  going  shallow  clone  the  jsdoc  multiple  times  the  tree  this  usually  makes  total  sense  because  jsdoc  usually  immutable  but scoped aliases  also  rewrites  jsdoc  and  getting  into  weird  state  where  its  internal  bookkeeping  wrong  fix  posted  here  https  codereview  appspot  com  30180043  this  issue  was  closed  revision aae 547f 911  this  issue  was  closed  revision aae 547f 911</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ScopedAliases</file>
+</fixedfiles>
+</bug>
+</bugrepository>

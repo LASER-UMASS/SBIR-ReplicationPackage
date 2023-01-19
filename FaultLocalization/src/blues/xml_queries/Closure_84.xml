@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_84" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-215.json">
+<buginformation>
+<summary>invalid  left  hand  side  assignment  not  detected</summary>
+<description>what  steps  will  reproduce  the  problem  compile  this  var  what  the  expected  output  what  you  see  instead  expect  error  because  this  parsed  which  invalid  left  hand  side  assignment  instead  get  var  which  like  the  input  invalid  code  related 214 this  issue  was  closed  revision  685</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.parsing.IRFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

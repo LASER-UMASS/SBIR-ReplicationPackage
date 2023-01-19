@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_13" link="https://issues.apache.org/jira/browse/LANG-788">
+<buginformation>
+<summary>serialization utils  throws class not found exception  when  cloning  primitive  classes</summary>
+<description>serializable  object  contains  reference  primitive  class  int  class  int  class  the  serializationutils  throw  classnotfoundexception  when  trying  clone  that  object  import  org  apache  commons  lang  serializationutils  import  org  junit  test  public  class  serializationutilstest  test  public  void  primitivetypeclassserialization  class  primitivetype  int  class  class  clone  serializationutils  clone  primitivetype  assertequals  primitivetype  clone  the  problem  was  already  reported  java  bug  http  bugs  sun  com  view  bug  bug  4171142  and  objectinputstream  fixed  since  java  version  the  serializationutils  problem  arises  because  the  serializationutils  internally  use  the  classloaderawareobjectinputstream  that  overrides  the  objectinputstream  resoleclass  method  without  delegating  the  super  method  case  classnotfoundexception  understand  the  intention  the  classloaderawareobjectinputstream  but  this  implementation  should  also  implement  fallback  the  original  implementation  for  example  protected  class  resolveclass  objectstreamclass  desc  throws  ioexception  classnotfoundexception  string  name  desc  getname  try  return  class  forname  name  false  classloader  catch  classnotfoundexception  try  return  class  forname  name  false  thread  currentthread  getcontextclassloader  catch  exception  return  super  resolveclass  desc  here  the  code  objectinputstream  that  fixed  the  java  bug  protected  class  resolveclass  objectstreamclass  desc  throws  ioexception  classnotfoundexception  string  name  desc  getname  try  return  class  forname  name  false  latestuserdefinedloader  catch  classnotfoundexception  class  class  primclasses  get  name  null  return  else  throw</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.SerializationUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

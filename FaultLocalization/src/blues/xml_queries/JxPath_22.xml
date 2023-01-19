@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_22" link="https://issues.apache.org/jira/browse/JXPATH-154">
+<buginformation>
+<summary>resetting  the  default  namespace  causes  serious  endless  loop  when  requesting  path  node</summary>
+<description>sample  smaller  case  foo  xmlns  bla  xmlns test 111  nodes  are  placed  the  tree  within test 111  but  the  attribute  still  there  bar  bar  bla  test  xmlns  test  does  not  have  namespace  foo  when  requesting  aspath  the  test  node  loops  org  apache  commons  jxpath  namespaceresolver  getprefix  nodepointer  string  and  didn  loop  would  create  wrong  xpath  null  test  domnodepointer  aspath  think  that  the  fix  should  org  apache  commons  jxpath  model  dom  domnodepointer  aspath  string  domnodepointer  getlocalname  node  string  nsuri  getnamespaceuri  nsuri  null  buffer  append  buffer  append  buffer  append  getrelativepositionbyname  append  else  string  prefix  getnamespaceresolver  getprefix  nsuri  prefix  null  should  become  string  domnodepointer  getlocalname  node  string  nsuri  getnamespaceuri  nsuri  null  nsuri  length  check  for  empty  string  which  means  that  the  node  doesn  have  namespace  buffer  append  buffer  append  buffer  append  getrelativepositionbyname  append  else  string  prefix  getnamespaceresolver  getprefix  nsuri  prefix  null</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMNodePointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

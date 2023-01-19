@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_90" link="https://github.com/jhy/jsoup/issues/1172">
+<buginformation>
+<summary>array index out bounds exception  when  parsing  with  some  url</summary>
+<description>error caused java lang array index out bounds exception org jsoup helper http connection base looks like utf http connection java 437 org jsoup helper http connection base fix header encoding http connection java 400 org jsoup helper http connection base add header http connection java 386 org jsoup helper http connection response process response headers http connection java 1075 org jsoup helper http connection response setup from connection http connection java 1019 org jsoup helper http connection response execute http connection java 752 org jsoup helper http connection response execute http connection java 722 org jsoup helper http connection execute http connection java 306 code try string url https www colisprive com moncolis pages detail colis aspx num colis 4000000037777930 connection connection jsoup connect url referrer url user agent mozilla windows win apple web kit 537 khtml like gecko chrome 3112 113 safari 537 ignore content type true timeout 20000 connection method method get return connection execute parse catch exception throw new runtime exception the text was updated successfully but these errors were encountered copy link contributor krystiangorecki commented jan 2019 edited reproduce connection request req new http connection request req add header xxx jhy closed this 7de 614f may 2019 copy link owner jhy commented may 2019 thanks for the report and the deep dive here fixed jhy added the fixed label may 2019 jhy added this the milestone may 2019 jhy mentioned this issue feb 2020 array index out bounds exception thrown from http connection get 1092 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels fixed projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.HttpConnection</file>
+</fixedfiles>
+</bug>
+</bugrepository>

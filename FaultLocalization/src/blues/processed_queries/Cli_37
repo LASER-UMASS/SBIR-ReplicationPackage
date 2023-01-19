@@ -1,0 +1,6 @@
+<parameters>
+	<query>
+		<number>Cli_37</number>
+		<text> #weight(1.0 optional.(class) 1.0 argument.(class) 1.0 picking.(class) 1.0 next.(class) 1.0 regular.(class) 1.0 option.(class) 1.0 its.(class) 1.0 argument.(class)   1.0 optional.(method) 1.0 argument.(method) 1.0 picking.(method) 1.0 next.(method) 1.0 regular.(method) 1.0 option.(method) 1.0 its.(method) 1.0 argument.(method)   1.0 optional.(identifier) 1.0 argument.(identifier) 1.0 picking.(identifier) 1.0 next.(identifier) 1.0 regular.(identifier) 1.0 option.(identifier) 1.0 its.(identifier) 1.0 argument.(identifier)   1.0 optional.(comments) 1.0 argument.(comments) 1.0 picking.(comments) 1.0 next.(comments) 1.0 regular.(comments) 1.0 option.(comments) 1.0 its.(comments) 1.0 argument.(comments)   )</text>
+	</query>
+</parameters>

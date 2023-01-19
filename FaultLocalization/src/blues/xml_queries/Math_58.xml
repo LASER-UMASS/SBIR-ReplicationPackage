@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_58" link="https://issues.apache.org/jira/browse/MATH-519">
+<buginformation>
+<summary>gaussian fitter  unexpectedly  throws not strictly positive exception</summary>
+<description>running  the  following  double  observations  1143831578403364e  95281403484594e  1171347211930288e  7044813962636277e  9784716574832164e  8630236407866774e  4820532905097742e  0241963854632831e  275077366673128e  461808994532493e  7407124684715706e  056687953553974e  460193945992071e  3883326374011525e  233894983671116e  8630791465263745e  288759227922111e  0204433920597856e  198768938576155e  821419346860626e  139176445538471e  3956427429045787e  655705706448139e  253753324779779e  267636001476696e  3880460095836855e  2431632654852931e  gaussianfitter  new  gaussianfitter  new  levenbergmarquardtoptimizer  for  int  index  index  index  addobservedpoint  index  observations  index  fit  results  org  apache  commons  math  exception  notstrictlypositiveexception  277  smaller  than  equal  the  minimum  org  apache  commons  math  analysis  function  gaussian  parametric  validateparameters  gaussian  java  184  org  apache  commons  math  analysis  function  gaussian  parametric  value  gaussian  java  129  guessing  the  initial  guess  for  sigma  off</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.fitting.GaussianFitter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

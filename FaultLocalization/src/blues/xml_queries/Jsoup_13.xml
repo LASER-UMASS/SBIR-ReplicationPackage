@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_13" link="https://github.com/jhy/jsoup/issues/97">
+<buginformation>
+<summary>abs  attribute  prefix  does  not  work  elements  attr</summary>
+<description>elements attr iterates its element look for the first one with the given attrbute try get the attribute abs href the test element has attr abs herf fails and the returned value empty string the text was updated successfully but these errors were encountered jhy closed this may 2011 copy link owner jhy commented may 2011 thanks for pointing this out michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 improved abs absolute url handling elements attr abs href 411c 01f node has attr abs href fixes jhy fhitchen mentioned this issue may 2016 xss string that gets past jsoup 673 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Node</file>
+</fixedfiles>
+</bug>
+</bugrepository>

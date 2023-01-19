@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_33" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-700.json">
+<buginformation>
+<summary>weird  object  literal  invalid  property  error  unrelated  object  prototype</summary>
+<description>apologies  advance  for  the  convoluted  repro  case  and  the  vague  summary  compile  the  following  code  attached  repro  with  java  jar  build  compiler  jar  compilation  level  advanced  optimizations  jscomp  error access controls  jscomp  error check types  jscomp  error check vars  repro  param  text  string  opt  data  return  string  function  temp  opt  data  return  opt  data  text  param  activity  boolean  number  string  null  object  opt  data  return  string  function  temp  opt  data  notypecheck  function  inner  return  temp  opt  data  activity  return  inner  param  number  text  string  boolean  opt  data  return  string  function  temp  opt  data  return  opt  data  opt  data  text  function  callee  var  output  temp  text  string  true  alert  output  callee  yields  repro  error  actual  parameter  temp  does  not  match  formal  parameter  found  boolean  number  text  string  undefined  required  boolean  number  text  string  var  output  temp  seems  like  temp  actually  being  called  with  the  right  type  boolean  number  text  string  though  seems  think  that  text  string  undefined  this  seems  happen  because  the  seemingly  unrelated  code  functions  temp  and  temp  change  the  name  the  text  property  repro  works  additionally  fix  the  type  the  activity  property  the  record  type  temp  works  repro  this  comes  our  codebase  some  situations  where  don  have  type  info  for  all  the  objects  being  passed  into  function  always  tricky  one  find  because  reports  error  location  that  looks  correct  also  fails  with  simple  optimizations  thanks  the  details  help  lot  this  issue  was  closed  revision  1858</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.PrototypeObjectType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

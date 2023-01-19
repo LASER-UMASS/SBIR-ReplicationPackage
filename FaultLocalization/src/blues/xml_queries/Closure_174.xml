@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_174" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1103.json">
+<buginformation>
+<summary>compiler  crash  goog  scope  locals</summary>
+<description>goog  provide  quot  main  quot  goog  scope  function  var  foo  reported  thomas  fischer  there  are  separate  issues  here  that  there  error  and  that  the  error  make  the  compiler  crash  code  review  http  codereview  appspot  com 14040044 this  issue  was  closed  revision 3ca 66b 608  this  issue  was  closed  revision 3ca 66b 608</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.JsAst</file>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+<file>com.google.javascript.jscomp.ScopedAliases</file>
+</fixedfiles>
+</bug>
+</bugrepository>

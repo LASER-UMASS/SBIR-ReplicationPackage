@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_161" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-522.json">
+<buginformation>
+<summary>peephole  constants  folding  pass  trying  fold  were  property  lookup  instead  property  assignment</summary>
+<description>what  steps  will  reproduce  the  problem  try  line  with  advance  the  following  line  code  what  the  expected  output  what  you  see  instead closure compiler  output  file  name  default  compilation  level  advanced  optimizations closure compiler  var  mdt  mdt  the  error  jsc  index  out  bounds  error  array  index  out  bounds  number  sourcename  input  number  line  character  what  version  the  product  are  you  using  what  operating  system  the  online  version  201  this  issue  was  closed  revision  1315</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PeepholeFoldConstants</file>
+</fixedfiles>
+</bug>
+</bugrepository>

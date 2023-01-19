@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_10" link="https://issues.apache.org/jira/browse/LANG-831">
+<buginformation>
+<summary>fast date parser  does  not  handle  white  space  properly</summary>
+<description>the  simpledateformat  javadoc  does  not  treat  white  space  specially  however  fastdateparser  treats  single  white  space  being  any  number  white  space  characters  this  means  that  fdp  will  parse  dates  that  fail  when  parsed  sdp</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.time.FastDateParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

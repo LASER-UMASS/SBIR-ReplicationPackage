@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_24" link="https://github.com/jhy/jsoup/issues/115">
+<buginformation>
+<summary>dropping  particular  javascript  string</summary>
+<description>loses single quote when the javascript contains partial tag exampled pared from section http scienceblogs com pharyngula note the result that scr missing closing input html body div script language java script document write scr ipt script div body html result html body div script language java script document write scr ipt script div body html the text was updated successfully but these errors were encountered copy link author kozura commented jul 2011 actually just got the latest from git and seems working for easy kozura closed this jul 2011 copy link lizell commented nov 2011 the problem actually not fixed the script tag contains html comment input script document write scr ipt script result script document write scr ipt script maybe this issue need reopened kozura reopened this nov 2011 copy link author kozura commented nov 2011 reopened interestingly the above doesn happen just html comment but only also within script tag copy link lizell commented nov 2011 thanks exactly pretty freaky jhy closed this 04b 8921 apr 2012 copy link owner jhy commented apr 2012 thanks for pointing this out and digging into the test case copy link lizell commented apr 2012 thanks for fixing fhitchen mentioned this issue may 2016 xss string that gets past jsoup 673 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.TokeniserState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

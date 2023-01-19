@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_86" link="https://issues.apache.org/jira/browse/MATH-274">
+<buginformation>
+<summary>testing  for  symmetric  positive  definite  matrix cholesky decomposition</summary>
+<description>used  this  matrix  double  40434286  09376327  30328980  04909388  09376327  10400408  07137959  04762857  30328980  07137959  30458776  04882449  04909388  04762857  04882449  07543265  and  works  fine  because  symmetric  positive  definite  tried  this  matrix  double  40434286  09376327  30328980  04909388  09376327  10400408  07137959  04762857  30328980  07137959  30458776  04882449  04909388  04762857  04882449  07543265  and  should  throw  exception  but  does  not  tested  the  matrix  and  cholesky  decomposition  method  returns  that  the  matrix  not  symmetric  positive  definite  obviously  your  code  not  catching  this  appropriately  the  way  opinion  the  use  exceptions  check  these  conditions  not  the  best  design  use  for  exceptions  you  are  going  force  the  use  try  and  catch  these  exceptions  least  provide  methods  test  the  conditions  prior  the  possibility  the  exception</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.linear.CholeskyDecompositionImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

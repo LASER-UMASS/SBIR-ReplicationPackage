@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_52" link="https://github.com/jhy/jsoup/issues/701">
+<buginformation>
+<summary>should  detect  xml  encoding  charset</summary>
+<description>for example this target url http www elacontecer com rss hoy xml its charset iso 8859 use jsoup like this final document doc jsoup connect http parser parser xml parser get system out println charset doc charset the result java nio charset charset icu utf would you please check see bug thanks the text was updated successfully but these errors were encountered copy link owner jhy commented may 2016 there charset defined the http header jsoup falls back its default utf jhy closed this may 2016 copy link author ghost commented may 2016 jhy thank you may ask named xml parser should handle xml charset copy link owner jhy commented may 2016 sorry missed that has xml version encoding iso 8859 start yeah should add support for that jhy reopened this may 2016 jhy changed the title xml parser doesn handle charset properly should detect xml encoding charset may 2016 jhy added the improvement label may 2016 copy link owner jhy commented may 2016 data util around line 114 copy link author ghost commented may 2016 thanks that great and thank you again for great library have nice day jhy closed this 4eb may 2016 jhy added this the milestone may 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.helper.DataUtil</file>
+<file>org.jsoup.nodes.XmlDeclaration</file>
+<file>org.jsoup.parser.XmlTreeBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_29" link="https://issues.apache.org/jira/browse/CLI-185">
+<buginformation>
+<summary>commons  cli  incorrectly  stripping  leading  and  trailing  quotes</summary>
+<description>org  apache  commons  cli  parser  processargs  calls  util  stripleadingandtrailingquotes  for  all  argument  values  imho  this  incorrect  and  totally  broken  trivial  create  simple  test  for  this  output  java  target  clitest  jar  clitest  balloo  this  test  value  argument  balloo  this  test  the  argument  balloo  should  indeed  keep  its  trailing  double  quote  what  the  shell  gives  don  try  something  clever  the  offending  code  was  committed  here  http  svn  apache  org  viewvc  view  rev  revision  129874  and  has  been  there  for  more  than  years  why  was  this  committed  the  first  place  the  fix  trivial  just  get  rid  util  stripleadingandtrailingquotes  and  consequently  avoid  calling  from  parser  processargs</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.Util</file>
+</fixedfiles>
+</bug>
+</bugrepository>

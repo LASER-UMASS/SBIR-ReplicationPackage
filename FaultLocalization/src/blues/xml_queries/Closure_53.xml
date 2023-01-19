@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_53" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-545.json">
+<buginformation>
+<summary>compiler  20110811  crashes  with  index  must  less  than  size</summary>
+<description>what  steps  will  reproduce  the  problem  run  compiler  https  raw  github  com  scottschiller sound manager  master  script  soundmanager  nodebug  you  can  copy  this  into  the  appspot  closure  compiler  see  the  error closure compiler  output  file  name  default  compilation  level  simple  optimizations  code  url  https  raw  github  com  scottschiller sound manager  master  script  soundmanager  nodebug closure compiler  attached  dump  the  error  from  appspot  this  the  popular sound manager  library  for  html  audio  what  the  expected  output  what  you  see  instead  got  crash  what  version  the  product  are  you  using  what  operating  system  latest  compiler  20110811  were  previously  using  the  june  build  and  had  problems  please  provide  any  additional  information  below  the  relevant  portion  the  start  trace  com  google  common  base  preconditions check element index  preconditions  java  423  com  google  common  base  preconditions check element index  preconditions  java  402  com  google  common  collect  lists reverse list reverse index  lists  java  873  com  google  common  collect  lists reverse list  get  lists  java  904  com  google  javascript  jscomp inline object literals inlining behavior replace assignment expression inline object literals  java  349  com  google  javascript  jscomp inline object literals inlining behavior split object inline object literals  java  412  com  google  javascript  jscomp inline object literals inlining behavior after exit scope inline object literals  java  104  com  google  javascript  jscomp reference collecting callback exit scope reference collecting callback  java  187  got  fix  for  issue  552  has  been  merged  into  this  issue  this  issue  was  closed  revision  1433</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineObjectLiterals</file>
+</fixedfiles>
+</bug>
+</bugrepository>

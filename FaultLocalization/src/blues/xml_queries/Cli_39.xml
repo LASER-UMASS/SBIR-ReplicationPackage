@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_39" link="https://issues.apache.org/jira/browse/CLI-274">
+<buginformation>
+<summary>option  parser  type  existing  file  value  not  check  file  existing</summary>
+<description>when  the  user  pass  option  type  fileinputstream  class  think  the  expected  behavior  for  the  return  value  the  same  type  which  the  user  passed  options  options  new  options  options  addoption  option  builder  hasarg  type  fileinputstream  class  build  commandline  cline  new  defaultparser  parse  options  args  fileinputstream  file  fileinputstream  cline  getparsedoptionvalue  returns  file  object  without  check  file  exist  attach  solution  for  https  github  com  schaumb  commons  cli  commit abfcc 8211f 529ab 75f 3edd 827e 484109eb</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.TypeHandler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

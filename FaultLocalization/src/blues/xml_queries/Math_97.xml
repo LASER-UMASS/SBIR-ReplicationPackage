@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_97" link="https://issues.apache.org/jira/browse/MATH-204">
+<buginformation>
+<summary>brent solver  throws illegal argument exception</summary>
+<description>getting  this  exception  java  lang  illegalargumentexception  function  values  endpoints  not  have  different  signs  endpoints  100000 7976931348623157e 308  values  101945  04630982173  org  apache  commons  math  analysis  brentsolver  solve  brentsolver  java  org  apache  commons  math  analysis  brentsolver  solve  brentsolver  java  the  exception  should  not  thrown  with  values  101945  04630982173  because  positive  according  brent  worden  the  algorithm  should  stop  and  return  the  root  instead  throwing  exception  the  problem  comes  from  this  method  public  double  solve  double  min  double  max  throws  maxiterationsexceededexception  functionevaluationexception  clearresult  verifyinterval  min  max  double  ymin  value  min  double  ymax  value  max  verify  bracketing  ymin  ymax  throw  new  illegalargumentexception  function  values  endpoints  not  have  different  signs  endpoints  min  max  values  ymin  ymax  solve  using  only  the  first  endpoint  initial  guess  return  solve  min  ymin  max  ymax  min  ymin  one  way  fix  would  add  this  code  after  the  assignment  ymin  and  ymax  ymin  ymax  return</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.analysis.BrentSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

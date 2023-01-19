@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_29" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-724.json">
+<buginformation>
+<summary>closure  compiler  screws  perfectly  valid  function  implementation</summary>
+<description>this  function  does  not  get  compiled  correctly  via  google  closure  compiler  function  function function check  var get type get type  just  object  return function check  amp  amp get type  string  apply function check  object  function  gets  compiled  into  function  function  return  amp  amp  quot  object  function  quot  void  apply  make  work  have  use  array  instead  object  even  though  just  want  call  the  object  string  method  function  function function check  var get type get type  not  array  return function check  amp  amp get type  string  apply function check  object  function  gets  compiled  into  function  function  var  return  amp  amp  quot  object  function  quot  string  apply  and  does  what  should  wasted  hour  find  that  bug  bugs  great  tool  otherwise  ugh  that  pretty  bad  thanks  for  the  report  this  issue  was  closed  revision  1967</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineObjectLiterals</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_5" link="https://github.com/FasterXML/jackson-core/issues/173">
+<buginformation>
+<summary>exception  thrown  for  valid json pointer  expression</summary>
+<description>json patch project leader has noted that there bug json pointer implementation and have decided investigate basically you something like json pointer compile throws number format expcetion which not true this because this piece code private final static int parse int string str final int len str length len return for int len char str char return for now assume bit indexes are fine return number input parse int str when they found number interprets the segment integer but reality should the whole expression for this reason think that the condition should changed the inverse condition doesn found any char then number you want can send you well alex the text was updated successfully but these errors were encountered copy link member cowtowncoder commented dec 2014 heh have look that code again there bug but not what you think fix this cowtowncoder added commit that referenced this issue dec 2014 fix 173 for loading status checks 9cc cowtowncoder closed this 9cd dec 2014 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.JsonPointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_38" link="https://issues.apache.org/jira/browse/CLI-265">
+<buginformation>
+<summary>optional  argument  picking  next  regular  option  its  argument</summary>
+<description></description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.DefaultParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

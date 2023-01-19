@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_69" link="https://github.com/jhy/jsoup/issues/429">
+<buginformation>
+<summary>removing  nodes  from  forms  using  jsoup</summary>
+<description>having problem removing nodes from forms using jsoup the following code works expected connection response response jsoup connect url execute document doc response parse prints html including input name alpha system out println doc string doc select input name alpha first remove prints html excluding input name alpha system out println doc string form element form form element doc select form first prints html excluding input name alpha system out println form string however the following code appears highlight bug list connection key val data form form data prints list including alpha system out println data string would expect alpha have been removed from the form data but hasn this bug doing something wrong previously reported stack overflow the text was updated successfully but these errors were encountered jhy closed this 75f 473 nov 2017 jhy added commit that referenced this issue nov 2017 merge pull request 969 from lukasschlueter master verified this commit was created git hub com and signed with git hub verified signature gpg key aee afdeb learn about vigilant mode loading status checks 9cb 4bf fix 429 jhy added this the milestone nov 2017 copy link owner jhy commented nov 2017 thanks for the report and for the fix sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.FormElement</file>
+</fixedfiles>
+</bug>
+</bugrepository>

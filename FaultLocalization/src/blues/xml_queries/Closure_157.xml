@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_157" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-347.json">
+<buginformation>
+<summary>numbers  and  quoted  property  names  reject  for  get  and  set  properties</summary>
+<description>use  language  ecmascript  note  that  these  definitions  cause  parse  errors  var  get  return  var  get  return  allow  these  the  rhino  parser  needs  updated  rhino  was  patched  these  are  now  accepted  numbers  aren  pass  through  properly  yet  this  issue  was  closed  revision  966</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+<file>com.google.javascript.jscomp.parsing.IRFactory</file>
+<file>com.google.javascript.jscomp.RenamePrototypes</file>
+</fixedfiles>
+</bug>
+</bugrepository>

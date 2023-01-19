@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_42" link="https://issues.apache.org/jira/browse/LANG-480">
+<buginformation>
+<summary>string escape utils escape html  incorrectly  converts  unicode  characters  above  ffff  into  characters</summary>
+<description>characters  that  are  represented  characters  internaly  java  are  incorrectly  converted  the  function  the  following  test  displays  the  problem  quite  nicely  import  org  apache  commons  lang  public  class  public  static  void  main  string  args  throws  exception  this  the  utf  representation  the  character  counting  rod  unit  digit  three  unicode  codepoint  362  byte  data  new  byte  byte  0xf  byte  byte  byte  0xa  output  55348  57186  should  119650  system  out  println  stringescapeutils  escapehtml  new  string  data  utf  should  very  quick  fix  feel  free  drop  email  you  want  patch</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.Entities</file>
+</fixedfiles>
+</bug>
+</bugrepository>

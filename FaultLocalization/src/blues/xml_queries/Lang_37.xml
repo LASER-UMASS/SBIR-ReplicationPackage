@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_37" link="https://issues.apache.org/jira/browse/LANG-567">
+<buginformation>
+<summary>array utils add all  array  array  does  not  handle  mixed  types  very  well</summary>
+<description>arrayutils  addall  array  array  does  not  handle  mixed  array  types  very  well  the  stack  trace  for  number  arrayutils  addall  new  integer  new  long  starts  java  lang  arraystoreexception  java  lang  system  arraycopy  native  method  org  apache  commons  lang  arrayutils  addall  arrayutils  java  2962  which  not  all  that  obvious  would  lot  clearer  the  method  threw  ilegalargumentexception  similar</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.ArrayUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

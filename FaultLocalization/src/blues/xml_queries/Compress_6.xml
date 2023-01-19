@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_6" link="https://issues.apache.org/jira/browse/COMPRESS-94">
+<buginformation>
+<summary>creating  zip  files  with  many  entries  will  ocassionally  produce  corrupted  output</summary>
+<description>our  application  produces  large  numbers  zip  files  often  with  1000  similarly  named  files  contained  within  the  zip  when  switched  from  the  standard  jdk  zip  classes  those  commons  compress  would  ocassionally  produce  zip  file  that  had  corrupted  index  entries  and  would  fail  unzip  successfully  using  zip  winzip  etc  debugging  the  zip  creation  showed  that  the  the  wrong  offsets  were  being  returned  from  the  hashmap  zipoutputstream  for  the  entries  that  were  being  corrupted  further  analysis  revealed  that  this  occurred  when  the  filenames  being  added  had  hash  collision  with  another  entry  the  same  output  zip  which  appears  happen  quite  frequently  for  the  issue  appears  stem  from  the  fact  that  ziparchiveentry  can  store  the  entry  name  either  its  superclass  passed  the  ctor  its  own  member  attribute  set  later  via  setname  not  sure  whether  this  functionality  really  required  regardless  the  root  cause  the  bug  that  the  equals  and  hashcode  methods  ziparchiveentry  not  always  use  the  same  filename  value  their  comparisons  fact  the  filename  the  entry  set  the  ctor  will  always  treat  two  ziparchiveentries  equal  this  will  break  the  offset  hashmap  whenever  there  hash  collision  will  overwrite  the  previous  entry  believeing  equal  patch  follow</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveEntry</file>
+</fixedfiles>
+</bug>
+</bugrepository>

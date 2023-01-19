@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_71" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-254.json">
+<buginformation>
+<summary>warnings  when  private  prop  redeclared  subclass</summary>
+<description>what  steps  will  reproduce  the  problem  constructor  function  foo  private  this  then  separate  file  constructor  extends  foo  function sub foo  private  this  then  compile  with  jscomp  error  visibility  expected  you  should  get  error  actual  error  you  get  error  appropriate  the  second  private  annotation  removed  this  sounds  like  might  related  issue 264 this  issue  was  closed  revision  1089  did  this  also  resolve  264  yup  thanks  for  reminding  great  thanks  build  process  thanks  you  too</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CheckAccessControls</file>
+</fixedfiles>
+</bug>
+</bugrepository>

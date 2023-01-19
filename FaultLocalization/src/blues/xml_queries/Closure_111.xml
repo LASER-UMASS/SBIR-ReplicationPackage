@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_111" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1114.json">
+<buginformation>
+<summary>goog  array  doesn  hint  compiler</summary>
+<description>what  steps  will  reproduce  the  problem  param  object  return  var  test  function  object  goog  array  object  type  array  var  object  return  advanced  optimizations  what  the  expected  output  what  you  see  instead  error  initializing  variable  found  required  array  null  type  array  var  object  what  version  the  product  are  you  using  what  operating  system  closure  compiler  http  code  google  com  closure  compiler  version  20130411  19b  built  2013  please  provide  any  additional  information  below  goog  supposed  help  the  compiler  check  which  type  dealing  with  fix  posted  here  https  codereview  appspot  com  15490043  this  issue  was  closed  revision 981f 77e 5bd  this  issue  was  closed  revision 981f 77e 5bd</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

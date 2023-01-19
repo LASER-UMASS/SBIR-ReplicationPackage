@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_98" link="https://issues.apache.org/jira/browse/MATH-209">
+<buginformation>
+<summary>real matrix impl  operate  gets  result  vector  dimensions  wrong</summary>
+<description>org  apache  commons  math  linear  realmatriximpl  operate  tries  create  result  vector  that  always  has  the  same  length  the  input  vector  this  can  result  runtime  exceptions  the  matrix  non  square  and  always  yields  incorrect  results  the  matrix  non  square  the  correct  behaviour  would  course  create  vector  with  the  same  length  the  row  dimension  the  matrix  thus  line  640  realmatriximpl  java  should  read  double  out  new  double  nrows  instead  double  out  new  double  length</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.linear.BigMatrixImpl</file>
+<file>org.apache.commons.math.linear.RealMatrixImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

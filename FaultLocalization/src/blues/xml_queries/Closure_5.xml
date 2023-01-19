@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_5" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-851.json">
+<buginformation>
+<summary>compiler  ignores  delete  statements  can  break  functionality</summary>
+<description>when  the  compiler  rewrites  internally  referenced  object  variables  non  object  variables  the  example  below  ignores  delete  statements  these  delete  statements  work  expected  with  the  objects  originally  written  but  don  function  the  same  when  the  variables  are  longer  object  properties  see  function  arg  var  foo  foo  bar  arg  console  log  foo  bar  delete  foo  bar  console  log  foo  bar  compiles  simple  setting  function  console  log  delete  console  log  perhaps  the  compiler  needs  look  for  these  delete  statements  and  change  them  setting  the  rewritten  variable  undefined  instead  thanks  for  the  report  this  issue  was  closed  revision  2343</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineObjectLiterals</file>
+</fixedfiles>
+</bug>
+</bugrepository>

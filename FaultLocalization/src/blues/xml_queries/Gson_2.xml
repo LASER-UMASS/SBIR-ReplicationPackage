@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_2" link="https://github.com/google/gson/pull/719">
+<buginformation>
+<summary>fix  type  hierarchy  adapters  runtime  check</summary>
+<description>otherwise have type hierarchy adapter for vehicle and attempt decode json string car get the right exception the json string actually decoded truck fix type hierarchy adapters runtime check 1973e otherwise have type hierarchy adapter for vehicle and attempt decode json string car get the right exception the json string actually decoded truck copy link collaborator inder 123 commented oct 2015 inder 123 self assigned this oct 2015 inder 123 added commit that referenced this pull request oct 2015 merge pull request 719 from google jwilson 1021 runtime type mismatch 101c fix type hierarchy adapters runtime check hide details view details inder 123 merged commit 101c into master oct 2015 checks passed checks passed cla google all necessary are signed continuous integration travis the travis build passed details continuous integration travis push the travis build passed details inder 123 deleted the jwilson 1021 runtime type mismatch branch oct 2015 sebasjm pushed commit sebasjm gson that referenced this pull request mar 2018 merge pull request google 719 from google jwilson 1021 runtime type 90b 801e ismatch fix type hierarchy adapters runtime check sign for free join this conversation git hub already have account sign comment reviewers reviews assignees inder 123 labels none yet projects none yet milestone milestone linked issues successfully merging this pull request may close these issues none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.bind.TypeAdapters</file>
+</fixedfiles>
+</bug>
+</bugrepository>

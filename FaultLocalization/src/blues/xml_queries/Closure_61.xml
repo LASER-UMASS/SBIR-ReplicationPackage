@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_61" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-501.json">
+<buginformation>
+<summary>closure  removes  needed  code</summary>
+<description>what  steps  will  reproduce  the  problem  try  the  following  code  simple  mode  math  blah  function  test  test  var  test  new  object  math  blah  test  the  output  math  blah  function  var  test  what  the  expected  output  what  you  see  instead  note  that  math  blah  test  was  removed  should  not  issues  warning  jsc  useless  code  suspicious  code  this  code  lacks  side  effects  there  bug  line  character  what  version  the  product  are  you  using  what  operating  system  tested  google  hosted  closure  service  please  provide  any  additional  information  below  closure  seems  protective  about  math  particular  and  doesn  like  people  messing  around  with  her  when  try  the  following  code  var  blah  function  test  test  var  test  new  object  blah  test  works  when  replace  math  then  again  closure  kicks  out  blah  need  that  poor  fellow  please  talk  some  sense  into  there  some  code node util  side  effect  detection  code  that  assumes  all  math  xxx  lack  side  effects  easy  work  around  simple  mode  the  assign  the  result  the  function  even  undefined  global  variable  advanced  mode  goog  reflect sink value  can  used  would  make  more  sense  however  white  list  known  math  methods  rather  than  assume  they  are  all  side  effect  free  simply  don  assume  anything  and  rely  the  externs  fine  also  seems  that  wrap  the  given  code  function  and  assign  the  output  math  seedrandom  some  local  variable  then  that  line  removed  but  warning  given  this  seems  happen  for  math  only  this  issue  was  closed  revision  1222  this  issue  was  closed  revision  1226  this  issue  was  closed  revision  1234</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NodeUtil</file>
+</fixedfiles>
+</bug>
+</bugrepository>

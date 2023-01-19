@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_18" link="https://github.com/jhy/jsoup/issues/110">
+<buginformation>
+<summary>outer html  method  returns  extra  attribute  when  element  definition  has  new  line</summary>
+<description>think this bug version jsoup jar source begin img alt src imagelibraries homepagebanners british 10k 2010 jpg end steps reproduce element outer html expected result two attributes alt and src observed result output begin img alt src imagelibraries homepagebanners british 10k 2010 jpg end the text was updated successfully but these errors were encountered jhy closed this 74e 16f jun 2011 copy link owner jhy commented jun 2011 thanks for pointing this out newlines were correctly being ignored tags but carriage returns were not being normalised correctly copy link author dakkad commented jun 2011 great work thanks lot great library btw michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed normalisation carriage returns newlines input html 128b fixes jhy 110 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.CharacterReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

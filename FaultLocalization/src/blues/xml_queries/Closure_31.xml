@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_31" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-703.json">
+<buginformation>
+<summary>add  support  for  manage  closure  dependencies  and  only  closure  dependencies  with  compilation  level  whitespace  only</summary>
+<description>the  compiler  options  manage  closure  dependencies  and  only  closure  dependencies  are  currently  ignored  with  compilation  level  whitespace  only  would  helpful  for  testing  dependency  management  were  supported  for  whitespace  only  addition  simple  optimizations  and  advanced  optimizations  for  example  both  closure  builder  and  plovr  automatically  manage  dependencies  for  all  compilation  levels  the  proposed  change  see  attached  diff  does  not  automatically  manage  dependencies  but  enables  dependency  management  either  manage  closure  dependencies  only  closure  dependencies  specified  least  one  closure  entry  point  specified  the  attached  diff  passed  the  unit  tests  ant  test  soungs  good  this  issue  was  closed  revision  1879</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Compiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

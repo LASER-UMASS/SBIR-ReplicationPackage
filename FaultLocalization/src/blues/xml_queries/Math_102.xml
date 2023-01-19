@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_102" link="https://issues.apache.org/jira/browse/MATH-175">
+<buginformation>
+<summary>chi square  double  expected  long  observed  returning  incorrect  test  statistic</summary>
+<description>chisquaretestimpl  returning  incorrect  chi  squared  value  implicit  assumption  public  double  chisquare  double  expected  long  observed  that  the  sum  expected  and  observed  are  equal  that  the  code  for  int  observed  length  dev  double  observed  expected  sumsq  dev  dev  expected  this  calculation  only  correct  sum  observed  sum  expected  when  they  are  not  equal  then  one  must  rescale  the  expected  value  sum  observed  sum  expected  that  they  are  ironically  example  the  unit  test  chisquaretesttest  that  highlights  the  error  long  observed  500  623  double  expected  485  541  assertequals  chi  square  test  statistic  4131070362  teststatistic  chisquare  expected  observed  assertequals  chi  square  value  002512096  teststatistic  chisquaretest  expected  observed  413  not  correct  because  the  expected  values  not  make  sense  they  should  521  19403  581  37313  11940  55224  76119  that  the  sum  expected  equals  1296  which  the  sum  observed  here  some  code  project  org  which  proves  500  623  485  541  chisq  test  rescale  true  chi  squared  test  for  given  probabilities  data  squared  0233  value  06052  chisq  test  rescale  true  observed  500  623  chisq  test  rescale  true  expected  521  19403  581  37313  11940  55224  76119</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.stat.inference.ChiSquareTestImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

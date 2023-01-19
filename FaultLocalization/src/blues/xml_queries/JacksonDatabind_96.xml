@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_96" link="https://github.com/FasterXML/jackson-databind/issues/2051">
+<buginformation>
+<summary>implicit  constructor  property  names  are  not  renamed  properly  with</summary>
+<description>note spin off from faster xml jackson modules java looks like something with linking creator properties constructor arguments for annotated discovered constructor regular properties does not work when using property naming strategy apparently this was working better until but broke with the text was updated successfully but these errors were encountered cowtowncoder added this the milestone may 2018 cowtowncoder mentioned this issue may 2018 parameter names module does not deserialize with single parameter constructor when using snake case property naming strategy faster xml jackson modules java closed cowtowncoder closed this 57a may 2018 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.deser.BasicDeserializerFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

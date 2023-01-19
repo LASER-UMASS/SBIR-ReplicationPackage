@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_83" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-319.json">
+<buginformation>
+<summary>cannot  see  version  with  version</summary>
+<description>what  steps  will  reproduce  the  problem  download  sources  latest  698  command  line  version  closure  compiler  build  with  ant  from  command  line  run  compiler  java  jar  compiler  jar  version  what  the  expected  output  closure  compiler  http  code  google  com  closure  compiler  version  698  built  2011  what  you  see  instead  опция  quot  version  quot  требует  операнд  option  quot  version  quot  requires  operand  and  full  list  options  with  description  what  version  the  product  are  you  using  what  operating  system  latest  source  command  line  compiler  from  svn  698  linux  mint  sun  java  please  provide  any  additional  information  below  when  running  compiler  with  java  jar  compiler  jar  version  shows  error  message  then  version  info  then  full  list  options  thanks  for  the  report  should  work  there  are  additional  arguments  after  version  this  issue  was  closed  revision  700</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CommandLineRunner</file>
+</fixedfiles>
+</bug>
+</bugrepository>

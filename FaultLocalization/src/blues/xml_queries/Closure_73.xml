@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_73" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-416.json">
+<buginformation>
+<summary>codepoint  007f  appears  raw  output</summary>
+<description>what  steps  will  reproduce  the  problem  open  http  closure  compiler  appspot  com  home  your  browser  enter  the  source  code  alert  hit  the  quot  compile  quot  button  what  the  expected  output  alert  quot  quot  what  you  see  instead  alert  quot  quot  what  version  the  product  are  you  using  what  operating  system  the  version  live  april  2011  please  provide  any  additional  information  below  codepoint  007f  delete  control  character  and  the  only  non  printable  ascii  codepoint  that  not  0020  http  www  fileformat  info  info  unicode  char  index  htm  should  probably  not  appear  raw  emitted  source  code  because  can  confuse  encoders  the  code  but  non  visible  alert  result  will  have  bytes  alert  result  will  have bytes yes  there  007f  not  printable  character  should  probably  not  appear  the  output  the  way  001f  does  not  appear  raw  the  output  haven  commonly  seen  the  encoding  consistently  support  all  browsers  that  mean  chrome  opera  safari  closure  compiler  recognizes  them  just  fine  but  does  not  seem  emit  them  the  input  alert  007f  produces  the  same  compiler  output  alert  section  the ecma script  spec  defines escape sequence  thus escape sequence character escape sequence octal escape sequence hex escape sequence unicode escape sequence hex escape sequence hex digit hex digit ecma script  disallows octal escape sequence  but  allows  optional  extension  annex  but  allows  not  followed  this  issue  was  closed  revision  1014</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CodeGenerator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

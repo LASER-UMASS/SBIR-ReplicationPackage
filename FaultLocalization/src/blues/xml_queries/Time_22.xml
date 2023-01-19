@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_22" link="https://sourceforge.net/p/joda-time/bugs/113">
+<buginformation>
+<summary>113  duration  period  with  fixed  time  zones</summary>
+<description>have  question  concerning  the  conversion  duration  period  not  sure  this  bug  there  different  way  this  the  basis  the  problem  that  using  duration  period  uses  the  chronology  the  default  time  zone  the  conversion  this  can  cause  different  results  from  timezone  with  dst  and  one  without  this  can  reproduced  easily  with  this  test  set  default  time  zone  with  this  argument  duser  timezone  gmt  public  void test for joda forum  system  out  println  timezone date time zone get default  duration  more  than  hours  duration  duration  new  duration date time constants  millis  per  hour date time constants  millis  per  minute date time constants  millis  per  second  system  out  println  duration  before  duration  period  period  duration  period  system  out  println  period  after  period  fixed  time  zone  produces  this  output  timezone  etc  gmt  duration  before  111014  period  after  dst  time  zone  produces  this  output  timezone  america  chicago  duration  before  111014  period  after  the  joda  code  duration  period  uses  period  constructor  that  takes  the  chronology  but  null  passed  the  chronology  the  default  time  zone  used  which  leads  this  behavior  the  javadoc  period  states  that  only  precise  fields  hours  minutes  seconds  and  millis  will  converted  but  for  fixed  timezone  days  and  weeks  are  also  precise  which  stated  the  javadoc  for  period  chronology  chrono  our  app  need  consistent  behavior  regardless  the  default  time  zone  which  have  all  the  extra  hours  put  into  the  hours  bucket  since  duration  supposed  time  zone  independent  length  time  don  think  should  have  any  chronology  manipulation  get  this  work  any  help  appreciated  thanks  cameron</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.base.BasePeriod</file>
+</fixedfiles>
+</bug>
+</bugrepository>

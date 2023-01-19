@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_55" link="https://github.com/jhy/jsoup/issues/746">
+<buginformation>
+<summary>parse  slash  attibutes</summary>
+<description>hello don know bug not but when parsing img onerror the result the parsers img nerror can change the parser behavior for those types tags the text was updated successfully but these errors were encountered copy link owner jhy commented aug 2016 sounds like there bug around the before attribute name state when hits the slash and moves into and then back out self closing state the should consumed but the should remain you want update the parser that would great should work specced https html spec whatwg org multipage syntax html before attribute name state jhy added the bug label aug 2016 ahielg added commit ahielg jsoup that referenced this issue aug 2016 ignore last character self closing start tag error 3fab for fix issue jhy 746 ahielg mentioned this issue aug 2016 ignore last character self closing start tag error 747 closed copy link author ahielg commented aug 2016 what you think about this fix 747 copy link author ahielg commented aug 2016 changed the pull request here the new one 748 jhy closed this aug 2016 copy link owner jhy commented aug 2016 thanks merged sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.TokeniserState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_76" link="https://github.com/jhy/jsoup/issues/825">
+<buginformation>
+<summary>newline  after  pre  and  textarea  not  handled  properly</summary>
+<description>the whatwg spec for html syntax indicates that there newline directly after opening pre textarea should removed https html spec whatwg org multipage syntax html element restrictions jsoup currently does not this jsoup parse pre nabc def pre select pre get child nodes get text outputs abc def expected abc def arguably jsoup also wrong for the value get whole text although guess this depends one interpretation what get whole text supposed hoping that intends correspond the value node node value which case jsoup parse pre nabc def pre select pre get child nodes get get whole text outputs nabc def expected abc def jsoup parse pre nabc def pre select pre get child nodes get get whole text outputs nabc def expected nabc def the text was updated successfully but these errors were encountered jhy added this the milestone dec 2017 jhy closed this 02668f dec 2017 copy link owner jhy commented dec 2017 thanks done dependabot preview bot mentioned this issue mar 2018 bump org jsoup jsoup from stachu 540 rez api merged copy link mdvorsky commented sep 2019 the spec listed above also says that the first newline not optional the contents itself starts with new line the otherwise optional newline must included the element contents themselves start with newline because otherwise the leading newline the contents would treated like the optional newline and ignored currently several roundtrips through jsoup decoding encoding will eliminate all leading newlines from pre which probably not the correct behavior sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilderState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

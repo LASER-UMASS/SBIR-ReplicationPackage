@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_24" link="https://issues.apache.org/jira/browse/COMPRESS-262">
+<buginformation>
+<summary>tar archive input stream  fails  read  entry  with  big  user  value</summary>
+<description>caused  java  lang  illegalargumentexception  invalid  byte  offset  62410554  len  org  apache  commons  compress  archivers  tar  tarutils  parseoctal  tarutils  java  130  org  apache  commons  compress  archivers  tar  tarutils  parseoctalorbinary  tarutils  java  175  org  apache  commons  compress  archivers  tar  tararchiveentry  parsetarheader  tararchiveentry  java  953  org  apache  commons  compress  archivers  tar  tararchiveentry  parsetarheader  tararchiveentry  java  940  org  apache  commons  compress  archivers  tar  tararchiveentry  init  tararchiveentry  java  324  org  apache  commons  compress  archivers  tar  tararchiveinputstream  getnexttarentry  tararchiveinputstream  java  247  more</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.tar.TarUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

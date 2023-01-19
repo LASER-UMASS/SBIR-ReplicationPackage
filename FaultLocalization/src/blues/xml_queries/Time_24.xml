@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_24" link="https://sourceforge.net/p/joda-time/bugs/107">
+<buginformation>
+<summary>107  incorrect  date  parsed  when  week  and  month  used  together</summary>
+<description>have  following  code  snippet date time formatter  dtf date time format for pattern  xxxx date time  dtf parse date time  201101w  system  out  println  should  print  2011  but  printing  2010  please  let  know  doing  something  wrong  here</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.format.DateTimeParserBucket</file>
+</fixedfiles>
+</bug>
+</bugrepository>

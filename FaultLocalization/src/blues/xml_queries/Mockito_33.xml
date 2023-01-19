@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_33" link="https://github.com/mockito/mockito/issues/200">
+<buginformation>
+<summary>argument captor from class  return  type  should  match  parameterized  type</summary>
+<description>argument captor from class return type should match parameterized type the expression argument captor from class class should type argument captor where subtype for example argument captor consumer string captor argument captor from class consumer class does not type check compile time error should type check the reasons that desirable for argument captor from class allow expressions such the example above type check are argument captor from class intended convenience method allow the user construct argument captor without casting the returned value currently the user can devise workaround such argument captor extends consumer string captor argument captor from class consumer class this workaround inconvenient and contrary argument captor from class being convenience method inconsistent with captor which can applied field with paramterized type captor argument captor consumer string captor type checks the text was updated successfully but these errors were encountered bric added the enhancement label apr 2015 copy link contributor bric commented apr 2015 201 bric closed this 76884 apr 2015 bric added commit that referenced this issue apr 2015 merge pull request 201 from bruceeddy master loading status checks 8353187 fixes 200 argument captor for class more friendly with generic types bric added this the milestone aug 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels enhancement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.invocation.InvocationMatcher</file>
+</fixedfiles>
+</bug>
+</bugrepository>

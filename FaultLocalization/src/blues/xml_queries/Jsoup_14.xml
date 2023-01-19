@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_14" link="https://github.com/jhy/jsoup/issues/82">
+<buginformation>
+<summary>unclosed  title  tag  causes  soup  eat  rest  document</summary>
+<description>come across issue with parsing document with unclosed title tag soup seems eat the rest the document its parsing and thus elements after the unclosed tag are available after the parse while this obviously not valid document firefox seems handle displaying the document and saying untitled document its title bar come across lot badly formed documents our web crawls having fix for this issue would much appreciated given some sample source below which demonstrates the bug tested against soup many thanks francis import org jsoup jsoup import org jsoup nodes document import org jsoup nodes element import org jsoup select elements public class unclosed title test public static void main string args throws exception string html html head title first parse head body parsed html into doc body html document doc jsoup parse html elements elements doc select for element element elements system out println element outer html the text was updated successfully but these errors were encountered copy link owner jhy commented may 2011 double checked the whatwg spec and current versions chrome and firefox and these all parse the same way jsoup does there closing title tag all the rest the html eof parsed data content within the title tag what browsers have you seen behave differently not sure what the best thing with this think prefer keep the way browsers handle titles are parsed rawdata where symbols have special meaning head actually valid one fixup method might confirm that the doc does have closing title tag and doesn hop out rawdata mode and ignore the title tag contents but that would involve big lookahead each new title tag which isn ideal jhy closed this 18c jun 2011 michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 handle unclosed title tags document breaking out the title 437d 8ec the next start tag instead eating the end the document fixes jhy sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.Tokeniser</file>
+<file>org.jsoup.parser.TokeniserState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

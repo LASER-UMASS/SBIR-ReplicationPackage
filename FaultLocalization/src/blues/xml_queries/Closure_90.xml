@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_90" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-274.json">
+<buginformation>
+<summary>this  emits  warning  when  used  with  typedef</summary>
+<description>what  steps  will  reproduce  the  problem  compile  this  with  520  goog  provide  bug  this  bug  thing  bug shared method  function  constructor  bug  function  constructor  bug  function  type  bug  bug  bug  thing  goog  typedef  observe  this  warning  oct  2010  com  google  javascript  jscomp phase optimizer named pass  process  info sanity check vars  oct  2010  com  google  javascript  jscomp logger error manager  println  warning  home  elf  jspath  compiler  bug  this  typedef  warning  this  type  function  must  object  actual  type  bug  bug  null  bug shared method  function  note  that  this  bug  thing  doesn  work  either  while  this  bug  bug  works  this  code  did  not  emit  warning  481  this  code  what  caused  run  into  http  code  google  com  closure  compiler  issues  detail  268thanks  for  the  report  the  fix  will  get  committed  monday  this  issue  was  closed  revision  529</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.FunctionTypeBuilder</file>
+<file>com.google.javascript.rhino.jstype.FunctionType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

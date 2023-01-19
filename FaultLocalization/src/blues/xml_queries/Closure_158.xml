@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_158" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-407.json">
+<buginformation>
+<summary>order  jscomp  error  jscomp  warning  jscomp  off  flags  are  not  preserved</summary>
+<description>quot  off  quot  always  takes  precedence  over  quot  warning  quot  and  quot  warning  quot  always  takes  precedence  over  quot  error  quot  this  should  changed  that  the  last  arguments  always  has  highest  precedence  this  issue  was  closed  revision  973</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.AbstractCommandLineRunner</file>
+<file>com.google.javascript.jscomp.CommandLineRunner</file>
+<file>com.google.javascript.jscomp.DiagnosticGroups</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_78" link="https://issues.apache.org/jira/browse/MATH-322">
+<buginformation>
+<summary>during  ode  integration  the  last  event  pair  very  close  event  may  not  detected</summary>
+<description>when  events  follows  previous  one  very  closely  may  ignored  the  occurrence  the  bug  depends  the  side  the  bracketing  interval  that  was  selected  for  example  consider  switching  function  that  increasing  around  first  event  around  reaches  its  maximum  and  decreasing  around  the  second  event  around  135  integration  step  spans  from  and  112  the  switching  function  values  start  and  end  step  will  have  opposite  signs  the  first  event  will  detected  the  solver  will  find  the  event  really  occurs  and  will  therefore  truncate  the  step  the  next  step  will  start  from  where  the  first  step  ends  will  start  let  say  this  step  spans  from  153  the  switching  function  switches  once  again  this  step  the  solver  for  the  first  event  converged  value  slightly  before  say  9999999  then  the  switch  will  not  detected  because  9999999  and  153  are  both  negative  this  bug  was  introduced  781157  2009  when  special  handling  events  very  close  step  start  was  added</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.ode.events.EventState</file>
+</fixedfiles>
+</bug>
+</bugrepository>

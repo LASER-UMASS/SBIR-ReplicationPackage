@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonXml_4" link="https://github.com/FasterXML/jackson-dataformat-xml/issues/213">
+<buginformation>
+<summary>does  not  use  config  for  null</summary>
+<description>jackson dataformat xml src main java com fasterxml jackson dataformat xml ser xml serializer provider java line 203 think root name from config should used available instead root name for null that with root name config can used don know whether how deser would affected jackson dataformat xml src main java com fasterxml jackson dataformat xml ser xml serializer provider java line 203 671 init with root name xml generator jgen root name for null the text was updated successfully but these errors were encountered copy link member cowtowncoder commented nov 2016 edited need understand more what the problem here what not working and how reproduce the issue this just the question serialization root level null not using wrapping expected copy link member cowtowncoder commented nov 2016 think able reproduce what being seen cowtowncoder modified the milestones nov 2016 cowtowncoder closed this nov 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider</file>
+</fixedfiles>
+</bug>
+</bugrepository>

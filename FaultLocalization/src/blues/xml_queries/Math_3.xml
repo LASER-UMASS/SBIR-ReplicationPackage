@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_3" link="https://issues.apache.org/jira/browse/MATH-1005">
+<buginformation>
+<summary>array index out bounds exception math arrays linear combination</summary>
+<description>when  matharrays  linearcombination  passed  arguments  with  length  throws  arrayoutofboundsexception  this  caused  this  line  double  prodhighnext  prodhigh  linearcombination  should  check  the  length  the  arguments  and  fall  back  simple  multiplication  length</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.util.MathArrays</file>
+</fixedfiles>
+</bug>
+</bugrepository>

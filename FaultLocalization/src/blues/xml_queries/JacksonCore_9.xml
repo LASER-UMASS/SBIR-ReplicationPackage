@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_9" link="https://github.com/FasterXML/jackson-core/issues/188">
+<buginformation>
+<summary>should  return  field  name  for  not</summary>
+<description>note offshoot faster xml jackson databind 745 although javadocs not specify expected behavior for json parser get value string when current token json token field name makes more sense return name instead null this will simplify handling code that requires string representation and code that does need know the difference can use token type that relevant while this can seen fix still minor api change needs not patch release the text was updated successfully but these errors were encountered cowtowncoder added this the milestone mar 2015 cowtowncoder closed this 698f mar 2015 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.base.ParserMinimalBase</file>
+<file>com.fasterxml.jackson.core.json.ReaderBasedJsonParser</file>
+<file>com.fasterxml.jackson.core.json.UTF8StreamJsonParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

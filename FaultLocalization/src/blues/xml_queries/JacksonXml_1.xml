@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonXml_1" link="https://github.com/FasterXML/jackson-dataformat-xml/issues/180">
+<buginformation>
+<summary>problem  with  deserialization  nested  non  wrapped  lists  with  empty  inner  list</summary>
+<description>looks like there problem wherein nested structures like say definition pojo with records unwrapped list with record record pojo having property fields another unwrapped list field poj and case where inner list happens empty missing cause incorrectly split parts outermost lists here for property records will come with full reproduction later but observed this the wild and think occurs with latest code well not just something that has been fixed with later version the text was updated successfully but these errors were encountered cowtowncoder added commit that referenced this issue jan 2016 simplify 180 test little for better debugging 8906536 cowtowncoder closed this 7683e jan 2016 cowtowncoder added commit that referenced this issue jan 2016 one more tiny tweak for previous 180 fix loading status checks 782e miroch mentioned this issue jun 2019 unable serialize null collection esp for polymorphic value case may need use xsi nil handling 344 open sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

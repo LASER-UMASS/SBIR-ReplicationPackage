@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_12" link="https://issues.apache.org/jira/browse/LANG-805">
+<buginformation>
+<summary>random string utils  random  count  false  false  universe  random  always  throws  java  lang array index out bounds exception</summary>
+<description>commons  lang  line  250  chars  random  nextint  gap  start  this  line  code  takes  random  int  fetch  char  the  chars  array  regardless  its  size  besides  start  useless  here  fixed  version  would  chars  random  nextint  gap  chars  length  when  user  pass  end  when  the  array  not  null  but  empty  this  line  ends  with  exception</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.RandomStringUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

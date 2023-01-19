@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_6" link="https://issues.apache.org/jira/browse/MATH-949">
+<buginformation>
+<summary>levenberg marquardt optimizer  reports  iterations</summary>
+<description>the  method  levenbergmarquardtoptimizer  getiterations  does  not  report  the  correct  number  iterations  always  returns  quick  look  the  code  shows  that  only  simplexoptimizer  calls  baseoptimizer  incrementevaluationscount  put  test  case  below  notice  how  the  evaluations  count  correctly  incremented  but  the  iterations  count  not  test  public  void  testgetiterations  setup  levenbergmarquardtoptimizer  otim  new  levenbergmarquardtoptimizer  action  otim  optimize  new  maxeval  100  new  target  new  double  new  weight  new  double  new  initialguess  new  double  new  modelfunction  new  multivariatevectorfunction  override  public  double  value  double  point  throws  illegalargumentexception  return  new  double  fastmath  pow  point  new  modelfunctionjacobian  new  multivariatematrixfunction  override  public  double  value  double  point  throws  illegalargumentexception  return  new  double  fastmath  pow  point  verify  assertthat  otim  getevaluations  greaterthan  assertthat  otim  getiterations  greaterthan</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.optim.BaseOptimizer</file>
+<file>org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer</file>
+<file>org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer</file>
+<file>org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer</file>
+<file>org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer</file>
+<file>org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer</file>
+<file>org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

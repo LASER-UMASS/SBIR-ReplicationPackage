@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_51" link="https://github.com/jhy/jsoup/issues/667">
+<buginformation>
+<summary>problem  reading  xml  file  containing  japanese  tag  names</summary>
+<description>hello have xml file containing japanese tag names and values jsoup not parsing this japanese tags using jsoup library version please help solve this issue xml file reproduce problem 進捗推移グラフ 開始予定凡例名 表示状態 ced 9312 35373 35336 38283 22987 20104 23450 開始予定凡例名 進捗推移グラフ source code document doc jsoup parse xml string string utf parser xml parser elements obj element collection doc get all elements int elements size obj element collection size for element obj current obj element collection string tag obj current tag name for text node text node obj current text nodes string val text node text the text was updated successfully but these errors were encountered copy link toltek commented jan 2016 have the same problem with russian tags русский тэг translates русский тэг get elements tag русский тэг not works jhy added the bug label apr 2016 jhy closed this 25e apr 2016 jhy added this the milestone apr 2016 copy link owner jhy commented apr 2016 thanks fixed yoshiaki yamada mentioned this issue dec 2016 incorrectly parses multibyte tag string 798 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.CharacterReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

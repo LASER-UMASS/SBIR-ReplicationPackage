@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_76" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-384.json">
+<buginformation>
+<summary>assignments  within  conditions  are  sometimes  incorrectly  removed</summary>
+<description>what  steps  will  reproduce  the  problem  see  attachment  run  original  run  compiled  what  the  expected  output  what  you  see  instead  both  should  return  quot  true  quot  original  does  return  quot  true  quot  compiled  returns  quot  undefined  quot  what  version  the  product  are  you  using  what  operating  system  closure  compiler  http  code  google  com  closure  compiler  version  706  built  2011  mac  please  provide  any  additional  information  below  the  attached  reduction  the  quot  echo  quot  functions  aren  used  then  the  entire  body  the  function  compiled  away  they  are  there  demonstrate  that  the  first  assignment  the  condition  removed  original  function  reduction  var  echo  true  echo  false  else  null  return  compiled  function  reduction  var  return  echo  true  echo  false  null  oops  forgot  the  attachment  think  this  might  fixed  head  but  not  sure  alan  this  known  issue  not  that  know  seems  like  could  dead  assignment  elimination  issue  take  look  this  issue  was  closed  revision  913</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.DeadAssignmentsElimination</file>
+</fixedfiles>
+</bug>
+</bugrepository>

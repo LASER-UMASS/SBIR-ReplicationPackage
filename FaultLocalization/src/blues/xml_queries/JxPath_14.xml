@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_14" link="https://issues.apache.org/jira/browse/JXPATH-102">
+<buginformation>
+<summary>core  rounding  functions  don  handle  infinite  values  correctly</summary>
+<description>assertxpathvalue  context  floor  nan  new  double  double  nan  assertxpathvalue  context  floor  div  new  double  double  negative  infinity  assertxpathvalue  context  floor  div  new  double  double  positive  infinity  assertxpathvalue  context  ceiling  nan  new  double  double  nan  assertxpathvalue  context  ceiling  div  new  double  double  negative  infinity  assertxpathvalue  context  ceiling  div  new  double  double  positive  infinity  assertxpathvalue  context  round  nan  new  double  double  nan  assertxpathvalue  context  round  div  new  double  double  negative  infinity  assertxpathvalue  context  round  div  new  double  double  positive  infinity</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.compiler.CoreFunction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_4" link="https://issues.apache.org/jira/browse/CSV-100">
+<buginformation>
+<summary>csv parser get header map  throws  npe</summary>
+<description>title  nearly  says  all  given  csvparser  parser  the  following  line  throws  npe  map  string  integer  header  parser  getheadermap  stacktrace  caused  java  lang  nullpointerexception  java  util  hashmap  init  hashmap  java  318  java  util  linkedhashmap  init  linkedhashmap  java  212  org  apache  commons  csv  csvparser  getheadermap  csvparser  java  288  happens  the  format  doesn  have  headermap  fix  check  the  parser  headermap  null  before  trying  create  the  returned  map  public  map  string  integer  getheadermap  return  this  headermap  null  new  linkedhashmap  string  integer  this  headermap  null</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

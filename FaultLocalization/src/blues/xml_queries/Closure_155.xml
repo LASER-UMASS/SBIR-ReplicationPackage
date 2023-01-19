@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_155" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-378.json">
+<buginformation>
+<summary>overzealous  arguments  optimisation</summary>
+<description>consider  the  following java script  code  function  call  callback  var  callback  arguments  this  apply  this  arguments  return  this  this  optimised  function  call  arguments  this  apply  this  arguments  return  this  however  the  use  temporary  variable  necessary  avoid  arguments  this  from  overwriting  the  first  argument  the  above  optimised  code  arguments  this  causes  this  assigned  verified  latest  svn  878  see  also  https  github  com  mbostock  issues  closed  issue  good  find  the  both  variable  inliner  should  not  inlining  across  arguments  access  like  this  forgot  mention  will  looking  this  bit  thanks  fyi  put  fix  currently  pending  review  911  and 896 doesn  appear  work  tested  the  latest  release  20110322  the  code  above  and  the  same  thing  happens  reopen  still  issue  this  issue  was  closed  revision  942  still  not  working  afraid  the  output  942  function  call  var  arguments  this  apply  this  arguments  return  this  notice  how  nothing  assigned  and  apply  used  reopen  would  nice  there  were  real  integration  tests  for  this  issue  rather  than  just  unit  tests  should  fixed  with  949  care  verify  perfect  thanks</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.InlineVariables</file>
+<file>com.google.javascript.jscomp.ReferenceCollectingCallback</file>
+<file>com.google.javascript.jscomp.Scope</file>
+</fixedfiles>
+</bug>
+</bugrepository>

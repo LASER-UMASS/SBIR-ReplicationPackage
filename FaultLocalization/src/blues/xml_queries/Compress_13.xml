@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_13" link="https://issues.apache.org/jira/browse/COMPRESS-176">
+<buginformation>
+<summary>archive input stream get next entry  problems  with win zip  directories  with  umlauts</summary>
+<description>there  problem  when  handling  winzip  created  zip  with  umlauts  directories  accessing  zip  file  created  with  winzip  containing  directory  with  umlaut  with  archiveinputstream  when  creating  the  zip  file  the  unicode  flag  winzip  had  been  active  the  following  problem  occurs  when  accessing  the  entries  the  zip  the  archiveentry  for  directory  containing  umlaut  not  marked  directory  and  the  file  names  for  the  directory  and  all  files  contained  that  directory  contain  backslashes  instead  slashes  completely  different  all  other  files  directories  with  umlaut  their  path  there  difference  when  letting  the  archivestreamfactory  decide  which  archiveinputstream  create  when  using  the  ziparchiveinputstream  constructor  with  the  correct  encoding  tried  different  encodings  437  850  iso  8859  but  still  the  problem  persisted  this  problem  does  not  occur  when  using  the  very  same  zip  file  but  compressed  7zip  the  built  windows  zip  functionality</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveEntry</file>
+</fixedfiles>
+</bug>
+</bugrepository>

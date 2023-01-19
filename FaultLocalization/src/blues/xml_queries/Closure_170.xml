@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_170" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-965.json">
+<buginformation>
+<summary>overly  aggressive  comma  removal</summary>
+<description>when  compile  the  following  code  using  simple  optimizations  function  test  var  return  typeof  quot  undefined  quot  length  quot  foo  quot  var  dummy  quot  6chars  quot  console  amp  amp  console  log  test  dummy  get  this  function  test  return  var  dummy  quot  6chars  quot  console  amp  amp  console  log  test  dummy  which  provides  different  result  than  the  original  code  this  fixed  revision  https  code  google  com  closure  compiler  source  detail 49f 54b 28376a 4ed 72ec 52d 314020bd 6cf</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.FlowSensitiveInlineVariables</file>
+</fixedfiles>
+</bug>
+</bugrepository>

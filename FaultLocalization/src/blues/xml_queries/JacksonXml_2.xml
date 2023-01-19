@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonXml_2" link="https://github.com/FasterXML/jackson-dataformat-xml/issues/196">
+<buginformation>
+<summary>mixed  content  not  supported  there  are  child  elements</summary>
+<description>xml text only supported there are child elements support could improved with some changes xml token stream successfully made some changes xml token stream working personal case but needs more tests agreed could provide patch example input string wind speed units radius radius wind speed cxml wind speed class public class wind speed public static class radius jackson xml property attribute true private string sector jackson xml property attribute true private string units jackson xml text private int value getters and setters code jackson xml property attribute true private string units jackson xml property attribute true private string source jackson xml text private int value jackson xml element wrapper use wrapping false private list radius radius getters and setters code the text was updated successfully but these errors were encountered copy link member cowtowncoder commented jun 2016 hvdp yes patch via stand alone small would make sense and would very welcome copy link author hvdp commented jun 2016 please find here patch for xml tocken stream does the trick own case and pass the tests provided with jackson dataformat xml still interested improving this part code for other xml samples xml token stream txt copy link member cowtowncoder commented jun 2016 hvdp that certainly looks delightfully simple try have look this soon just released and this would make theory perhaps even backport for but this where don know how good our unit test coverage cowtowncoder added this the milestone jun 2016 cowtowncoder closed this 37eb 331 jun 2016 copy link member cowtowncoder commented jun 2016 added implementation along suggested lines and added simple test assume handling would not work with certain other combinations like between end and start tags but supported case seems like most common one should good start perhaps sufficient all around sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

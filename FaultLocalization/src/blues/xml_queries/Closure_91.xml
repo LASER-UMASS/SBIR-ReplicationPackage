@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_91" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-248.json">
+<buginformation>
+<summary>support  lends  annotation</summary>
+<description>some  javascript  toolkits  dojo  base  etc  have  special  way  declaring  what  java  calls  classes  for  example  dojo  dojo  declare  quot  class  quot super class super class  foo  function  bar  function  doc  least  doc  toolkit  supports  this  via  annotations  name  class  class  extends super class  extends super class  dojo  declare  quot  class  quot super class super class  lends  class  prototype  foo  function  bar  function  the  lends  keyword  particular  useful  since  tells  doc  that  foo  and  bar  are  part  class  prototype  but  closure  compiler  isn  picking  that  thus  get  bunch  errors  about  quot  dangerous  use  this  quot  inside  foo  and  bar  can  lends  support  added  the  closure  compiler  the  workaround  use  this  every  method  but  not  sure  that  sufficient  make  advanced  mode  compilation  work  correctly  ran  into  situation  today  where  really  really  wanted  lends  tag  theory  this  should  easy  implement  because  equivalent  goog  object  reflect  which  already  has  native  compiler  support  this  issue  was  closed  revision  506  one  nit  you  have  surround  the  object  literal  parentheses  make  this  work  got  get  some  changes  upstream  rhino  order  for  this  work  without  the  parens</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CheckGlobalThis</file>
+</fixedfiles>
+</bug>
+</bugrepository>

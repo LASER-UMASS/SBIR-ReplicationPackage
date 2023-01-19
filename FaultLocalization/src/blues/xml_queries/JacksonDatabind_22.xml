@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_22" link="https://github.com/FasterXML/jackson-databind/issues/848">
+<buginformation>
+<summary>custom  serializer  not  used  pojo  has</summary>
+<description>looks like serializers constructed for json value have higher precedence than custom serializers that registered custom serializer not found pojo type has json value annotation this wrong the text was updated successfully but these errors were encountered cowtowncoder added this the milestone jun 2015 cowtowncoder closed this 92e 2be jun 2015 cowtowncoder mentioned this issue jun 2015 jackson databind changes for draft schema generator 838 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.BasicSerializerFactory</file>
+<file>com.fasterxml.jackson.databind.ser.BeanSerializerFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

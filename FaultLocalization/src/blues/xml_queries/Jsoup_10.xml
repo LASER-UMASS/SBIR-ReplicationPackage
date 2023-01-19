@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_10" link="https://github.com/jhy/jsoup/issues/49">
+<buginformation>
+<summary>attr  abs  href abs url  href</summary>
+<description>document doc jsoup parse new url http www oschina net bbs thread 12975 1000 elements doc select href for iterator iterator has next element next system out println abs url href attr abs href href result http www oschina net bbs thread think wrong result the correct results should http www oschina net bbs thread 12975 the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2010 thanks not really sure the best way fix this jsoup uses java url parser and seems mishandling this case the method used http download oracle com javase docs api java net url html url java net url java lang string where url the origin url and the spec string the contents the href may need provide hack for this specific case reimplement the url parser not really keen either copy link owner jhy commented nov 2010 fixed absolute url generation from relative which are only query strings closed 57d michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed absolute url generation from relative which are only query adce 18e strings fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fixed absolute url generation from relative which are only query 57d strings fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels improvement projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Node</file>
+</fixedfiles>
+</bug>
+</bugrepository>

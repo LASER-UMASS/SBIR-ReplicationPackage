@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_34" link="https://github.com/jhy/jsoup/issues/349">
+<buginformation>
+<summary>parser  error  commented  cdata</summary>
+<description>jsoup gives the following error when trying parse this html https gist github com felipehummel 6122799 java lang array index out bounds exception 8666 org jsoup parser character reader next index character reader java org jsoup parser character reader consume character reader java 112 org jsoup parser tokeniser state read tokeniser state java 1789 org jsoup parser tokeniser read tokeniser java org jsoup parser tree builder run parser tree builder java org jsoup parser tree builder parse tree builder java org jsoup parser html tree builder parse html tree builder java org jsoup parser parser parse parser java org jsoup jsoup parse jsoup java the html from entry rss feed remove the line just the then parses the html nicely does this syntax error should really throw exception should silently ignored the text was updated successfully but these errors were encountered copy link constantijn commented aug 2013 same here jsoup clean could not read data from xml file due that tag cdata whitelist none results instant crash using jsoup version ghost assigned jhy oct 2013 jhy closed this 88730bf oct 2013 zazi added commit dswarm jsoup that referenced this issue oct 2015 fixed crash when reading unterminated cdata section 95aad fixes jhy 349 sign for free join this conversation git hub already have account sign comment assignees jhy labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.CharacterReader</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_16" link="https://github.com/jhy/jsoup/issues/109">
+<buginformation>
+<summary>document type outer html head  missing  quote</summary>
+<description>there just doublequote missing from the append sequence right before the system for example the text was updated successfully but these errors were encountered jhy closed this 06f jun 2011 copy link owner jhy commented jun 2011 thanks for pointing this out copy link author rbrigham commented jun 2011 thanks this library great michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fixed issue with missing quote when serialising document type nodes 36b 950 fixes jhy 109 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.DocumentType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

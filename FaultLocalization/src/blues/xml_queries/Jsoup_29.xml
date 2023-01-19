@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_29" link="https://github.com/jhy/jsoup/issues/168">
+<buginformation>
+<summary>and  redundant  space  char  not  needed  from  title</summary>
+<description>assume that just need line title string from below uri http docs oracle com javase tutorial uiswing lookandfeel nimbus html can see title like below viewing page source code that page course real situation title nimbus look and feel the java tutorials creating gui with jfc swing modifying the look and feel title maybe some another page has multiline title but browser will shows ordinarily the other words browser shows one line title without and redundant space character whether string has newline character many redundant space tab not but when execute jsoup connect uri get title after assign http docs oracle com javase tutorial uiswing lookandfeel nimbus html into uri variable string gives two lines like below nimbus look and feel the java tutorials creating gui with jfc swing modifying the look and feel nimbus look and feel the java tutorials creating gui with jfc swing modifying the look and feel better think humm you have another idea the text was updated successfully but these errors were encountered jhy closed this 05ae 978 sep 2012 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Document</file>
+</fixedfiles>
+</bug>
+</bugrepository>

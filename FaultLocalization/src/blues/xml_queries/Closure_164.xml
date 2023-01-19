@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_164" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-634.json">
+<buginformation>
+<summary>function  number  string  should  not  assignable  function  number</summary>
+<description>consider  the  following  snippet  don  think  the  quot  second  call  quot  should  compile  side  note  would  great  none  the  compiled  some  pseudo  strict  compile  mode  param  function  string  number  boolean  param  function  func  param  type  function  string  number  boolean  boolean  function param func  type  function  string  boolean  function param func  first  call  func param func  second  call  func param func  issue  660  has  been  merged  into  this  issue  this  issue  was  closed  revision  1769</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.ArrowType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

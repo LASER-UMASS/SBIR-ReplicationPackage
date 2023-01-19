@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_3" link="https://issues.apache.org/jira/browse/LANG-693">
+<buginformation>
+<summary>method create number  from number utils  doesn  work  for  floating  point  numbers  other  than  float</summary>
+<description>method  createnumber  from  numberutils  trying  parse  string  with  floating  point  number  always  first  float  that  will  cause  that  send  string  with  number  that  will  need  double  even  bigdecimal  the  number  will  truncate  accommodate  into  the  float  without  exception  thrown  fact  will  returning  ever  neither  double  nor  bigdecimal</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

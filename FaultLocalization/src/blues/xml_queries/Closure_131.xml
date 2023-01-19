@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_131" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-921.json">
+<buginformation>
+<summary>unicode  characters  property  names  result  invalid  output</summary>
+<description>what  steps  will  reproduce  the  problem  use  unicode  characters  property  name  for  object  like  this  var  test  quot  0004b  quot  quot  quot  compile  what  the  expected  output  what  you  see  instead  because  unicode  characters  are  not  allowed  property  names  without  quotes  the  output  should  the  same  the  input  however  the  compiler  converts  the  string  0004  the  respective  unicode  character  and  the  output  var  test  quot  quot  unicode  character  between  and  can  not  displayed  here  what  version  the  product  are  you  using  what  operating  system  newest  current  snapshot  multiple  osx  linux  please  provide  any  additional  information  below  okay  checked  the  source  and  appears  this  problem  not  really  unicode  related  appears  that  the  function  used  check  for  valid  identifier  names  relies valid identifier name  which  turn  calls  character java identifier part  and  apparently  that  true  for  0004  eot  huh  comment  deleted  created  patch  that  seems  resolve  the  issue  using  character identifier ignorable  the  ascii  control  characters  are  detected  and  longer  incorrectly  flagged  valid  identifiers  not  entirely  sure  any  other  functions  need  changed  this  has  any  sideeffects  but  for  our  projects  seems  work  great  thanks  for  the  report  and  patch  could  you  sign  contributor  license  agreement  allow  use  your  patch  the  compiler  http  code  google  com  closure  compiler  source  browse contributors this  issue  was  closed  revision 6700e 54a</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.TokenStream</file>
+</fixedfiles>
+</bug>
+</bugrepository>

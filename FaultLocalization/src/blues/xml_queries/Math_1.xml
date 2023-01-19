@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_1" link="https://issues.apache.org/jira/browse/MATH-996">
+<buginformation>
+<summary>fraction  specified  with max denominator  and  value  very  close  simple  fraction  should  not  throw  overflow  exception</summary>
+<description>overflow  exception  thrown  when  fraction  initialized  with  maxdenominator  from  double  that  very  close  simple  fraction  for  example  double  5000000001  fraction  new  fraction  patch  with  unit  test  way</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.fraction.BigFraction</file>
+<file>org.apache.commons.math3.fraction.Fraction</file>
+</fixedfiles>
+</bug>
+</bugrepository>

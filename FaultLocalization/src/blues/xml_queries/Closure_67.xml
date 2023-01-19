@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_67" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-459.json">
+<buginformation>
+<summary>advanced  compilations  renames  function  and  then  deletes  leaving  reference  renamed  but  non  existent  function</summary>
+<description>provide  the  below  code  advanced  function  this  prototype  func  done  save  public  reference  func  prototype  func  function  this  this  func  prototype  func  function  this  this  func  window  get  the  output  function  this  prototype  func  prototype  function  this  this  problem  window  the  compiler  emits  errors  and  renames  func  but  ends  throwing  away  the  definition  that  function  the  problem  arises  when  use  prototype  func  done  save  public  reference  func  prototype  func  function  the  func  line  apparently  enough  save  the  reference  correctly  but  also  has  the  side  effect  causing  the  function  innards  the  wrong  thing  can  course  instead  write  prototype  func  prototype  func  prototype  func  function  this  this  func  which  case  advanced  will  compile  correctly  and  the  results  will  also  valid  function  this  prototype  func  prototype  prototype  function  this  this  func  correctly  minified  window  for  now  can  just  use  the  expected  way  declaring  that  func  export  but  since  the  compiler  returns  with  errors  warnings  and  creates  function  with  definition  seems  worth  reporting  addition  the  prototype  func  prototype  func  must  still  after  func  definition  and  not  before  please  confirm  the  version  the  compiler  you  are  using  this  occurs  both  the  closure  compiler  service  http  closure  compiler  appspot  com  home  and  version  1043  isolated  this  the remove unused prototype properties  pass  have  fix  under review this  issue  was  closed  revision  1160</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.AnalyzePrototypeProperties</file>
+</fixedfiles>
+</bug>
+</bugrepository>

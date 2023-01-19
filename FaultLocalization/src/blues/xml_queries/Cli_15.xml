@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_15" link="https://issues.apache.org/jira/browse/CLI-158">
+<buginformation>
+<summary>deafult  arguments  only  works  arguments  are  submitted</summary>
+<description>when  using  multple  arguments  and  defaults  the  behaviour  counter  intuitive  and  will  only  pick  default  args  are  passed  for  instance  the  code  below  have  set  args  may  bve  accepted  with  defaults  100  and  1000  expect  behave  follows  for  args  and  the  values  should  and  this  works  expected  for  args  passed  the  values  should  100  and  1000  picking  both  the  defaults  this  works  expected  for  arg  passed  the  values  should  and  1000  the  second  argument  picks  the  second  default  value  the  valuse  become  just  which  not  expected  currently  the  second  case  will  only  return  and  ignore  the  defaults  public  void  testsingleoptionsingleargument  throws  exception  string  defaulvalue  100  string  defaultvalue  1000  final  defaultoptionbuilder  obuilder  new  defaultoptionbuilder  final  argumentbuilder  abuilder  new  argumentbuilder  final  groupbuilder  gbuilder  new  groupbuilder  defaultoption  boption  obuilder  withshortname  withlongname  withargument  abuilder  withname  withminimum  withmaximum  withdefault  defaulvalue  withdefault  defaultvalue  create  create  group  options  gbuilder  withname  options  withoption  boption  create  parser  parser  new  parser  parser  sethelptrigger  help  parser  setgroup  options  string  enteredvalue  string  args  new  string  enteredvalue  commandline  parser  parse  args  commandline  cmd  assertnotnull  cmd  list  cmd  getvalues  assertequals  enteredvalue</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli2.commandline.WriteableCommandLineImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

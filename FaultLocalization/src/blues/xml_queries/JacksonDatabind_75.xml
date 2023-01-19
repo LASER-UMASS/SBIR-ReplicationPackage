@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_75" link="https://github.com/FasterXML/jackson-databind/issues/1543">
+<buginformation>
+<summary>json format  shape  number  int  does  not  work  when  defined  enum  type</summary>
+<description>before the following worked for years now this annotation not applied and enum serialized string would work annotating the field not sure this expected change not could you please check public class test json format shape json format shape number int enum color red yellow green static class foo public final color color foo color color this color color public static void main string args throws json processing exception final object mapper mapper new object mapper system out println mapper write value string new foo color green the text was updated successfully but these errors were encountered copy link member cowtowncoder commented mar 2017 panchenko good question this did work until which think what you are saying think should still work things get bit complicated with and later due all the levels which configuration works esp regarding new config overrides see object mapper config overrides but think annotation based per type overrides have their place hope this can fixed cowtowncoder added labels mar 2017 copy link author panchenko commented mar 2017 edited cowtowncoder yes mean worked versions cowtowncoder removed the label mar 2017 cowtowncoder added commit that referenced this issue mar 2017 add failing test for 1543 loading status checks 17f cowtowncoder removed the label mar 2017 cowtowncoder added this the milestone mar 2017 copy link member cowtowncoder commented mar 2017 yes there was subtle bug there which lead class annotation effects accidentally overwritten default config overrides thank you for reporting this fix will cowtowncoder closed this 11473 mar 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.ser.std.EnumSerializer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

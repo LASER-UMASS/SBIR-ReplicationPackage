@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_23" link="https://github.com/FasterXML/jackson-core/issues/502">
+<buginformation>
+<summary>make  fail  for  sub  classes</summary>
+<description>pattern blueprint object that having instance not used but that has factory method for creating actual instance used jackson couple places often for things that implement instantiatable but one problem that unless method left abstract sub classing can problematic sub class does not override method then calls will result instance wrong type being created and this what can easily happen with default pretty printer simple solution for base class make explicit that base implementation called then instance can not sub class that only legal call default pretty printer but sub class this not optimal ideally check would done compile time but better than getting mysterious failure the text was updated successfully but these errors were encountered cowtowncoder added the label dec 2018 cowtowncoder changed the title implement default pretty printer create instance fail for sub classes make default pretty printer create instance fail for sub classes dec 2018 cowtowncoder added this the milestone dec 2018 cowtowncoder closed this 157f dec 2018 grimsa mentioned this issue oct 2019 lib can not used with jackson later json snapshot json snapshot github open sign for free join this conversation git hub already have account sign comment assignees one assigned labels projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.util.DefaultPrettyPrinter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

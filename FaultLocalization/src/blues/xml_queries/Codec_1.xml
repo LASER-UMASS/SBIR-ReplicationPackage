@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_1" link="https://issues.apache.org/jira/browse/CODEC-65">
+<buginformation>
+<summary>fix  case  insensitive  string  handling</summary>
+<description>the  language  codecs  are  platform  depedent  please  see  common  bug  for  details</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.language.Caverphone</file>
+<file>org.apache.commons.codec.language.Metaphone</file>
+<file>org.apache.commons.codec.language.SoundexUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

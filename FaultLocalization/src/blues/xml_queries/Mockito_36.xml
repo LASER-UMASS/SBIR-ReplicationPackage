@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Mockito_36" link="https://github.com/mockito/mockito/issues/140">
+<buginformation>
+<summary>make  mockito  unit  rule  easier  use</summary>
+<description>mockito unit rule easier use avoiding the need pass test instance make compatible with unit instead the text was updated successfully but these errors were encountered mockitoguy added the enhancement label dec 2014 mockitoguy closed this 7edaff dec 2014 neworld pushed commit neworld mockito that referenced this issue aug 2019 merge pull request mockito 140 from nhaarman update dependencies 8380e update dependencies sign for free join this conversation git hub already have account sign comment assignees one assigned labels enhancement projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.mockito.internal.invocation.Invocation</file>
+</fixedfiles>
+</bug>
+</bugrepository>

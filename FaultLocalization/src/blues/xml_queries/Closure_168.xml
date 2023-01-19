@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_168" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-726.json">
+<buginformation>
+<summary>wrong  argument  count  error  not  reported  this  aliasing  function  with  this  annotation</summary>
+<description>the  following  code  attached  test  when  compiled  with  java  jar  build  compiler  jar  compilation  level  advanced  optimizations  jscomp  error access controls  jscomp  error check types  jscomp  error check vars  jscomp  error useless code  jscomp  off global this  desktop  test  correctly  fails  with  users  dolapo  desktop  test  error  function  person  prototype get name  called  with  argument  function  requires  least  argument  and  more  than  argument  however  the  say  function  modified  such  that  this  aliased  and  the  function  called  within set timeout  test  the  error  not  caught  test  var make class  function proto methods  var  clazz  function  this  initialize  apply  this  arguments  for  var proto methods  clazz  prototype proto methods  return  clazz  constructor  var  person  function  name  person make class  lends  person  prototype  this  person  initialize  function  name  this  name  name  this  person get name  function  return  this  name  param  string  message  this  person  say  function  message  window  console  log  this get name  says  message  var  joe  new  person  joe  joe  say  var  jane  new  person  jane  jane  say  hello  test  var make class  function proto methods  var  clazz  function  this  initialize  apply  this  arguments  for  var proto methods  clazz  prototype proto methods  return  clazz  constructor  var  person  function  name  person make class  lends  person  prototype  this  person  initialize  function  name  this  name  name  this  person get name  function  return  this  name  param  string  message  this  person  say  function  message  window  console  log  this get name  says  message  var  self  this set timeout  function  window  console  log  self get name  says  message  500  var  joe  new  person  joe  joe  say  var  jane  new  person  jane  jane  say  hello  thank  you  for  the  report  this  issue  was  closed  revision  2131  this  issue  was  closed  revision  2132  this  issue  was  closed  revision  2137</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_16" link="https://issues.apache.org/jira/browse/LANG-746">
+<buginformation>
+<summary>number utils  does  not  handle  upper  case  hex  and</summary>
+<description>numberutils  createnumber  should  work  equally  for  1234  and  1234  currently  1234  generates  numberformatexception  integer  decode  handles  both  upper  and  lower  case  hex</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.math.NumberUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

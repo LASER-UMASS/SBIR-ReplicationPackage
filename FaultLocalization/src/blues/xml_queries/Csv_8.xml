@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_8" link="https://issues.apache.org/jira/browse/CSV-114">
+<buginformation>
+<summary>csv format  constructor  should  reject  header  array  with  duplicate  entries</summary>
+<description>csvformat  currently  accepts  whatever  header  string  provided  cannot  used  there  are  duplicate  entries  these  should  rejected</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

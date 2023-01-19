@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_75" link="https://issues.apache.org/jira/browse/MATH-329">
+<buginformation>
+<summary>stat  frequency get pct  object  uses get cum pct  comparable  instead get pct  comparable</summary>
+<description>drop  replacement  with  not  possible  because  all  getpct  calls  will  cummulative  without  code  change  frequency  java  returns  the  percentage  values  that  are  equal  deprecated  replaced  link  getpct  comparable  deprecated  public  double  getpct  object  return  getcumpct  comparable</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.stat.Frequency</file>
+</fixedfiles>
+</bug>
+</bugrepository>

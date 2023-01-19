@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_51" link="https://issues.apache.org/jira/browse/MATH-631">
+<buginformation>
+<summary>regula falsi solver  failure</summary>
+<description>the  following  unit  test  test  public  void  testbug  final  univariaterealfunction  new  univariaterealfunction  override  public  double  value  double  return  math  exp  math  pow  math  univariaterealsolver  solver  new  regulafalsisolver  double  root  solver  solve  100  fails  with  illegal  state  maximal  count  100  exceeded  evaluations  using  pegasussolver  the  answer  found  after  evaluations</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.analysis.solvers.BaseSecantSolver</file>
+</fixedfiles>
+</bug>
+</bugrepository>

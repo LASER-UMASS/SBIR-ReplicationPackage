@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_13" link="https://sourceforge.net/p/joda-time/bugs/160">
+<buginformation>
+<summary>160  negative  millis  display  incorrectly  period  string</summary>
+<description>this  code  import  org  joda  time  duration  import  org  joda  time  period  public  class  public  static  void  main  string  args  system  out  println  new  duration  1000 get millis  new  duration  1000 get millis  system  out  println  new  duration  1000  string  new  duration  1000  string  system  out  println  new  period  1000 get seconds  new  period  1000 get seconds  system  out  println  new  period  1000  string  new  period  1000  string  system  out  println  new  duration  100 get millis  new  duration  100 get millis  system  out  println  new  duration  100  string  new  duration  100  string  system  out  println  new  period  100 get millis  new  period  100 get millis  system  out  println  new  period  100  string  new  period  100  string  produces  output  new  duration  1000 get millis  1000  new  duration  1000  string  new  period  1000 get seconds  new  period  1000  string  new  duration  100 get millis  100  new  duration  100  string  100  new  period  100 get millis  100  new  period  100  string  100  the  last  line  should  produce  100  instead  100</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.format.PeriodFormatterBuilder</file>
+</fixedfiles>
+</bug>
+</bugrepository>

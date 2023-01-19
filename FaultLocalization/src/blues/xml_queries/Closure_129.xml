@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_129" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-937.json">
+<buginformation>
+<summary>casting  function  before  calling  produces  bad  code  and  breaks  plugin  code</summary>
+<description>compile  this  code  with  advanced  optimizations  console  log  type  function  string  string  new  window active object shockwave flash shockwave flash get variable  version  produces  use  strict  console  log  new  window active object  quot shockwave flash shockwave flash  quot get variable  quot  version  quot  compare  with  this  code  console  log  type  string  new  window active object shockwave flash shockwave flash get variable  version  produces  use  strict  console  log  new  window active object  quot shockwave flash shockwave flash  quot get variable  quot  version  quot  notice  the  wrapping  around  the get variable  function  the  first  example  this  causes  the  call  fail  every  browser  this  code  only  but  just  for  minimal  example  the  second  version  produces  warning  that  the  type get variable  could  not  determined  enabled  type  warnings  and  wouldn  possible  define  these  externs  file  without  making  horrible  mess  this  applies  all  cases  where  functions  are  cast  but  only  causes  problems  other  than  bloat  with  plugins  like  this  seems  serve  purpose  whatsoever  assume  bug  running  mac  not  sure  what  version  but  reports  built  2013  will  have  been  downloaded  about  that  time  well  drat  this  seems  likely  that  this  side  effect  the  introduction  the  cast  node  the  ast  take  look  this  issue  was  closed  revision 79a 8906570f</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.PrepareAst</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_82" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-301.json">
+<buginformation>
+<summary>index  fails  produce  missing  property  warning</summary>
+<description>the  following  code  compiled  with  verbose  warnings  with  the missing properties  check  enabled  fails  produce  warning  error  var  new  string  quot  hello  quot  alert lower case  index  quot  quot  however  other  string  functions  properly  produce  the  warning  var  new  string  quot  hello  quot  alert lower case  substr  think  what  happening  that  array  index  valid  property  and lower case  array  valid  assignment  assuming  that lower case  index  could  theory  exist  and  still  type  safe  would  nice  could  catch  this  case  though  this  issue  was  closed  revision  765</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.rhino.jstype.JSType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

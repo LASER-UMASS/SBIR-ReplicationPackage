@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_64" link="https://issues.apache.org/jira/browse/MATH-405">
+<buginformation>
+<summary>inconsistent  result  from  levenberg  marquardt</summary>
+<description>levenberg  marquardt  its  method  dooptimize  returns  vectorialpointvaluepair  however  the  class  holds  the  optimum  point  the  vector  the  objective  function  the  cost  and  residuals  the  value  returns  dooptimize  does  not  always  corresponds  the  point  which  leads  the  residuals  and  cost</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

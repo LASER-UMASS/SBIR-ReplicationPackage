@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_7" link="https://github.com/jhy/jsoup/issues/43">
+<buginformation>
+<summary>page  results  malformed  tree</summary>
+<description>the page will attach results jsoup tree with two body elements neither which direct child the html element you will find the page git github com bimargulies misc git under the jsoup directory the text was updated successfully but these errors were encountered copy link owner jhy commented nov 2010 thanks this fixed now copy link owner jhy commented nov 2010 document normalisation now more correctly enforces document structure ensure only one head and one body element both under html allow html head noscript img for some site analytic pattern closed 85ef michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 document normalisation now more correctly enforces document structure 82855b ensure only one head and one body element both under html allow html head noscript img for some site analytic pattern fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 document normalisation now more correctly enforces document structure 85ef ensure only one head and one body element both under html allow html head noscript img for some site analytic pattern fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Document</file>
+</fixedfiles>
+</bug>
+</bugrepository>

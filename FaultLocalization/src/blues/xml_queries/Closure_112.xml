@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_112" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1058.json">
+<buginformation>
+<summary>template  types  methods  incorrectly  trigger  inference  template  the  class  that  template  type  unknown</summary>
+<description>see  constructor  template  class  var  class  function  param  function  class  class  template  class  prototype  foo  function  return  string  param  number  return  string  var  function  return  new  class  foo  the  class  type  never  specified  the  template  line  removed  from  the  foo  method  the  block  compiles  with  but  with  the  annotation  the  method  the  compiler  seems  try  infer  class  from  the  usage  and  fails  compilation  thanks  for  the  report  this  issue  was  closed  revision 168c 8822b  this  issue  was  closed  revision 168c 8822b</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeInference</file>
+</fixedfiles>
+</bug>
+</bugrepository>

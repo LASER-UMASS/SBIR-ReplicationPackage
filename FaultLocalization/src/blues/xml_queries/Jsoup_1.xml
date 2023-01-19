@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_1" link="https://github.com/jhy/jsoup/issues/23">
+<buginformation>
+<summary>parsing  html  snippet  causes  the  leading  text  moved  back</summary>
+<description>code string html foo bar baz string text jsoup parse html text system out println text result bar baz foo expected foo bar baz the text was updated successfully but these errors were encountered copy link owner jhy commented jun 2010 fix issue where text order was incorrect when parsing pre document html closed 821d michael simons pushed commit michael simons jsoup that referenced this issue jul 2011 fix issue where text order was incorrect when parsing pre document 27a 52f html fixes jhy zazi pushed commit dswarm jsoup that referenced this issue oct 2015 fix issue where text order was incorrect when parsing pre document 821d html fixes jhy this issue was closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.nodes.Document</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_69" link="https://issues.apache.org/jira/browse/MATH-371">
+<buginformation>
+<summary>pearsons correlation get correlation values  precision  limited  machine  epsilon</summary>
+<description>similar  the  issue  described  math  201  using  pearsonscorrelation  getcorrelationpvalues  with  many  treatments  results  values  that  are  continuous  down  but  that  drop  after  that  math  201  the  problem  was  described  such  essence  the  value  returned  ttestimpl  ttest  cumulativeprobability  cumulativeprobabily  for  large  ish  statistics  cumulativeprobabilty  can  get  quite  small  and  cumulativeprobabilty  can  get  very  close  when  cumulativeprobability  less  than  the  machine  epsilon  get  values  equal  zero  because  the  solution  math  201  was  modify  the  value  calculation  this  cumulativeprobability  here  the  problem  similar  from  pearsonscorrelation  getcorrelationpvalues  tdistribution  cumulativeprobability  directly  calculating  the  value  using  identical  code  pearsonscorrelation  getcorrelationpvalues  but  with  the  following  change  seems  solve  the  problem  tdistribution  cumulativeprobability</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.stat.correlation.PearsonsCorrelation</file>
+</fixedfiles>
+</bug>
+</bugrepository>

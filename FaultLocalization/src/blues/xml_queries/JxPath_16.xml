@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_16" link="https://issues.apache.org/jira/browse/JXPATH-114">
+<buginformation>
+<summary>node  implementation  dom  and  jdom  model</summary>
+<description>think  that  the  code  domnodepointer  java  line  120  wrong  because  considers  only  element  and  document  matched  node  while  instead  matches  any  node  that  pass  from  there  case  compiler  node  type  node  return  nodetype  node  element  node  nodetype  node  document  node  should  changed  case  compiler  node  type  node  return  true  same  jdomnodepointer  line  391  return  true  node  instanceof  element  node  instanceof  document</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMNodePointer</file>
+<file>org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonDatabind_44" link="https://github.com/FasterXML/jackson-databind/issues/1125">
+<buginformation>
+<summary>problem  with  polymorphic  types  losing  properties  from  base  type</summary>
+<description>background see dropwizard dropwizard 1449 looks like sub type resolution may broken for one particular case that using default impl appears like properties from super types are not properly resolved guessing this could follow item for 1083 even sooner than thought the text was updated successfully but these errors were encountered copy link member author cowtowncoder commented feb 2016 while this could related 1128 that issue has now been resolved and there reproduction closing for now cowtowncoder closed this feb 2016 cowtowncoder changed the title problem with polymorphic types default impl problem with polymorphic types losing properties from base type mar 2016 copy link member author cowtowncoder commented mar 2016 second try guessing this related handling std subtype resolver cowtowncoder added commit that referenced this issue mar 2016 further attempts make test for 1125 still luck loading status checks 449ff cowtowncoder reopened this mar 2016 cowtowncoder mentioned this issue mar 2016 upgrade jackson dropwizard dropwizard 1449 closed cowtowncoder added this the milestone mar 2016 cowtowncoder closed this 700617a mar 2016 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.databind.type.SimpleType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

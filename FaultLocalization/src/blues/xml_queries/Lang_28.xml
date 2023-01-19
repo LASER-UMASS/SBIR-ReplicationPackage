@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_28" link="https://issues.apache.org/jira/browse/LANG-617">
+<buginformation>
+<summary>string escape utils escape xml  can  process  utf  supplementary  characters</summary>
+<description>supplementary  characters  utf  are  those  whose  code  points  are  above  0xffff  that  require  more  than  java  char  encoded  explained  here  http  java  sun  com  developer  technicalarticles  intl  supplementary  currently  stringescapeutils  escapexml  isn  aware  this  coding  scheme  and  treats  each  char  one  character  which  not  always  right  possible  solution  class  entities  would  public  void  escape  writer  writer  string  str  throws  ioexception  int  len  str  length  for  int  len  int  code  str  codepointat  string  entityname  this  entityname  code  entityname  null  writer  write  writer  write  entityname  writer  write  else  code  writer  write  writer  write  code  writer  write  else  writer  write  char  code  code  0xffff  besides  fixing  escapexml  this  will  also  affect  html  escaping  functions  guess  that  good  thing  but  please  remember  have  only  tested  escapexml</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.text.translate.NumericEntityUnescaper</file>
+</fixedfiles>
+</bug>
+</bugrepository>

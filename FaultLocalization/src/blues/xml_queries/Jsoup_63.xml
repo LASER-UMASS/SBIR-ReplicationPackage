@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Jsoup_63" link="https://github.com/jhy/jsoup/issues/868">
+<buginformation>
+<summary>error  self  closing  flag  not  acknowledged  for  self  closing  break</summary>
+<description>this code snippet returns invalid html with the message self closing flag not acknowledged jsoup valid test test why breaks could not self closing the text was updated successfully but these errors were encountered copy link owner jhy commented jun 2017 because that the spec html doesn use self closing tags for tags that can contain anything like img etc https html spec whatwg org multipage parsing html self closing flag jhy closed this jun 2017 copy link beosign commented jun 2017 according https www org html syntax html void elements not disallowed see section point then the element one the void elements the element foreign element then there may single 002 character this character has effect void elements but foreign elements marks the start tag self closing since void element https www org html syntax html void elements should considered valid copy link owner jhy commented jun 2017 thanks misread this part the spec was updated after implementing https html spec whatwg org multipage parsing html parsing main inbody start tag whose tag name one area embed img keygen wbr reconstruct the active formatting elements any insert html element for the token immediately pop the current node off the stack open elements acknowledge the token self closing flag set set the frameset flag not jhy reopened this jun 2017 jhy added the bug label jun 2017 jhy added this the milestone jun 2017 jhy closed this 35bceca jun 2017 sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug projects none yet milestone linked pull requests successfully merging pull request may close this issue none yet participants</description>
+</buginformation>
+<fixedfiles>
+<file>org.jsoup.parser.HtmlTreeBuilder</file>
+<file>org.jsoup.parser.Tokeniser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

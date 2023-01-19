@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_140" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-126.json">
+<buginformation>
+<summary>google  common  loader  extern</summary>
+<description>needed  this  for  one  projects  chad killingsworth robert  mind  doing  code  review  looks  fine  lgtm  you  are  fine  with  don  need  through  the  normal  review  process  this  issue  was  closed  revision  149  oops  sorry  something  the  repository  sync  process  got  messed</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.Compiler</file>
+</fixedfiles>
+</bug>
+</bugrepository>

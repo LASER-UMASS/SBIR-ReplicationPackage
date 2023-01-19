@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_2" link="https://github.com/JodaOrg/joda-time/issues/93">
+<buginformation>
+<summary>partial  with  fails  with  npe</summary>
+<description>with the latest master new partial year century with weekyear null pointer exception org joda time partial with partial java 447 fails with year century year and year era probably because weekyear has null range duration type the text was updated successfully but these errors were encountered jodastephen closed this 8612f dec 2013 jodastephen added commit that referenced this issue dec 2013 fix npe partial with loading status checks 62b also ensure unsupported duration fields are compared properly fixes copy link author commented dec 2013 still fails with although the reverse now new partial weekyear with year century new partial year with year century new partial year with year era new partial year with weekyear century null pointer exception org joda time partial with partial java 462 mentioned this issue dec 2013 partial with fails with npe closed guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 fix npe partial with 70c also ensure unsupported duration fields are compared properly fixes joda org guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 fix npe partial with 564 also ensure unsupported duration fields are compared properly fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.field.UnsupportedDurationField</file>
+<file>org.joda.time.Partial</file>
+</fixedfiles>
+</bug>
+</bugrepository>

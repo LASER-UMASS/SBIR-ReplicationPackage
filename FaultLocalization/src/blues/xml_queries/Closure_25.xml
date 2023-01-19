@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_25" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-729.json">
+<buginformation>
+<summary>anonymous  object  type  inference  behavior  different  when  calling  constructors</summary>
+<description>the  following  compiles  fine  with  java  jar  build  compiler  jar  compilation  level  advanced  optimizations  jscomp  error access controls  jscomp  error check types  jscomp  error check vars  desktop  reverse  reverse  param  prop  string  prop  number  undefined  parry  function  callz  parry  parry  prop  amp  amp  parry  prop  alert  alright  alert  parry  prop  callz  prop  however  the  following  does  not  param  prop  string  prop  number  undefined  parry  constructor  function  callz  parry  parry  prop  amp  amp  parry  prop  alert  alright  alert  parry  prop  new  callz  prop  users  dolapo  desktop  reverse  error  actual  parameter  callz  does  not  match  formal  parameter  found  prop  string  required  prop  string  prop  number  undefined  new  callz  prop  thanks  this  issue  was  closed  revision  1983</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeInference</file>
+</fixedfiles>
+</bug>
+</bugrepository>

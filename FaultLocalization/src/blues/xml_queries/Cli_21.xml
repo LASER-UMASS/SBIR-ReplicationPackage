@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_21" link="https://issues.apache.org/jira/browse/CLI-150">
+<buginformation>
+<summary>negative  numbers  mistaken  for  options</summary>
+<description>option  has  negative  numerical  argument  the  parser  mistakes  for  another  option  and  throws  error  for  example  consider  argument  numarg  abuilder  withvalidator  numbervalidator  getnumberinstance  withminimum  withmaximum  create  option  numopt  obuilder  withlongname  num  withargument  numarg  create  group  options  gbuilder  withoption  numopt  create  then  parsing  num  results  unexpected  while  processing  num</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli2.WriteableCommandLine</file>
+<file>org.apache.commons.cli2.commandline.WriteableCommandLineImpl</file>
+<file>org.apache.commons.cli2.option.GroupImpl</file>
+</fixedfiles>
+</bug>
+</bugrepository>

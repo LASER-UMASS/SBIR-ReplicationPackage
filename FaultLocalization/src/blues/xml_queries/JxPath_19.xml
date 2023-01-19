@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JxPath_19" link="https://issues.apache.org/jira/browse/JXPATH-125">
+<buginformation>
+<summary>path context iterate pointers  does  not  work  with  multiple  prefixes  for  single  namespace  uri</summary>
+<description>have  look  the  following  document  doc  xmlns  elem  elem  xmlns  doc  have  two  elements  elem  the  same  namespace  they  have  different  prefix  however  when  use  jxpathcontext  iteratepointers  iterate  over  them  the  first  element  returned  two  times  the  second  element  not  returned  this  because  class  org  apache  commons  jxpath  model  dom  domnodepointer  method  getrelativepositionbyname  line  546  have  equals  node  getnodename  the  example  have  elem  and  node  elem  thus  equals  returns  false  but  since  and  are  just  different  prefixes  for  the  same  namespace  uri  should  have  true  attached  testcase  which  reproduces  the  bug</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.jxpath.ri.model.dom.DOMNodePointer</file>
+<file>org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

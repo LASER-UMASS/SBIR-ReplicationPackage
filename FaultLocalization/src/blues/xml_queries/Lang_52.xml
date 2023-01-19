@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_52" link="https://issues.apache.org/jira/browse/LANG-363">
+<buginformation>
+<summary>string escape utils escape java script  method  did  not  escape  into  will  make  render  page  uncorrectly</summary>
+<description>javascripts  including  will  parse  the  scripts  uncorrectly  actually  should  escaped  for  example  document  getelementbyid  test  value  script  alert  aaa  script  this  expression  will  make  render  page  uncorrect  should  document  getelementbyid  test  value  script  alert  aaa  script  btw  spring  javascriptescape  behavor  correct  try  run  below  codes  you  will  find  the  difference  string  script  alert  aaa  script  string  str  org  springframework  web  util  javascriptutils  javascriptescape  system  out  println  spring  escape  str  str  org  apache  commons  lang  stringescapeutils  escapejavascript  system  out  println  apache  common  lang  escape  str</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang.StringEscapeUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

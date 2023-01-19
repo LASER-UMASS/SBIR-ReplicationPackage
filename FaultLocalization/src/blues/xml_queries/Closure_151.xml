@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_151" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-74.json">
+<buginformation>
+<summary>add  version  option  for  the  compiler</summary>
+<description>what  steps  will  reproduce  the  problem  run  java  jar  compiler  jar  version  what  the  expected  output  what  you  see  instead  expected  version  statement  actual  error  that  version  not  supported  what  version  the  product  are  you  using  what  operating  system  see  above  this  compiler  jar  downloaded  from  this  project  didn  build  myself  file  dated  2009  windows  please  provide  any  additional  information  below  this  information  doesn  seem  given  anywhere  don  see  help  either  this  enhancement  request  not  bug  report  there  got  some  ant  magic  this  build  time  the  only  reason  not  done  because  our  ant  skills  are  weak  hrmmm  yes  ant  can  help  here  there  buildnumber  task  that  will  increment  number  plain  file  the  propertyfile  task  that  can  more  sophisticated  things  example  the  latter  attached  which  you  can  very  nearly  just  drop  into  your  existing  build  file  more  here  http  ant  apache  org  manual optional tasks  propertyfile html this  issue  was  closed  revision  440</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CommandLineRunner</file>
+</fixedfiles>
+</bug>
+</bugrepository>

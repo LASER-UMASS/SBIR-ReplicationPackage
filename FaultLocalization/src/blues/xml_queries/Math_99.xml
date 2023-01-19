@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_99" link="https://issues.apache.org/jira/browse/MATH-243">
+<buginformation>
+<summary>math utils  gcd  integer  min  value  should  throw  exception  instead  returning  integer  min  value</summary>
+<description>the  gcd  method  should  throw  exception  for  gcd  integer  min  value  like  for  gcd  integer  min  value  integer  min  value  the  method  should  only  return  nonnegative  results</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.util.MathUtils</file>
+</fixedfiles>
+</bug>
+</bugrepository>

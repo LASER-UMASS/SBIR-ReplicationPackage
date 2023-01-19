@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_99" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-125.json">
+<buginformation>
+<summary>prototypes  declared  with  quotes  produce  jsc  used  global  this  warning</summary>
+<description>compiling  the  following  code  advanced  optimizations  with  verbose  warning  levels  constructor  function  class  class  prototype  quot  method  quot  function  this  window  quot  class  quot  class  results  the  following  warning  quot  dangerous  use  the  global  this  object  quot  this  notation  convenient  declare  prototype  that  purely  used  for  export  purposes  the  warning  can  suppressed  using  this  notation  given  the  following  externs  interface  function  parent  param  parent  prototype  method  function  and  the  following  code  constructor  implements  parent  function  class  class  prototype  quot  method  quot  function  this  window  quot  class  quot  class  the  compiler  also  produces  the  waring  quot  property  method  interface  parent  not  implemented  type  class  quot  comment deleted this  issue  was  closed  revision  239</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.CheckGlobalThis</file>
+</fixedfiles>
+</bug>
+</bugrepository>

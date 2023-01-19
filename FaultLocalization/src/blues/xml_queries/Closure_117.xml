@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_117" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1047.json">
+<buginformation>
+<summary>wrong  type  name  reported  missing  property  error</summary>
+<description>constructor  function  constructor  function  type  private  this  use  this  prop  produces  property  prop  never  defined  but  should  property  prop  never  defined  this  has  bugged  too  for  whileposted  here  https  codereview  appspot  com  13434043  this  issue  was  closed  revision 871bca 36c  this  issue  was  closed  revision 871bca 36c</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeValidator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

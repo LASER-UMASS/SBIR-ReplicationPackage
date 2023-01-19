@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_105" link="https://issues.apache.org/jira/browse/MATH-85">
+<buginformation>
+<summary>math simple regression get sum squared errors</summary>
+<description>getsumsquarederrors  returns  value  see  test  below  public  void  testsimpleregression  double  8915  102  8919  302  8923  502  double  107178495  107264895  107351295  double  107178495e  107264895e  107351295e  simpleregression  reg  new  simpleregression  for  int  length  reg  adddata  asserttrue  reg  getsumsquarederrors  reg  clear  for  int  length  reg  adddata  asserttrue  reg  getsumsquarederrors  fail</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.stat.regression.SimpleRegression</file>
+</fixedfiles>
+</bug>
+</bugrepository>

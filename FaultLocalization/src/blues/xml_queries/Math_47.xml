@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_47" link="https://issues.apache.org/jira/browse/MATH-657">
+<buginformation>
+<summary>division  zero</summary>
+<description>class  complex  division  zero  always  returns  nan  think  that  should  return  nan  only  when  the  numerator  also  zero  otherwise  the  result  should  inf  see  here</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.complex.Complex</file>
+</fixedfiles>
+</bug>
+</bugrepository>

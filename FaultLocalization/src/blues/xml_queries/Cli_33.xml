@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Cli_33" link="https://issues.apache.org/jira/browse/CLI-207">
+<buginformation>
+<summary>help formatter  strips  leading  whitespaces  the  footer</summary>
+<description>discovered  bug  commons  cli  while  using  through  groovy  clibuilder  see  the  following  issue  http  jira  codehaus  org  browse  groovy  4313  page  com  atlassian  jira  plugin  system  issuetabpanels  all  tabpanel  copied  the  following  code  def  cli  new  clibuilder  footer  line  line  cli  usage  produces  the  following  output  line  line  note  that  there  are  whitespaces  before  line  replacing  them  with  doesn  solve  the  problem  either</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.cli.HelpFormatter</file>
+</fixedfiles>
+</bug>
+</bugrepository>

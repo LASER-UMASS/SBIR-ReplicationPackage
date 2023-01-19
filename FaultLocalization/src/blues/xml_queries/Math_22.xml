@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_22" link="https://issues.apache.org/jira/browse/MATH-859">
+<buginformation>
+<summary>fix  and  then  deprecate support xxx inclusive real distribution  interface</summary>
+<description>the  conclusion  from  was  never  implemented  should  deprecate  these  properties  from  the  realdistribution  interface  but  since  removal  will  have  wait  until  should  agree  precise  definition  and  fix  the  code  match  the  mean  time  the  definition  that  propose  that  issupportxxxinclusive  means  that  when  the  density  function  applied  the  upper  lower  bound  support  returned  getsupportxxxbound  finite  not  infinite  not  nan  value  returned  http  markmail  org  message dxuxh 7eybl 7xejde</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math3.distribution.FDistribution</file>
+<file>org.apache.commons.math3.distribution.UniformRealDistribution</file>
+</fixedfiles>
+</bug>
+</bugrepository>

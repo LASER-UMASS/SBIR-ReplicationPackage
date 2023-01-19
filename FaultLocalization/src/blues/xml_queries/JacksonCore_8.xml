@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="JacksonCore_8" link="https://github.com/FasterXML/jackson-core/issues/182">
+<buginformation>
+<summary>inconsistent text buffer get text buffer  behavior</summary>
+<description>using while working cbor parser noticed that cbor parser get text characters returns sometimes null sometimes empty array when parsing empty string while debugging noticed that text buffer get text buffer behaves inconsistently text buffer buffer new text buffer new buffer recycler buffer reset with empty buffer get text buffer returns null buffer contents string returns empty string buffer get text buffer returns empty array think get text buffer should return the same value not sure which null expected though the text was updated successfully but these errors were encountered copy link member cowtowncoder commented feb 2015 interesting would guess that returning empty array the proper behavior masaruh pushed commit masaruh jackson core that referenced this issue feb 2015 always return empty array instead null for empty buffer 36ff fixes faster xml 182 masaruh mentioned this issue feb 2015 always return empty array instead null for empty buffer 183 merged masaruh pushed commit masaruh jackson core that referenced this issue feb 2015 always return empty array instead null for empty buffer 11f fixes faster xml 182 cowtowncoder closed this 183 feb 2015 cowtowncoder added commit that referenced this issue feb 2015 update release notes wrt 182 loading status checks 5065a 1ctor mentioned this issue mar 2015 override jackson text buffer avoid npe smile parser elastic elasticsearch 10124 closed sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue always return empty array instead null for empty buffer participants</description>
+</buginformation>
+<fixedfiles>
+<file>com.fasterxml.jackson.core.util.TextBuffer</file>
+</fixedfiles>
+</bug>
+</bugrepository>

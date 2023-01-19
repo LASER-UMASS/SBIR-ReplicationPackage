@@ -1,0 +1,6 @@
+<parameters>
+	<query>
+		<number>JxPath_9</number>
+		<text> #weight(1.0 comparing.(class) 1.0 with.(class) 1.0 incorrect.(class)  1.0 nan.(class) 1.0 nan.(class) 1.0 true.(class) 1.0 but.(class) 1.0 should.(class) 1.0 false.(class)  1.0 comparing.(method) 1.0 with.(method) 1.0 incorrect.(method)  1.0 nan.(method) 1.0 nan.(method) 1.0 true.(method) 1.0 but.(method) 1.0 should.(method) 1.0 false.(method)  1.0 comparing.(identifier) 1.0 with.(identifier) 1.0 incorrect.(identifier)  1.0 nan.(identifier) 1.0 nan.(identifier) 1.0 true.(identifier) 1.0 but.(identifier) 1.0 should.(identifier) 1.0 false.(identifier)  1.0 comparing.(comments) 1.0 with.(comments) 1.0 incorrect.(comments)  1.0 nan.(comments) 1.0 nan.(comments) 1.0 true.(comments) 1.0 but.(comments) 1.0 should.(comments) 1.0 false.(comments)  )</text>
+	</query>
+</parameters>

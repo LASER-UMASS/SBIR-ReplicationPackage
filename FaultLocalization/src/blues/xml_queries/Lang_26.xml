@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Lang_26" link="https://issues.apache.org/jira/browse/LANG-645">
+<buginformation>
+<summary>fast date format  format  outputs  incorrect  week  year  because  locale  isn  respected</summary>
+<description>fastdateformat  apparently  doesn  respect  the  locale  was  sent  creation  when  outputting  week  year  format  seems  use  the  settings  the  system  locale  for  firstdayofweek  and  minimaldaysinfirstweek  which  depending  the  year  may  result  the  incorrect  week  number  being  output  here  simple  test  program  demonstrate  the  problem  comparing  with  simpledateformat  which  gets  the  week  number  right  import  java  util  calendar  import  java  util  date  import  java  util  locale  import  java  text  simpledateformat  import  org  apache  commons  lang  time  fastdateformat  public  class  fastdateformatweekbugdemo  public  static  void  main  string  args  locale  setdefault  new  locale  locale  locale  new  locale  calendar  cal  calendar  getinstance  setting  locale  here  doesn  change  outcome  cal  set  2010  date  cal  gettime  system  out  println  target  date  fastdateformat  fdf  fastdateformat  getinstance  eeee  week  locale  simpledateformat  sdf  new  simpledateformat  eeee  week  locale  system  out  println  fastdateformat  fdf  format  will  output  fastdateformat  fredag  week  system  out  println  simpledateformat  sdf  format  will  output  simpledateformat  fredag  week  passed  locale  setdefault  instead  both  fastdateformat  and  simpledateformat  output  the  correct  week  number</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.lang3.time.FastDateFormat</file>
+</fixedfiles>
+</bug>
+</bugrepository>

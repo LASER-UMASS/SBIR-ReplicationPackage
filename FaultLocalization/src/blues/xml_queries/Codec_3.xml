@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Codec_3" link="https://issues.apache.org/jira/browse/CODEC-84">
+<buginformation>
+<summary>double  metaphone  bugs  alternative  encoding</summary>
+<description>the  new  test  case  codec  has  highlighted  number  issues  with  the  alternative  encoding  the  double  metaphone  implementation  bug  the  handleg  method  when  followed  ier  the  alternative  encoding  angier  results  ankr  rather  than  anjr  the  alternative  encoding  rogier  results  rkr  rather  than  rjr  the  problem  the  handleg  method  and  caused  the  wrong  length  instead  being  used  the  contains  method  else  contains  value  index  ier  this  should  else  contains  value  index  ier  bug  the  handlel  method  the  alternative  encoding  cabrillo  results  kprl  rather  than  kpr  the  problem  that  the  first  thing  this  method  does  append  both  primary  alternative  encoding  when  the  conditionl  method  returns  true  then  the  should  not  appended  for  the  alternative  encoding  result  append  charat  value  index  conditionl  value  index  result  appendalternate  index  else  index  return  index  suggest  refeactoring  this  charat  value  index  conditionl  value  index  result  appendprimary  else  result  append  index  else  result  append  index  return  index  bug  the  conditionl  method  for  words  ending  and  the  alternative  encoding  gallegos  results  klks  rather  than  kks  the  problem  caused  the  wrong  start  position  being  used  the  contains  method  which  means  its  not  checking  the  last  two  characters  the  word  but  checks  the  previous  current  position  instead  else  contains  value  index  this  should  else  contains  value  value  length  attach  patch  for  review</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.codec.language.DoubleMetaphone</file>
+</fixedfiles>
+</bug>
+</bugrepository>

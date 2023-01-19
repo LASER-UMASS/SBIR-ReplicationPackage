@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_37" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-663.json">
+<buginformation>
+<summary>incomplete  function  definition  crashes  the  compiler  when ide mode  enabled</summary>
+<description>the  code  function  the  cause  rhino  creating  incomplete  function  node  could  fix  this  rhino  the  factory  invalid  rhino  should  fix  there  not  sure  how  determine  this  maybe  should  fix  the  factory  and  done  with  the  stack  trace  caused  java  lang runtime exception  internal  compiler  error  com  google  common  base  preconditions check state  preconditions  java  135  com  google  javascript  jscomp node traversal traverse function node traversal  java  544  com  google  javascript  jscomp node traversal traverse branch node traversal  java  493  com  google  javascript  jscomp node traversal traverse branch node traversal  java  501  com  google  javascript  jscomp node traversal  traverse node traversal  java  281  com  google  javascript  jscomp node traversal  traverse node traversal  java  459  com  google  javascript  jscomp prepare ast  process prepare ast  java  com  google  javascript  jscomp  compiler prepare ast  compiler  java  1836  com  google  javascript  jscomp  ast  parse  ast  java  100  com  google  javascript  jscomp  ast get ast root  ast  java  com  google  javascript  jscomp compiler input get ast root compiler input  java  120  com  google  javascript  jscomp  compiler parse inputs  compiler  java  1303  com  google  javascript  jscomp  compiler  parse  compiler  java  697  this  issue  was  closed  revision  1786</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.NodeTraversal</file>
+<file>com.google.javascript.jscomp.parsing.IRFactory</file>
+</fixedfiles>
+</bug>
+</bugrepository>

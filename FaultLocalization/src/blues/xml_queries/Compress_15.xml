@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Compress_15" link="https://issues.apache.org/jira/browse/COMPRESS-187">
+<buginformation>
+<summary>zip archive input stream  and zip file  don  produce  equals zip archive entry  instances</summary>
+<description>trying  use  ziparchiveentry  coming  from  ziparchiveinputstream  that  stored  somwhere  for  later  with  zipfile  and  does  not  work  the  reason  that  can  find  the  ziparchiveentry  the  zipfile  entries  map  exactly  the  same  zip  file  but  both  entries  are  not  equals  the  map  get  fail  far  can  see  the  main  difference  that  comment  null  ziparchiveinputstream  while  empty  string  zipfile  looked  ziparchiveinputstream  and  looks  like  the  comment  whatever  simply  not  parsed  while  can  find  some  code  related  the  comment  the  end  ziipfile  readcentraldirectoryentry  note  that  java  util  zip  does  not  have  this  issue  did  not  checked  what  they  but  the  zip  entries  are  equals</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.compress.archivers.zip.ZipArchiveEntry</file>
+</fixedfiles>
+</bug>
+</bugrepository>

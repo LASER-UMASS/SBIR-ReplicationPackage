@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_54" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-537.json">
+<buginformation>
+<summary>prototype  methods  can  used  from  the  constructor  case  prototype  explicitly  defined</summary>
+<description>consider  the  following  source  code  http  trac  webkit  org  browser  trunk  source web core  inspector  front  end dom agent  when  mark web inspector dom agent  constructor  get  the  following  warning  source web core  inspector  front  end dom agent  warning  property set attributes payload  never  defined web inspector dom node  this set attributes payload  payload  attributes  sounds  like  the  problem  the  way  define  prototypes  line  ish  that  the  way web kit  style  tells  tried  compiling dom agent  after  adding  the  constructor  tag  and  did  not  see  this  warning  what  version  the  compiler  are  you  using  here  the  command  ran  with  java  jar  compiler  jar dom agent  jscomp  warning check types  dev  null  seems  depend  the  other  files  content  now  have  different  set  files  and  can  longer  repro  went  back  the  original  set  files  but  could  not  repro  either  since  yesterday  was  actively  changing  the  code  make  compiler  friendly  must  have  fixed  something  from  its  perspective  reopen  have  repro  case  version  closure  compiler  http  code  google  com  closure  compiler  version  1346  built  2011  thanks  this  should  work  think  maps  defines  prototypes  this  ways  lot  interested  there  was  edge  case  where  the  check  made  mistake  currently  getting  foo  warning  property  baz  never  defined  bar  this  baz  error  warning  typed  java  jar  closure  compiler  jar  warning  level  verbose  source web core  inspector  front  end  foo  with  following  foo  constructor  function  foo  constructor  extends  foo  function  bar  foo  call  this  this  baz  alert  bar  prototype  baz  function  return  true  bar  prototype  proto  foo  prototype  closure  compiler  http  code  google  com  closure  compiler  version  1346  built  2011  mac  this  issue  was  closed  revision  1401  are  getting  the  warnings  due  the  proto  assignment  above  again  decided  move  the  prototype  proto  syntax  but  wonder  are  not  alone  thanks  for  the  report  this  issue  was  closed  revision  2232</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+<file>com.google.javascript.rhino.jstype.FunctionType</file>
+</fixedfiles>
+</bug>
+</bugrepository>

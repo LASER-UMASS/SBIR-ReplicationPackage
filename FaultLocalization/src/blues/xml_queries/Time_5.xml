@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Time_5" link="https://github.com/JodaOrg/joda-time/issues/79">
+<buginformation>
+<summary>none  standard period type  without  year  throws  exception</summary>
+<description>tried get period only for months and weeks with following code period new period new date time start date get time new date time end date get time period type for fields new duration field type duration field type months duration field type weeks normalized standard period type for fields new duration field type duration field type months duration field type weeks return get months this throws following exception 999 android runtime 1350 java lang unsupported operation exception field not supported 999 android runtime 1350 org joda time period type set indexed field period type java 690 999 android runtime 1350 org joda time period with years period java 896 999 android runtime 1350 org joda time period normalized standard period java 1630 even removing the year component with with years removed throws the same exception this works period new period new date time start date get time new date time end date get time period type standard normalized standard period type standard return get months this fails period new period new date time start date get time new date time end date get time period type standard with years removed normalized standard period type standard with years removed return get months the text was updated successfully but these errors were encountered jodastephen closed this 6cb 59e nov 2013 guardiola 31337 pushed commit guardiola 31337 joda time that referenced this issue sep 2015 fix handling period type when either years months missing 08e 9843 fixes joda org sign for free join this conversation git hub already have account sign comment assignees one assigned labels bug fixed milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>org.joda.time.Period</file>
+</fixedfiles>
+</bug>
+</bugrepository>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Math_53" link="https://issues.apache.org/jira/browse/MATH-618">
+<buginformation>
+<summary>complex  add  and  subtract  handle  arguments  differently  but  javadoc  contracts  are  the  same</summary>
+<description>for  both  complex  add  and  subtract  the  javadoc  states  that  either  this  code  rhs  code  has  nan  value  either  part  link  nan  returned  otherwise  inifinite  and  nan  values  are  returned  the  parts  the  result  according  the  rules  for  link  java  lang  double  arithmetic  subtract  includes  isnan  test  and  returns  complex  nan  either  complex  argument  isnan  but  add  omits  this  test  the  test  should  added  the  add  implementation  actually  restored  since  this  looks  like  code  merge  problem  going  back</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.math.complex.Complex</file>
+</fixedfiles>
+</bug>
+</bugrepository>

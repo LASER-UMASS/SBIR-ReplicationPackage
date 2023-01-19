@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_103" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-113.json">
+<buginformation>
+<summary>compiler  gives  false  error  with  respect  unreachable  code</summary>
+<description>try  compiling  the  following  the  closure  compiler closure compiler  compilation  level  simple  optimizations  output  file  name  default closure compiler  function  instance  value  type  try  first  try  built  test  succeeds  golden  value  instanceof  type  return  true  catch  exception  exception  instanceof type error  throw  exception  indicates  that  quot  type  quot  not  type  otherwise  assume  the  exception  was  caused  the  firefox  bug  work  around  return  type  object  the  compiler  issues  the  following  warning  jsc  unreachable  code  unreachable  code  line  character  catch  exception  this  code  from  firefox  extension  chickenfoot  where  least  historically  calling  instanceof  this  manner  could  throw  security  exception  something  else  forget  what  chickenfoot  has  been  around  since  firefox  which  why  the  catch  blocks  there  and  indeed  reachable  anyone  similar  situation  was  able  the  following  workaround closure compiler  compilation  level  simple  optimizations  output  file  name  default closure compiler  function  instance  value  type  var  result  try  first  try  built  test  succeeds  golden  result  value  instanceof  type  catch  exception  exception  instanceof type error  throw  exception  indicates  that  type  not  type  otherwise  assume  the  exception  was  caused  the  firefox  bug  work  around  return  type  object  return  result  alan  you  should  able  fix  this  pretty  easily  mind  taking  look  fixed  and  checked  the  fix  should  available  the  next  release  this  issue  was  closed  revision  114</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.ControlFlowAnalysis</file>
+<file>com.google.javascript.jscomp.DisambiguateProperties</file>
+</fixedfiles>
+</bug>
+</bugrepository>

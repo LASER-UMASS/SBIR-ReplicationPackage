@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Closure_171" link="https://storage.googleapis.com/google-code-archive/v2/code.google.com/closure-compiler/issues/issue-1023.json">
+<buginformation>
+<summary>assigning  object  literals  obj  prototype  immediately  executed  function  not  recognized</summary>
+<description>constructor  function  foo  function  foo  prototype  alert  function  alert  quot  hello  world  quot  window  console  log  foo  prototype  alert  undefined  property  warning  this  major  issue  for  query  build  right  now  this  just  warning  issue  not  optimization  issue  yep  got  fix  for  this  oddly  this  broke  due  hack  inserted  while  back  for  type  casts  and  can  remove  now  that  john  fixed  the  type  cast  stuff  for  code  review  here  http  codereview  appspot  com 10360045 correct  but  put  out  code  that  generates  warnings  get  complaints  this  issue  was  closed  revision  38965a</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.javascript.jscomp.TypeInference</file>
+<file>com.google.javascript.jscomp.TypedScopeCreator</file>
+</fixedfiles>
+</bug>
+</bugrepository>

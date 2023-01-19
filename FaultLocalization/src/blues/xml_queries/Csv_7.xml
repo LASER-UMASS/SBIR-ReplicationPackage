@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Csv_7" link="https://issues.apache.org/jira/browse/CSV-112">
+<buginformation>
+<summary>header map  inconsistent  when  parsed  from  input  with  duplicate  columns  names</summary>
+<description>given  parser  format  for  csv  files  with  header  line  csvformat  myformat  csvformat rfc 4180  withdelimiter  withquotechar  withquotepolicy  quote  minimal  withignoresurroundingspaces  true  withheader  withskipheaderrecord  true  and  given  file  with  duplicate  header  names  col  col  col  col  col  the  headermap  returned  the  parser  misses  entry  because  the  column  name  being  used  key  leading  wrong  behavior  when  rely  this  not  supposed  happen  the  file  regarding  the  csv  format  least  this  should  raise  error  not  should  come  with  more  clever  way  store  and  access  the  headers</description>
+</buginformation>
+<fixedfiles>
+<file>org.apache.commons.csv.CSVParser</file>
+</fixedfiles>
+</bug>
+</bugrepository>

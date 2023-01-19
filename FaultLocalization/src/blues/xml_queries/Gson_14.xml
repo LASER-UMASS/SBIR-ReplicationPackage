@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bugrepository name="Defects4J">
+<bug id="Gson_14" link="https://github.com/google/gson/issues/1074">
+<buginformation>
+<summary>gson  types  resolve  shall  collapse  chains  super  extends  type  bounds  avoid stack overflow error</summary>
+<description>while resolving recursive generic types gson types resolve sometimes starts generate chains type bounds like super extends extends causing infinite recursion and thus stack overflow error like java lang stack overflow error com google gson internal gson types resolve type variable gson types java 407 com google gson internal gson types resolve gson types java 330 com google gson internal gson types resolve gson types java 384 com google gson internal gson types resolve gson types java 379 com google gson internal gson types resolve gson types java 384 com google gson internal gson types resolve gson types java 379 com google gson internal gson types resolve gson types java 384 this can reproduced the following simple ccde private static class foo foo extends foo private static class foo foo super foo public void test recursive resolve simple new gson get adapter foo class this the root cause stack overflow error described issue 440 and issue 603 order fix them such chains need collapsed using the following rules supertype supertype supertype subtype subtype subtype supertype subtype subtype object class subtype supertype subtype object class the text was updated successfully but these errors were encountered amogilev mentioned this issue apr 2017 fix stack overflow error resolving recursive types collapsing chains type bounds 1075 merged copy link contributor author amogilev commented apr 2017 the proposed change implemented the pull request above amogilev closed this feb 2019 sign for free join this conversation git hub already have account sign comment assignees one assigned labels none yet projects none yet milestone milestone linked pull requests successfully merging pull request may close this issue none yet participant</description>
+</buginformation>
+<fixedfiles>
+<file>com.google.gson.internal.$Gson$Types</file>
+</fixedfiles>
+</bug>
+</bugrepository>
