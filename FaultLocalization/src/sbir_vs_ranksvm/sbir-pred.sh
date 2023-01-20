@@ -1,0 +1,10 @@
+cat data/cross_data/0/test.dat | cut -d ":" -f 3 > data/cross_data/0/$1
+cat data/cross_data/1/test.dat | cut -d ":" -f 3 > data/cross_data/1/$1
+cat data/cross_data/2/test.dat | cut -d ":" -f 3 > data/cross_data/2/$1
+cat data/cross_data/3/test.dat | cut -d ":" -f 3 > data/cross_data/3/$1
+cat data/cross_data/4/test.dat | cut -d ":" -f 3 > data/cross_data/4/$1
+cat data/cross_data/5/test.dat | cut -d ":" -f 3 > data/cross_data/5/$1
+cat data/cross_data/6/test.dat | cut -d ":" -f 3 > data/cross_data/6/$1
+cat data/cross_data/7/test.dat | cut -d ":" -f 3 > data/cross_data/7/$1
+cat data/cross_data/8/test.dat | cut -d ":" -f 3 > data/cross_data/8/$1
+cat data/cross_data/9/test.dat | cut -d ":" -f 3 > data/cross_data/9/$1
