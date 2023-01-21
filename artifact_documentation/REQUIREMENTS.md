@@ -6,7 +6,7 @@ The execution of this artifact requires:
 
 2. [VirtualBox](https://www.virtualbox.org/) manager to load the virtual machine. The VirtualBox version used to create the VM is 6.1. 
 
-The VM uses `Ubuntu 22.04` operating system and has the following software installed that are required to execute the artifact.
+The VM uses `Ubuntu 22.04 (64 bit)` operating system and has the following software installed that are required to execute the artifact.
 
 - [Java-1.8](https://www.oracle.com/java/technologies/downloads/#java8)
 - [R-4.1](https://cran.r-project.org/)
