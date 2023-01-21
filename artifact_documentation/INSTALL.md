@@ -18,7 +18,7 @@ Once the virtual machine is imported, it will appear in your VirtualBox Manager 
 
 You can now start the virtual machine by clicking the green **"Start"** arrow at the top of the VirtualBox Manager (see screenshot above).
 
-**Note:** If you get an error _Implementation of the USB 2.0 controller not found!_ then click on the orange gear icon of **Settings** at the top of the VirtualBox Manager (see screenshot above), select **USB** from the left pane in the settings box, and change USB controller selection from **USB 2.0** to **USB 1.1** by clicking the radio button of **USB 1.1**. Save this setting anmd now press **"Start"**. 
+**Note:** If you get an error _Implementation of the USB 2.0 controller not found!_ then click on the orange gear icon of **Settings** at the top of the VirtualBox Manager (see screenshot above), select **USB** from the left pane in the settings box, and change USB controller selection from **USB 2.0** to **USB 1.1** by clicking the radio button of **USB 1.1**. Save this setting and now press **"Start"**. 
 
 When the machine boots up successfully you will see the screen as shown below. 
 Please close the **Autocapture keyword** and **mouse pointer integration** pop-ups using the blue `x` icon. 
