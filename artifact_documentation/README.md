@@ -30,8 +30,8 @@ Our artifact includes the following:
 
 All the above listed artifacts, with the exception of the virtual machine file, are located in this repository.
 
-Artifacts 1-7 in the list above are availble under [/home/sbir/SBIR-ReplicationPackage/FaultLocalization](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/FaultLocalization) directory.
-Artifacts 8-13 in the list above are availble under [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair) directory.
+Artifacts 1-7 in the list above are availble under [SBIR-ReplicationPackage/FaultLocalization](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/FaultLocalization) directory.
+Artifacts 8-13 in the list above are availble under [SBIR-ReplicationPackage/AutomatedProgramRepair](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair) directory.
 
 ## How do I install the artifact?
 
