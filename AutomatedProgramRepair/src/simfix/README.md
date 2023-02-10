@@ -13,7 +13,7 @@ To run SimFix on pre-computed FL results do:
 `tar -xvzf <file name>`
 
 2. Copy the FL results you want the SimFix to use to sbfl/ochiai/<project>/<bugid> using cmd: 
-`cp ../../../../FaultLocalization/data/SBFL_results/chart/1/stmt-susps_top100-normalized.txt sbfl/ochiai/chart/1/stmt-susps.txt`
+e.g., `cp <path-to-SBIR-ReplicationPackage>/FaultLocalization/data/SBFL_results/chart/1/stmt-susps_top100-normalized.txt sbfl/ochiai/chart/1/stmt-susps.txt`
 
 3. Create a directory using cmd: 
 `mkdir work_dir`
