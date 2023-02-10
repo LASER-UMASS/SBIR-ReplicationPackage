@@ -47,7 +47,7 @@ cli25_6.patch,		exact match
 cli28_2.patch,		exact match
 cli40_22.patch,		semantically equivalent, calling TypeHandler.createClass(str) will throw exception
 closure18_5.patch,	exact match
-closure73_13.patch/closure73_21.patch/closure73_31.patch,
+closure73_13.patch/closure73_21.patch/closure73_31.patch, semantically equivalent, 0x1f = 27 && 0x7f = 127
 closure86_2.patch,	exact match
 closure168_8.patch,	semantically equivalent, <2 is equivalent of <= 1
 codec2_39.patch,	exact match

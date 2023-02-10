@@ -30,8 +30,8 @@ Our artifact includes the following:
 
 All the above listed artifacts, with the exception of the virtual machine file, are located in this repository.
 
-Artifacts 1-7 in the list above are availble under [FaultLocalization](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/FaultLocalization) directory.
-Artifacts 8-13 in the list above are availble under [AutomatedProgramRepair](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair) directory.
+Artifacts 1-7 in the list above are availble under [SBIR-ReplicationPackage/FaultLocalization](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/FaultLocalization) directory.
+Artifacts 8-14 in the list above are availble under [SBIR-ReplicationPackage/AutomatedProgramRepair](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair) directory.
 
 ## How do I install the artifact?
 
@@ -57,7 +57,7 @@ Once the virtual machine is imported, it will appear in your VirtualBox Manager 
 
 You can now start the virtual machine by clicking the green **"Start"** arrow at the top of the VirtualBox Manager (see screenshot above).
 
-**Note:** If you get an error _Implementation of the USB 2.0 controller not found!_ then click on the orange gear icon of **Settings** at the top of the VirtualBox Manager (see screenshot above), select **USB** from the left pane in the settings box, and change USB controller selection from **USB 2.0** to **USB 1.1** by clicking the radio button of **USB 1.1**. Save this setting anmd now press **"Start"**. 
+**Note:** If you get an error _Implementation of the USB 2.0 controller not found!_ then click on the orange gear icon of **Settings** at the top of the VirtualBox Manager (see screenshot above), select **USB** from the left pane in the settings box, and change USB controller selection from **USB 2.0** to **USB 1.1** by clicking the radio button of **USB 1.1**. Save this setting and now press **"Start"**. 
 
 When the machine boots up successfully you will see the screen as shown below. 
 Please close the **Autocapture keyword** and **mouse pointer integration** pop-ups using the blue `x` icon. 
@@ -91,12 +91,12 @@ Type the command `ls` and make sure that you see the folder `SBIR-ReplicationPac
 ## SBFL Artifacts
 
 We implement spectrum-based fault localization (SBFL) technique using GZoltar v1.7.2 and Ochiai ranking strategy. 
-Our implementation is available in the [`sbfl`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/sbfl) directory. 
+Our implementation is available in the [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/sbfl`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/sbfl) directory. 
 
 To execute our SBFL implementation on an example defect (Chart 1) in the VM, run the following commands as shown below. 
 This would take ~1 min to finish.  
 
-1. `cd SBIR-ReplicationPackage/FaultLocalization/src/sbfl/src`
+1. `cd /home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/sbfl/src`
 2. `bash computeSBFL.sh Chart 1`
 
 <img src="images/sbfl-launch.png" alt="run SBFL for Chart 1 the VM"/>
@@ -109,7 +109,7 @@ The suspicious statements and their suspiciousness scores will be stored in the 
 
 <img src="images/sbfl-results.png" alt="run SBFL for Chart 1 the VM"/>
 
-The pre-computed SBFL results for the 815 defects are already stored in [`SBFL_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/SBFL_results) directory.
+The pre-computed SBFL results for the 815 defects are already stored in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/SBFL_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/SBFL_results) directory.
 
 #### Figure 1: SBFL vs SBFL using older GZoltar versions.
 
@@ -141,10 +141,10 @@ Blues is our novel information-retrieval-based statement-level fault localizatio
 The implementation of blues that can be reused and extended by other researchers is available at 
 [Blues-GitHub](https://github.com/LASER-UMASS/Blues).
 
-We next illustrate Blues using an example defect (Chart 1) on the VM. The executable version of Blues used in VM is available in [`src/blues`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/blues) directory. 
+We next illustrate Blues using an example defect (Chart 1) on the VM. The executable version of Blues used in VM is available in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalizationsrc/blues`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/blues) directory. 
 To execute Blues in the VM, run the following commands as shown below. This would take ~1 min to finish. 
 
-1. `cd SBIR-ReplicationPackage/FaultLocalization/src/blues`
+1. `cd /home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/blues`
 2. `bash delete_all_results.sh`
 3. `java -jar blues.jar Chart_1`
 
@@ -167,7 +167,7 @@ file scores as shown below.
 
 To combine the six Blues results into Blues ensemble, run the following command. This will take less than 5 seconds to finish.
 
-1. `cd SBIR-ReplicationPackage/FaultLocalization/src/blues`
+1. `cd /home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/blues`
 2. `python combineBluesUsingMaxScoreConsensus.py ../../data/815defects.txt blues_configuration_results blues_results`
 
 At the end of the execution, the generated files are stored in `blues_results` directory as shown below. 
@@ -180,11 +180,11 @@ scores normalized between 0.0 to 1.0 of the ranked statements) as shown below.
 
 <img src="images/blues-results.png"/>
 
-The pre-computed Blues configuration results for 815 defects are stored in [`blues_configuration_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/blues_configuration_results) directory.
+The pre-computed Blues configuration results for 815 defects are stored in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/blues_configuration_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/blues_configuration_results) directory.
 
-The pre-computed vanilla BLUiR results for 815 defects are stored in [`statement_level_BLUiR_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/statement_level_BLUiR_results) directory.
+The pre-computed vanilla BLUiR results for 815 defects are stored in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/statement_level_BLUiR_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/statement_level_BLUiR_results) directory.
 
-The pre-computed Blues ensemble results for 815 defects are stored in [`blues_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/blues_results) directory.
+The pre-computed Blues ensemble results for 815 defects are stored in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/blues_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/blues_results) directory.
 
 #### Figure 4: Blues vs iFixR.
 
@@ -200,8 +200,7 @@ To create iFixR dataset, execute the following commands. This will take less tha
 1. `cd /home/sbir/SBIR-ReplicationPackage/FaultLocalization`
 2. `python src/formatiFixRresults.py data/iFixR_defects.txt data/stmtLoc data/iFixR_results`
 
-The re-formatted iFixR results are stored in [`SBIR-ReplicationPackage/FaultLocalization/data/iFixR_results`]
-(https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/iFixR_results) directory.
+The re-formatted iFixR results are stored in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/iFixR_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/iFixR_results) directory.
 
 To compare the FL performance of Blues with iFixR on Lang and Math project defects on which iFixR was evaluated execute the following commands.
 The output is printed on the terminal as shown below. Please consider the `hit@k` scores for all `top-k` while `Avg EXAM` scores for `top-10000` only.  
@@ -237,7 +236,7 @@ To combine the SBFL and Blues fault localization results we develop RAFL, a tool
 and does not require any training. The source code that of RAFL that can be reused and extended by other researchers is available at 
 [RAFL-GitHub](https://github.com/LASER-UMASS/RAFL). 
 
-We use RAFL to develop SBIR, an instance of RAFL that combines SBFL and Blues using the Cross-Entropy Monte Carlo algorithm and Spearman footrule distance. The implementation of SBIR is available in [`src/rafl`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/rafl) directory. We used 10 random seeds {1, 7, 47, 160, 561, 630, 657, 754, 828, 956} to 
+We use RAFL to develop SBIR, an instance of RAFL that combines SBFL and Blues using the Cross-Entropy Monte Carlo algorithm and Spearman footrule distance. The implementation of SBIR is available in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/rafl`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/rafl) directory. We used 10 random seeds {1, 7, 47, 160, 561, 630, 657, 754, 828, 956} to 
 combine the SBFL and Blues results and compute SBIR results. To run SBIR using an example defect (Chart 1) on the VM, please execute the following commands. This will take around 5-6 minutes to finish. 
 
 1. `cd /home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/rafl`
@@ -259,7 +258,7 @@ The suspicious statements and their suspiciousness scores are stored in the file
 
 <img src="images/sbir-results.png"/>
 
-The pre-computed SBIR results for 815 defects using 10 random seeds are available in [`SBIR_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/SBIR_results) directory.
+The pre-computed SBIR results for 815 defects using 10 random seeds are available in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/SBIR_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/SBIR_results) directory.
 
 #### Figure 6: SBIR vs underlying SBFL and Blues.
 
@@ -288,7 +287,7 @@ We compute the `min`, `max`, `mean`, and `median` using the [spreadsheet](https:
 
 #### Figure 7: SBIR vs 9 standalone FL techniques.
 
-We compare SBIR with the FL results of 9 standalone FL techniques whose results are extracted from the annotated dataset released by [CombineFL](https://damingz.github.io/combinefl/index.html). These results are extracted using the script [`extractResultsFromJson.py`](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/FaultLocalization/src/extractResultsFromJson.py), and are available in [`nine_standalone_fl_tools_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/nine_standalone_fl_tools_results) directory. 
+We compare SBIR with the FL results of 9 standalone FL techniques whose results are extracted from the annotated dataset released by [CombineFL](https://damingz.github.io/combinefl/index.html). These results are extracted using the script [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/extractResultsFromJson.py`](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/FaultLocalization/src/extractResultsFromJson.py), and are available in [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/data/nine_standalone_fl_tools_results`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/data/nine_standalone_fl_tools_results) directory. 
 
 <img src="images/figure7-paper.png" width="550" height="600" />
 
@@ -325,7 +324,7 @@ We compute the `min`, `max`, `mean`, and `median` using the [spreadsheet](https:
 
 Next, we compare the results of SBIR computed using RAFL with the results of combining SBFL and Blues using the supervised 
 RankSVM technique. To implement SBIR using RankSVM, we customize [CombineFL](https://damingz.github.io/combinefl/index.html) source code
-to use 815 defects. The details about the customized source code, data, and instructions to conduct these experiments is available in the [`sbir_vs_ranksvm`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/sbir_vs_ranksvm) directory.
+to use 815 defects. The details about the customized source code, data, and instructions to conduct these experiments is available in the [`/home/sbir/SBIR-ReplicationPackage/FaultLocalization/src/sbir_vs_ranksvm`](https://github.com/manishmotwani3/SBIR-ReplicationPackage/tree/main/FaultLocalization/src/sbir_vs_ranksvm) directory.
 However, running these experiments from scract can take a few hours and require more computational requirements than is supported by the VM therefore, we provide the pre-trained model and results in the VM that we use to replicate the following results we present in our paper. 
 
 <img src="images/figure8-paper.png" width="550" height="600" />
@@ -350,37 +349,37 @@ We compute the `min`, `max`, `mean`, and `median` using the [spreadsheet](https:
 
 ### Repair tools customized to take pre-computed FL results
 
-To analyze the affect of using SBIR on repair quality, our study customizes three existing repair tools (Arja, SequenceR, and SimFix) to use pre-computed fault localization results obtained using SBFL, Blues, SBIR, and perfect FL. The customized implementation of these repair tools along with the documentation of executing them are available in the respective directories (`arja`, `simfix`, and `sequencer`) under the [apr-tools](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/src/apr-tools) directory. 
+To analyze the affect of using SBIR on repair quality, our study customizes three existing repair tools (Arja, SequenceR, and SimFix) to use pre-computed fault localization results obtained using SBFL, Blues, SBIR, and perfect FL. The customized implementation of these repair tools along with the documentation of executing them are available in the respective directories (`arja`, `simfix`, and `sequencer`) under the [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/src/](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/src) directory. 
 
 We executed these repair tools on the Defects4J defects with a 5 hour timeout per defect using a 50-node cluster where each node had 128GB of RAM and 200GB of local SSD. As conducting these experiments requires large computational requirements they cannot be run on the VM. We provide the patches produced by the repair tools using different FL techniques and their assessment that we present in our paper as described below. 
 
 ### Automated patch quality assessment 
 
-To assess the quality of the automatically produced patches, we used 10 held-out evaluation test suites generated per defect using EvoSuite, for all
+To assess the quality of the automatically produced patches, we used 10 held-out evaluation test suites generated per defect using EvoSuite with a search budget of 12 minutes (720 sec) per seed, for all
 the defects that were patched by any of the three repair tools we consider.
-The code to generate the held-out evaluation test suites is available at [generateEvaluationTests.sh](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/src/generateEvaluationTests.sh) and the generated test suites we used are
-available at [all_eval_tests](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/all_eval_tests). 
+The code to generate the held-out evaluation test suites is available at [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/src/generateEvaluationTests.sh](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/src/generateEvaluationTests.sh) and the generated test suites we used are
+available at [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/all_eval_tests](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/all_eval_tests). 
 The code used to assess the quality of the produced patches using the generated test suites is available at [evaluateGeneratedPatchesIn10SubTestSuites.py](https://github.com/LASER-UMASS/JavaRepair-replication-package/blob/master/src/patch-quality-assessment/evaluateGeneratedPatchesIn10SubTestSuites.py).
 
 ### Manual patch quality assessment
 
 When an automatically produced patch passed all the held-out evaluation tests, we manually inspected that patch and compared it with the developer-written patch provided in the Defects4J benchmark for all the defects. 
 
-The file [arja/correctness_analysis.txt](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/data/patches/arja/correctness_analysis.txt) contains the manual assessment of Arja patches. 
+The file [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/patches/arja/correctness_analysis.txt](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/data/patches/arja/correctness_analysis.txt) contains the manual assessment of Arja patches. 
 
-The file [sequencer/correctness_analysis.txt](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/data/patches/sequencer/correctness_analysis.txt) contains the manual assessment of SequenceR patches. 
+The file [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/patches/sequencer/correctness_analysis.txt](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/data/patches/sequencer/correctness_analysis.txt) contains the manual assessment of SequenceR patches. 
 
-The file [simfix/correctness_analysis.txt](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/data/patches/simfix/correctness_analysis.txt) contains the manual assessment of SimFix patches.
+The file [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/patches/simfix/correctness_analysis.txt](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/blob/main/AutomatedProgramRepair/data/patches/simfix/correctness_analysis.txt) contains the manual assessment of SimFix patches.
 
 ### Correct patches produced by the three repair tools
 
 After manually inspecting all the produced patches, we stored the patches that we found to be correct.  
 
-The patches produced by Arja are available in [arja/correct_patches](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/patches/arja/correct_patches) directory. 
+The patches produced by Arja are available in [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/patches/arja/correct_patches](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/patches/arja/correct_patches) directory. 
 
-The patches produced by SequenceR are available in [sequencer/correct_patches](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/patches/sequencer/correct_patches) directory. 
+The patches produced by SequenceR are available in [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/patches/sequencer/correct_patches](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/patches/sequencer/correct_patches) directory. 
 
-The patches produced by SequenceR are available in [simfix/correct_patches](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/patches/simfix/correct_patches) directory. 
+The patches produced by SequenceR are available in [/home/sbir/SBIR-ReplicationPackage/AutomatedProgramRepair/data/patches/simfix/correct_patches](https://github.com/LASER-UMASS/SBIR-ReplicationPackage/tree/main/AutomatedProgramRepair/data/patches/simfix/correct_patches) directory. 
 
 #### Figure 9: Comparing repair quality of Arja, SequenceR, and SimFix when using different fault localization techniques. 
 
